@@ -1,7 +1,7 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 4d8c8cb517df36e814644127746550759d5d2a46
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -21,7 +21,7 @@ Principais benefícios:
 * Aumente a segurança controlando as configurações de acesso de acordo com a necessidade.
 
 >[!NOTE]
->O Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS. As etapas para conceder acesso de Administrador a um usuário estão detalhadas na [seção](discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nessa seção](faq.md).
+>O Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS. As etapas para conceder acesso de Administrador a um usuário estão detalhadas na [seção](discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta seção](faq.md).
 >
 >Observe que a atualização para a versão mais recente do Campaign não é necessária para acessar o Painel de controle.
 
@@ -57,7 +57,7 @@ Principais benefícios:
         <td><b>Campaign Standard</b><br/>
         <ul>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/control-panel-overview.html">Vídeos tutoriais do Painel de controle para o Campaign Standard</a></li>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Documentação de produto do Campaign Standard</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html">Documentação do produto Campaign Standard</a></li>
         </ul>
         </td>
         <td><b>Campaign Classic</b><br/>
