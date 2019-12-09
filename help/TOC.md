@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 43bd4b2a55bdfa55aeb66808113fcd55ff79b173
+source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 43bd4b2a55bdfa55aeb66808113fcd55ff79b173
    + [Lista de permissões de intervalo IP](sftp/using/ip-range-whitelisting.md)
    + [Gerenciamento de chaves](sftp/using/key-management.md)
    + [Fazer logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
-   + [Perguntas comuns](sftp/using/common-questions.md)
+   + [Perguntas frequentes](sftp/using/common-questions.md)
 + Subdomínios e certificados {#subdomains-and-certificates}
    + [Sobre certificados SSL](subdomains-certificates/using/about-ssl-certificates.md)
    + [Gerenciar certificados SSL de subdomínios](subdomains-certificates/using/managing-ssl-certificates.md)
