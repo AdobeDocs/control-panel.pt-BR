@@ -2,7 +2,7 @@
 title: Gerenciamento de permissões para o Painel de controle
 description: Saiba como gerenciar permissões no Painel de controle
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
 
 O Painel de controle está disponível para todos os usuários administradores de uma instância do Campaign. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder acesso ao Painel de controle.
 
-1. Navegue até a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)e selecione a **[!UICONTROL Administration]** guia.
+1. Navegue até a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)e selecione a **[!UICONTROL Administration]**guia.
 
    ![](assets/control_panel_add_user1.png)
 
@@ -39,14 +39,14 @@ O Painel de controle está disponível para todos os usuários administradores d
    >
    >Você pode adicionar usuários administradores diferentes para cada instância da Campanha. Nesse caso, os usuários administradores acessarão o Painel de controle da instância à qual pertencem apenas.
 
-1. A lista de Perfis de produto da instância selecionada é exibida. Clique no perfil do **[!UICONTROL Administrators]** produto para acessar a lista de usuários administradores.
+1. A lista de Perfis de produto da instância selecionada é exibida. Clique no perfil do **[!UICONTROL Administrators]**produto para acessar a lista de usuários administradores.
 
    ![](assets/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
-   >Por padrão, os usuários administradores pertencem ao perfil de produto "Administradores". De acordo com a configuração de sua organização, o perfil do produto pode ser nomeado de forma diferente ("admin", "admins" etc.).
+   >Por padrão, os usuários administradores pertencem ao perfil de produto &quot;Administradores&quot;. De acordo com a configuração de sua organização, o perfil do produto pode ser nomeado de forma diferente (&quot;admin&quot;, &quot;admins&quot; etc.).
 
-1. A lista de usuários administradores é exibida. Clique no **[!UICONTROL Add User]** botão para adicionar o usuário desejado.
+1. A lista de usuários administradores é exibida. Clique no **[!UICONTROL Add User]**botão para adicionar o usuário desejado.
 
    ![](assets/control_panel_add_user_6.png)
