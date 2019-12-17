@@ -2,7 +2,7 @@
 title: Acesso ao Painel de Controle
 description: Saiba como acessar o Painel de controle
 translation-type: tm+mt
-source-git-commit: ac7d673028d823516c48a1d6874e05086d672647
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -17,17 +17,17 @@ O Painel de controle está disponível diretamente da Experience Cloud ou do pr�
 
 Para acessar o Painel de controle na Experience Cloud Platform, navegue até a [página inicial da Experience Cloud Platform](https://amc.experiencecloud.adobe.com/) e clique no link dedicado na seção **Acesso rápido**.
 
-![](assets/quickaccess.png)
+![](assets/do-not-localize/quickaccess.png)
 
 O Painel de controle também pode ser acessado pelo seletor **de** soluções da plataforma Experience Cloud:
 
 1. Navegue até a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/)e selecione **Campanha** no seletor de soluções.
 
-   ![](assets/control_panel_access1.png)
+   ![](assets/do-not-localize/control_panel_access1.png)
 
 1. A lista de instâncias da Campanha é exibida. Clique na placa **Painel** de controle para iniciá-la.
 
-   ![](assets/control_panel_access2NEW.png)
+   ![](assets/do-not-localize/control_panel_access2.png)
 
 ## Acesso do produto {#access-product}
 
@@ -35,10 +35,10 @@ O Painel de controle também pode ser acessado pelo seletor **de** soluções da
 >
 >Para instâncias do **Campaign Classic** , o acesso de dentro do produto está disponível a partir da versão 19.1 do Campaign Classic.
 
-1. Abra o produto Campaign Standard e selecione o **[!UICONTROL Administration]** menu no **[!UICONTROL Navigation]** painel.
+1. Abra o produto Campaign Standard e selecione o **[!UICONTROL Administration]**menu no**[!UICONTROL Navigation]** painel.
 
    ![](assets/control_panel_access3.png)
 
-1. Click the **[!UICONTROL Control Panel]** icon.
+1. Clique no **[!UICONTROL Control Panel]**ícone.
 
-   ![](assets/control_panel_access4new.png)
+   ![](assets/control_panel_access4.png)
