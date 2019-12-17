@@ -2,7 +2,7 @@
 title: Fazer logon no servidor SFTP
 description: Saiba como fazer logon no servidor SFTP
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -21,25 +21,25 @@ Antes de fazer logon no servidor, verifique se:
 
 Para se conectar ao servidor SFTP, siga estas etapas:
 
-1. Launch the Control Panel, then select the **[!UICONTROL Key Management]** tab from the **[!UICONTROL SFTP]** card.
+1. Inicie o Painel de controle e selecione a **[!UICONTROL Key Management]**guia na**[!UICONTROL SFTP]** placa.
 
-   ![](assets/fingerprintNEW2.png)
+   ![](assets/sftp_card.png)
 
-1. Inicie seu aplicativo cliente SFTP, copie e cole o endereço do servidor do Painel de controle, seguido por "campaign.adobe.com" e preencha seu nome de usuário.
+1. Inicie seu aplicativo cliente SFTP, copie e cole o endereço do servidor do Painel de controle, seguido por &quot;campaign.adobe.com&quot; e preencha seu nome de usuário.
 
-   ![](assets/connect1.png)
+   ![](assets/do-not-localize/connect1.png)
 
-1. No **[!UICONTROL SSH Private Key]** campo, selecione o arquivo de chave privada armazenado em seu computador. Corresponde a um arquivo de texto que tem o mesmo nome da sua chave pública, sem a extensão ".pub" (por exemplo, "enable").
+1. No **[!UICONTROL SSH Private Key]**campo, selecione o arquivo de chave privada armazenado em seu computador. Corresponde a um arquivo de texto que tem o mesmo nome da sua chave pública, sem a extensão &quot;.pub&quot; (por exemplo, &quot;enable&quot;).
 
-   ![](assets/connect2.png)
+   ![](assets/do-not-localize/connect2.png)
 
-   O **[!UICONTROL Password]** campo é preenchido automaticamente com a chave privada do arquivo.
+   O **[!UICONTROL Password]**campo é preenchido automaticamente com a chave privada do arquivo.
 
-   ![](assets/connect3.png)
+   ![](assets/do-not-localize/connect3.png)
 
    Você pode verificar se a chave que está tentando usar está salva no Painel de controle ao comparar a impressão digital da chave privada ou pública com a impressão digital das chaves que aparecem na guia Gerenciamento de chaves da placa SFTP.
 
-   ![](assets/fingerprint3.png)
+   ![](assets/fingerprint_compare.png)
 
    >[!NOTE]
    >
@@ -47,6 +47,6 @@ Para se conectar ao servidor SFTP, siga estas etapas:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Depois que todas as informações forem preenchidas, clique em **[!UICONTROL Connect]** para fazer logon no servidor SFTP.
+1. Depois que todas as informações forem preenchidas, clique em **[!UICONTROL Connect]**para fazer logon no servidor SFTP.
 
-   ![](assets/sftpconnected.png)
+   ![](assets/do-not-localize/sftpconnected.png)
