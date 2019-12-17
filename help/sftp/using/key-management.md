@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -41,7 +41,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 >
 >As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo é apenas um exemplo de como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
-1. Navegue até a **[!UICONTROL Key Management]** guia e clique no **[!UICONTROL Add public key]** botão.
+1. Navegue até a **[!UICONTROL Key Management]**guia e clique no**[!UICONTROL Add public key]** botão.
 
    ![](assets/key0.png)
 
@@ -67,21 +67,21 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
    1. Digite este comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
    1. Quando solicitado, forneça um nome para a sua chave. Se o diretório .ssh não existir, o sistema criará um para você.
    1. Digite e digite novamente uma senha quando solicitado. Também pode ser deixado em branco.
-   1. Um par de chaves "name" e "name.pub" é criado pelo sistema. Procure o arquivo "name.pub" e abra-o. Deve ter uma sequência alfanumérica terminando com o endereço de email especificado.
+   1. Um par de chaves &quot;name&quot; e &quot;name.pub&quot; é criado pelo sistema. Procure o arquivo &quot;name.pub&quot; e abra-o. Deve ter uma sequência alfanumérica terminando com o endereço de email especificado.
    **Windows:**
 
-   Talvez seja necessário instalar uma ferramenta de terceiros que o ajudará a gerar um par de chaves privadas/públicas no mesmo formato "name.pub".
+   Talvez seja necessário instalar uma ferramenta de terceiros que o ajudará a gerar um par de chaves privadas/públicas no mesmo formato &quot;name.pub&quot;.
 
-1. Abra o arquivo .pub e copie e cole a string inteira começando com "ssh..." no Painel de controle.
+1. Abra o arquivo .pub e copie e cole a string inteira começando com &quot;ssh...&quot; no Painel de controle.
 
    ![](assets/publickey.png)
 
-1. Clique no **[!UICONTROL Save]** botão para criar a chave. O Painel de controle salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
+1. Clique no **[!UICONTROL Save]**botão para criar a chave. O Painel de controle salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
 
 Você pode usar impressões digitais para corresponder às chaves privadas salvas no computador com as chaves públicas correspondentes salvas no Painel de controle.
 
-![](assets/fingerprintNEW2.png)
+![](assets/fingerprint_compare.png)
 
-O "**...**" permite que você exclua uma chave existente ou copie sua impressão digital associada na área de transferência.
+O &quot;**...**&quot; permite que você exclua uma chave existente ou copie sua impressão digital associada na área de transferência.
 
 ![](assets/key_options.png)
