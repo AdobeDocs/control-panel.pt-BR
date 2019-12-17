@@ -2,14 +2,14 @@
 title: Renovando um certificado SSL de subdomínio
 description: Saiba como renovar os certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: 5573fc7c098128b6672c2aaf0f6fc74b80849576
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # Renovando um certificado SSL de subdomínio {#renewing-subdomains-ssl-certificates}
 
-## Sobre o processo de renovação de certificados {#about-certificate-renewal-process}
+## Sobre a renovação de certificados {#about-certificate-renewal-process}
 
 O processo de renovação do certificado SSL inclui 3 etapas, todas executadas diretamente do Painel de controle:
 
@@ -17,7 +17,7 @@ O processo de renovação do certificado SSL inclui 3 etapas, todas executadas d
 1. **Compra do certificado** SSL Depois que o CSR é gerado, você pode baixá-lo e usá-lo para comprar o certificado SSL da autoridade de certificação que sua empresa aprovar.
 1. **Instalação do certificado** SSL Depois de comprar o certificado SSL, você pode instalá-lo no subdomínio desejado.
 
-### Gerando uma solicitação de assinatura de certificado (CSR) {#generating-csr}
+## Gerando uma solicitação de assinatura de certificado (CSR) {#generating-csr}
 
 Para gerar uma solicitação de assinatura de certificado (CSR), siga estas etapas:
 
@@ -52,7 +52,11 @@ Para gerar uma solicitação de assinatura de certificado (CSR), siga estas etap
 
 1. O arquivo .csr correspondente à sua seleção é gerado e baixado automaticamente. Agora você pode usá-lo para adquirir o certificado SSL da Autoridade de certificação que sua empresa aprovar.
 
-## Instalação de um certificado SSL {#installing-ssl-certificate}
+## Comprar um certificado com o CSR {#purchasing-certificate}
+
+Depois de obter um CSR de Solicitação de assinatura de certificado do Painel de controle, adquira um certificado SSL de uma autoridade de certificação aprovada pela sua organização.
+
+## Instalação do certificado SSL {#installing-ssl-certificate}
 
 Depois que um certificado SSL for adquirido, siga estas etapas para instalá-lo em sua instância.
 
