@@ -2,7 +2,7 @@
 title: Lista de permissões de IP
 description: Saiba mais sobre a lista de permissões de IP no Painel de controle para acesso a instâncias
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -35,7 +35,7 @@ Certifique-se de seguir as recomendações e limitações abaixo ao adicionar en
 
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
-1. Abra a guia **[!UICONTROL Instances Settings card]** para acessar a lista de permissões IP e clique em **[!UICONTROL Add new IP Range]**.
+1. Abra a guia **[!UICONTROL Instances Settings card]**para acessar a lista de permissões IP e clique em**[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
@@ -51,11 +51,11 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
    * **[!UICONTROL IP Range]**: O intervalo IP que você deseja incluir na lista de permissões, no formato CIDR. Observe que um intervalo IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
    >[!NOTE]
    >
-   >O CIDR (Classless Inter-Domain Routing) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP, seguido por um caractere '/' e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
+   >O CIDR (Classless Inter-Domain Routing) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP, seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
    >
    >Você pode procurar na Internet ferramentas online gratuitas que o ajudarão a converter o intervalo de IP disponível no formato CIDR.
 
-   * **!UICONTROL Label]**: O rótulo que será exibido na lista de endereços IP da lista de permissões.
+   * **[!UICONTROL Label]**: O rótulo que será exibido na lista de endereços IP da lista de permissões.
    * **[!UICONTROL Name]**: O nome deve ser exclusivo para o Tipo de acesso, Instância (no caso de conexão de API externa) e endereço IP.
 
 
@@ -66,11 +66,11 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
    * **[!UICONTROL External API connection]**: As APIs externas com os endereços IP especificados poderão se conectar à instância do Centro de mensagens e/ou Marketing (RT). Observe que a conexão com o console de instâncias de RT não está ativada.
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Clique no botão **.[!UICONTROL Save]** O Intervalo IP é adicionado à lista de endereços IP da lista de permissões.
+1. Clique no botão **[!UICONTROL Save]**. O Intervalo IP é adicionado à lista de endereços IP da lista de permissões.
 
    ![](assets/ip_whitelist_added.png)
 
-Para excluir intervalos IP da lista de permissões, selecione-os e clique no **[!UICONTROL Delete IP range]** botão.
+Para excluir intervalos IP da lista de permissões, selecione-os e clique no **[!UICONTROL Delete IP range]**botão.
 
 **Tópicos relacionados:**
 * [Lista de permissões de IP (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
