@@ -2,7 +2,7 @@
 title: Gerenciamento de armazenamento SFTP
 description: Saiba como monitorar e gerenciar o armazenamento do servidor SFTP
 translation-type: tm+mt
-source-git-commit: 111c8fd461f6f1c567288acd7a83aee5ef7fce97
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -15,18 +15,18 @@ Você pode ter uma capacidade de armazenamento diferente provisionada no servido
 
 **Tópicos relacionados:**
 
-* [Vídeo tutorial do Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/managing-sftp-servers.html)
+* [Vídeo tutorial do Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
 * [Vídeo tutorial do Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
 
 ## Acessar informações de capacidade de armazenamento {#accessing-storage-capacity-information}
 
-A **[!UICONTROL Top utilized SFTP disk capacity]** seção no cabeçalho inclui os três principais servidores mais utilizados conectados às instâncias às quais você tem acesso de Administrador. Essas informações estão disponíveis em todas as guias do cartão SFTP.
+A **[!UICONTROL Top utilized SFTP disk capacity]**seção no cabeçalho inclui os três principais servidores mais utilizados conectados às instâncias às quais você tem acesso de Administrador. Essas informações estão disponíveis em todas as guias do cartão SFTP.
 
-![](assets/control_panel_topspaceNEW.png)
+![](assets/control_panel_topspace.png)
 
-As informações sobre o espaço usado por todas as instâncias às quais você tem acesso estão disponíveis na **[!UICONTROL Storage]** guia do cartão SFTP. Ele é atualizado em cada atualização de página.
+As informações sobre o espaço usado por todas as instâncias às quais você tem acesso estão disponíveis na **[!UICONTROL Storage]**guia do cartão SFTP. Ele é atualizado em cada atualização de página.
 
-![](assets/control_panel_spaceNEW.png)
+![](assets/control_panel_space.png)
 
 Para cada instância, um alerta visual informa quando seu armazenamento ultrapassa sua capacidade:
 
