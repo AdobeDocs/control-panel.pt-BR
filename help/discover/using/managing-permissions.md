@@ -2,7 +2,7 @@
 title: Gerenciamento de permissões para o Painel de controle
 description: Saiba como gerenciar permissões no Painel de controle
 translation-type: tm+mt
-source-git-commit: 79dff08ee60d220c09bdcc21387bb6fb4d2f4c9e
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
@@ -13,7 +13,7 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 1. Navegue até a [Adobe Experience Cloud](https://amc.experiencecloud.adobe.com/exc-content/login.html)e selecione a **[!UICONTROL Administration]**guia.
 
-   ![](assets/control_panel_add_user1.png)
+   ![](assets/do-not-localize/control_panel_add_user1.png)
 
    >[!NOTE]
    >
@@ -21,11 +21,11 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 1. Inicie o **Admin Console** clicando nos links disponíveis.
 
-   ![](assets/control_panel_admin1.png)
+   ![](assets/do-not-localize/control_panel_admin1.png)
 
 1. Selecione o produto do Campaign desejado.
 
-   ![](assets/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
@@ -33,7 +33,7 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 1. A lista de instâncias do produto Campaign é exibida. Selecione a instância à qual deseja adicionar um usuário administrador.
 
-   ![](assets/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
@@ -41,7 +41,7 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 1. A lista de Perfis de produto da instância selecionada é exibida. Clique no perfil do **[!UICONTROL Administrators]**produto para acessar a lista de usuários administradores.
 
-   ![](assets/control_panel_add_user_5.png)
+   ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
@@ -49,4 +49,4 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 1. A lista de usuários administradores é exibida. Clique no **[!UICONTROL Add User]**botão para adicionar o usuário desejado.
 
-   ![](assets/control_panel_add_user_6.png)
+   ![](assets/do-not-localize/control_panel_add_user_6.png)
