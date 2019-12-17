@@ -1,14 +1,14 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 6bc165f995d34d21b5bce379db3095317db10906
+source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ---
 
 
 # Central de ajuda {#control-panel-documentation}
 
-![](assets/banner.png)
+![](assets/do-not-localize/banner.png)
 
 ## Sobre o Painel de controle {#about-control-panel}
 
@@ -21,29 +21,29 @@ Principais benefícios:
 * Aumente a segurança controlando as configurações de acesso de acordo com a necessidade.
 
 >[!NOTE]
->O Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS. As etapas para conceder acesso de Administrador a um usuário estão detalhadas na [seção](discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta seção](faq.md).
+>O Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS. As etapas para conceder acesso de Administrador a um usuário estão detalhadas na [seção](discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nessa seção](faq.md).
 >
 >Observe que a atualização para a versão mais recente do Campaign não é necessária para acessar o Painel de controle.
 
 <table>
 <tr>
     <td>
-        <a href="discover/using/accessing-control-panel.md"><img alt="condições" src="assets/discover.png"/></a>
+        <a href="discover/using/accessing-control-panel.md"><img alt="condições" src="assets/do-not-localize/discover.png"/></a>
         <div><a href="discover/using/accessing-control-panel.md"><strong>Painel de controle do Discover</strong></a></div>
         <em>Saiba mais sobre o Painel de controle e como acessá-lo.</em>
     </td>
     <td>
-        <a href="sftp/using/about-sftp-management.md"><img alt="condições" src="assets/sftp.png"/></a>
+        <a href="sftp/using/about-sftp-management.md"><img alt="condições" src="assets/do-not-localize/sftp.png"/></a>
         <div><a href="sftp/using/about-sftp-management.md"><strong>Monitore seus servidores SFTP</strong></a></div>
         <em>Saiba como gerenciar seus servidores SFTP.</em>
     </td>
     <td>
-        <a href="subdomains-certificates/using/about-ssl-certificates.md"><img alt="condições" src="assets/subdomains.png"/></a>
-        <div><a href="subdomains-certificates/using/about-ssl-certificates.md"><strong>Monitorar seus subdomínios</strong></a></div>
+        <a href="subdomains-certificates/using/subdomains-branding.md"><img alt="condições" src="assets/do-not-localize/subdomains.png"/></a>
+        <div><a href="subdomains-certificates/using/subdomains-branding.md"><strong>Monitorar seus subdomínios</strong></a></div>
         <em>Saiba como monitorar seus subdomínios e seus certificados.</em>
     </td>
     <td>
-        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condições" src="assets/instance_settings.png"/></a>
+        <a href="instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gerenciar suas configurações de instância</strong></a></div>
         <br/><em>Saiba como gerenciar as configurações de instâncias (somente o Campaign Classic)</em>
     </td>
