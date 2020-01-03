@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
@@ -24,11 +24,16 @@ source-git-commit: bc7cf3633b7310fcb5842896172647659f0877eb
    + [Fazer logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Perguntas comuns](sftp/using/common-questions.md)
 + Subdomínios e certificados {#subdomains-and-certificates}
+   + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
+   + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
+   + [Monitorando certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + [Renovando certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
++ Subdomínios e certificados {#subdomains-and-certificates}
    + Gerenciamento de subdomínios {#managing-subdomains}
       + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
       + [Monitoramento de seus subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
       + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + Gerenciamento de certificados SSL {#managing-ceritficates}
+   + Gerenciamento de certificados SSL {#managing-certificates}
       + [Monitorando certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Renovando certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
 + Configurações de instâncias (Campaign Classic) {#instances-settings}
