@@ -2,12 +2,14 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Monitorando certificados SSL de subdomínios {#monitoring-ssl-certificates}
+
+## Sobre certificados SSL {#about-ssl-certificates}
 
 O Adobe Campaign recomenda que você proteja os subdomínios que hospedam suas páginas iniciais, especialmente aqueles que estão coletando informações confidenciais de seus clientes.
 
@@ -19,4 +21,28 @@ O Adobe Campaign recomenda que você proteja os subdomínios que hospedam suas p
 
 ![](assets/no_certificate.png)
 
-Se um certificado SSL de seu subdomínio estiver prestes a expirar, você poderá renová-lo rapidamente do Painel de controle. Para obter mais informações, consulte esta seção: [Renovando um certificado](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL de subdomínio.
+## Monitorando certificados SSL {#monitoring-certificates}
+
+O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o **[!UICONTROL Subdomains & Certificates]**cartão.
+
+Os subdomínios são organizados pela data de expiração mais próxima do certificado SSL, com informações visuais sobre a expiração, em dias:
+
+* **Verde**: o subdomínio não tem certificado que expira nos próximos 60 dias.
+* **Laranja**: um ou mais subdomínios têm um certificado que expirará nos próximos 60 dias.
+* **Vermelho**: um ou mais subdomínios têm um certificado que expirará nos próximos 30 dias.
+* **Cinza**: nenhum certificado foi instalado para o subdomínio.
+
+![](assets/subdomains_list.png)
+
+Para obter mais detalhes sobre um subdomínio, clique no **[!UICONTROL Subdomain Details]**botão.
+A lista de todos os subdomínios relacionados é exibida. Geralmente inclui subdomínios de páginas iniciais, páginas de recursos etc.
+
+A **[!UICONTROL Sender info]**guia fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, e-mail de erro).
+
+![](assets/subdomain_details.png)
+
+Se um certificado SSL de seu subdomínio estiver prestes a expirar, você poderá renová-lo diretamente do Painel de controle. Para obter mais informações, consulte esta seção: [Renovando um certificado](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL de subdomínio.
+
+>[!NOTE]
+>
+>A renovação do certificado do Painel de controle estará disponível em breve em beta. Enquanto isso, consulte [esta página](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) para obter mais informações sobre como monitorar certificados no Painel de controle.
