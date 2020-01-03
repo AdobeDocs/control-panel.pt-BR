@@ -2,12 +2,16 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para as instâncias da sua campanha
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Configurar um novo subdomínio {#setting-up-subdomain}
+
+>[!NOTE]
+>
+>A delegação de subdomínios do Painel de controle está atualmente em beta e sujeita a atualizações e modificações frequentes sem notificação.
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
@@ -15,25 +19,29 @@ O Painel de controle permite que você delegue totalmente um subdomínio ao Adob
 
 1. No **[!UICONTROL Subdomains & Certificates]**cartão, selecione a instância de produção desejada e clique em**[!UICONTROL Setup new subdomain]**.
 
+   ![](assets/subdomain1.png)
+
    >[!NOTE]
    >
    >A delegação de subdomínio está disponível somente para instâncias **de produção** .
 
-   ![](assets/subdomain1.png)
-
 1. Clique em **[!UICONTROL Next]**para confirmar o método de delegação completo.
+
+   ![](assets/subdomain3.png)
 
    >[!NOTE]
    >
    >[No momento, os métodos CNAME](#use-cnames) e personalizados não são suportados pelo Painel de controle.
 
-   ![](assets/subdomain3.png)
+1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Adobe NamesServer exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o vídeo [do](https://video.tv.adobe.com/v/30175?captions=por_br)tutorial.
 
-1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Adobe NamesServer exibidas no assistente.
-
-   Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte este vídeo tutorial.
+   >[!CAUTION]
+   >
+   >Ao configurar servidores de nomes, certifique-se de **nunca delegar seu subdomínio raiz à Adobe**. Caso contrário, o domínio poderá trabalhar somente com a Adobe. Qualquer outro uso será impossível, como, por exemplo, enviar emails internos aos funcionários de sua organização.
 
    ![](assets/subdomain4.png)
+
+   Observe que se você não tiver nenhum subdomínio configurado, o subdomínio que você está configurando será considerado o subdomínio **** primário. As caixas de entrada (remetente, erro, endereços reply-to) permanecerão as mesmas para todos os subdomínios configurados posteriormente neste subdomínio.
 
    Depois que o subdomínio for criado com as informações correspondentes do servidor de nomes da Adobe, clique em **[!UICONTROL Next]**.
 
@@ -63,14 +71,30 @@ O Painel de controle permite que você delegue totalmente um subdomínio ao Adob
 
    ![](assets/subdomain7.png)
 
+   >[!NOTE]
+   >
+   >Em alguns casos, a delegação passa, mas o subdomínio pode não ser verificado com êxito. O subdomínio irá diretamente para a **[!UICONTROL Verified subdomains]**lista com o**[!UICONTROL Unverified]** status e um registro de tarefas que fornece informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver problemas para resolver o problema.
+   >
+   >Observe que enquanto a delegação de subdomínio é executada, outras solicitações por meio do Painel de controle serão inseridas em uma fila e executadas somente após a conclusão da Delegação de subdomínio, para evitar problemas de desempenho.
+
 No final do processo, os subdomínios serão configurados para funcionar com sua instância do Adobe Campaign e os elementos abaixo serão criados:
 
 * **O subdomínio** com os seguintes registros **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Subdomínios** adicionais para hospedar espelhamento, recurso, páginas de rastreamento e chave de domínio,
 * **Caixas de entrada**: Remetente, Erro, Responder.
 
+Para obter mais detalhes sobre o subdomínio, clique no **[!UICONTROL Subdomain Details]**botão.
+
+![](assets/subdomain_details_general.png)
+
+![](assets/subdomains_details_senderinfo.png)
+
+>[!NOTE]
+>
+>Além do estágio de processamento, a Adobe notificará a equipe de capacidade de entrega sobre o novo subdomínio para auditar o subdomínio que foi criado. O processo de auditoria pode demorar até 3 dias após a delegação do subdomínio.
+>
+>As verificações realizadas incluem loops de feedback e testes de loops de reclamação de spam. Por conseguinte, não recomendamos a utilização do subdomínio antes de a auditoria ter sido concluída, dado que poderia resultar numa má reputação do subdomínio.
+
 ## Uso de CNAMEs {#use-cnames}
 
-O uso de CNAMEs para delegação de subdomínio não é recomendado pela Adobe e não é suportado pelo Painel de controle.
-
-Para usar esse método, entre em contato com o Atendimento ao cliente da Adobe.
+O uso de CNAMEs para delegação de subdomínio não é recomendado pela Adobe e não é suportado pelo Painel de controle. Para usar esse método, entre em contato com o Atendimento ao cliente da Adobe.
