@@ -2,20 +2,28 @@
 title: Renovando um certificado SSL de subdomínio
 description: Saiba como renovar os certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ---
 
 
 # Renovando um certificado SSL de subdomínio {#renewing-subdomains-ssl-certificates}
 
+>[!NOTE]
+>
+>A delegação de subdomínios do Painel de controle está atualmente em beta e sujeita a atualizações e modificações frequentes sem notificação.
+
 ## Sobre a renovação de certificados {#about-certificate-renewal-process}
 
-O processo de renovação do certificado SSL inclui 3 etapas, todas executadas diretamente do Painel de controle:
+O processo de renovação do certificado SSL inclui 3 etapas:
 
 1. **Geração da Solicitação de assinatura de certificado (CSR)O Atendimento ao cliente da** Adobe gera um CSR para você. Será necessário fornecer algumas informações necessárias para gerar o CSR (como Nome comum, Nome da organização e endereço, etc.).
 1. **Compra do certificado** SSL Depois que o CSR é gerado, você pode baixá-lo e usá-lo para comprar o certificado SSL da autoridade de certificação que sua empresa aprovar.
 1. **Instalação do certificado** SSL Depois de comprar o certificado SSL, você pode instalá-lo no subdomínio desejado.
+
+>[!NOTE]
+>
+>A renovação de certificados SSL por meio do Painel de controle está disponível somente para subdomínios **** totalmente delegados.
 
 ## Gerando uma solicitação de assinatura de certificado (CSR) {#generating-csr}
 
@@ -31,11 +39,11 @@ Para gerar uma solicitação de assinatura de certificado (CSR), siga estas etap
 
 1. Um formulário é exibido, com todos os detalhes necessários para gerar seu CSR.
 
-   Preencha as informações solicitadas de forma completa e precisa (entre em contato com sua equipe interna, com as equipes de segurança e TI, se necessário) e clique em **[!UICONTROL Next]**.
+   Certifique-se de preencher as informações solicitadas de forma completa e precisa; caso contrário, o certificado pode não ser renovado (entre em contato com sua equipe interna, equipes de segurança e TI, se necessário) e clique em **[!UICONTROL Next]**.
 
-   * **[!UICONTROL Organization]**:
-   * **[!UICONTROL Organization Unit]**:
-   * **[!UICONTROL Instance]**: URL da instância Campaign associada ao subdomínio.
+   * **[!UICONTROL Organization]**: nome da organização oficial.
+   * **[!UICONTROL Organization Unit]**: unidade vinculada ao subdomínio (por exemplo: Marketing, TI).
+   * **[!UICONTROL Instance]**(pré-cheia): URL da instância Campaign associada ao subdomínio.
    ![](assets/renewal3.png)
 
 1. Selecione os subdomínios a serem incluídos no CSR e clique em **[!UICONTROL OK]**.
@@ -58,7 +66,13 @@ Depois de obter um CSR de Solicitação de assinatura de certificado do Painel d
 
 ## Instalação do certificado SSL {#installing-ssl-certificate}
 
-Depois que um certificado SSL for adquirido, siga estas etapas para instalá-lo em sua instância.
+Depois que um certificado SSL for adquirido, você poderá instalá-lo em sua instância. Antes de continuar, verifique se você está ciente dos pré-requisitos abaixo:
+
+* A Solicitação de assinatura de certificado (CSR) deve ter sido gerada a partir do Painel de controle. Caso contrário, você não poderá instalar o certificado do Painel de controle.
+* Verifique se a Solicitação de assinatura de certificado (CSR) corresponde ao subdomínio que foi delegado à Adobe. Por exemplo, ele não pode conter mais subdomínios que o que foi delegado.
+* O certificado deve ter uma data atual. Não é possível instalar certificados com datas no futuro.
+
+Para instalar o certificado, siga estas etapas:
 
 1. No **[!UICONTROL Subdomains & Certificates]**cartão, selecione a instância desejada e clique no**[!UICONTROL Manage Certificate]** botão.
 
@@ -71,3 +85,7 @@ Depois que um certificado SSL for adquirido, siga estas etapas para instalá-lo 
 1. Selecione o arquivo .zip que contém o certificado a ser instalado e clique em **[!UICONTROL Submit]**.
 
    ![](assets/install2.png)
+
+Depois que o certificado SSL é instalado, a data de expiração e o ícone de status do certificado são atualizados de acordo.
+
+O endereço do URL do seu subdomínio será alterado de **http** para **https**.
