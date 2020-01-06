@@ -2,7 +2,7 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: 001064877594a10733c054f925f254545f93145d
+source-git-commit: 7726a8ef8863d2e2d57e5be7ade7de636a7d2ea1
 
 ---
 
@@ -45,4 +45,4 @@ Se um certificado SSL de seu subdomínio estiver prestes a expirar, você poder�
 
 >[!NOTE]
 >
->A renovação do certificado do Painel de controle estará disponível em breve em beta. Enquanto isso, consulte [esta página](https://helpx.adobe.com/campaign/kb/control-panel-subdomains-certificates.html) para obter mais informações sobre como monitorar certificados no Painel de controle.
+>A renovação do certificado do Painel de controle estará disponível em beta no final de janeiro.
