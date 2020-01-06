@@ -2,7 +2,7 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para as instâncias da sua campanha
 translation-type: tm+mt
-source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
+source-git-commit: 766ff590d83929eeddb69113904643517c1475ad
 
 ---
 
@@ -15,7 +15,12 @@ source-git-commit: 52f155bbbecec9edabc66cbc28756f9579b81f04
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
-O Painel de controle permite que você delegue totalmente um subdomínio ao Adobe Campaign. Para fazer isso, siga estas etapas:
+O Painel de controle permite que você delegue totalmente um subdomínio ao Adobe Campaign. Para fazer isso, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Se você não tiver nenhum subdomínio configurado para a Adobe, o primeiro subdomínio que você configurar será considerado como um subdomínio ****primário.
+>Um registro **DNS** reverso será criado e definido como o subdomínio de envio padrão para caixas de entrada (remetente, reply-to, endereços de email de erro).
 
 1. No **[!UICONTROL Subdomains & Certificates]**cartão, selecione a instância de produção desejada e clique em**[!UICONTROL Setup new subdomain]**.
 
@@ -41,8 +46,6 @@ O Painel de controle permite que você delegue totalmente um subdomínio ao Adob
 
    ![](assets/subdomain4.png)
 
-   Observe que se você não tiver nenhum subdomínio configurado, o subdomínio que você está configurando será considerado o subdomínio **** primário. As caixas de entrada (remetente, erro, endereços reply-to) permanecerão as mesmas para todos os subdomínios configurados posteriormente neste subdomínio.
-
    Depois que o subdomínio for criado com as informações correspondentes do servidor de nomes da Adobe, clique em **[!UICONTROL Next]**.
 
 1. Selecione o caso de uso desejado para o subdomínio:
@@ -65,7 +68,7 @@ O Painel de controle permite que você delegue totalmente um subdomínio ao Adob
 
    ![](assets/subdomain6.png)
 
-1. Depois que o subdomínio for submetido, o Painel de controle verificará se ele aponta para os registros Adobe NS e se o registro Início da autoridade (SOA) não existe para esse subdomínio.
+1. Depois que o subdomínio for submetido, o Painel de controle verificará se ele aponta corretamente para os registros Adobe NS e se o registro Início da autoridade (SOA) não existe para esse subdomínio.
 
 1. Se as verificações forem bem-sucedidas, o Painel de Controle iniciará a configuração do subdomínio com registros DNS, URLs adicionais, caixas de entrada, etc. Para obter mais detalhes sobre o progresso da configuração, clique no **[!UICONTROL Process details]**botão.
 
@@ -73,7 +76,7 @@ O Painel de controle permite que você delegue totalmente um subdomínio ao Adob
 
    >[!NOTE]
    >
-   >Em alguns casos, a delegação passa, mas o subdomínio pode não ser verificado com êxito. O subdomínio irá diretamente para a **[!UICONTROL Verified subdomains]**lista com o**[!UICONTROL Unverified]** status e um registro de tarefas que fornece informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver problemas para resolver o problema.
+   >Em alguns casos, a delegação passa, mas o subdomínio pode não ser verificado com êxito. O subdomínio irá diretamente para a **[!UICONTROL Verified subdomains]**lista com o**[!UICONTROL Unverified]** status e um registro de trabalho que fornece informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver problemas para resolver o problema.
    >
    >Observe que enquanto a delegação de subdomínio é executada, outras solicitações por meio do Painel de controle serão inseridas em uma fila e executadas somente após a conclusão da Delegação de subdomínio, para evitar problemas de desempenho.
 
@@ -82,6 +85,11 @@ No final do processo, os subdomínios serão configurados para funcionar com sua
 * **O subdomínio** com os seguintes registros **** DNS: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Subdomínios** adicionais para hospedar espelhamento, recurso, páginas de rastreamento e chave de domínio,
 * **Caixas de entrada**: Remetente, Erro, Responder.
+
+>[!NOTE]
+>
+>Por padrão, a caixa de entrada &quot;Responder&quot; no Painel de controle está configurada para apagar e-mails e não é revisável. Se você quiser monitorar sua caixa de entrada &quot;Responder&quot; para suas campanhas de marketing, não use este endereço.
+
 
 Para obter mais detalhes sobre o subdomínio, clique no **[!UICONTROL Subdomain Details]**botão.
 
@@ -93,7 +101,7 @@ Para obter mais detalhes sobre o subdomínio, clique no **[!UICONTROL Subdomain 
 >
 >Além do estágio de processamento, a Adobe notificará a equipe de capacidade de entrega sobre o novo subdomínio para auditar o subdomínio que foi criado. O processo de auditoria pode demorar até 3 dias após a delegação do subdomínio.
 >
->As verificações realizadas incluem loops de feedback e testes de loops de reclamação de spam. Por conseguinte, não recomendamos a utilização do subdomínio antes de a auditoria ter sido concluída, dado que poderia resultar numa má reputação do subdomínio.
+>As verificações realizadas incluem loops de feedback e testes de loops de reclamação de spam. Por conseguinte, não recomendamos a utilização do subdomínio antes de a auditoria ter sido concluída, uma vez que poderá resultar numa má reputação do subdomínio.
 
 ## Uso de CNAMEs {#use-cnames}
 
