@@ -4,7 +4,7 @@ sub-product: control panel
 audience: end-user
 user-guide-title: Control Panel Help
 translation-type: tm+mt
-source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
+source-git-commit: 904cd7376496e0138f5c4a29b59e3f8b248d499a
 
 ---
 
@@ -12,7 +12,9 @@ source-git-commit: 84365863dae5309cd14560843f2e6ec4c021cbab
 # Ajuda do painel de controle {#using}
 
 + [Documentação do produto](control-panel-home.md)
++ [Notas de versão](release-notes.md)
 + Painel de controle do Discover {#discover-control-panel}
+   + [Principais recursos](discover/using/key-features.md)
    + [Acesso ao Painel de Controle](discover/using/accessing-control-panel.md)
    + [Gerenciamento de permissões para o Painel de controle](discover/using/managing-permissions.md)
    + [Descobrindo a interface do Painel de controle](discover/using/discovering-the-interface.md)
