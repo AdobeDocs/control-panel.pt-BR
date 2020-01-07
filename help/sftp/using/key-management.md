@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
 
 ---
 
@@ -41,7 +41,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 >
 >As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo é apenas um exemplo de como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
-1. Navegue até a **[!UICONTROL Key Management]**guia e clique no**[!UICONTROL Add public key]** botão.
+1. Navegue até a **[!UICONTROL Key Management]**guia e clique no**[!UICONTROL Add new public key]** botão.
 
    ![](assets/key0.png)
 
