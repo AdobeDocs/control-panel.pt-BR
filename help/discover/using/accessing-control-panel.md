@@ -2,7 +2,7 @@
 title: Acesso ao Painel de Controle
 description: Saiba como acessar o Painel de controle
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: b7b48c01cb7d7c618f4622173c9bd059a8e7098e
 
 ---
 
@@ -33,7 +33,7 @@ O Painel de controle também pode ser acessado pelo seletor **de** soluções da
 
 >[!NOTE]
 >
->Para instâncias do **Campaign Classic** , o acesso de dentro do produto está disponível a partir da versão 19.1 do Campaign Classic.
+>O acesso de dentro do produto está disponível somente para o Campaign Standard.
 
 1. Abra o produto Campaign Standard e selecione o **[!UICONTROL Administration]**menu no**[!UICONTROL Navigation]** painel.
 
