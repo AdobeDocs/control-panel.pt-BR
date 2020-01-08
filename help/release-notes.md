@@ -1,7 +1,7 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
 
 ---
 
@@ -18,7 +18,15 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 *22 de janeiro de 2020*
 
-a definir
+Adicionamos novos recursos para usuários administradores delegarem subdomínios e renovarem certificados SSL do Painel de controle.
+
+Para obter mais informações, consulte estas páginas:
+* [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Renovando um certificado SSL de subdomínio](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
+>[!IMPORTANT]
+>
+>Esses recursos estarão disponíveis na versão beta e estão sujeitos a atualizações e modificações frequentes sem aviso prévio.
 
 ## Setembro de 2019 {#september-2019}
 
