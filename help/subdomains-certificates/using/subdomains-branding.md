@@ -2,7 +2,7 @@
 title: Marca de subdomínios
 description: Saiba mais sobre a marca de subdomínios
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -42,3 +42,9 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 Informações adicionais sobre a delegação de domínio estão disponíveis na [documentação](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 Se você tiver alguma dúvida sobre os métodos de delegação de subdomínio, entre em contato com a equipe de Entrega da Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar consultoria de Entrega.
+
+**Tópicos relacionados:**
+
+* [Configurar um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
+* [Delegar subdomínios (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Monitoramento de seus subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
