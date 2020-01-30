@@ -2,7 +2,7 @@
 title: Perguntas frequentes do painel de controle
 description: Questões comuns relacionadas com o Painel de Controlo
 translation-type: tm+mt
-source-git-commit: b728dfe0289e44188adfa6e71aac2e9fc0abc1d2
+source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
 
 ---
 
@@ -41,7 +41,7 @@ Você pode ter mais de uma ID de organização IMS se tiver acesso a várias sol
 
 Para verificar se sua instância está hospedada no AWS, siga estas etapas:
 
-1. Recupere seu URL de logon. É o URL que você usa para fazer logon na instância do Campaign, que geralmente termina com &quot;.campaign.adobe.com&quot;.
+1. Recupere seu URL de logon. É o URL que você usa para fazer logon na instância do Campaign, que geralmente termina com &quot;.campaign.adobe.com&quot; ou &quot;.neolane.net&quot;.
 1. Abra o terminal e execute uma **[!DNL nslookup]**operação no URL de logon.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
