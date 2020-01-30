@@ -2,7 +2,7 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 ---
 
@@ -46,3 +46,9 @@ Se um certificado SSL de seu subdomínio estiver prestes a expirar, você poder�
 >[!IMPORTANT]
 >
 >A renovação do certificado do Painel de controle estará disponível em versão beta até o final de janeiro e sujeita a atualizações e modificações frequentes sem aviso prévio.
+
+**Tópicos relacionados:**
+
+* [Adicionar certificados SSL (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Renovando um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
