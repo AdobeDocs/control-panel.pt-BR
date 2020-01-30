@@ -2,7 +2,7 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para as instâncias da sua campanha
 translation-type: tm+mt
-source-git-commit: c44f6800a0f7905fe9e5619388c7007f0af8f973
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -109,3 +109,9 @@ Para obter mais detalhes sobre o subdomínio, clique no **[!UICONTROL Subdomain 
 ## Uso de CNAMEs {#use-cnames}
 
 O uso de CNAMEs para delegação de subdomínio não é suportado pelo Painel de Controle. Para usar esse método, entre em contato com o Atendimento ao cliente da Adobe.
+
+**Tópicos relacionados:**
+
+* [Delegar subdomínios (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
+* [Monitoramento de seus subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
