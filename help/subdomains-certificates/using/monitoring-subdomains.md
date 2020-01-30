@@ -2,7 +2,7 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: c51a43fb310bbb8bd7570bc4ea668d708159535c
+source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 ---
 
@@ -24,3 +24,9 @@ A **[!UICONTROL Last verification]**coluna indica quando um subdomínio foi veri
 Ao iniciar uma verificação, várias operações são executadas para verificar se o subdomínio está configurado corretamente (verificação do locatário da instância, teste de envio de email etc.)
 
 Se a verificação do subdomínio falhar, entre em contato com o Atendimento ao cliente da Adobe para obter mais informações.
+
+**Tópicos relacionados:**
+
+* [Adicionar certificados SSL (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
+* [Renovando um certificado SSL de subdomínio](../..help/subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
