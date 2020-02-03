@@ -2,7 +2,7 @@
 title: Perguntas frequentes do painel de controle
 description: Questões comuns relacionadas com o Painel de Controlo
 translation-type: tm+mt
-source-git-commit: 9bd57cd6d4430cf2cae8575547f8e332f94940c1
+source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 ---
 
@@ -19,7 +19,7 @@ Para obter mais informações, consulte a documentação [da](https://marketing.
 
 **Onde posso encontrar minha ID organizacional IMS?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://exc-login.experiencecloud.adobe.com/exc-content/login.html?prefixtenantid=amc) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 A outra maneira é iniciar o **Admin Console**. A ID de organização do IMS estará visível no URL; ela deve ser semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
