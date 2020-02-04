@@ -2,7 +2,7 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para as instâncias da sua campanha
 translation-type: tm+mt
-source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
+source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
 
 ---
 
@@ -11,7 +11,7 @@ source-git-commit: 762c445713e6e728fc1a45d5fcf8c9c1cb0dcdf6
 
 >[!IMPORTANT]
 >
->A delegação de subdomínios do Painel de Controle estará disponível em versão beta até o final de janeiro e estará sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A delegação de subdomínios do Painel de controle está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
 
 Se você tiver alguma dúvida sobre os métodos de delegação de subdomínio, entre em contato com a equipe de Entrega da Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar consultoria de Entrega.
 
