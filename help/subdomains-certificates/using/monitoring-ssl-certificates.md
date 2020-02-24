@@ -2,7 +2,7 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
 
 ---
 
@@ -23,7 +23,7 @@ O Adobe Campaign recomenda que você proteja os subdomínios que hospedam suas p
 
 ## Monitorando certificados SSL {#monitoring-certificates}
 
-O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o **[!UICONTROL Subdomains & Certificates]**cartão.
+O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o **[!UICONTROL Subdomains & Certificates]** cartão.
 
 Os subdomínios são organizados pela data de expiração mais próxima do certificado SSL, com informações visuais sobre a expiração, em dias:
 
@@ -34,10 +34,10 @@ Os subdomínios são organizados pela data de expiração mais próxima do certi
 
 ![](assets/subdomains_list.png)
 
-Para obter mais detalhes sobre um subdomínio, clique no **[!UICONTROL Subdomain Details]**botão.
+Para obter mais detalhes sobre um subdomínio, clique no **[!UICONTROL Subdomain Details]** botão.
 A lista de todos os subdomínios relacionados é exibida. Geralmente inclui subdomínios de páginas iniciais, páginas de recursos etc.
 
-A **[!UICONTROL Sender info]**guia fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, e-mail de erro).
+A **[!UICONTROL Sender info]** guia fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, e-mail de erro).
 
 ![](assets/subdomain_details.png)
 
@@ -45,7 +45,7 @@ Se um certificado SSL de seu subdomínio estiver prestes a expirar, você poder�
 
 >[!IMPORTANT]
 >
->A renovação do certificado do Painel de controle estará disponível em versão beta até o final de janeiro e sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A renovação do certificado do Painel de controle está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
 
 **Tópicos relacionados:**
 
