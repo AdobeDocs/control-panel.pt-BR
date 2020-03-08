@@ -2,7 +2,7 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
@@ -22,6 +22,11 @@ O Adobe Campaign recomenda que você proteja os subdomínios que hospedam suas p
 ![](assets/no_certificate.png)
 
 ## Monitorando certificados SSL {#monitoring-certificates}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_details&quot;
+>title=&quot;Detalhes do subdomínio&quot;
+>abstract=&quot;Obtenha informações sobre os seus subdomínios.&quot;
 
 O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o **[!UICONTROL Subdomains & Certificates]** cartão.
 
