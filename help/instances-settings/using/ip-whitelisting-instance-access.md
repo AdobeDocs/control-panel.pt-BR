@@ -2,12 +2,18 @@
 title: Lista de permissões de IP
 description: Saiba mais sobre a lista de permissões de IP no Painel de controle para acesso a instâncias
 translation-type: tm+mt
-source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Lista de permissões de IP {#ip-whitelisting}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesets_iprange&quot;
+>title=&quot;Sobre a Lista de permissões de IP&quot;
+>abstract=&quot;Gerenciar a lista de permissões IP para acessar suas instâncias.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Assista ao vídeo de demonstração&quot;
 
 >[!CAUTION]
 >
@@ -15,7 +21,7 @@ source-git-commit: 85bef8fa652be883bc2afbc42a2d893ea75a4e77
 
 ## Sobre a lista de permissões de IP {#about-ip-whitelisting}
 
-Por padrão, sua instância do Adobe Campaign Classic não está acessível de vários endereços IP.
+Por padrão, sua instância do Adobe Campaign Classic não pode ser acessada de vários endereços IP.
 
 Se seu endereço IP não tiver sido incluído na lista de permissões, você não poderá fazer logon na instância a partir desse endereço. Da mesma forma, talvez você não consiga conectar uma API ao seu Centro de mensagens ou à sua instância de Marketing se o endereço IP não tiver sido incluído explicitamente na lista de permissões com a instância.
 
@@ -33,9 +39,14 @@ Certifique-se de seguir as recomendações e limitações abaixo ao adicionar en
 
 ## Endereços IP da lista de permissões para acesso à Instância {#whistelisting-ip-addresses}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesets_iprange_add&quot;
+>title=&quot;Adicionar Novo Intervalo Ip&quot;
+>abstract=&quot;Defina o intervalo IP que deseja que a lista de permissões se conecte à sua instância.&quot;
+
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
-1. Abra a guia **[!UICONTROL Instances Settings card]**para acessar a lista de permissões IP e clique em**[!UICONTROL Add new IP Range]**.
+1. Abra a guia **[!UICONTROL Instances Settings card]** para acessar a lista de permissões IP e clique em **[!UICONTROL Add new IP Range]**.
 
    >[!NOTE]
    >
@@ -48,12 +59,12 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
    ![](assets/ip_whitelist_add1.png)
 
    * **[!UICONTROL Instance(s)]**: As instâncias às quais os endereços IP poderão se conectar. Vários exemplos podem ser manipulados ao mesmo tempo. Por exemplo, a listagem de IP pode ser executada em instâncias de Produção e de Estágio pela mesma etapa.
-   * **[!UICONTROL IP Range]**: O intervalo IP que você deseja incluir na lista de permissões, no formato CIDR. Observe que um intervalo IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
+   * **[!UICONTROL IP Range]**: O intervalo de IP que você deseja incluir na lista de permissões, no formato CIDR. Observe que um intervalo de IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
    >[!NOTE]
    >
    >O CIDR (Classless Inter-Domain Routing) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP, seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
    >
-   >Você pode procurar na Internet ferramentas online gratuitas que o ajudarão a converter o intervalo de IP disponível no formato CIDR.
+   >Você pode procurar na Internet ferramentas online gratuitas que o ajudarão a converter o intervalo de IP disponível para o formato CIDR.
 
    * **[!UICONTROL Label]**: O rótulo que será exibido na lista de endereços IP da lista de permissões.
    * **[!UICONTROL Name]**: O nome deve ser exclusivo para o Tipo de acesso, Instância (no caso de conexão de API externa) e endereço IP.
@@ -70,7 +81,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
    ![](assets/ip_whitelist_added.png)
 
-Para excluir intervalos IP da lista de permissões, selecione-os e clique no **[!UICONTROL Delete IP range]**botão.
+Para excluir intervalos IP da lista de permissões, selecione-os e clique no **[!UICONTROL Delete IP range]** botão.
 
 **Tópicos relacionados:**
 * [Lista de permissões de IP (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-whitelisting.html)
