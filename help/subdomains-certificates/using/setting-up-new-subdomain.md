@@ -2,12 +2,18 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para as instâncias da sua campanha
 translation-type: tm+mt
-source-git-commit: f0aea7944ea31b76f1f9efef6d0e759c7b5896b6
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Configurar um novo subdomínio {#setting-up-subdomain}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_subdomain_management&quot;
+>title=&quot;Configurar novos subdomínios e gerenciar certificados&quot;
+>abstract=&quot;Você precisa configurar um novo subdomínio e gerenciar os certificados SSL de seus subdomínios para começar a enviar emails ou publicar páginas iniciais com o Adobe Campaign.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Como monitorar os certificados SSL de seus subdomínios&quot;
 
 >[!IMPORTANT]
 >
@@ -100,7 +106,7 @@ Para obter mais detalhes sobre o subdomínio, clique no **[!UICONTROL Subdomain 
 
 >[!IMPORTANT]
 >
->Após a etapa de processamento, verifique com o Atendimento ao cliente da Adobe se foi apresentada uma solicitação de auditoria para a equipe de entrega auditar o novo subdomínio criado. O processo de auditoria pode levar até 3 10 dias úteis após a delegação do subdomínio.
+>Após a etapa de processamento, verifique com o Atendimento ao cliente da Adobe se foi apresentada uma solicitação de auditoria para a equipe de entrega auditar o novo subdomínio que foi criado. O processo de auditoria pode demorar até 3 10 dias úteis após a delegação do subdomínio.
 >
 >As verificações realizadas incluem loops de feedback e testes de loops de reclamação de spam. Por conseguinte, não recomendamos a utilização do subdomínio antes de a auditoria ter sido concluída, uma vez que poderá resultar numa má reputação do subdomínio.
 
@@ -110,6 +116,6 @@ O uso de CNAMEs para delegação de subdomínio não é suportado pelo Painel de
 
 **Tópicos relacionados:**
 
-* [Delegar subdomínios (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Delegar subdomínios (vídeo do tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
 * [Monitoramento de seus subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
