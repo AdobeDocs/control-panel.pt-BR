@@ -2,12 +2,18 @@
 title: Marca de subdomínios
 description: Saiba mais sobre a marca de subdomínios
 translation-type: tm+mt
-source-git-commit: ee5567a41f68d4dc51c19ae70e8b25693a1d33fa
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Marca de subdomínios {#subdomains-branding}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_certificate_management&quot;
+>title=&quot;Sobre subdomínios e certificados SSL&quot;
+>abstract=&quot;Monitore seus subdomínios e os certificados SSL associados.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html&quot; text=&quot;Como monitorar os certificados SSL de seus subdomínios&quot;
 
 >[!IMPORTANT]
 >
@@ -28,7 +34,7 @@ Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de out
 
 A delegação de subdomínio permite que você delegue uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para uso com o Adobe Campaign. Os métodos de configuração disponíveis são:
 
-* **Delegação completa de subdomínio ao Adobe Campaign** (recomendado): O subdomínio é totalmente delegado à Adobe. A Adobe pode fornecer a Campanha como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas por email.
+* **Delegação completa de subdomínio para o Adobe Campaign** (recomendado): O subdomínio é totalmente delegado à Adobe. A Adobe pode fornecer a Campanha como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas por email.
 
 * **Uso de CNAMEs** (não recomendado e não suportado pelo Painel de controle): Crie um subdomínio e use CNAMEs para apontar para registros específicos da Adobe. Usando essa configuração, a Adobe e o cliente compartilham a responsabilidade pela manutenção do DNS.
 
@@ -36,15 +42,15 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 
 | Método de delegação | Como funciona | Nível de esforço |
 |---|---|---|
-| **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe configurará todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável por gerenciar o subdomínio e todos os registros de DNS. | Baixo |
+| **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe configurará todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros de DNS. | Baixo |
 | **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros a serem colocados em seus servidores DNS e configurará os valores correspondentes nos servidores DNS do Adobe Campaign.<br/><br/>Nesta configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 
-Informações adicionais sobre a delegação de domínio estão disponíveis na [documentação](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
+Informações adicionais sobre a delegação de domínio estão disponíveis na [presente documentação](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 Se você tiver alguma dúvida sobre os métodos de delegação de subdomínio, entre em contato com a equipe de Entrega da Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar consultoria de Entrega.
 
 **Tópicos relacionados:**
 
 * [Configurar um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Delegar subdomínios (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Delegar subdomínios (vídeo do tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Monitoramento de seus subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
