@@ -2,12 +2,19 @@
 title: Detalhes da instância
 description: Saiba como monitorar os detalhes da sua instância no Painel de controle
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Detalhes da instância {#instance-details}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesets_instancedetails&quot;
+>title=&quot;Sobre detalhes da instância&quot;
+>abstract=&quot;Veja os detalhes das instâncias do Adobe Campaign: tipos, nomes, informações de criação e possíveis recomendações de atualização.&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-classic/using/release-notes/latest-release.html&quot; text=&quot;Notas de versão do Campaign Classic&quot;
+>additional-url=&quot;https://docs.adobe.com/content/help/en/campaign-standard/using/release-notes/release-notes.html&quot; text=&quot;Notas de versão do Campaign Standard&quot;
 
 >[!CAUTION]
 >
@@ -42,7 +49,7 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
 
    >[!NOTE]
    >
-   >Todas as instâncias da Campanha são exibidas na lista do painel esquerdo. Como o recurso Detalhes da instância é dedicado somente às instâncias do Campaign Classic, a mensagem "Instância não aplicável" é exibida se você selecionar uma instância do Campaign Standard.
+   >Todas as instâncias da Campanha são exibidas na lista do painel esquerdo. Como o recurso Detalhes da instância é dedicado somente às instâncias do Campaign Classic, a mensagem &quot;Instância não aplicável&quot; é exibida se você selecionar uma instância do Campaign Standard.
 
 1. Os servidores conectados à instância são exibidos.
 
@@ -66,4 +73,4 @@ Se um de seus servidores precisar ser atualizado, consulte [esta documentação]
 
 Sua própria instância pode parecer muito diferente, e pode não ter todos os tipos de servidores, ou pode ter vários do mesmo servidor. Não ter um tipo de servidor ou outro não significa que não é possível enviar uma mensagem em tempo real ou executar outros tipos de atividades. Você pode solicitar capacidade adicional do servidor, taxas adicionais serão aplicadas.
 
-Entre em contato com o Atendimento ao cliente se você achar que alguns servidores não estão sendo exibidos na página "Detalhes da instância". Certifique-se de anotar o URL da instância específica em sua mensagem.
+Entre em contato com o Atendimento ao cliente se você achar que alguns servidores não estão sendo exibidos na página &quot;Detalhes da instância&quot;. Certifique-se de anotar o URL da instância específica em sua mensagem.
