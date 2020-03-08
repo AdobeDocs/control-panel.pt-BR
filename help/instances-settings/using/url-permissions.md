@@ -2,12 +2,18 @@
 title: Permissões de URL
 description: Saiba como gerenciar permissões de URL no Painel de controle
 translation-type: tm+mt
-source-git-commit: 8ee999b89af88a1a59956838d5722ce8fc6b3955
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Permissões de URL {#url-permissions}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesets_urlpermissions&quot;
+>title=&quot;Sobre permissões de URL&quot;
+>abstract=&quot;Gerencie os URLs aos quais as instâncias do Adobe Campaign podem se conectar.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/91206a19-d9af-4b6a-8197-0d2810a78941_1563488165.1920x1080at3000_h264.mp4&quot; text=&quot;Assista ao vídeo de demonstração&quot;
 
 >[!CAUTION]
 >
@@ -35,6 +41,11 @@ Depois que um URL é adicionado, ele é referenciado no arquivo de configuraçã
 
 ## Gerenciamento de permissões de URL {#managing-url-permissions}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_instancesets_url_add&quot;
+>title=&quot;Adicionar novo URL&quot;
+>abstract=&quot;Adicione URLs para permitir conexões com sua instância do Campaign&quot;.
+
 Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas:
 
 1. Abra o **[!UICONTROL Instances Settings]** cartão para acessar a **[!UICONTROL URL Permissions]** guia.
@@ -53,7 +64,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
    >
    >Todas as instâncias da Campanha são exibidas na lista do painel esquerdo.
    >
-   >Como o gerenciamento de permissões de URL é dedicado somente às instâncias do Campaign Classic, a mensagem "Instância não aplicável" é exibida se você selecionar uma instância do Campaign Standard.
+   >Como o gerenciamento de permissões de URL é dedicado somente às instâncias do Campaign Classic, a mensagem &quot;Instância não aplicável&quot; é exibida se você selecionar uma instância do Campaign Standard.
 
 1. Digite o URL a ser autorizado, com seu protocolo associado (http, https ou sftp).
 
@@ -67,7 +78,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    >[!NOTE]
    >
-   >O "/.*" são adicionados automaticamente ao final do URL inserido depois de ele ter sido validado, para abranger todas as subpáginas da página inserida.
+   >O &quot;/.*&quot; são adicionados automaticamente ao final do URL inserido depois de ele ter sido validado, para abranger todas as subpáginas da página inserida.
 
    ![](assets/add_url_listnew.png)
 
