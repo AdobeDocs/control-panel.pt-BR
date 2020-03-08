@@ -2,12 +2,18 @@
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
 translation-type: tm+mt
-source-git-commit: 46b78a83b1d613dc41983204ef9d9d371fb32156
+source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 
 ---
 
 
 # Gerenciamento de chaves {#key-management}
+
+>[!CONTEXTUALHELP]
+>id=&quot;cp_key_management&quot;
+>title=&quot;Sobre o gerenciamento de chaves&quot;
+>abstract=&quot;Nesta guia, você pode gerenciar suas chaves públicas.&quot;
+>additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166&quot; text=&quot;Assista ao vídeo de demonstração&quot;
 
 A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores SFTP usando um **par de chaves públicas e privadas**.
 
@@ -37,11 +43,16 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 
 ## Instalação da chave SSH {#installing-ssh-key}
 
+>[!CONTEXTUALHELP]
+>id=&quot;cp_sftp_publickey_add&quot;
+>title=&quot;Adicionar nova chave pública&quot;
+>abstract=&quot;Adicione uma nova chave pública para uma instância.&quot;
+
 >[!CAUTION]
 >
 >As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo é apenas um exemplo de como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
-1. Navegue até a **[!UICONTROL Key Management]**guia e clique no**[!UICONTROL Add new public key]** botão.
+1. Navegue até a **[!UICONTROL Key Management]** guia e clique no **[!UICONTROL Add new public key]** botão.
 
    ![](assets/key0.png)
 
@@ -66,7 +77,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
    Use o Terminal para gerar um par de chaves públicas e privadas:
    1. Digite este comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
    1. Quando solicitado, forneça um nome para a sua chave. Se o diretório .ssh não existir, o sistema criará um para você.
-   1. Digite e digite novamente uma senha quando solicitado. Também pode ser deixado em branco.
+   1. Digite, em seguida, insira novamente uma senha quando solicitado. Também pode ser deixado em branco.
    1. Um par de chaves &quot;name&quot; e &quot;name.pub&quot; é criado pelo sistema. Procure o arquivo &quot;name.pub&quot; e abra-o. Deve ter uma sequência alfanumérica terminando com o endereço de email especificado.
    **Windows:**
 
@@ -76,7 +87,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 
    ![](assets/publickey.png)
 
-1. Clique no **[!UICONTROL Save]**botão para criar a chave. O Painel de controle salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
+1. Clique no **[!UICONTROL Save]** botão para criar a chave. O Painel de controle salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
 
 Você pode usar impressões digitais para corresponder às chaves privadas salvas no computador com as chaves públicas correspondentes salvas no Painel de controle.
 
