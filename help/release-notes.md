@@ -1,7 +1,7 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 5a2c66df101516a33c194851263d309ad6f29971
+source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
 
 ---
 
@@ -13,6 +13,16 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >[!NOTE]
 >
 >Observe que o Painel de controle está disponível apenas para clientes hospedados no AWS. Nenhuma atualização é necessária para acessar o Painel de controle. Certifique-se de ser um usuário administrador para acessá-lo.
+
+## April 2020 {#april-2020}
+
+Novos recursos serão lançados no Painel de controle da campanha em abril:
+
+**Gerenciamento** de registros TXT do Google Adicione o registro de verificação do site do Google TXT a todos os seus subdomínios usados para enviar emails para endereços GMAIL por meio do Painel de controle da campanha.
+
+**O Painel de Controle de** Campanha de Monitoramento de Espaço de Banco de Dados será equipado com recursos de monitoramento de banco de dados, permitindo que você visualize a utilização de espaço de banco de dados sob demanda e ao longo do tempo.
+
+**O Painel de Controle de** Campanha de Alerta por E-mail será equipado com recursos de e-mail de alerta em tempo real, permitindo que você faça logon no Painel de Controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro.
 
 ## January 2020 {#january-2020}
 
