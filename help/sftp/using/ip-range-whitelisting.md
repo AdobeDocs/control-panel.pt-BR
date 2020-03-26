@@ -2,7 +2,7 @@
 title: Lista de permissões de intervalo IP
 description: Saiba como adicionar intervalos IP à lista de permissões para acesso aos servidores SFTP
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,11 +15,11 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Nesta guia, é possível adicionar intervalos IP à lista de permissões para estabelecer uma conexão com seus servidores SFTP. Somente os servidores SFTP aos quais você tem acesso são mostrados aqui. Entre em contato com o administrador para solicitar acesso a outros servidores SFTP.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=98&quot; text=&quot;Assista ao vídeo de demonstração&quot;
 
-Os servidores SFTP estão protegidos. Para poder acessá-los para exibir arquivos ou gravar novos arquivos, é necessário adicionar o endereço IP público do sistema ou cliente que acessa os servidores.
+Os servidores SFTP estão protegidos. Para poder acessá-los para visualização de arquivos ou gravar novos, é necessário adicionar o endereço IP público do sistema ou cliente que acessa os servidores.
 
 ## Sobre o formato CIDR {#about-cidr-format}
 
-O CIDR (Classless Inter-Domain Routing) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle.
+CIDR (Roteamento Inter-Domínio sem classe) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle.
 
 A sintaxe consiste em um endereço IP, seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
 
@@ -57,7 +57,7 @@ Para adicionar um intervalo de IP à lista de permissões, siga estas etapas:
 
    ![](assets/control_panel_add_range2.png)
 
-   >[!CAUTION]
+   >[!IMPORTANT]
    >
    >Um intervalo IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
    >
@@ -77,7 +77,7 @@ Para excluir intervalos IP da lista de permissões, selecione-os e clique no **[
 
 ## Monitoramento de alterações {#monitoring-changes}
 
-A página inicial **[!UICONTROL Job Logs]** do Painel de controle permite que você monitore todas as alterações feitas em endereços IP da lista de permissões.
+O home page **[!UICONTROL Job Logs]** no Painel de controle permite que você monitore todas as alterações feitas em endereços IP da lista de permissões.
 
 Para obter mais informações sobre a interface do Painel de controle, consulte [esta seção](../../discover/using/discovering-the-interface.md).
 
