@@ -2,7 +2,7 @@
 title: Monitorando certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -11,13 +11,13 @@ source-git-commit: ce15da4aabb0350cb9a60cc16556ffcf691fc3df
 
 É essencial monitorar seus subdomínios para garantir que todos estejam configurados corretamente para funcionar com o Adobe Campaign.
 
-A lista de subdomínios para cada uma das instâncias de produção pode ser acessada diretamente ao selecionar o **[!UICONTROL Subdomains & Certificates]**cartão.
+A lista de subdomínios para cada uma das instâncias de produção pode ser acessada diretamente ao selecionar o **[!UICONTROL Subdomains & Certificates]** cartão.
 
-A **[!UICONTROL Last verification]**coluna indica quando um subdomínio foi verificado pela última vez.** Você pode iniciar uma verificação a qualquer momento clicando em **... /**[!UICONTROL Verify subdomain]** .
+A **[!UICONTROL Last verification]** coluna indica quando um subdomínio foi verificado pela última vez. Você pode iniciar uma verificação a qualquer momento clicando em **...** / **[!UICONTROL Verify subdomain]** .
 
 ![](assets/subdomain_verification.png)
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >A Adobe não recomenda o uso de subdomínios sem data de certificado, pois isso pode significar que esses subdomínios podem estar com problemas de entrega.
 
