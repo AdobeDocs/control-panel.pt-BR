@@ -2,7 +2,7 @@
 title: Lista de permissões de IP
 description: Saiba mais sobre a lista de permissões de IP no Painel de controle para acesso a instâncias
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -15,19 +15,19 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 >abstract=&quot;Gerenciar a lista de permissões IP para acessar suas instâncias.&quot;
 >additional-url=&quot;https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4&quot; text=&quot;Assista ao vídeo de demonstração&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Esse recurso está disponível somente para instâncias do Campaign Classic.
+>Esse recurso está disponível apenas para instâncias de Campaign Classic.
 
 ## Sobre a lista de permissões de IP {#about-ip-whitelisting}
 
-Por padrão, sua instância do Adobe Campaign Classic não pode ser acessada de vários endereços IP.
+Por padrão, sua instância Adobe Campaign Classic não pode ser acessada de vários endereços IP.
 
 Se seu endereço IP não tiver sido incluído na lista de permissões, você não poderá fazer logon na instância a partir desse endereço. Da mesma forma, talvez você não consiga conectar uma API ao seu Centro de mensagens ou à sua instância de Marketing se o endereço IP não tiver sido incluído explicitamente na lista de permissões com a instância.
 
 O Painel de controle permite que você configure novas conexões para suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Para fazer isso, siga as etapas descritas abaixo.
 
-Depois que o endereço IP for exibido na lista de permissões, você poderá criar e vincular operadores do Campaign a eles para que os usuários possam acessar a instância.
+Depois que o endereço IP for exibido na lista de permissões, você poderá criar e vincular operadores de Campanha a eles para que os usuários possam acessar a instância.
 
 ## Práticas recomendadas {#best-practices}
 
@@ -35,7 +35,7 @@ Certifique-se de seguir as recomendações e limitações abaixo ao adicionar en
 
 * **Não ative o acesso IP a todos os tipos** de acesso se você não pretende que o endereço IP se conecte aos servidores RT ou à zona de segurança do AEM.
 * **Se você ativou temporariamente o acesso à sua instância para um endereço** IP, certifique-se de remover os endereços IP dos endereços IP da lista de permissões depois que não precisar mais se conectar à sua instância.
-* **Não recomendamos os endereços IP da lista de permissões de locais** públicos (aeroportos, hotéis, etc.). Use o endereço VPN da sua empresa para manter a instância sempre segura.
+* **Não recomendamos os endereços IP da lista de permissões de locais** públicos (aeroportos, hotéis, etc.). Use seu endereço VPN de empresa para manter sua instância sempre segura.
 
 ## Endereços IP da lista de permissões para acesso à Instância {#whistelisting-ip-addresses}
 
@@ -62,7 +62,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
    * **[!UICONTROL IP Range]**: O intervalo de IP que você deseja incluir na lista de permissões, no formato CIDR. Observe que um intervalo de IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
    >[!NOTE]
    >
-   >O CIDR (Classless Inter-Domain Routing) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP, seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
+   >CIDR (Roteamento Inter-Domínio sem classe) é o formato suportado ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP, seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
    >
    >Você pode procurar na Internet ferramentas online gratuitas que o ajudarão a converter o intervalo de IP disponível para o formato CIDR.
 
@@ -72,7 +72,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
 1. Especifique o tipo de acesso que deseja conceder aos endereços IP:
 
-   * **[!UICONTROL Campaign Console Access]**: Os endereços IP poderão se conectar ao console do Campaign Classic. Observe que o acesso ao Console é ativado apenas para instâncias de Marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
+   * **[!UICONTROL Campaign Console Access]**: Os endereços IP poderão se conectar ao Console de Campaign Classic. Observe que o acesso ao Console é ativado apenas para instâncias de Marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
    * **[!UICONTROL AEM connection]**: Os endereços IP AEM especificados poderão se conectar à instância de Marketing.
    * **[!UICONTROL External API connection]**: As APIs externas com os endereços IP especificados poderão se conectar à instância do Centro de mensagens e/ou Marketing (RT). Observe que a conexão com o console de instâncias de RT não está ativada.
    ![](assets/ip_whitelist_acesstype.png)
