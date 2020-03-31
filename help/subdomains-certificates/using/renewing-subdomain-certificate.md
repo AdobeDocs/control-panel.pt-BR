@@ -2,7 +2,7 @@
 title: Renovando um certificado SSL de subdomínio
 description: Saiba como renovar os certificados SSL de seus subdomínios
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: f08b0e68cf0a208b1385052510c06ca1eb679e63
 
 ---
 
@@ -62,7 +62,7 @@ Para gerar uma solicitação de assinatura de certificado (CSR), siga estas etap
 
    * **[!UICONTROL Organization]**: nome oficial da organização.
    * **[!UICONTROL Organization Unit]**: unidade vinculada ao subdomínio (por exemplo: Marketing, TI).
-   * **[!UICONTROL Instance]** (pré-cheia): URL da instância Campaign associada ao subdomínio.
+   * **[!UICONTROL Instance]** (pré-cheia): URL da instância de Campanha associada ao subdomínio.
    ![](assets/renewal3.png)
 
 1. Selecione os subdomínios a serem incluídos no CSR e clique em **[!UICONTROL OK]**.
@@ -99,7 +99,7 @@ Depois que um certificado SSL for adquirido, você poderá instalá-lo em sua in
 
 * A Solicitação de assinatura de certificado (CSR) deve ter sido gerada a partir do Painel de controle. Caso contrário, você não poderá instalar o certificado a partir do Painel de controle.
 * A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi delegado à Adobe. Por exemplo, ele não pode conter mais subdomínios que o que foi delegado.
-* O certificado deve ter uma data atual. Não é possível instalar certificados com datas futuras e eles não devem estar expirados (ou seja, datas de início e término válidas).
+* O certificado deve ter uma data atual. Não é possível instalar certificados com datas futuras e eles não devem estar expirados (ou seja, datas de start e término válidas).
 * O certificado deve ser emitido por uma autoridade de certificação (CA) confiável, como Comodo, DigiCert, Goaddy etc.
 * O tamanho do certificado deve ser de 2048 bits e o algoritmo deve ser RSA.
 * O certificado deve estar no formato X.509 PEM.
@@ -124,6 +124,10 @@ Para instalar o certificado, siga estas etapas:
 1. Selecione o arquivo .zip que contém o certificado a ser instalado e clique em **[!UICONTROL Submit]**.
 
    ![](assets/install2.png)
+
+>[!NOTE]
+>
+>O certificado será instalado em todos os domínios/subdomínios incluídos no CSR. Nenhum domínio/subdomínio adicional presente no certificado será considerado.
 
 Depois que o certificado SSL é instalado, a data de expiração e o ícone de status do certificado são atualizados de acordo.
 
