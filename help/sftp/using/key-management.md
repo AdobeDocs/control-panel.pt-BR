@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 
 ---
 
@@ -35,7 +35,7 @@ Certifique-se de usar sempre a mesma autenticação para se conectar ao servidor
 
 Em casos muito raros, a autenticação baseada em senha é ativada em alguns servidores SFTP. A Adobe recomenda usar a autenticação baseada em chave, pois esse método é mais eficiente e seguro. Você pode solicitar alternar para autenticação baseada em chave entrando em contato com o Atendimento ao cliente.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >Se a senha expirar, mesmo se houver chaves instaladas no sistema, você não poderá fazer logon em suas contas SFTP.
 
@@ -48,7 +48,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 >title=&quot;Adicionar nova chave pública&quot;
 >abstract=&quot;Adicione uma nova chave pública para uma instância.&quot;
 
->[!CAUTION]
+>[!IMPORTANT]
 >
 >As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo é apenas um exemplo de como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
