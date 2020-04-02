@@ -1,25 +1,36 @@
 ---
 title: Alerta por email
-description: Saiba mais sobre como xxxx no Painel de controle
+description: Saiba como receber notificações por email em caso de problemas com as instâncias de Campanha
 translation-type: tm+mt
-source-git-commit: cff541a89363e3410e604a9ef620482e826c53db
+source-git-commit: 819d9257775e244c5a84e214a86f324830e0ad74
 
 ---
 
 
 # Alerta por email {#email-alerting}
 
+## Sobre alertas de email {#about-email-alerts}
+
 Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle está equipado com a funcionalidade de alertas por email em tempo real.
 
-Depois de assinar os alertas por email, o Painel de controle notificará você sobre problemas do sistema e recomendará as ações a serem tomadas.
+Para assinar esses alertas, siga estas etapas:
 
->[!NOTE]
->
->Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são administradores.
+1. Clique no **[!UICONTROL Alerting notifications]** botão disponível em qualquer local no Painel de controle e, em seguida, clique em **[!UICONTROL Subscribe]**.
 
-A lista das notificações é a seguinte:
+![](assets/subscribing.png)
 
-* xxxx
-* xxxx
-* xxxx
-* xxxx
+1. Um email é enviado para confirmar sua subscrição.
+
+![](assets/email_subscription.png)
+
+Após a assinatura, o Painel de controle notificará sobre problemas do sistema e recomendará as ações a serem tomadas.
+
+Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são administradores.
+
+A lista das indicações é a seguinte:
+
+* **Uso** do armazenamento SFTP: Um de seus servidores SFTP alcançou 80% ou mais de sua capacidade. Consulte Gerenciamento [de armazenamentos](../../sftp/using/sftp-storage-management.md)SFTP.
+
+* **Uso** do banco de dados: Um dos bancos de dados de suas instâncias alcançou 80% ou mais de sua capacidade. Consulte Monitoramento [de](../../performance-monitoring/using/database-monitoring.md)banco de dados.
+
+* **Expiração** do certificado SSL: Um dos certificados SSL de seus subdomínios expirou ou vai expirar em 60 dias ou menos. Consulte [Monitoramento de certificados](../../subdomains-certificates/using/monitoring-ssl-certificates.md)SSL de subdomínios.
