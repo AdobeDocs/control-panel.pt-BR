@@ -2,7 +2,7 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para suas instâncias de campanha
 translation-type: tm+mt
-source-git-commit: 9bcf83c85628a59671cd5580144d86bee88e35de
+source-git-commit: 43d5d522c29586b9898d924dd164435ee8fbb614
 
 ---
 
@@ -101,12 +101,13 @@ No final do processo, os subdomínios serão configurados para funcionar com sua
 >
 >Por padrão, a caixa de entrada &quot;Responder&quot; no Painel de controle está configurada para apagar e-mails e não é revisável. Se quiser monitorar sua caixa de entrada &quot;Responder&quot; para suas campanhas de marketing, não use este endereço.
 
+Para obter mais detalhes sobre o subdomínio, clique nos botões **[!UICONTROL Subdomain details]** e **[!UICONTROL Sender info]** .
 
-Para obter mais detalhes sobre o subdomínio, clique no **[!UICONTROL Subdomain Details]** botão.
+![](assets/detail_buttons.png)
 
-![](assets/subdomain_details_general.png)
+![](assets/subdomain_details.png)
 
-![](assets/subdomains_details_senderinfo.png)
+![](assets/sender_info.png)
 
 >[!IMPORTANT]
 >
