@@ -2,7 +2,7 @@
 title: Monitoramento de banco de dados
 description: Saiba como monitorar seu banco de dados de Campanhas no Painel de controle
 translation-type: tm+mt
-source-git-commit: f995e0dc51fd95d00fdcaa2eb347b2aedfdef60d
+source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
 
 ---
 
@@ -21,11 +21,13 @@ O sobrefluxo de um banco de dados de instância pode levar a vários problemas (
 
 >[!NOTE]
 >
->Observe que pode haver algumas discrepâncias entre a capacidade de espaço do banco de dados atual e a quantidade especificada no contrato por períodos de tempo distintos para garantir um desempenho mais alto.
+>A quantidade de espaço do banco de dados fornecida conforme mostrado no Painel de Controle pode não refletir a quantidade de espaço do Banco de Dados especificada em seu contrato. Frequentemente, um espaço maior no banco de dados é fornecido temporariamente para garantir o desempenho do sistema.
 
 ## Monitoramento do uso do banco de dados {#monitoring-instances-database}
 
-1. Abra o **[!UICONTROL Health Monitoring]** cartão e selecione a **[!UICONTROL Databases]** guia.
+O Painel de controle permite que você monitore o uso do banco de dados para cada uma das instâncias de Campanha. Para fazer isso, siga as etapas abaixo.
+
+1. Abra o **[!UICONTROL Performance Monitoring]** cartão e selecione a **[!UICONTROL Databases]** guia.
 
 1. Selecione a instância desejada no **[!UICONTROL Instance List]**.
 
@@ -38,6 +40,10 @@ O sobrefluxo de um banco de dados de instância pode levar a vários problemas (
    Passar o mouse sobre o gráfico permite obter informações detalhadas sobre o período selecionado.
 
    ![](assets/databases_dashboard_detail.png)
+
+>[!NOTE]
+>
+>Você também pode receber notificações quando um de seus bancos de dados estiver atingindo sua capacidade. Para fazer isso, inscreva-se em alertas de [email](../../performance-monitoring/using/email-alerting.md)
 
 ## Impedindo a sobrecarga do banco de dados {#preventing-database-overload}
 
@@ -52,7 +58,7 @@ A seção abaixo fornece recursos úteis de documentações de Campanha para aju
 
 **Manutenção do banco de dados**
 
-* Fluxo de trabalho técnico de limpeza de banco de dados ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflowshtml#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
+* Fluxo de trabalho técnico de limpeza de banco de dados ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guia](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html) de manutenção do banco de dados (Campaign Classic)
 * [Solução de problemas](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html) de desempenho do banco de dados (Campaign Classic)
 * [Opções](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database) relacionadas ao banco de dados (Campaign Classic)
