@@ -2,7 +2,7 @@
 title: Monitoramento de banco de dados
 description: Saiba como monitorar seu banco de dados de Campanhas no Painel de controle
 translation-type: tm+mt
-source-git-commit: 296cbcfa8588b05c03452afdb5bdbad8da1595d0
+source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
 
 ---
 
@@ -35,7 +35,11 @@ O Painel de controle permite que você monitore o uso do banco de dados para cad
 
    ![](assets/databases_dashboard.png)
 
-   A área inferior fornece uma representação gráfica da utilização do banco de dados nos últimos 7 dias. Você pode alterar o período de tempo exibido usando os filtros disponíveis no canto superior direito.
+   A área inferior fornece uma representação gráfica da utilização mínima, média e máxima do banco de dados nos últimos 7 dias, bem como o limite de 90% de utilização do banco de dados, representado por uma curva pontilhada vermelha.
+
+   Você pode alterar o período de tempo exibido usando os filtros disponíveis no canto superior direito.
+
+   Para melhorar a leitura, você também pode realçar uma ou várias curvas no gráfico. Para fazer isso, selecione-os na **[!UICONTROL Aggregation Type]** legenda.
 
    Passar o mouse sobre o gráfico permite obter informações detalhadas sobre o período selecionado.
 
@@ -43,7 +47,7 @@ O Painel de controle permite que você monitore o uso do banco de dados para cad
 
 >[!NOTE]
 >
->Você também pode receber notificações quando um de seus bancos de dados estiver atingindo sua capacidade. Para fazer isso, inscreva-se em alertas de [email](../../performance-monitoring/using/email-alerting.md)
+>Além desse painel, você pode receber notificações quando um de seus bancos de dados estiver atingindo sua capacidade. Para fazer isso, inscreva-se em alertas de [email](../../performance-monitoring/using/email-alerting.md)
 
 ## Impedindo a sobrecarga do banco de dados {#preventing-database-overload}
 
