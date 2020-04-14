@@ -1,30 +1,28 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 5c35db25719830d196cc87ba0142c348bd8cdd92
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
 
-# Versões do Painel de controle {#control-panel-releases}
+# Control Panel releases {#control-panel-releases}
 
 Aqui você encontrará informações sobre as versões mais recentes do Painel de controle.
 
 >[!NOTE]
 >
->Observe que o Painel de controle está disponível apenas para clientes hospedados no AWS. Nenhuma atualização é necessária para acessar o Painel de controle. Certifique-se de ser um usuário administrador para acessá-lo.
+>Observe que o Painel de controle está disponível apenas para clientes hospedados no AWS. Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
 
 ## April 2020 {#april-2020}
 
-Novos recursos serão lançados no Painel de controle da campanha em abril:
+**Gerenciamento** de registros TXT do GoogleAdicione o registro de verificação do site do Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha.
 
-**Gerenciamento** de registros TXT do Google Adicione o registro de verificação do site do Google TXT a todos os seus subdomínios usados para enviar emails para endereços GMAIL por meio do Painel de controle da campanha.
+**O Painel de Controle de Campanha de monitoramento** de espaço de banco de dados está equipado com recursos de monitoramento de banco de dados, permitindo que você visualização a utilização de espaço de banco de dados sob demanda e ao longo do tempo.
 
-**O Painel de Controle de** Campanha de Monitoramento de Espaço de Banco de Dados será equipado com recursos de monitoramento de banco de dados, permitindo que você visualize a utilização de espaço de banco de dados sob demanda e ao longo do tempo.
+**O Painel de Controle de** Campanha de Alertas por E-mail está equipado com recursos de alertas por e-mail em tempo real, permitindo que você efetue logon no Painel de Controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro.
 
-**O Painel de Controle de** Campanha de Alerta por E-mail será equipado com recursos de e-mail de alerta em tempo real, permitindo que você faça logon no Painel de Controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro.
-
-## January 2020 {#january-2020}
+## Janeiro de 2020 {#january-2020}
 
 *22 de janeiro de 2020*
 
@@ -42,12 +40,12 @@ Para obter mais informações, consulte estas páginas:
 
 *16 de setembro de 2019*
 
-Adicionamos novos recursos para usuários administradores a endereços IP de lista de permissões para conectar-se a instâncias do Campaign Classic.
-Além disso, os usuários administradores agora podem exibir a lista de instâncias do Campaign Classic e a qualificação para atualizações de criação.
+Adicionamos novos recursos para os usuários Administradores na lista de permissões de endereços IP para se conectar às instâncias do Campaign Classic.
+Além disso, os usuários administradores agora podem visualização a lista de instâncias de Campaign Classic e a qualificação para atualizações de criação.
 
-For more information, refer to the [dedicated documentation](instances-settings/using/ip-whitelisting-instance-access.md).
+Para obter mais informações, consulte a [documentação dedicada](instances-settings/using/ip-whitelisting-instance-access.md).
 
-## August 2019 {#august-2019}
+## Agosto de 2019 {#august-2019}
 
 Adicionamos novos recursos para que os usuários administradores recebam notificações antes que os certificados SSL de seus domínios expirem. Para obter mais informações, consulte a [documentação detalhada](subdomains-certificates/using/monitoring-ssl-certificates.md).
 
@@ -55,6 +53,6 @@ Além disso, agora os usuários administradores podem excluir chaves SSH que for
 
 ## Julho de 2019 {#july-2019}
 
-Adicionamos novos recursos para capacitar usuários administradores a assumir maior controle das configurações de instância do Campaign Classic. Os novos recursos do Painel de controle incluem a habilidade de adicionar URLs aos quais o Adobe Campaign se conecta para transferência de dados/arquivos.
+Adicionamos novos recursos para capacitar os usuários administradores a assumir maior controle das configurações de instância do Campaign Classic. Os novos recursos do Painel de controle incluem a habilidade de adicionar URLs aos quais o Adobe Campaign se conecta para transferência de dados/arquivos.
 
 Para obter mais informações, consulte a [documentação detalhada](instances-settings/using/url-permissions.md).
