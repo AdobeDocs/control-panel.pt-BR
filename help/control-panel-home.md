@@ -1,7 +1,7 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
+source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
 
 ---
 
@@ -12,13 +12,17 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
 
 ## Novidades
 
-* [Monitoramento de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+* [Gerenciamento de registros TXT do Google](subdomains-certificates/using/managing-txt-records.md)
 
-   Saiba como monitorar a data de expiração dos certificados SSL dos subdomínios
+   Adicione o registro de verificação do site Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha.
 
-* [Delegação de subdomínios](subdomains-certificates/using/subdomains-branding.md)
+* [Monitoramento do espaço do banco de dados](performance-monitoring/using/database-monitoring.md)
 
-   Saiba mais sobre a marca de subdomínios e as etapas principais para delegar subdomínios à Adobe usando o Painel de controle
+   Visualização da utilização do espaço do banco de dados sob demanda e ao longo do tempo.
+
+* [Alerta por email](performance-monitoring/using/email-alerting.md)
+
+   Faça logon no Painel de controle e inscreva-se para receber alertas quando seu sistema estiver em risco de deterioração do desempenho, ou será necessária uma ação para garantir alto desempenho no futuro.
 
 ## Recursos adicionais {#additional-resources}
 
@@ -32,7 +36,7 @@ source-git-commit: 5a7200038abd647a3e77d043d14579590449218c
         </td>
         <td><b>Campaign Classic</b><br/>
         <ul>
-            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Vídeos de tutoriais do Painel de controle para o Campaign Classic</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/control-panel-overview.html">Vídeos tutoriais do Painel de controle para o Campaign Classic</a></li>
             <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Documentação do produto Campaign Classic</a></li>
         </ul>
         </td>
