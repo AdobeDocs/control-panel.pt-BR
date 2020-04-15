@@ -2,12 +2,16 @@
 title: Alerta por email
 description: Saiba como receber notificações por email em caso de problemas com as instâncias de Campanha
 translation-type: tm+mt
-source-git-commit: e79ad202a1d3c3eb8c9944a352cb7d614953bcd4
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # Alerta por email {#email-alerting}
+
+>[!IMPORTANT]
+>
+>O e-mail de alerta do Painel de controle estará disponível no final de abril.
 
 ## Sobre alertas de email {#about-email-alerts}
 
