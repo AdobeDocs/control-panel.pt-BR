@@ -2,12 +2,16 @@
 title: Monitoramento de banco de dados
 description: Saiba como monitorar seu banco de dados de Campanhas no Painel de controle
 translation-type: tm+mt
-source-git-commit: 1facd377fd1276b6bf87b52c69ff599f2ecf0228
+source-git-commit: 77165e3f408f75dfb57434111b07b20ad9caab5e
 
 ---
 
 
 # Monitoramento de banco de dados {#database-monitoring}
+
+>[!IMPORTANT]
+>
+>O monitoramento do banco de dados pelo Painel de Controle estará disponível no final de abril.
 
 ## Sobre bancos de dados de instâncias {#about-instances-databases}
 
