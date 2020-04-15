@@ -2,16 +2,12 @@
 title: Sobre o monitoramento de desempenho
 description: Saiba como monitorar o desempenho de instâncias no Painel de controle
 translation-type: tm+mt
-source-git-commit: 135d8101c1dc3f902844de08e7382a2eb8b548ee
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
 
 # Sobre o monitoramento de desempenho {#about-performance-monitoring}
-
->[!IMPORTANT]
->
->O monitoramento de desempenho do Painel de controle estará disponível no final de abril.
 
 O Painel de controle fornece várias funcionalidades para ajudá-lo a monitorar suas instâncias e garantir o desempenho ideal.
 
