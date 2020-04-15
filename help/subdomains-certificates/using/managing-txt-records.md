@@ -2,7 +2,7 @@
 title: Gerenciamento de registros TXT
 description: Saiba como gerenciar registros TXT para verificação de propriedade de domínio.
 translation-type: tm+mt
-source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
+source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
 
 ---
 
@@ -13,10 +13,6 @@ source-git-commit: 5a70141e0198946928723b34c9097c5cf8a24f97
 >id="cp_siteverification_add"
 >title="Gerenciamento de registros TXT"
 >abstract="Alguns serviços como o Google exigem que você adicione um registro TXT às suas configurações de domínio para verificar se você é o proprietário do domínio."
-
->[!IMPORTANT]
->
->Os gerenciamento de registros TXT do Painel de controle estarão disponíveis no final de abril.
 
 ## Sobre registros TXT {#about-txt-records}
 
