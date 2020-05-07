@@ -2,7 +2,10 @@
 title: Gerenciamento de registros TXT
 description: Saiba como gerenciar registros TXT para verificação de propriedade de domínio.
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 0%
 
 ---
 
@@ -52,5 +55,3 @@ Para excluir um registro, selecione-o na lista de registros e clique no botão r
 >[!NOTE]
 >
 >O único registro que você pode excluir da lista de registros DNS é aquele que você adicionou anteriormente (no nosso caso, o registro TXT do Google).
-
-
