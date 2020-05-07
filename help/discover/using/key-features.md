@@ -2,7 +2,10 @@
 title: Acesso ao Painel de Controle
 description: Saiba como acessar o Painel de controle
 translation-type: tm+mt
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '274'
+ht-degree: 8%
 
 ---
 
@@ -10,12 +13,12 @@ source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
 # Principais recursos {#key-features}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_overview&quot;
->title=&quot;Sobre o Painel de controle&quot;
->abstract=&quot;A página inicial do Painel de controle fornece acesso a todas as ações que podem ser executadas nas instâncias da Campanha.&quot;
->additional-url=&quot;https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html&quot; text=&quot;Descobrindo a interface&quot;
+>id="cp_overview"
+>title="Sobre o Painel de controle"
+>abstract="O home page do Painel de controle fornece acesso a todas as ações que podem ser executadas nas instâncias de Campanha."
+>additional-url="https://docs.adobe.com/content/help/en/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descobrir a interface"
 
-O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo que você gerencie as configurações e rastreie os usos de cada uma de suas instâncias. Sua interface intuitiva permite que você monitore facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como endereços IP de lista de permissões, monitoramento de armazenamento SFTP, gerenciamento de chaves e muito mais.
+O Painel de controle ajuda você a aumentar a eficiência do seu trabalho como administrador do Adobe Campaign Standard e/ou Classic, permitindo que você gerencie as configurações e rastreie os usos de cada uma das instâncias. Sua interface intuitiva permite que você monitore facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como a lista de endereços IP, o monitoramento de armazenamentos SFTP, o gerenciamento de chaves e muito mais.
 
 Principais benefícios:
 
@@ -24,9 +27,9 @@ Principais benefícios:
 * Aumente a segurança controlando as configurações de acesso de acordo com a necessidade.
 
 >[!NOTE]
->O Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS. As etapas para conceder acesso de Administrador a um usuário estão detalhadas na [seção](../../discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nessa seção](../../faq.md).
+>O Painel de controle é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são suportados. As etapas para conceder acesso de Administrador a um usuário estão detalhadas na [seção](../../discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nessa seção](../../faq.md).
 >
->Observe que a atualização para a versão mais recente do Campaign não é necessária para acessar o Painel de controle.
+>Observe que a atualização para a compilação de Campanha mais recente não é necessária para acessar o Painel de controle.
 
 <table>
 <tr>
@@ -48,7 +51,7 @@ Principais benefícios:
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gerenciar suas configurações de instância</strong></a></div>
-        <br/><em>Saiba como gerenciar as configurações de instâncias (somente o Campaign Classic)</em>
+        <br/><em>Saiba como gerenciar as configurações de instâncias (somente Campaign Classic)</em>
     </td>
 </tr>
 </table>
