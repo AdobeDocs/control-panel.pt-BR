@@ -2,7 +2,10 @@
 title: Perguntas frequentes do painel de controle
 description: Questões comuns relacionadas com o Painel de Controlo
 translation-type: tm+mt
-source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 5%
 
 ---
 
@@ -15,11 +18,11 @@ source-git-commit: ddf4ca24c1583e388c07aae110522627220d5e66
 
 É uma ID exclusiva que é fornecida para sua instância quando você faz logon pela primeira vez na Adobe Experience Cloud. Deve estar no formato: xxx@AdobeOrg.
 
-Para obter mais informações, consulte a documentação [da](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html)Adobe Experience Cloud.
+Para obter mais informações, consulte a documentação [da](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html)Adobe Experience Cloud.
 
 **Onde posso encontrar minha ID organizacional IMS?**
 
-One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration**[!UICONTROL Quick Access]** section. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
+One way is to navigate to [Adobe Experience Cloud Home](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Org ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
 
 A outra maneira é iniciar o **Admin Console**. A ID de organização do IMS estará visível no URL; ela deve ser semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -27,22 +30,22 @@ A outra maneira é iniciar o **Admin Console**. A ID de organização do IMS est
 
 Para que você gerencie as configurações da sua instância, queremos garantir que você esteja obtendo as informações corretas para a instância correta, caso esteja usando várias instâncias para a sua empresa.
 
-**E se eu tiver várias IDs Org IMS?**
+**E se eu tiver várias IDs de Org IMS?**
 
-Você pode ter mais de uma ID de organização IMS se tiver acesso a várias soluções da Adobe. Nesse caso, a ID de organização IMS correta que você deve usar é a que você vê na instância do Adobe Campaign.
+Você pode ter mais de uma ID de organização IMS se tiver acesso a várias soluções da Adobe. Nesse caso, a ID de organização IMS correta que você deve usar é aquela que você vê em sua instância do Adobe Campaign.
 
 >[!NOTE]
 >
->Se você tiver a mesma ID de organização IMS para o Adobe Campaign e o Adobe Analytics, isso é ótimo. Ter uma ID de organização IMS entre o Analytics e o Campaign é um requisito se você planeja integrar as soluções para aproveitar os casos de uso complexo, como abandono de carrinho de compras (para AA + AC).
+>Se você tiver a mesma ID de empresa IMS para Adobe Campaign e Adobe Analytics, isso é ótimo. Ter uma ID de organização IMS entre o Analytics e a Campanha é um requisito se você planeja integrar as soluções para aproveitar os casos de uso complexo, como abandono de carrinho de compras (para AA + AC).
 >
->Se você tiver IDs de organização IMS diferentes para o Adobe Campaign e o Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
+>Se você tiver IDs de organização IMS diferentes para Adobe Campaign e Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
 
-**Como posso saber se minha instância do Adobe Campaign está hospedada no AWS ou não?**
+**Como posso saber se minha instância de Adobe Campaign está hospedada no AWS ou não?**
 
 Para verificar se sua instância está hospedada no AWS, siga estas etapas:
 
-1. Recupere seu URL de logon. É o URL que você usa para fazer logon na instância do Campaign, que geralmente termina com &quot;.campaign.adobe.com&quot; ou &quot;.neolane.net&quot;.
-1. Abra o terminal e execute uma **[!DNL nslookup]**operação no URL de logon.
+1. Recupere seu URL de logon. É o URL que você usa para fazer logon na instância da Campanha, que geralmente termina com &quot;.campanha.adobe.com&quot; ou &quot;.neolane.net&quot;.
+1. Abra o terminal e execute uma **[!DNL nslookup]** operação no URL de logon.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
 
@@ -79,7 +82,7 @@ Para verificar se sua instância está hospedada no AWS, siga estas etapas:
 
 >[!NOTE]
 >
->Se você deseja migrar para o AWS, inicie o processo entrando em contato com seu Gerente de sucesso do cliente.
+>Se você deseja migrar para o AWS, start o processo entrando em contato com o Gerente de sucesso do cliente.
 
 ## Painel de controle {#control-panel}
 
@@ -89,17 +92,17 @@ O Painel de controle permite que os administradores de produtos gerenciem direta
 
 **Quais são alguns dos recursos atuais do Painel de controle?**
 
-O Painel de controle permite rastrear o armazenamento, a lista de permissões de IPs e gerenciar chaves SSH para seus servidores SFTP por conta própria, com base em suas necessidades e outras ações.
+O Painel de controle permite que você rastreie armazenamentos, listas de permissões de IPs e gerencie chaves SSH para seus servidores SFTP por conta própria, com base em suas necessidades e outras ações.
 
 Para obter mais informações, consulte a documentação de ações suportadas pelo Painel de controle.
 
-**O Painel de controle é somente para o Adobe Campaign?**
+**O Painel de controle é apenas para Adobe Campaign?**
 
-Sim, você só poderá gerenciar as configurações do Adobe Campaign no Painel de controle.
+Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Painel de controle.
 
 **Posso usar o Painel de controle?**
 
-O Painel de controle está aberto somente para administradores de produtos de nossos clientes atuais que têm o Adobe Campaign hospedado no AWS.
+O Painel de controle está aberto somente para administradores de produtos de nossos clientes atuais que possuem Adobe Campaign no AWS. Observe que ambientes híbridos ainda não são suportados.
 
 Se você não é um administrador, mas deseja acessá-lo, entre em contato com o administrador do produto para ajudá-lo a adicioná-lo como administrador.
 
