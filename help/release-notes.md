@@ -1,7 +1,10 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: f59be0be3b183dd453ba3cc8ee8c70887e65e6e3
+source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 34%
 
 ---
 
@@ -12,9 +15,9 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 >[!NOTE]
 >
->Observe que o Painel de controle está disponível apenas para clientes hospedados no AWS. Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
+>Observe que o Painel de controle está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são suportados. . Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
 
-## April 2020 {#april-2020}
+## Abril de 2020 {#april-2020}
 
 **Gerenciamento** de registros TXT do GoogleAdicione o registro de verificação do site do Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha.
 
