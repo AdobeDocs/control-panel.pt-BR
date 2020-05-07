@@ -2,9 +2,9 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 385f1c19b43d30e34d55ae655018e61aa1d2dc04
+source-git-commit: d44c0557904f0e6f6688c12687fbf84e42553d6b
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1028'
 ht-degree: 3%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 3%
 
 # Gerenciamento de chaves GPG {#gpg-keys-management}
 
-## Sobre a criptografia GPG {about-gpg-encry}
+## Sobre criptografia GPG {#about-gpg-encryption}
 
 A criptografia GPG permite proteger seus dados usando um sistema de pares de chaves públicas-privadas que seguem a especificação do [OpenPGP](https://www.openpgp.org/about/standard/) .
 
