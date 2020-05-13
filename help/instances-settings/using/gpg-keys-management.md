@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 2c0bd8f3583423b3b2f981390a32416e8bbcbc4a
+source-git-commit: 59b91342b6bec1f78fce87b973d9f2d32cd5c698
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
@@ -65,7 +65,7 @@ O Painel de controle permite que você criptografe os dados que saem de sua inst
 
 Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferramenta de criptografia PGP e instalar a chave pública no Painel de controle. Você poderá criptografar os dados antes de enviá-los da sua instância. Para fazer isso, siga estas etapas:
 
-1. Gere um par de chaves públicas/privadas usando uma ferramenta de criptografia GPG após a especificação [OpenPGP](https://www.openpgp.org/about/standard/). Para fazer isso, instale um utilitário GPG ou um software GNuPG.
+1. Gere um par de chaves públicas/privadas usando uma ferramenta de criptografia GPG após a especificação [OpenPGP](https://www.openpgp.org/about/standard/). Para fazer isso, instale um utilitário GPG ou software GNuGP.
 
    >[!NOTE]
    >
@@ -85,7 +85,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
    * **senha**
    ![](assets/gpg_command.png)
 
-1. Depois de confirmado, o script gerará uma chave que pode ser exportada para um arquivo ou colada diretamente no Painel de controle. Para exportar o arquivo, execute esse comando seguido do ponto de identificação da chave que você gerou.
+1. Depois de confirmado, o script gerará uma chave que pode ser exportada para um arquivo ou colada diretamente no Painel de controle. Para exportar o arquivo, execute esse comando seguido da impressão digital da chave que você gerou.
 
    `gpg -a --export <fingerprint>`
 
@@ -105,7 +105,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
 
 1. Clique no botão **!UICONTROL Install Key]**.
 
-Quando a chave pública estiver instalada, ela será exibida na lista. Você pode usar o **...** para baixá-lo ou copiar a impressão digital.
+Quando a chave pública estiver instalada, ela será exibida na lista. Você pode usar o **...** para baixá-lo ou copiar sua impressão digital.
 
 ![](assets/gpg_install_download.png)
 
@@ -141,7 +141,7 @@ Para gerar um par de teclas no Painel de controle, siga estas etapas:
 
 Depois que o par de chaves é gerado, a chave pública é exibida na lista. Observe que os pares de chaves de descriptografia são gerados sem data de expiração.
 
-Você pode usar o **...** para baixar a chave pública ou copiar o dedo.
+Você pode usar o **...** para baixar a chave pública ou copiar sua impressão digital.
 
 ![](assets/gpg_generate_list.png)
 
