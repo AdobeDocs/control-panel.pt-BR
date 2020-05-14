@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
+source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 34%
+source-wordcount: '401'
+ht-degree: 31%
 
 ---
 
@@ -15,15 +15,31 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 >[!NOTE]
 >
->Observe que o Painel de controle está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são suportados. . Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
+>Observe que o Painel de controle está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são suportados. Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
+
+## Maio de 2020 (#may-2020)
+
+**Gerenciamento de chaves GPG**
+
+Instale e/ou gere chaves GPG em uma instância de marketing, para criptografar dados enviados da Campanha e descriptografar dados recebidos. [Leia mais](../..//instances-settings/using/gpg-keys-management.md)
+
+**Gerenciamento de certificados para subdomínios CNAME**
+
+O Painel de controle agora permite que você renove os certificados SSL de seus subdomínios que foram delegados com o método CNAME. [Leia mais](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Abril de 2020 {#april-2020}
 
-**Gerenciamento** de registros TXT do GoogleAdicione o registro de verificação do site do Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha.
+**Gerenciamento de registros TXT do Google**
 
-**O Painel de Controle de Campanha de monitoramento** de espaço de banco de dados está equipado com recursos de monitoramento de banco de dados, permitindo que você visualização a utilização de espaço de banco de dados sob demanda e ao longo do tempo.
+Adicione o registro de verificação do site Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha. [Leia mais](../../subdomains-certificates/using/managing-txt-records.md)
 
-**O Painel de Controle de** Campanha de Alertas por E-mail está equipado com recursos de alertas por e-mail em tempo real, permitindo que você efetue logon no Painel de Controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro.
+**Monitoramento do espaço do banco de dados**
+
+O Painel de Controle de Campanha está equipado com recursos de monitoramento de banco de dados, permitindo que você visualização a utilização do espaço do banco de dados sob demanda e ao longo do tempo. [Leia mais](../../performance-monitoring/using/database-monitoring.md)
+
+**Alerta por email**
+
+O Painel de controle de Campanha está equipado com recursos de e-mail de alerta em tempo real, permitindo que você faça logon no Painel de controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro. [Leia mais](../../performance-monitoring/using/email-alerting.md)
 
 ## Janeiro de 2020 {#january-2020}
 
