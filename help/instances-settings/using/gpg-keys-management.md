@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 110e77e00fcc0ea893fa91c3b2d3d8788216a8dd
+source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
 workflow-type: tm+mt
 source-wordcount: '1028'
 ht-degree: 3%
@@ -83,7 +83,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
    * **comentário**: adicionar um rótulo ao campo de comentário permite identificar facilmente a tecla na lista de teclas do Painel de controle.
    * **expiração**: Data ou &quot;0&quot; para nenhuma data de expiração.
    * **senha**
-   ![](assets/gpg_command.png)
+   ![](assets/do-not-localize/gpg_command.png)
 
 1. Depois de confirmado, o script gerará uma chave que pode ser exportada para um arquivo ou colada diretamente no Painel de controle. Para exportar o arquivo, execute esse comando seguido da impressão digital da chave que você gerou.
 
