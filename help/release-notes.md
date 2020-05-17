@@ -1,7 +1,7 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 88fd5b8853864ed25a3c6f2dfb5da718d0fc8d11
+source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 31%
@@ -21,25 +21,25 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 **Gerenciamento de chaves GPG**
 
-Instale e/ou gere chaves GPG em uma instância de marketing, para criptografar dados enviados da Campanha e descriptografar dados recebidos. [Leia mais](../..//instances-settings/using/gpg-keys-management.md)
+Instale e/ou gere chaves GPG em uma instância de marketing, para criptografar dados enviados da Campanha e descriptografar dados recebidos. [Leia mais](instances-settings/using/gpg-keys-management.md)
 
 **Gerenciamento de certificados para subdomínios CNAME**
 
-O Painel de controle agora permite que você renove os certificados SSL de seus subdomínios que foram delegados com o método CNAME. [Leia mais](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+O Painel de controle agora permite que você renove os certificados SSL de seus subdomínios que foram delegados com o método CNAME. [Leia mais](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Abril de 2020 {#april-2020}
 
 **Gerenciamento de registros TXT do Google**
 
-Adicione o registro de verificação do site Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha. [Leia mais](../../subdomains-certificates/using/managing-txt-records.md)
+Adicione o registro de verificação do site Google TXT a todos os seus subdomínios usados para enviar emails para endereços Gmail por meio do Painel de controle de Campanha. [Leia mais](subdomains-certificates/using/managing-txt-records.md)
 
 **Monitoramento do espaço do banco de dados**
 
-O Painel de Controle de Campanha está equipado com recursos de monitoramento de banco de dados, permitindo que você visualização a utilização do espaço do banco de dados sob demanda e ao longo do tempo. [Leia mais](../../performance-monitoring/using/database-monitoring.md)
+O Painel de Controle de Campanha está equipado com recursos de monitoramento de banco de dados, permitindo que você visualização a utilização do espaço do banco de dados sob demanda e ao longo do tempo. [Leia mais](performance-monitoring/using/database-monitoring.md)
 
 **Alerta por email**
 
-O Painel de controle de Campanha está equipado com recursos de e-mail de alerta em tempo real, permitindo que você faça logon no Painel de controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro. [Leia mais](../../performance-monitoring/using/email-alerting.md)
+O Painel de controle de Campanha está equipado com recursos de e-mail de alerta em tempo real, permitindo que você faça logon no Painel de controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro. [Leia mais](performance-monitoring/using/email-alerting.md)
 
 ## Janeiro de 2020 {#january-2020}
 
