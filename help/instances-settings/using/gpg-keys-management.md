@@ -2,9 +2,9 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: c6e070c024df1bb7708281eff67b430e553ac258
+source-git-commit: a160b542a6f00a605a80605be2ab3b934f26ba72
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1034'
 ht-degree: 3%
 
 ---
@@ -26,39 +26,6 @@ Depois será possível:
 
 * **Descriptografar dados** recebidos: O Adobe Campaign recebe dados que foram criptografados de um sistema externo usando uma chave pública baixada do Painel de controle. O Adobe Campaign descriptografa os dados usando uma chave privada gerada a partir do Painel de controle.
 
-## Monitorando teclas GPG
-
-Para acessar chaves GPG instaladas e geradas para suas instâncias, abra o **[!UICONTROL Instance settings]** cartão e selecione a **[!UICONTROL GPG keys]** guia.
-
-![](assets/gpg_list.png)
-
-A lista exibe todas as chaves GPG de criptografia e descriptografia que foram instaladas e geradas para suas instâncias com informações detalhadas sobre cada chave:
-
-* **[!UICONTROL Name]**: O nome que foi definido ao instalar ou gerar a chave.
-* **[!UICONTROL Use case]**: Esta coluna especifica o caso de uso da chave:
-
-   ![](assets/gpg_icon_encrypt.png): A chave foi instalada para criptografia de dados.
-
-   ![](assets/gpg_icon_decrypt.png): A chave foi gerada para permitir a descriptografia de dados.
-
-* **[!UICONTROL Fingerprint]**: a impressão digital da chave.
-* **[!UICONTROL Expires]**: A data de expiração da chave. Observe que o Painel de controle fornecerá indicações visuais à medida que a tecla se aproxima da data de expiração:
-
-   * Urgente (vermelho) é mostrado 30 dias antes.
-   * A advertência (amarela) é mostrada 60 dias antes.
-   * Um banner vermelho &quot;Expirado&quot; será exibido assim que uma tecla expirar.
-   >[!NOTE]
-   >
-   >Observe que nenhuma notificação por email será enviada pelo Painel de controle.
-
-Como prática recomendada, recomendamos que você remova qualquer chave que não precise mais. To do this, click the **...** button then select **[!UICONTROL Delete Key].**.
-
-![](assets/gpg_delete.png)
-
->[!IMPORTANT]
->
->Antes de remover uma chave, verifique se ela não é usada em nenhum fluxo de trabalho de Adobe Campaign para evitar que ela falhe.
-
 ## Criptografar dados {#encrypting-data}
 
 O Painel de controle permite que você criptografe os dados que saem de sua instância do Adobe Campaign.
@@ -71,7 +38,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
    >
    >O software livre de código aberto para gerar chaves está disponível. No entanto, siga as diretrizes de sua organização e use o utilitário GPG recomendado por sua organização de TI/Segurança.
 
-1. Depois que o utilitário estiver instalado, execute o comando abaixo, no Mac Terminal ou no Windows.
+1. Depois que o utilitário estiver instalado, execute o comando abaixo, no Mac Terminal ou no comando do Windows.
 
    `gpg --full-generate-key`
 
@@ -89,7 +56,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar a chave pública no Painel de controle, acesse a **[!UICONTROL GPG Keys]** guia e selecione a instância desejada.
+1. Para instalar a chave pública no Painel de controle, abra a **[!UICONTROL Instance settings]** placa e selecione a guia **[!UICONTROL GPG keys]** e a instância desejada.
 
 1. Clique no botão **[!UICONTROL Install Key]**.
 
@@ -134,7 +101,7 @@ Para fazer isso, você precisa gerar um par de teclas GPG diretamente do Painel 
 
 Para gerar um par de teclas no Painel de controle, siga estas etapas:
 
-1. Acesse a **[!UICONTROL GPG Keys]** guia e selecione a instância Adobe Campaign desejada.
+1. Abra o **[!UICONTROL Instance settings]** cartão e selecione a guia **[!UICONTROL GPG keys]** e a instância de Adobe Campaign desejada.
 
 1. Clique no botão **[!UICONTROL Generate Key]**.
 
@@ -163,3 +130,36 @@ Para obter mais informações, consulte a documentação do Adobe Campaign:
 
 * [Gerenciamento de dados criptografados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/importing-data.html#managing-encrypted-data)
 * [Carregar atividade de arquivo](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/data-management-activities/load-file.html)
+
+## Monitorando teclas GPG
+
+Para acessar chaves GPG instaladas e geradas para suas instâncias, abra o **[!UICONTROL Instance settings]** cartão e selecione a **[!UICONTROL GPG keys]** guia.
+
+![](assets/gpg_list.png)
+
+A lista exibe todas as chaves GPG de criptografia e descriptografia que foram instaladas e geradas para suas instâncias com informações detalhadas sobre cada chave:
+
+* **[!UICONTROL Name]**: O nome que foi definido ao instalar ou gerar a chave.
+* **[!UICONTROL Use case]**: Esta coluna especifica o caso de uso da chave:
+
+   ![](assets/gpg_icon_encrypt.png): A chave foi instalada para criptografia de dados.
+
+   ![](assets/gpg_icon_decrypt.png): A chave foi gerada para permitir a descriptografia de dados.
+
+* **[!UICONTROL Fingerprint]**: a impressão digital da chave.
+* **[!UICONTROL Expires]**: A data de expiração da chave. Observe que o Painel de controle fornecerá indicações visuais à medida que a tecla se aproxima da data de expiração:
+
+   * Urgente (vermelho) é mostrado 30 dias antes.
+   * A advertência (amarela) é mostrada 60 dias antes.
+   * Um banner vermelho &quot;Expirado&quot; será exibido assim que uma tecla expirar.
+   >[!NOTE]
+   >
+   >Observe que nenhuma notificação por email será enviada pelo Painel de controle.
+
+Como prática recomendada, recomendamos que você remova qualquer chave que não precise mais. To do this, click the **...** button then select **[!UICONTROL Delete Key].**.
+
+![](assets/gpg_delete.png)
+
+>[!IMPORTANT]
+>
+>Antes de remover uma chave, verifique se ela não é usada em nenhum fluxo de trabalho de Adobe Campaign para evitar que ela falhe.
