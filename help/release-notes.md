@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 032a4bd28b7f246771b3f246768fca083afe487b
+source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 31%
+source-wordcount: '423'
+ht-degree: 29%
 
 ---
 
@@ -21,7 +21,7 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 **Gerenciamento de chaves GPG**
 
-Instale e/ou gere chaves GPG em uma instância de marketing, para criptografar dados enviados da Campanha e descriptografar dados recebidos. [Leia mais](instances-settings/using/gpg-keys-management.md)
+O Painel de controle agora permite que você gere um par de chaves GPG, para que você possa decodificar facilmente os dados que chegam à Campanha de fora. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar dados deixando a Campanha. [Leia mais](instances-settings/using/gpg-keys-management.md)
 
 **Gerenciamento de certificados para subdomínios CNAME**
 
