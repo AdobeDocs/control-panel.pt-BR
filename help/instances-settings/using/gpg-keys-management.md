@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: f0e9c7df9b6213f7a6fe81e3cf2e3f9d3355817c
+source-git-commit: f1cb8e26188cd7f3849fe26322943263f76af7e2
 workflow-type: tm+mt
 source-wordcount: '1034'
 ht-degree: 3%
@@ -32,7 +32,7 @@ O Painel de controle permite que você criptografe os dados que saem de sua inst
 
 Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferramenta de criptografia PGP e instalar a chave pública no Painel de controle. Você poderá criptografar os dados antes de enviá-los da sua instância. Para fazer isso, siga estas etapas:
 
-1. Gere um par de chaves públicas/privadas usando uma ferramenta de criptografia GPG após a especificação [OpenPGP](https://www.openpgp.org/about/standard/). Para fazer isso, instale um utilitário GPG ou software GNuGP.
+1. Gere um par de chaves públicas/privadas usando uma ferramenta de criptografia GPG, seguindo a especificação [](https://www.openpgp.org/about/standard/)OpenPGP. Para fazer isso, instale um utilitário GPG ou software GNuGP.
 
    >[!NOTE]
    >
