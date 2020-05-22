@@ -1,7 +1,7 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 47%
@@ -17,7 +17,7 @@ ht-degree: 47%
 
 [Gerenciamento de certificados para subdomínios CNAME](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
-    O Painel de controle agora permite que você renove os certificados SSL de seus subdomínios que foram delegados com o método CNAME.
+O Painel de controle agora permite que você renove os certificados SSL de seus subdomínios que foram delegados com o método CNAME.
 
 ## Recursos adicionais {#additional-resources}
 
