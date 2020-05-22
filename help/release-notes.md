@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 49d84c42446ed1fc996b9d57005565b15ca24e77
+source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 29%
+source-wordcount: '373'
+ht-degree: 33%
 
 ---
 
@@ -18,10 +18,6 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >Observe que o Painel de controle está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são suportados. Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
 
 ## Maio de 2020 (#may-2020)
-
-**Gerenciamento de chaves GPG**
-
-O Painel de controle agora permite que você gere um par de chaves GPG, para que você possa decodificar facilmente os dados que chegam à Campanha de fora. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar dados deixando a Campanha. [Leia mais](instances-settings/using/gpg-keys-management.md)
 
 **Gerenciamento de certificados para subdomínios CNAME**
 
