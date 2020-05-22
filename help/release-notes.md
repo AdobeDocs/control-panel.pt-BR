@@ -1,9 +1,9 @@
 ---
 title: Versões do Painel de controle
 translation-type: tm+mt
-source-git-commit: 98f2fa0b3e943026bda28b615f0f11db54c404a6
+source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '372'
 ht-degree: 33%
 
 ---
@@ -17,7 +17,7 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >
 >Observe que o Painel de controle está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são suportados. Nenhuma atualização é necessária para acessar o Painel de controle. Você deve ser um usuário administrador para acessá-la.
 
-## Maio de 2020 (#may-2020)
+## Maio de 2020 {#may-2020}
 
 **Gerenciamento de certificados para subdomínios CNAME**
 
