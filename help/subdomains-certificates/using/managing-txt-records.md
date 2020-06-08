@@ -1,11 +1,11 @@
 ---
 title: Gerenciamento de registros TXT
 description: Saiba como gerenciar registros TXT para verificação de propriedade de domínio.
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 7c2dd60c70b5f9c0b2567df289582b972a7f76b8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '343'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,43 +15,43 @@ ht-degree: 0%
 >[!CONTEXTUALHELP]
 >id="cp_siteverification_add"
 >title="Gerenciamento de registros TXT"
->abstract="Alguns serviços como o Google exigem que você adicione um registro TXT às suas configurações de domínio para verificar se você é o proprietário do domínio."
+>abstract="Alguns serviços como o Google exigem a adição de um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio."
 
 ## Sobre registros TXT {#about-txt-records}
 
 Os registros TXT são um tipo de registro DNS usado para fornecer informações de texto sobre um domínio, que pode ser lido por fontes externas.
 
-Para garantir altas taxas de caixa de entrada e baixas taxas de spam, alguns serviços como o Google exigem que você adicione um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio.
+Para garantir altas taxas de caixa de entrada e baixas taxas de spam, alguns serviços como o Google exigem a adição de um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio.
 
-Atualmente, o Gmail está entre os provedores de endereços de email mais populares. Para garantir boa entrega e delivery bem-sucedido de emails para endereços de Gmail, o Adobe Campaign permite que você adicione registros TXT de verificação de site especiais do Google aos seus subdomínios para garantir que eles sejam verificados.
+Atualmente, o Gmail está entre os provedores de endereços de email mais usados. Para garantir um bom delivery de emails para endereços Gmail, o Adobe Campaign permite adicionar registros especiais TXT de verificação de site do Google aos subdomínios para garantir que eles sejam verificados.
 
 Recursos adicionais:
 
 * [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/google-txt-record-management.html)
 * [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/google-txt-record-management.html)
 
-## Adicionar um registro TXT do Google para um subdomínio {#adding-a-google-txt-record}
+## Adicionar um registro TXT do Google a um subdomínio {#adding-a-google-txt-record}
 
-Para adicionar um registro TXT do Google ao seu subdomínio usado para enviar emails para endereços Gmail, siga estas etapas:
+Para adicionar um registro TXT do Google ao subdomínio usado para enviar emails para endereços Gmail, siga estas etapas:
 
-1. Navegue até o **[!UICONTROL Subdomain and Certificates]** cartão.
+1. Navegue até o cartão **[!UICONTROL Subdomain and Certificates]**.
 
 1. Selecione sua instância e abra os detalhes do subdomínio ao qual você deseja adicionar um registro DNS.
 
    ![](assets/txt_subdomaindetails.png)
 
-1. Clique no **[!UICONTROL Add TXT record]** botão e digite o valor gerado nas ferramentas administrativas do G Suite. Para obter mais informações, consulte a Ajuda [administrativa do](https://support.google.com/a/answer/183895)G Suite.
+1. Clique no botão **[!UICONTROL Add TXT record]** e digite o valor gerado nas ferramentas do administrador do G Suite. Para obter mais informações, consulte [Ajuda do administrador do G Suite](https://support.google.com/a/answer/183895).
 
    ![](assets/txt_addtxt.png)
 
-1. Clique no **[!UICONTROL Add]** botão para confirmar.
+1. Clique no botão **[!UICONTROL Add]** para confirmar.
 
    ![](assets/txt_txtadded.png)
 
-Depois que o registro TXT é adicionado, é necessário que seja verificado pelo Google. Para fazer isso, navegue até as ferramentas administrativas do G Suite e, em seguida, inicie a etapa de verificação (consulte a Ajuda [do administrador do](https://support.google.com/a/answer/183895)G Suite).
+Depois de adicionado, o registro TXT deve ser verificado pelo Google. Para fazer isso, navegue até as ferramentas do administrador do G Suite e inicie a etapa de verificação (consulte [Ajuda do administrador do G Suite](https://support.google.com/a/answer/183895)).
 
 Para excluir um registro, selecione-o na lista de registros e clique no botão remover.
 
 >[!NOTE]
 >
->O único registro que você pode excluir da lista de registros DNS é aquele que você adicionou anteriormente (no nosso caso, o registro TXT do Google).
+>O único registro que pode ser excluído da lista de registros DNS é o que você adicionou anteriormente (nesse caso, o registro TXT do Google).
