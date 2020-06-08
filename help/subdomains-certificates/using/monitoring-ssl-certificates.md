@@ -1,34 +1,37 @@
 ---
-title: Monitorando certificados SSL de subdomínios
-description: Saiba como monitorar certificados SSL de seus subdomínios
-translation-type: tm+mt
+title: Monitorar certificados SSL de subdomínios
+description: Saiba como monitorar certificados SSL de subdomínios
+translation-type: ht
 source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
+workflow-type: ht
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
 
-# Monitorando certificados SSL de subdomínios {#monitoring-ssl-certificates}
+# Monitorar certificados SSL de subdomínios {#monitoring-ssl-certificates}
 
 ## Sobre certificados SSL {#about-ssl-certificates}
 
-O Adobe Campaign recomenda que você proteja os subdomínios que hospedam suas páginas iniciais, especialmente aqueles que estão coletando informações confidenciais de seus clientes.
+O Adobe Campaign recomenda proteger os subdomínios que hospedam suas páginas de aterrissagem, especialmente aqueles que estão coletando informações confidenciais dos clientes.
 
-**A criptografia** SSL (Secure Socket Layer) garante a segurança dos subdomínios que você delegou à Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir segurança adicional, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, seu endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
+A **criptografia SSL (Secure Socket Layer)** garante a segurança dos subdomínios que você delegou à Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
 
-**Os certificados SSL não são instalados nos próprios** subdomínios delegados. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam páginas iniciais, páginas de recursos e outros.
+**Os certificados SSL não são instalados nos próprios subdomínios delegados**. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam páginas de aterrissagem, páginas de recursos e outros.
 
-**Os certificados SSL são fornecidos por um período** específico (1 ano, 60 dias etc.). Depois que um certificado expirar, você poderá enfrentar problemas ao acessar as páginas iniciais ou usar recursos do subdomínio. Para evitar isso, o Painel de controle permite que você monitore os certificados SSL de seus subdomínios, bem como inicie seu processo de renovação.
+**Os certificados SSL são fornecidos por um período específico** (1 ano, 60 dias, etc.). Depois que um certificado expirar, você poderá enfrentar problemas ao acessar as páginas de aterrissagem ou usar recursos do subdomínio. Para evitar isso, o Painel de controle do Campaign permite monitorar os certificados SSL dos subdomínios e iniciar o processo de renovação.
 
 ![](assets/no_certificate.png)
 
-## Monitorando certificados SSL {#monitoring-certificates}
+## Monitorar certificados SSL {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_subdomain_details&quot;
->title=&quot;Detalhes do subdomínio&quot;
->abstract=&quot;Obtenha informações sobre os seus subdomínios.&quot;
+>id="cp_subdomain_details"
+>title="Detalhes do subdomínio"
+>abstract="Recupere informações dos subdomínios."
 
-O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o **[!UICONTROL Subdomains & Certificates]** cartão.
+O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o cartão **[!UICONTROL Subdomains & Certificates]**.
 
 Os subdomínios são organizados pela data de expiração mais próxima do certificado SSL, com informações visuais sobre a expiração, em dias:
 
@@ -39,21 +42,21 @@ Os subdomínios são organizados pela data de expiração mais próxima do certi
 
 ![](assets/subdomains_list.png)
 
-Para obter mais detalhes sobre um subdomínio, clique no **[!UICONTROL Subdomain Details]** botão.
-A lista de todos os subdomínios relacionados é exibida. Geralmente inclui subdomínios de páginas iniciais, páginas de recursos etc.
+Para obter mais detalhes sobre um subdomínio, clique no botão **[!UICONTROL Subdomain Details]**.
+A lista de todos os subdomínios relacionados é exibida. Em geral, a lista inclui subdomínios de páginas de aterrissagem, páginas de recursos, etc.
 
-A **[!UICONTROL Sender info]** guia fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, e-mail de erro).
+A guia **[!UICONTROL Sender info]** fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, Email de erro).
 
 ![](assets/subdomain_details.png)
 
-Se um certificado SSL de seu subdomínio estiver prestes a expirar, você poderá renová-lo diretamente do Painel de controle. Para obter mais informações, consulte esta seção: [Renovando um certificado](../../subdomains-certificates/using/renewing-subdomain-certificate.md)SSL de subdomínio.
+Se um dos certificados SSL de subdomínio estiver prestes a expirar, você poderá renová-lo diretamente no Painel de controle do Campaign. Para obter mais informações, consulte esta seção: [Renovar um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->A renovação do certificado do Painel de controle está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A renovação do certificado pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
 
 **Tópicos relacionados:**
 
 * [Adicionar certificados SSL (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [Renovando um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Renovar um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
