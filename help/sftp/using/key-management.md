@@ -1,8 +1,11 @@
 ---
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+workflow-type: ht
+source-wordcount: '597'
+ht-degree: 100%
 
 ---
 
@@ -10,57 +13,57 @@ source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
 # Gerenciamento de chaves {#key-management}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_key_management&quot;
->title=&quot;Sobre o gerenciamento de chaves&quot;
->abstract=&quot;Nesta guia, você pode gerenciar suas chaves públicas.&quot;
->additional-url=&quot;https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166&quot; text=&quot;Assista ao vídeo de demonstração&quot;
+>id="cp_key_management"
+>title="Sobre o Gerenciamento de chaves"
+>abstract="Nesta guia você pode gerenciar chaves públicas."
+>additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Assista ao vídeo de demonstração"
 
 A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores SFTP usando um **par de chaves públicas e privadas**.
 
 As etapas para gerar uma chave SSH pública e adicioná-la ao servidor SFTP são descritas abaixo, bem como recomendações relacionadas à autenticação.
 
-Quando o acesso ao servidor estiver configurado, lembre-se de **adicionar os endereços** IP que exigirão acesso ao servidor para que você possa se conectar a ele. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Quando o acesso ao servidor estiver configurado, lembre-se de **adicionar os endereços IP à lista de permissões**, que exigirão acesso ao servidor para que você possa se conectar a ele. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-whitelisting-instance-access.md).
 
 >[!NOTE]
 >
->Atualmente, não é possível excluir uma chave pública SSH.
+>Atualmente não é possível excluir uma chave pública SSH.
 
 ## Práticas recomendadas {#best-practices}
 
 **Sobre a chave pública SSH**
 
-Certifique-se de usar sempre a mesma autenticação para se conectar ao servidor e de usar um formato compatível para a chave.
+Use sempre a mesma autenticação para se conectar ao servidor e use um formato compatível para a chave.
 
 **Integração da API com nome de usuário e senha**
 
-Em casos muito raros, a autenticação baseada em senha é ativada em alguns servidores SFTP. A Adobe recomenda usar a autenticação baseada em chave, pois esse método é mais eficiente e seguro. Você pode solicitar alternar para autenticação baseada em chave entrando em contato com o Atendimento ao cliente.
+Em casos muito raros, a autenticação com senha é ativada em alguns servidores SFTP. A Adobe recomenda usar a autenticação com chave, pois esse método é mais eficiente e seguro. Você pode solicitar a autenticação com chave entrando em contato com o Atendimento ao cliente.
 
 >[!IMPORTANT]
 >
->Se a senha expirar, mesmo se houver chaves instaladas no sistema, você não poderá fazer logon em suas contas SFTP.
+>Se a senha expirar, mesmo se houver chaves instaladas no sistema, você não poderá fazer login em suas contas SFTP.
 
 ![](assets/control_panel_passwordexpires.png)
 
 ## Instalação da chave SSH {#installing-ssh-key}
 
 >[!CONTEXTUALHELP]
->id=&quot;cp_sftp_publickey_add&quot;
->title=&quot;Adicionar nova chave pública&quot;
->abstract=&quot;Adicione uma nova chave pública para uma instância.&quot;
+>id="cp_sftp_publickey_add"
+>title="Adicionar nova chave pública"
+>abstract="Adicione uma nova chave pública para uma instância."
 
 >[!IMPORTANT]
 >
->As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo é apenas um exemplo de como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
+>As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo mostra como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
-1. Navegue até a **[!UICONTROL Key Management]** guia e clique no **[!UICONTROL Add new public key]** botão.
+1. Navegue até a guia **[!UICONTROL Key Management]** e clique no botão **[!UICONTROL Add new public key]**.
 
    ![](assets/key0.png)
 
-1. Na caixa de diálogo que é aberta, selecione o nome de usuário para o qual deseja criar a chave pública e o servidor para o qual deseja ativar a chave.
+1. Na caixa de diálogo que é exibida, selecione o nome de usuário para o qual deseja criar a chave pública e o servidor para o qual deseja ativar a chave.
 
    >[!NOTE]
    >
-   >A interface verificará se um determinado nome de usuário está ativo em uma determinada instância e dará a você a opção de ativar a chave em uma ou várias instâncias.
+   >A interface verificará se um determinado nome de usuário está ativo em uma certa instância e dará a você a opção de ativar a chave em uma ou várias instâncias.
    >
    >Uma ou mais chaves SSH públicas podem ser adicionadas para cada usuário.
 
@@ -76,23 +79,23 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 
    Use o Terminal para gerar um par de chaves públicas e privadas:
    1. Digite este comando: `ssh-keygen -t rsa -C <your_email@example.com>`.
-   1. Quando solicitado, forneça um nome para a sua chave. Se o diretório .ssh não existir, o sistema criará um para você.
-   1. Digite, em seguida, insira novamente uma senha quando solicitado. Também pode ser deixado em branco.
-   1. Um par de chaves &quot;name&quot; e &quot;name.pub&quot; é criado pelo sistema. Procure o arquivo &quot;name.pub&quot; e abra-o. Deve ter uma sequência alfanumérica terminando com o endereço de email especificado.
+   1. Quando solicitado, forneça um nome para a chave. Se o diretório .ssh não existir, o sistema criará um para você.
+   1. Digite, e em seguida insira novamente, uma senha quando solicitado. Esse campo também pode ser deixado em branco.
+   1. Um par de chaves &quot;name&quot; e &quot;name.pub&quot; é criado pelo sistema. Procure o arquivo &quot;name.pub&quot; e abra-o. Ele deve ter uma sequência alfanumérica terminando com o endereço de email especificado.
    **Windows:**
 
-   Talvez seja necessário instalar uma ferramenta de terceiros que o ajudará a gerar um par de chaves privadas/públicas no mesmo formato &quot;name.pub&quot;.
+   Talvez seja necessário instalar uma ferramenta de terceiros que ajudará você a gerar um par de chaves privadas/públicas no mesmo formato &quot;name.pub&quot;.
 
-1. Abra o arquivo .pub e copie e cole a string inteira começando com &quot;ssh...&quot; no Painel de controle.
+1. Abra o arquivo .pub e copie e cole a sequência inteira começando por &quot;ssh...&quot; no Painel de controle do Campaign.
 
    ![](assets/publickey.png)
 
-1. Clique no **[!UICONTROL Save]** botão para criar a chave. O Painel de controle salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
+1. Clique no botão **[!UICONTROL Save]** para criar a chave. O Painel de controle do Campaign salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
 
-Você pode usar impressões digitais para corresponder às chaves privadas salvas no computador com as chaves públicas correspondentes salvas no Painel de controle.
+Você pode utilizar a impressão digital como um equivalente às chaves privadas salvas no computador com as chaves públicas correspondentes salvas no Painel de controle do Campaign.
 
 ![](assets/fingerprint_compare.png)
 
-O &quot;**...**&quot; permite que você exclua uma chave existente ou copie sua impressão digital associada na área de transferência.
+O botão &quot;**...**&quot; permite excluir uma chave existente ou copiar sua impressão digital associada na área de transferência.
 
 ![](assets/key_options.png)
