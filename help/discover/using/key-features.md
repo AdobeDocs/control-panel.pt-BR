@@ -1,11 +1,11 @@
 ---
 title: Acesso ao Painel de controle do Campaign
 description: Saiba como acessar o Painel de controle do Campaign
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '274'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 95%
 
 ---
 
@@ -51,7 +51,12 @@ Principais benefícios:
     <td>
         <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gerencie configurações de instância</strong></a></div>
-        <br/><em>Saiba como gerenciar configurações de instâncias (somente Campaign Classic)</em>
+        <br/><em>Saiba como gerenciar configurações de instâncias (somente Campaign Classic).</em>
+    </td>
+    <td>
+        <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condições" src="assets/do-not-localize/monitoring-performance.png"/></a>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Desempenho do monitor</strong></a></div>
+        <br/><em>Saiba como monitorar a utilização dos principais recursos em suas instâncias.</em>
     </td>
 </tr>
 </table>
