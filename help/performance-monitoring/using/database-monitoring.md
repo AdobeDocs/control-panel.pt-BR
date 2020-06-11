@@ -2,13 +2,15 @@
 title: Monitoramento de banco de dados
 description: Saiba como monitorar seu banco de dados de Campanhas no Painel de controle
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: b2447b30314f4bd46b2b6e144f7f713ff2f1ec59
+workflow-type: tm+mt
+source-wordcount: '443'
+ht-degree: 6%
 
 ---
 
 
 # Monitoramento de banco de dados {#database-monitoring}
-
 
 ## Sobre bancos de dados de instâncias {#about-instances-databases}
 
@@ -28,7 +30,7 @@ O sobrefluxo de um banco de dados de instância pode levar a vários problemas (
 
 O Painel de controle permite que você monitore o uso do banco de dados para cada uma das instâncias de Campanha. Para fazer isso, siga as etapas abaixo.
 
-1. Abra o **[!UICONTROL Performance Monitoring]** cartão e selecione a **[!UICONTROL Databases]** guia.
+1. Abra o cartão **[!UICONTROL Performance Monitoring]** e selecione a guia **[!UICONTROL Databases]**.
 
 1. Selecione a instância desejada no **[!UICONTROL Instance List]**.
 
@@ -58,7 +60,7 @@ A seção abaixo fornece recursos úteis de documentações de Campanha para aju
 
 **Monitoramento de Workflows**
 
-* [Práticas recomendadas](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) para os Workflows (Campaign Standard)
+* [Práticas recomendadas](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html) para os Workflows (Campaign Standard)
 * [Monitoramento da execução](https://docs.adobe.com/help/en/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html) do fluxo de trabalho (Campaign Classic)
 
 **Manutenção do banco de dados**
