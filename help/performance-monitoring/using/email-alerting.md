@@ -2,14 +2,15 @@
 title: Alerta por email
 description: Saiba como receber notificações por email em caso de problemas com as instâncias de Campanha
 translation-type: tm+mt
-source-git-commit: e5646fdccd47b4180fd0f9d561f61c04cd515c01
+source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+workflow-type: tm+mt
+source-wordcount: '166'
+ht-degree: 2%
 
 ---
 
 
 # Alerta por email {#email-alerting}
-
-## Sobre alertas de email {#about-email-alerts}
 
 Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle está equipado com a funcionalidade de alertas por email em tempo real.
 
@@ -30,9 +31,9 @@ Para assinar esses alertas, siga estas etapas:
 
 A lista das indicações é a seguinte:
 
-* **Uso** do armazenamento SFTP: Um de seus servidores SFTP alcançou 80% ou mais de sua capacidade. Consulte Gerenciamento [de armazenamentos](../../sftp/using/sftp-storage-management.md)SFTP.
+* **Uso** do armazenamento SFTP: Um de seus servidores SFTP alcançou 80% ou mais de sua capacidade. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
 
 * **Uso** do banco de dados: Um dos bancos de dados de suas instâncias alcançou 80% ou mais de sua capacidade. Consulte Monitoramento [de](../../performance-monitoring/using/database-monitoring.md)banco de dados.
 
-* **Expiração** do certificado SSL: Um dos certificados SSL de seus subdomínios expirou ou vai expirar em 60 dias ou menos. Consulte [Monitoramento de certificados](../../subdomains-certificates/using/monitoring-ssl-certificates.md)SSL de subdomínios.
+* **Expiração** do certificado SSL: Um dos certificados SSL de seus subdomínios expirou ou vai expirar em 60 dias ou menos. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
