@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: ef0a3ccdec2aec6f220a93ab474242df2d3a621b
+source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 82%
 
 ---
 
@@ -16,6 +16,18 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >[!NOTE]
 >
 >Observe que o Painel de controle do Campaign está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são compatíveis. Nenhuma atualização é necessária para acessar o Painel de controle do Campaign. Você deve ser um usuário administrador para acessá-lo.
+
+## June 2020 {#june-2020}
+
+**Monitoramento de perfis ativos**
+
+O Painel de controle agora permite que você monitore o número de perfis ativos usados por suas instâncias e contados para fins de cobrança. [Leia mais](performance-monitoring/using/active-profiles-monitoring.md)
+
+>[!IMPORTANT]
+>
+>O monitoramento de perfis ativos pelo Painel de controle está disponível em beta e sujeito a atualizações e modificações frequentes sem aviso prévio.
+>
+>O recurso está disponível para clientes hospedados no AWS a partir da compilação do Campaign Standard 10368 e da compilação do Campaign Classic 8931. Se estiver usando uma versão anterior, é necessário atualizar para usar esse recurso.
 
 ## Maio de 2020 {#may-2020}
 
