@@ -1,10 +1,10 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 941bf59ab345e685c37114ac21359e8f5310684d
+source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
 workflow-type: tm+mt
 source-wordcount: '96'
-ht-degree: 100%
+ht-degree: 72%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 100%
 
 ## Novidades
 
-[Gerenciamento de certificados para subdomínios CNAME](subdomains-certificates/using/renewing-subdomain-certificate.md)
+[Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
 
-O Painel de controle do Campaign agora permite renovar os certificados SSL de seus subdomínios que foram delegados com o método CNAME.
+O Painel de controle agora permite que você monitore o número de perfis ativos usados por suas instâncias e contados para fins de cobrança.
 
 ## Recursos adicionais {#additional-resources}
 
