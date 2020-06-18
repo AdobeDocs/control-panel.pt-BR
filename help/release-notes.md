@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: fce9635ff6086ba6826bddc4a5af9dbfe310e3e1
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 82%
+source-wordcount: '459'
+ht-degree: 77%
 
 ---
 
@@ -67,7 +67,7 @@ Para obter mais informações, consulte estas páginas:
 
 *16 de setembro de 2019*
 
-Adicionamos novos recursos para os usuários Administradores na lista de permissões de endereços IP para se conectar às instâncias do Campaign Classic.
+Adicionamos novos recursos para que os usuários administradores adicionem endereços IP à lista de permissões para se conectarem às instâncias de Campaign Classic.
 Além disso, os usuários administradores agora podem exibir a lista de instâncias do Campaign Classic e a qualificação para atualizações de builds.
 
 Para obter mais informações, consulte a [documentação específica](instances-settings/using/ip-whitelisting-instance-access.md).
