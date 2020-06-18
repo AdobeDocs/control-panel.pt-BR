@@ -1,11 +1,11 @@
 ---
 title: Perguntas frequentes do Painel de Controle do Campaign
 description: Questões comuns relacionadas ao Painel de Controle do Campaign
-translation-type: ht
-source-git-commit: 7bde86a86fbd128f4eb7bf029e58b0f95964390b
-workflow-type: ht
-source-wordcount: '625'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+workflow-type: tm+mt
+source-wordcount: '629'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,7 @@ O Painel de Controle do Campaign permite que os administradores de produtos gere
 
 **Quais são alguns dos recursos atuais do Painel de controle do Campaign?**
 
-O Painel de controle do Campaign permite rastrear armazenamentos, listas de permissões de IPs e gerenciar chaves SSH de servidores SFTP por conta própria, com base em suas necessidades e outras ações.
+O Painel de controle permite que você rastreie armazenamentos, adicione IPs à lista de permissões e gerencie chaves SSH para seus servidores SFTP por conta própria, com base em suas necessidades e outras ações.
 
 Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
 
