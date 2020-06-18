@@ -1,11 +1,11 @@
 ---
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
-translation-type: ht
-source-git-commit: 47b4c6abd7b41a63d881b658849ac985c72656f8
-workflow-type: ht
-source-wordcount: '932'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '936'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ O Painel de controle do Campaign permite delegar um subdomínio totalmente para 
    * **Comunicações transacionais e operacionais**: as comunicações transacionais contêm informações destinadas a concluir um processo que o recipient iniciou com você. Exemplo: confirmação de compra, email de redefinição de senha. As comunicações organizacionais estão relacionadas com o intercâmbio de informações, ideias e visualizações dentro e fora da organização, sem fins comerciais.
    ![](assets/subdomain5.png)
 
-   **Separar os subdomínios de acordo com os casos de uso é uma prática recomendada para o delivery**. A reputação de cada subdomínio é isolada e protegida. Por exemplo, se o subdomínio para comunicações de marketing acabar sendo incluído na blacklist por provedores de serviço de internet, o subdomínio de comunicações transacionais não será afetado e continuará sendo capaz de enviar comunicações.
+   **Separar os subdomínios de acordo com os casos de uso é uma prática recomendada para o delivery**. A reputação de cada subdomínio é isolada e protegida. Por exemplo, se seu subdomínio para comunicações de marketing terminar sendo adicionado à lista de blocos por Provedores de serviço da Internet, seu subdomínio de comunicações transacionais não será afetado e continuará sendo capaz de enviar comunicações.
 
    **Você pode delegar subdomínios para casos de uso de Marketing e Transacional**:
 
