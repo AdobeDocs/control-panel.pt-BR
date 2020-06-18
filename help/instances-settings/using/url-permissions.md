@@ -2,10 +2,10 @@
 title: Permissões de URL
 description: Saiba como gerenciar permissões de URL no Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 8d2fb9c03fb628dda78bf5e915bbb69bda5ef64d
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 95%
+source-wordcount: '608'
+ht-degree: 92%
 
 ---
 
@@ -93,4 +93,4 @@ Lembre-se de que se você excluir um URL, sua instância não poderá chamá-lo 
 
 **Adicionei um novo URL, mas minha instância ainda não consegue se conectar a esse URL. Por que isso ocorre?**
 
-Em alguns casos, os URLs que você tenta conectar exigem uma permissão, senha ou outra forma de autenticação. O Painel de controle do Campaign não gerencia autenticação adicional.
+Em alguns casos, os URLs que você tenta se conectar exigem listagem de permissão, entrada de senha ou outra forma de autenticação. O Painel de controle do Campaign não gerencia autenticação adicional.
