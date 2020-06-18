@@ -2,10 +2,10 @@
 title: Acesso ao Painel de controle do Campaign
 description: Saiba como acessar o Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 3752494c9de9de3ccb4d8dc29853d2c20df89062
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 95%
+source-wordcount: '291'
+ht-degree: 84%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 95%
 >abstract="A home page do Painel de controle do Campaign fornece acesso a todas as ações que podem ser executadas nas instâncias do Campaign."
 >additional-url="https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descobrir a interface"
 
-O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. A interface intuitiva permite monitorar facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como elaborar a lista de endereços IP permitidos, o monitoramento de armazenamentos SFTP, o gerenciamento de chaves e muito mais.
+O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite que você monitore facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como endereços IP, que permitem adição de lista, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
 
 Principais benefícios:
 
