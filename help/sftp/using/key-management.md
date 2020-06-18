@@ -2,10 +2,10 @@
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
 translation-type: tm+mt
-source-git-commit: 197b3fc6726ccd12f59f85d021a5abf56535386c
+source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 100%
+source-wordcount: '601'
+ht-degree: 94%
 
 ---
 
@@ -22,7 +22,7 @@ A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores 
 
 As etapas para gerar uma chave SSH pública e adicioná-la ao servidor SFTP são descritas abaixo, bem como recomendações relacionadas à autenticação.
 
-Quando o acesso ao servidor estiver configurado, lembre-se de **adicionar os endereços IP à lista de permissões**, que exigirão acesso ao servidor para que você possa se conectar a ele. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-whitelisting-instance-access.md).
 
 >[!NOTE]
 >
