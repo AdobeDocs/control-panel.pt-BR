@@ -1,11 +1,11 @@
 ---
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
-translation-type: ht
-source-git-commit: f22e356b283ee2601c948d5c1d514a9a59c58451
-workflow-type: ht
-source-wordcount: '459'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+workflow-type: tm+mt
+source-wordcount: '467'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comun
 * subdomínio &quot;info.mybrand.com&quot; para comunicações transacionais (confirmação de compras, redefinição de senha etc.),
 * subdomínio &quot;marketing.mybrand.com&quot; para emails de prospecção.
 
-Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo incluídos na blacklist por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem incluídos na blacklist.
+Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo adicionados à lista de blocos por Provedores de serviço da Internet devido a uma entrega incorreta, isso impediria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem adicionados à lista de blocos.
 
 ## Métodos de delegação de subdomínios {#subdomain-delegation-methods}
 
