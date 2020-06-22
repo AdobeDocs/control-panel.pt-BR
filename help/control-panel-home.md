@@ -1,10 +1,10 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 8c1bf6fbd36d12ff498f7316f764fda24a9b4fc9
+source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 72%
+source-wordcount: '137'
+ht-degree: 51%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 72%
 
 ## Novidades
 
-[Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
+* Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. Algumas ocorrências desses termos ainda podem existir na interface do usuário do produto, nomes de opções e código interno, mas serão substituídas em versões futuras da Campanha por &quot;blocklist&quot; e &quot;allowlist&quot;.
 
-O Painel de controle agora permite que você monitore o número de perfis ativos usados por suas instâncias e contados para fins de cobrança.
+* [Monitoramento](performance-monitoring/using/active-profiles-monitoring.md)de perfis ativos: O Painel de controle agora permite que você monitore o número de perfis ativos usados por suas instâncias e contados para fins de cobrança.
 
 ## Recursos adicionais {#additional-resources}
 
