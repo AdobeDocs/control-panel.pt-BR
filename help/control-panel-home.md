@@ -1,10 +1,10 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 99fbe1670d470172a2103e2b60b36b5b56c6a53d
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 66%
+source-wordcount: '136'
+ht-degree: 75%
 
 ---
 
@@ -15,9 +15,15 @@ ht-degree: 66%
 
 ## Novidades
 
-* Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. [Leia mais](release-notes.md)
+* **Auditoria de entrega do subdomínio**
 
-* **Monitoramento** de perfis ativos: O Painel de controle agora permite que você monitore o número de perfis ativos usados por suas instâncias e contados para fins de cobrança. [Leia mais](performance-monitoring/using/active-profiles-monitoring.md)
+   Depois de delegar um novo subdomínio, o Painel de controle agora permite que você rastreie a auditoria realizada pela equipe de Disponibilidade. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+* **Gerenciamento de chaves GPG**
+
+   Instale e/ou gere chaves GPG em uma instância de marketing para criptografar dados enviados pelo Campaign e descriptografar dados recebidos. [Leia mais](instances-settings/using/gpg-keys-management.md)
+
+* Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. [Leia mais](release-notes.md)
 
 ## Recursos adicionais {#additional-resources}
 
