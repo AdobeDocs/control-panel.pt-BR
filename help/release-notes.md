@@ -1,9 +1,9 @@
 ---
 title: Versões do Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: 0bea4b1508305254d53eb23d45bd62944a32495a
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '577'
 ht-degree: 70%
 
 ---
@@ -18,6 +18,14 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >Observe que o Painel de controle do Campaign está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são compatíveis. Nenhuma atualização é necessária para acessar o Painel de controle do Campaign. Você deve ser um usuário administrador para acessá-lo.
 
 ## June 2020 {#june-2020}
+
+**Auditoria de entrega do subdomínio**
+
+Depois de delegar um novo subdomínio, o Painel de controle agora permite que você rastreie a auditoria realizada pela equipe de Disponibilidade. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Gerenciamento de chaves GPG**
+
+O Painel de controle do campaign agora permite gerar um par de chaves GPG para que você possa decodificar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign. [Leia mais](instances-settings/using/gpg-keys-management.md)
 
 **Remoção de &#39;Lista branca&#39; / &#39;Lista negra&#39;**
 
