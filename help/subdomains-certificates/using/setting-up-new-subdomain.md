@@ -2,10 +2,10 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
 translation-type: tm+mt
-source-git-commit: 198c974d269289a6a9e5a87314662dba0bc85aff
+source-git-commit: 5b7e8126789690662e72e72c885700b971362004
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 96%
+source-wordcount: '995'
+ht-degree: 81%
 
 ---
 
@@ -24,13 +24,7 @@ ht-degree: 96%
 
 ## Delegação de subdomínio completa {#full-subdomain-delegation}
 
-O Painel de controle do Campaign permite delegar um subdomínio totalmente para o Adobe Campaign. Para fazer isso, siga as etapas abaixo.
-
->[!NOTE]
->
->Se a instância selecionada não tiver subdomínios configurados anteriormente, o primeiro subdomínio delegado à Adobe se tornará o **subdomínio primário** dessa instância. Você não poderá alterá-lo no futuro.
->
->Os registros de DNS reverso serão criados para outros subdomínios usando o subdomínio primário. Endereços de resposta e de rejeição para outros subdomínios serão gerados a partir do subdomínio primário.
+O Painel de controle do Campaign permite delegar um subdomínio totalmente para o Adobe Campaign. Para fazer isso, siga estas etapas:
 
 1. No cartão **[!UICONTROL Subdomains & Certificates]**, selecione a instância de produção desejada e clique em **[!UICONTROL Setup new subdomain]**.
 
@@ -39,14 +33,14 @@ O Painel de controle do Campaign permite delegar um subdomínio totalmente para 
    >[!NOTE]
    >
    >A delegação de subdomínio está disponível somente para instâncias de **produção**.
+   >
+   >Se a instância selecionada não tiver subdomínios configurados anteriormente, o primeiro subdomínio delegado à Adobe se tornará o **subdomínio primário** dessa instância. Você não poderá alterá-lo no futuro. Os registros de DNS reverso serão criados para outros subdomínios usando o subdomínio primário. Endereços de resposta e de rejeição para outros subdomínios serão gerados a partir do subdomínio primário.
 
 1. Clique em **[!UICONTROL Next]** para confirmar o método de delegação completo.
 
-   ![](assets/subdomain3.png)
+   Note that [CNAME](#use-cnames) and custom methods are currently not supported by the Control Panel.
 
-   >[!NOTE]
-   >
-   >No momento, os métodos [CNAME](#use-cnames) e personalizados não são compatíveis com o Painel de controle do Campaign.
+   ![](assets/subdomain3.png)
 
 1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Servidor de nomes da Adobe exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o [vídeo tutorial](https://video.tv.adobe.com/v/30175?captions=por_br).
 
@@ -58,7 +52,7 @@ O Painel de controle do Campaign permite delegar um subdomínio totalmente para 
 
    ![](assets/subdomain4.png)
 
-   Depois que o subdomínio for criado com as informações correspondentes do servidor de nomes da Adobe, clique em **[!UICONTROL Next]**.
+1. Depois que o subdomínio for criado com as informações correspondentes do servidor de nomes da Adobe, clique em **[!UICONTROL Next]**.
 
 1. Selecione o caso de uso desejado para o subdomínio:
 
@@ -74,7 +68,7 @@ O Painel de controle do Campaign permite delegar um subdomínio totalmente para 
    * Para casos de uso transacional, os subdomínios serão configurados em TODAS as instâncias **RT** (Centro de mensagens/Mensagens em tempo real) para garantir a conectividade. Os subdomínios operarão, portanto, com todas as instâncias de RT.
    >[!NOTE]
    >
-   >Se você estiver usando o Campaign Classic, o Painel de controle permitirá que você veja quais instâncias de RT/MID estão conectadas à instância de Marketing com a qual você está trabalhando. Para obter mais informações, consulte [esta seção](../../instances-settings/using/instance-details.md).
+   >Se você estiver usando o Campaign Classic, o Painel de controle permitirá que você veja quais instâncias de RT/MID estão conectadas à instância de Marketing com a qual você está trabalhando. For more on this, refer to the [Instance Details](../../instances-settings/using/instance-details.md) section.
 
 1. Digite o subdomínio que você criou na solução de hospedagem e clique em **[!UICONTROL Submit]**.
 
@@ -84,25 +78,33 @@ O Painel de controle do Campaign permite delegar um subdomínio totalmente para 
 
 1. Depois que o subdomínio for enviado, o Painel de controle do Campaign verificará se ele aponta corretamente para os registros Adobe NS e se o registro de SOA (Start of Authority, Início de Autoridade) não existe para esse subdomínio.
 
-1. Se as verificações forem bem-sucedidas, o Painel de controle do Campaign começará a configurar o subdomínio com registros DNS, URLs adicionais, caixas de entrada, etc. Para obter mais detalhes sobre o progresso da configuração, clique no botão **[!UICONTROL Process details]**.
-
-   ![](assets/subdomain7.png)
-
    >[!NOTE]
-   >
-   >Em alguns casos, a delegação prossegue, mas o subdomínio pode não ser verificado com êxito. O subdomínio irá diretamente para a lista **[!UICONTROL Verified subdomains]** com o status **[!UICONTROL Unverified]** e um registro de tarefas fornecendo informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver dificuldades para resolver o problema.
    >
    >Observe que enquanto a delegação de subdomínio é executada, outras solicitações por meio do Painel de controle do Campaign serão inseridas em uma fila e executadas somente após a conclusão da Delegação de subdomínio para evitar problemas de desempenho.
 
+1. Se as verificações forem bem-sucedidas, o Painel de controle do Campaign começará a configurar o subdomínio com registros DNS, URLs adicionais, caixas de entrada, etc.
+
+   ![](assets/subdomain7.png)
+
+   Eventualmente, a equipe **de** Entrega será notificada sobre o novo subdomínio, a fim de fazer a auditoria. O processo de auditoria pode demorar até 10 dias úteis após a delegação do subdomínio. As verificações realizadas incluem loops de feedback e testes de loops de reclamação de spam. Portanto, não recomendamos a utilização do subdomínio antes da conclusão da auditoria, uma vez que poderá resultar em uma má reputação do subdomínio.
+
+   Para obter mais detalhes sobre o progresso da configuração, clique no botão **[!UICONTROL Process details]**.
+
+   ![](assets/subdomain_audit.png)
+
+   **Solução de problemas:**
+
+   * Em alguns casos, a delegação prossegue, mas o subdomínio pode não ser verificado com êxito. O subdomínio permanecerá na **[!UICONTROL Configured]** lista com um registro de tarefas que fornece informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver dificuldades para resolver o problema.
+   * Se o subdomínio estiver sendo exibido como &quot;Não verificado&quot; após a configuração, abra uma nova verificação de subdomínio (**...** / **[!UICONTROL Verify subdomain]**). Se ainda mostrar o mesmo status, o motivo pode ser que haja alguma personalização feita no schema de recipient, que não pode ser verificada usando processos padrão. Tente enviar uma campanha com esse subdomínio.
+   * Se a configuração do subdomínio estiver demorando muito (mais de 10 dias úteis) na etapa de auditoria de entrega, entre em contato com o Atendimento ao cliente.
+
 No final do processo, os subdomínios serão configurados para funcionar com a instância do Adobe Campaign e os elementos abaixo serão criados:
 
-* **O subdomínio** com os seguintes **registros DNS**: SOA, MX, CNAME(s), DKIM, SPF, TXT,
+* **O subdomínio com os seguintes registros DNS**: SOA, MX, CNAME(s), DKIM, SPF, TXT,
 * **Subdomínios adicionais** para hospedar mirror, recursos, páginas de rastreamento e chave de domínio,
 * **Caixas de entrada**: Remetente, Erro, Responder para.
 
->[!NOTE]
->
->Por padrão, a caixa de entrada &quot;Responder para&quot; no Painel de controle do Campaign está configurada para apagar emails e não é revisável. Se quiser monitorar a caixa de entrada “Responder para” para suas campanhas de marketing, não use este endereço.
+   Por padrão, a caixa de entrada &quot;Responder para&quot; no Painel de controle do Campaign está configurada para apagar emails e não é revisável. Se quiser monitorar a caixa de entrada “Responder para” para suas campanhas de marketing, não use este endereço.
 
 Para obter mais detalhes sobre o subdomínio, clique nos botões **[!UICONTROL Subdomain details]** e **[!UICONTROL Sender info]**.
 
@@ -111,12 +113,6 @@ Para obter mais detalhes sobre o subdomínio, clique nos botões **[!UICONTROL S
 ![](assets/subdomain_details.png)
 
 ![](assets/sender_info.png)
-
->[!IMPORTANT]
->
->Após a etapa de processamento, verifique com o Atendimento ao cliente da Adobe se foi apresentada uma solicitação de auditoria para a equipe de delivery auditar o novo subdomínio que foi criado. O processo de auditoria pode demorar de 3 a 10 dias úteis após a delegação do subdomínio.
->
->As verificações realizadas incluem loops de feedback e testes de loops de reclamação de spam. Portanto, não recomendamos a utilização do subdomínio antes da conclusão da auditoria, uma vez que poderá resultar em uma má reputação do subdomínio.
 
 ## Uso de CNAMEs {#use-cnames}
 
