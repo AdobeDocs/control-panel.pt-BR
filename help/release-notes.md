@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: 759d3ca0c3cafa84067c31a48432b0bfe2df186f
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 70%
+source-wordcount: '605'
+ht-degree: 68%
 
 ---
 
@@ -26,6 +26,8 @@ Depois de delegar um novo subdomínio, o Painel de controle agora permite que vo
 **Gerenciamento de chaves GPG**
 
 O Painel de controle do campaign agora permite gerar um par de chaves GPG para que você possa decodificar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign. [Leia mais](instances-settings/using/gpg-keys-management.md)
+* [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
 
 **Remoção de &#39;Lista branca&#39; / &#39;Lista negra&#39;**
 
