@@ -1,10 +1,10 @@
 ---
 title: Documentação do produto
 translation-type: tm+mt
-source-git-commit: 5b7e8126789690662e72e72c885700b971362004
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 75%
+source-wordcount: '122'
+ht-degree: 81%
 
 ---
 
@@ -22,8 +22,6 @@ ht-degree: 75%
 * **Gerenciamento de chaves GPG**
 
    Instale e/ou gere chaves GPG em uma instância de marketing para criptografar dados enviados pelo Campaign e descriptografar dados recebidos. [Leia mais](instances-settings/using/gpg-keys-management.md)
-
-* Os termos &quot;lista branca&quot; e &quot;lista negra&quot; foram removidos da documentação do Adobe Campaign. [Leia mais](release-notes.md)
 
 ## Recursos adicionais {#additional-resources}
 
