@@ -1,11 +1,11 @@
 ---
 title: Gerenciamento de armazenamentos SFTP
 description: Saiba como monitorar e gerenciar o armazenamento do servidor SFTP
-translation-type: ht
-source-git-commit: 834adb7c937a9927901f91e257a8df44e72ca45b
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
+workflow-type: tm+mt
 source-wordcount: '351'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,8 +24,8 @@ Você pode ter uma capacidade de armazenamento diferente provisionada no servido
 
 **Tópicos relacionados:**
 
-* [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/monitoring-server-capacity-whitelisting-adding-ssh-key.html)
-* [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/managing-sftp-servers.html)
+* [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+* [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
 
 ## Acessar informações de capacidade de armazenamento {#accessing-storage-capacity-information}
 
