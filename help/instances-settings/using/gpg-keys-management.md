@@ -2,10 +2,10 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 18c9c946301fab81f617e3cba1f72989645d552e
+source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 3%
+source-wordcount: '1110'
+ht-degree: 4%
 
 ---
 
@@ -25,6 +25,12 @@ Depois será possível:
 * **Criptografar dados** enviados: O Adobe Campaign envia os dados após criptografá-los com a chave pública instalada.
 
 * **Descriptografar dados** recebidos: O Adobe Campaign recebe dados que foram criptografados de um sistema externo usando uma chave pública baixada do Painel de controle. O Adobe Campaign descriptografa os dados usando uma chave privada gerada a partir do Painel de controle.
+
+**Tópicos relacionados:**
+
+* [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
+* [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
+
 
 ## Criptografar dados {#encrypting-data}
 
