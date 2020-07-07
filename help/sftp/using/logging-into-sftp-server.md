@@ -2,7 +2,7 @@
 title: Fazer logon no servidor SFTP
 description: Saiba como fazer logon no servidor SFTP
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -19,7 +19,7 @@ Antes de fazer logon no servidor, verifique se:
 * Seu servidor SFTP é **hospedado pela Adobe**.
 * Seu **nome de usuário** foi configurado para o servidor. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * Você tem um par **de chaves** privadas e públicas para fazer logon no servidor SFTP. Consulte [esta seção](../../sftp/using/key-management.md) para obter mais informações sobre como adicionar a chave SSH.
-* Seu endereço IP **público foi adicionado à lista** de permissões no servidor SFTP. Caso contrário, consulte [esta seção](../../sftp/using/ip-range-whitelisting.md) para obter mais informações sobre como adicionar seu intervalo IP à lista de permissões.
+* Seu endereço IP **público foi adicionado à lista de permissões** no servidor SFTP. Caso contrário, consulte [esta seção](../../sftp/using/ip-range-allow-listing.md) para obter mais informações sobre como adicionar seu intervalo IP à lista de permissões.
 * Você tem acesso a um software **cliente** SFTP. Você pode consultar seu departamento de TI para obter o aplicativo cliente SFTP que eles recomendam usar ou procurar um na Internet se isso for permitido pelas políticas de empresa.
 
 Para se conectar ao servidor SFTP, siga estas etapas:
