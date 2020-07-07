@@ -2,7 +2,7 @@
 title: Acesso ao Painel de controle do Campaign
 description: Saiba como acessar o Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 84%
@@ -18,7 +18,7 @@ ht-degree: 84%
 >abstract="A home page do Painel de controle do Campaign fornece acesso a todas as ações que podem ser executadas nas instâncias do Campaign."
 >additional-url="https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descobrir a interface"
 
-O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite que você monitore facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como endereços IP, que permitem adição de lista, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
+O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite que você monitore facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como adição de endereços IP à lista de permissões, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
 
 Principais benefícios:
 
@@ -49,8 +49,8 @@ Principais benefícios:
         <em>Saiba como monitorar subdomínios e certificados.</em>
     </td>
     <td>
-        <a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
-        <div><a href="../../instances-settings/using/ip-whitelisting-instance-access.md"><strong>Gerencie configurações de instância</strong></a></div>
+        <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
+        <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Gerencie configurações de instância</strong></a></div>
         <br/><em>Saiba como gerenciar configurações de instâncias (somente Campaign Classic).</em>
     </td>
     <td>
