@@ -4,7 +4,7 @@ sub-product: Painel de controle do Campaign
 audience: end-user
 user-guide-title: Ajuda do Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 5445ac36b81af3b23bc64788f010f497ec9d049c
+source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
 ht-degree: 85%
@@ -24,7 +24,7 @@ ht-degree: 85%
 + Gerenciamento de SFTP {#sftp-management}
    + [Sobre o gerenciamento de SFTP](sftp/using/about-sftp-management.md)
    + [Gerenciamento de armazenamentos SFTP](sftp/using/sftp-storage-management.md)
-   + [Lista de permissões de intervalo IP](sftp/using/ip-range-whitelisting.md)
+   + [Lista de permissões de intervalo IP](sftp/using/ip-range-allow-listing.md)
    + [Gerenciamento de chaves](sftp/using/key-management.md)
    + [Fazer logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Perguntas comuns](sftp/using/common-questions.md)
@@ -41,7 +41,7 @@ ht-degree: 85%
    + [Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alerta por email](performance-monitoring/using/email-alerting.md)
 + Instances settings {#instances-settings}
-   + [IP permite listagem para acesso de instância](instances-settings/using/ip-whitelisting-instance-access.md)
+   + [IP permite listagem para acesso de instância](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permissões de URL](instances-settings/using/url-permissions.md)
    + [Detalhes da instância](instances-settings/using/instance-details.md)
    + [Gerenciamento de chaves GPG](instances-settings/using/gpg-keys-management.md)
