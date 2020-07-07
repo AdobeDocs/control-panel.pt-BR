@@ -2,7 +2,7 @@
 title: Gerenciamento de chaves
 description: Saiba como gerenciar chaves para conexão com servidores SFTP
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 067921a32d0b99107fc148609f78ac664da717dd
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 94%
@@ -22,7 +22,7 @@ A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores 
 
 As etapas para gerar uma chave SSH pública e adicioná-la ao servidor SFTP são descritas abaixo, bem como recomendações relacionadas à autenticação.
 
-Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-whitelisting-instance-access.md).
+Once access to the server is set up, remember to **add the IP addresses that will require access to the server to the allow list** so that you can connect to it. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-allow-listing-instance-access.md).
 
 >[!NOTE]
 >
@@ -41,8 +41,6 @@ Em casos muito raros, a autenticação com senha é ativada em alguns servidores
 >[!IMPORTANT]
 >
 >Se a senha expirar, mesmo se houver chaves instaladas no sistema, você não poderá fazer login em suas contas SFTP.
-
-![](assets/control_panel_passwordexpires.png)
 
 ## Instalação da chave SSH {#installing-ssh-key}
 
