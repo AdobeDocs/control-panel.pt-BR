@@ -2,43 +2,43 @@
 title: Perguntas frequentes do Painel de Controle do Campaign
 description: Questões comuns relacionadas ao Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: 3faeb9651681a9edd18cf889fff65b02644cb690
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 95%
+ht-degree: 66%
 
 ---
 
 
 # Perguntas frequentes {#faq}
 
-## ID organizacional IMS {#ims-org-id}
+## IMS Organization ID {#ims-org-id}
 
-**O que é uma ID organizacional IMS?**
+**O que é uma ID da organização IMS?**
 
 É uma ID exclusiva fornecida para sua instância quando você faz logon pela primeira vez na Adobe Experience Cloud. Ela deve estar no formato: xxx@AdobeOrg.
 
 Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
 
-**Onde encontro minha ID organizacional IMS?**
+**Onde posso encontrar minha ID de empresa IMS?**
 
-Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará a ID organizacional IMS na parte inferior da seção **[!UICONTROL Quick Access]** Administração. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
+Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. You will find your IMS Organization ID at the bottom of Administration **[!UICONTROL Quick Access]** section. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
 
-Outra maneira é iniciar o **Admin Console**. A ID organizacional IMS estará visível no URL. Deve ser semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+Outra maneira é iniciar o **Admin Console**. A ID de empresa do IMS estará visível no URL, mas deve ser semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
-**Por que preciso saber minha ID organizacional IMS?**
+**Por que preciso saber minha ID de empresa IMS?**
 
 Para gerenciar as configurações da sua instância, queremos garantir que você esteja obtendo as informações corretas para a instância certa caso esteja usando várias instâncias para a sua empresa.
 
-**E se eu tiver várias IDs organizacionais IMS?**
+**E se eu tiver várias IDs de organização IMS?**
 
-Você pode ter mais de uma ID organizacional IMS se tiver acesso a várias soluções da Adobe. Nesse caso, a ID organizacional IMS correta que você deve usar é aquela que você vê na instância do Adobe Campaign.
+Você pode ter mais de uma ID de empresa do IMS se tiver acesso a várias soluções da Adobe. Nesse caso, a ID de empresa IMS correta que você deve usar é aquela que você vê na instância do Adobe Campaign.
 
 >[!NOTE]
 >
->Caso você tenha a mesma ID organizacional IMS para o Adobe Campaign e o Adobe Analytics, está ótimo. Ter a mesma ID organizacional IMS para o Analytics e o Campaign é um requisito se você planeja integrar as soluções para aproveitar os casos de uso complexo, como abandono de carrinho de compras (para AA + AC).
+>Se você tiver a mesma ID de organização IMS para Adobe Campaign e Adobe Analytics, isso é ótimo. Ter uma ID de empresa IMS entre a Analytics e a Campanha é uma exigência se você planeja integrar as soluções para aproveitar os casos de uso complexo, como abandono do carrinho de compras (para AA + AC).
 >
->Se você tiver IDs organizacionais IMS diferentes para o Adobe Campaign e o Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
+>Se você tiver IDs de organização IMS diferentes para Adobe Campaign e Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
 
 **Como posso saber se minha instância do Adobe Campaign está hospedada no AWS ou não?**
 
