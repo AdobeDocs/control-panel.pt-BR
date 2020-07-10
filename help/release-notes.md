@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: 7625d291486772c6f68924a70c57e85c3aee9606
+source-git-commit: c91a37883a883cdfa118c5c7e6315ff69e5ad0f5
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 75%
+source-wordcount: '561'
+ht-degree: 74%
 
 ---
 
@@ -28,10 +28,6 @@ Depois de delegar um novo subdomínio, o Painel de controle agora permite que vo
 O Painel de controle do campaign agora permite gerar um par de chaves GPG para que você possa decodificar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign. [Leia mais](instances-settings/using/gpg-keys-management.md)
 * [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
 * [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
-**Remoção de &#39;Lista branca&#39; / &#39;Lista negra&#39;**
-
-Os termos &quot;white list&quot; e &quot;black list&quot; foram removidos da documentação do Adobe Campaign. Algumas ocorrências desses termos ainda podem existir na interface do usuário do produto, nomes de opções e código interno, mas serão substituídas em versões futuras do Campaign por &quot;lista de bloqueios&quot; e &quot;lista de permissões&quot;.
 
 **Monitoramento de perfis ativos**
 
