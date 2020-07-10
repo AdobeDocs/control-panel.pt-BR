@@ -1,11 +1,11 @@
 ---
 title: Detalhes da instância
 description: Saiba como monitorar os detalhes da instância no Painel de controle do Campaign
-translation-type: ht
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
-workflow-type: ht
-source-wordcount: '554'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID ORG IMS não está associada a nenhuma instância do Adobe Campaign Classic.
+   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle, isso significa que a ID de empresa do IMS não está associada a nenhuma instância do Adobe Campaign Classic
 
 1. Selecione no painel esquerdo a instância desejada do Campaign Classic.
 
