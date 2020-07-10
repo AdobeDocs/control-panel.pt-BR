@@ -2,10 +2,10 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: a83309bfb6e42db231fe970f47475fb85d6d441b
+source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 4%
+source-wordcount: '1112'
+ht-degree: 3%
 
 ---
 
@@ -28,9 +28,8 @@ Depois será possível:
 
 **Tópicos relacionados:**
 
-* [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/generating-and-installing-gpg-keys.html)
-* [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/generating-and-installing-gpg-keys.html)
-
+* [Vídeos de tutoriais do Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Vídeos de tutoriais do Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Criptografar dados {#encrypting-data}
 
@@ -56,6 +55,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
    * **comentário**: adicionar um rótulo ao campo de comentário ajudará você a identificar facilmente a chave a ser usada para criptografar seus dados.
    * **expiração**: Data ou &quot;0&quot; para nenhuma data de expiração.
    * **senha**
+
    ![](assets/do-not-localize/gpg_command.png)
 
 1. Depois de confirmado, o script gerará uma chave com sua impressão digital associada, que poderá ser exportada para um arquivo ou colada diretamente no Painel de controle. Para exportar o arquivo, execute esse comando seguido da impressão digital da chave que você gerou.
@@ -158,6 +158,7 @@ A lista exibe todas as chaves GPG de criptografia e descriptografia que foram in
    * Urgente (vermelho) é mostrado 30 dias antes.
    * A advertência (amarela) é mostrada 60 dias antes.
    * Um banner vermelho &quot;Expirado&quot; será exibido assim que uma tecla expirar.
+
    >[!NOTE]
    >
    >Observe que nenhuma notificação por email será enviada pelo Painel de controle.
