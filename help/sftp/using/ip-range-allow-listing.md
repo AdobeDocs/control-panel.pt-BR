@@ -2,10 +2,10 @@
 title: Lista de permissões de intervalo IP
 description: Saiba como adicionar intervalos IP à lista de permissões para acesso de servidores SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: d96c044e83d37f020b5fd6ea55199c1223b9fa39
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -46,7 +46,7 @@ Certifique-se de seguir as recomendações e limitações abaixo ao adicionar en
 
 Para adicionar um intervalo IP à lista de permissões, siga estas etapas:
 
-1. Abra o cartão **[!UICONTROL SFTP]** e selecione a guia **[!UICONTROL IP Whistelisting]**.
+1. Abra o cartão **[!UICONTROL SFTP]** e selecione a guia **[!UICONTROL IP Allow Listing]**.
 1. A lista de endereços IP na lista de permissões é exibida para cada instância. Selecione a instância desejada na lista do lado esquerdo e clique no botão **[!UICONTROL Add new IP range]**.
 
    ![](assets/control_panel_add_range.png)
