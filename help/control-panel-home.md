@@ -1,10 +1,10 @@
 ---
 title: Documentação do produto
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '122'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 81%
 
 ## Novidades
 
-* **Auditoria de entrega do subdomínio**
+* **Auditoria de entrega de subdomínio**
 
-   Depois de delegar um novo subdomínio, o Painel de controle agora permite que você rastreie a auditoria realizada pela equipe de Disponibilidade. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+   Depois de delegar um novo subdomínio, o Painel de controle do Campaign agora permite rastrear a auditoria realizada pela equipe de avaliação do delivery. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 * **Gerenciamento de chaves GPG**
 
