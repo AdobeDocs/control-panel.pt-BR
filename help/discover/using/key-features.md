@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '291'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 84%
 >abstract="A home page do Painel de controle do Campaign fornece acesso a todas as ações que podem ser executadas nas instâncias do Campaign."
 >additional-url="https://docs.adobe.com/content/help/pt-BR/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descobrir a interface"
 
-O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite que você monitore facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como adição de endereços IP à lista de permissões, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
+O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite monitorar facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como adicionar lista de permissão de endereços IP, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
 
 Principais benefícios:
 
@@ -29,7 +29,7 @@ Principais benefícios:
 >[!NOTE]
 >O Painel de controle do Campaign é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são compatíveis. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](../../discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nessa seção](../../faq.md).
 >
->Observe que não é necessário atualizar para a versão mais recente da build do Campaign para acessar o Painel de Controle do campaign.
+>Observe que não é necessário atualizar para a versão mais recente da build do Campaign para acessar o Painel de Controle.
 
 <table>
 <tr>
@@ -55,7 +55,7 @@ Principais benefícios:
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condições" src="assets/do-not-localize/monitoring-performance.png"/></a>
-        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Desempenho do monitor</strong></a></div>
+        <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitorar desempenho</strong></a></div>
         <br/><em>Saiba como monitorar a utilização dos principais recursos em suas instâncias.</em>
     </td>
 </tr>
