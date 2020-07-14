@@ -1,11 +1,11 @@
 ---
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '467'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comun
 * subdomínio &quot;info.mybrand.com&quot; para comunicações transacionais (confirmação de compras, redefinição de senha etc.),
 * subdomínio &quot;marketing.mybrand.com&quot; para emails de prospecção.
 
-Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo adicionados à lista de blocos por Provedores de serviço da Internet devido a uma entrega incorreta, isso impediria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem adicionados à lista de blocos.
+Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo incluídos na lista de bloqueios por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem incluídos na lista de bloqueios.
 
 ## Métodos de delegação de subdomínios {#subdomain-delegation-methods}
 
@@ -45,7 +45,7 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 
 | Método de delegação | Como funciona | Nível de esforço |
 |---|---|---|
-| **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros de DNS. | Baixo |
+| **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
 | **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 
 Outras informações sobre a delegação de domínio estão disponíveis [nesta documentação](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
