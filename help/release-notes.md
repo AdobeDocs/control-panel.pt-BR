@@ -4,7 +4,7 @@ translation-type: tm+mt
 source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
 workflow-type: tm+mt
 source-wordcount: '563'
-ht-degree: 72%
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 ## Junho de 2020 {#june-2020}
 
-**Auditoria de entrega do subdomínio**
+**Auditoria de entrega de subdomínio**
 
-Depois de delegar um novo subdomínio, o Painel de controle agora permite que você rastreie a auditoria realizada pela equipe de Disponibilidade. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+Após delegar um novo subdomínio, o Painel de controle do Campaign agora permite rastrear a auditoria feita pela equipe de avaliação do delivery. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
 
 **Gerenciamento de chaves GPG**
 
@@ -31,13 +31,13 @@ O Painel de controle do campaign agora permite gerar um par de chaves GPG para q
 
 **Monitoramento de perfis ativos**
 
-O Painel de controle agora permite que você monitore o número de perfis ativos usados por suas instâncias e contados para fins de cobrança. [Leia mais](performance-monitoring/using/active-profiles-monitoring.md)
+O Painel de controle do Campaign agora permite monitorar o número de perfis ativos usados por suas instâncias e contados para fins de faturamento. [Leia mais](performance-monitoring/using/active-profiles-monitoring.md)
 
 >[!IMPORTANT]
 >
->O monitoramento de perfis ativos pelo Painel de controle está disponível em beta e sujeito a atualizações e modificações frequentes sem aviso prévio.
+>O monitoramento de perfis ativos pelo Painel de controle do Campaign está disponível em beta e está sujeito a atualizações e modificações frequentes sem aviso prévio.
 >
->O recurso está disponível para clientes hospedados no AWS a partir da compilação do Campaign Standard 10368 e da compilação do Campaign Classic 8931. Se estiver usando uma versão anterior, é necessário atualizar para usar esse recurso.
+>O recurso está disponível para clientes hospedados no AWS a partir da build 10368 do Campaign Standard e da build 8931 do Campaign Classic. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
 
 ## Maio de 2020 {#may-2020}
 
