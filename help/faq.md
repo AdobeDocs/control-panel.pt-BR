@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
 source-wordcount: '629'
-ht-degree: 66%
+ht-degree: 71%
 
 ---
 
@@ -92,7 +92,7 @@ O Painel de Controle do Campaign permite que os administradores de produtos gere
 
 **Quais são alguns dos recursos atuais do Painel de controle do Campaign?**
 
-O Painel de controle permite que você rastreie armazenamentos, adicione IPs à lista de permissões e gerencie chaves SSH para seus servidores SFTP por conta própria, com base em suas necessidades e outras ações.
+O Painel de controle do Campaign permite rastrear armazenamentos, adicionar IPs à lista de permissões e gerenciar chaves SSH de servidores SFTP por conta própria, com base em suas necessidades e outras ações.
 
 Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
 
