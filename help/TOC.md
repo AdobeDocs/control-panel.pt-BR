@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
@@ -40,8 +40,8 @@ ht-degree: 85%
    + [Monitoramento de banco de dados](performance-monitoring/using/database-monitoring.md)
    + [Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alerta por email](performance-monitoring/using/email-alerting.md)
-+ Instances settings {#instances-settings}
-   + [IP permite listagem para acesso de instância](instances-settings/using/ip-allow-listing-instance-access.md)
++ Configurações de instâncias {#instances-settings}
+   + [Lista de permissões de IP para acesso de instância](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permissões de URL](instances-settings/using/url-permissions.md)
    + [Detalhes da instância](instances-settings/using/instance-details.md)
    + [Gerenciamento de chaves GPG](instances-settings/using/gpg-keys-management.md)
