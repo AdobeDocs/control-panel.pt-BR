@@ -4,8 +4,8 @@ description: Saiba como gerenciar permissões de URL no Painel de controle do Ca
 translation-type: tm+mt
 source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '608'
+ht-degree: 95%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Este recurso está disponível apenas para instâncias de Campaign Classic, a partir da compilação 8850. Se estiver usando uma versão anterior, é necessário atualizar para usar esse recurso.
+>Esse recurso está disponível apenas para instâncias do Campaign Classic, a partir da build 8850. Se estiver usando uma build com versão anterior, é necessário uma atualização para usar esse recurso.
 
 ## Sobre permissões de URL {#about-url-permissions}
 
-A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows etc.) pelas instâncias do Campaign Classic é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
+A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows, etc.) pelas instâncias do Campaign Classic é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
 
 Por padrão, as instâncias não têm permissão para se conectar a URLs externos. O Painel de controle do Campaign permite adicionar URLs externos à lista de URLs autorizados para que sua instância possa se conectar a eles. Dessa forma, você pode conectar as instâncias do Campaign a sistemas externos, como servidores ou sites SFTP para habilitar a transferência de arquivos e/ou dados.
 
@@ -93,4 +93,4 @@ Lembre-se de que se você excluir um URL, sua instância não poderá chamá-lo 
 
 **Adicionei um novo URL, mas minha instância ainda não consegue se conectar a esse URL. Por que isso ocorre?**
 
-Em alguns casos, os URLs que você tenta se conectar exigem listagem de permissão, entrada de senha ou outra forma de autenticação. O Painel de controle do Campaign não gerencia autenticação adicional.
+Em alguns casos, os URLs que você tenta conectar exigem uma lista de permissão, uma senha ou outra forma de autenticação. O Painel de controle do Campaign não gerencia autenticação adicional.
