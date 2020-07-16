@@ -46,7 +46,7 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle, isso significa que a ID de empresa do IMS não está associada a nenhuma instância do Adobe Campaign Classic
+   >Se o cartão de Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, isso significa que a ID de organização do IMS não está associada a nenhuma instância do Adobe Campaign Classic
 
 1. Selecione no painel esquerdo a instância desejada do Campaign Classic.
 
