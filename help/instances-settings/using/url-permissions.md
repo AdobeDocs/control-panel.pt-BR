@@ -55,7 +55,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle, isso significa que a ID de empresa do IMS não está associada a nenhuma instância do Adobe Campaign Classic
+   >Se o cartão de Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, isso significa que a ID de organização do IMS não está associada a nenhuma instância do Adobe Campaign Classic
    >
    >A guia de <b><span class="uicontrol">permissões de URL</span></b> lista todos os URLs externos aos quais sua instância pode se conectar. Essa lista não inclui URLs necessários para que o Campaign funcione (por exemplo, conexões entre peças de infraestrutura).
 
