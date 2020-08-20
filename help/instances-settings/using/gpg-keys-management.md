@@ -2,10 +2,10 @@
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 23ca04d0b071a0dd24e72a4db4b29cba35437995
+source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 3%
+ht-degree: 12%
 
 ---
 
@@ -18,13 +18,13 @@ A criptografia GPG permite proteger seus dados usando um sistema de pares de cha
 
 Depois de implementados, você pode ter os dados de entrada descriptografados e os dados de saída criptografados antes da transferência, para garantir que eles não sejam acessados por ninguém sem um par de chaves correspondente válido.
 
-Para implementar a criptografia GPG com Campanha, as chaves GPG devem ser instaladas e/ou geradas em uma instância de marketing por um usuário administrador diretamente do Painel de controle.
+Para implementar a criptografia GPG com o Campaign, as chaves GPG devem ser instaladas e/ou geradas em uma instância de marketing por um usuário administrador no Painel de controle do Campaign.
 
 Depois será possível:
 
-* **Criptografar dados** enviados: O Adobe Campaign envia os dados após criptografá-los com a chave pública instalada.
+* **Criptografar dados** enviados: A Adobe Campaign envia os dados após criptografá-los com a chave pública instalada.
 
-* **Descriptografar dados** recebidos: O Adobe Campaign recebe dados que foram criptografados de um sistema externo usando uma chave pública baixada do Painel de controle. O Adobe Campaign descriptografa os dados usando uma chave privada gerada a partir do Painel de controle.
+* **Descriptografar dados** recebidos: A Adobe Campaign recebe dados que foram criptografados de um sistema externo usando uma chave pública baixada do Painel de controle do Campaign. A Adobe Campaign descriptografa os dados usando uma chave privada gerada a partir do Painel de controle do Campaign.
 
 **Tópicos relacionados:**
 
@@ -33,9 +33,9 @@ Depois será possível:
 
 ## Criptografar dados {#encrypting-data}
 
-O Painel de controle permite que você criptografe os dados que saem de sua instância do Adobe Campaign.
+O Painel de controle do Campaign permite criptografar dados provenientes da instância do Adobe Campaign.
 
-Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferramenta de criptografia PGP e instalar a chave pública no Painel de controle. Você poderá criptografar os dados antes de enviá-los da sua instância. Para fazer isso, siga estas etapas:
+Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferramenta de criptografia PGP e instalar a chave pública no Painel de controle do Campaign. Você poderá criptografar os dados antes de enviá-los da sua instância. Para fazer isso, siga estes passos:
 
 1. Gere um par de chaves públicas/privadas usando uma ferramenta de criptografia PGP após a especificação [](https://www.openpgp.org/about/standard/)OpenPGP. Para fazer isso, instale um utilitário GPG ou software GNuGP.
 
@@ -58,11 +58,11 @@ Para fazer isso, você precisa gerar um par de chaves GPG a partir de uma ferram
 
    ![](assets/do-not-localize/gpg_command.png)
 
-1. Depois de confirmado, o script gerará uma chave com sua impressão digital associada, que poderá ser exportada para um arquivo ou colada diretamente no Painel de controle. Para exportar o arquivo, execute esse comando seguido da impressão digital da chave que você gerou.
+1. Depois de confirmado, o script gerará uma chave com sua impressão digital associada, que poderá ser exportada para um arquivo ou colada diretamente no Painel de controle do Campaign. Para exportar o arquivo, execute esse comando seguido da impressão digital da chave que você gerou.
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar a chave pública no Painel de controle, abra a **[!UICONTROL Instance settings]** placa e selecione a guia **[!UICONTROL GPG keys]** e a instância desejada.
+1. Para instalar a chave pública no Painel de controle do Campaign, abra o **[!UICONTROL Instance settings]** cartão e selecione a guia **[!UICONTROL GPG keys]** e a instância desejada.
 
 1. Clique no botão **[!UICONTROL Install Key]**.
 
@@ -84,36 +84,36 @@ Quando a chave pública estiver instalada, ela será exibida na lista. Você pod
 
 A chave está disponível para uso em workflows Adobe Campaign. Você pode usá-lo para criptografar dados ao usar atividades de extração de dados.
 
-Para obter mais informações, consulte a documentação do Adobe Campaign:
+Para obter mais informações, consulte a documentação da Adobe Campaign:
 
 **Campaign Classic:**
 
 * [Compactação ou criptografia de um arquivo](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#zipping-or-encrypting-a-file)
-* [Caso de uso: Criptografar e exportar dados usando uma chave instalada no Painel de controle](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Gerenciamento de dados criptografados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso de uso: Criptografar e exportar dados usando uma chave instalada no Painel de controle](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
+* [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
-## Descriptografia de dados {#decrypting-data}
+## Descriptografar dados {#decrypting-data}
 
-O Painel de controle permite descriptografar dados externos que entram em suas instâncias de Adobe Campaign.
+O Painel de controle do Campaign permite descriptografar dados externos que entram em suas instâncias do Adobe Campaign.
 
-Para fazer isso, você precisa gerar um par de teclas GPG diretamente do Painel de controle.
+Para fazer isso, você precisa gerar um par de chaves GPG diretamente do Painel de controle do Campaign.
 
-* A chave **** pública será compartilhada com o sistema externo, que a usará para criptografar os dados a serem enviados para a Campanha.
-* A chave **** privada será usada pela Campanha para descriptografar os dados criptografados recebidos.
+* The **public key** will be shared with the external system, which will use it to encrypt the data to send to Campaign.
+* The **private key** will be used by Campaign to decrypt the incoming encrypted data.
 
-Para gerar um par de teclas no Painel de controle, siga estas etapas:
+Para gerar um par de chaves no Painel de controle do Campaign, siga estas etapas:
 
-1. Abra o **[!UICONTROL Instance settings]** cartão e selecione a guia **[!UICONTROL GPG keys]** e a instância de Adobe Campaign desejada.
+1. Abra o **[!UICONTROL Instance settings]** cartão e selecione a guia **[!UICONTROL GPG keys]** e a instância do Adobe Campaign desejada.
 
 1. Clique no botão **[!UICONTROL Generate Key]**.
 
    ![](assets/gpg_generate.png)
 
-1. Especifique o nome da chave e clique em **!UICONTROL Generate Key]**. Este nome o ajudará a identificar a chave a ser usada para descriptografia em Workflows da campanha
+1. Especifique o nome da chave e clique em **[!UICONTROL Generate Key]**. Este nome o ajudará a identificar a chave a ser usada para descriptografia em Workflows da campanha
 
    ![](assets/gpg_generate_name.png)
 
@@ -123,19 +123,19 @@ Você pode usar o **...** para baixar a chave pública ou copiar sua impressão 
 
 ![](assets/gpg_generate_list.png)
 
-A chave pública está disponível para ser compartilhada com qualquer sistema externo. O Adobe Campaign poderá usar a chave privada nas atividades de carregamento de dados para descriptografar dados que foram criptografados com a chave pública.
+A chave pública está disponível para ser compartilhada com qualquer sistema externo. A Adobe Campaign poderá usar a chave privada nas atividades de carregamento de dados para descriptografar dados que foram criptografados com a chave pública.
 
-Para obter mais informações, consulte a documentação do Adobe Campaign:
+Para obter mais informações, consulte a documentação da Adobe Campaign:
 
 **Campaign Classic:**
 
 * [Descompactação ou descriptografia de um arquivo antes do processamento](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#unzipping-or-decrypting-a-file-before-processing)
-* [Caso de uso: Importação de dados criptografados usando uma chave gerada pelo Painel de controle](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
+* [Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/importing-data.html#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Gerenciamento de dados criptografados](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso de uso: Importação de dados criptografados usando uma chave gerada pelo Painel de controle](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Monitorando teclas GPG
 
@@ -153,7 +153,7 @@ A lista exibe todas as chaves GPG de criptografia e descriptografia que foram in
    ![](assets/gpg_icon_decrypt.png): A chave foi gerada para permitir a descriptografia de dados.
 
 * **[!UICONTROL Fingerprint]**: a impressão digital da chave.
-* **[!UICONTROL Expires]**: A data de expiração da chave. Observe que o Painel de controle fornecerá indicações visuais à medida que a tecla se aproxima da data de expiração:
+* **[!UICONTROL Expires]**: A data de expiração da chave. Observe que o Painel de controle do Campaign fornecerá indicações visuais à medida que a chave se aproxima da data de expiração:
 
    * Urgente (vermelho) é mostrado 30 dias antes.
    * A advertência (amarela) é mostrada 60 dias antes.
@@ -161,7 +161,7 @@ A lista exibe todas as chaves GPG de criptografia e descriptografia que foram in
 
    >[!NOTE]
    >
-   >Observe que nenhuma notificação por email será enviada pelo Painel de controle.
+   >Observe que nenhuma notificação por email será enviada pelo Painel de controle do Campaign.
 
 Como prática recomendada, recomendamos que você remova qualquer chave que não precise mais. To do this, click the **...** button then select **[!UICONTROL Delete Key].**.
 
@@ -169,4 +169,4 @@ Como prática recomendada, recomendamos que você remova qualquer chave que não
 
 >[!IMPORTANT]
 >
->Antes de remover uma chave, verifique se ela não é usada em nenhum fluxo de trabalho de Adobe Campaign para evitar que ela falhe.
+>Antes de remover uma chave, verifique se ela não é usada em nenhum fluxo de trabalho do Adobe Campaign para evitar que ela falhe.
