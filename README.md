@@ -1,8 +1,11 @@
 ---
 source-git-commit: 730d8bf6d40679a777c2c6ae94088a4dd4f066b6
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
+source-wordcount: '6'
+ht-degree: 100%
 
 ---
-# painel de controle.en
+# control-panel.pt-BR
 
-Documento do Repo for Control Panel
+Acordo de recompra na documentação do Painel de controle do Campaign
