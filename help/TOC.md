@@ -2,17 +2,17 @@
 product: adobe campaign
 sub-product: Painel de controle do Campaign
 audience: end-user
-user-guide-title: Guia do Painel de controle do Campaign
+user-guide-title: Guia do Painel de controle
 translation-type: tm+mt
 source-git-commit: 060bda7df761b0da491fe3c443656ec36d4e6fb0
 workflow-type: tm+mt
 source-wordcount: '100'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
 
-# Guia do Painel de controle do Campaign {#using}
+# Guia do Painel de controle {#using}
 
 + [Documentação do produto](control-panel-home.md)
 + [Notas de versão](release-notes.md)
