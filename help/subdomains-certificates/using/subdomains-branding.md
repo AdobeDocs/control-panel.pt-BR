@@ -1,11 +1,11 @@
 ---
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
-translation-type: ht
-source-git-commit: 80b35e82116b064a7b141d957ab79ecfc9a99026
-workflow-type: ht
-source-wordcount: '467'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+workflow-type: tm+mt
+source-wordcount: '702'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->A delegação de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
 
 ## Por que configurar subdomínios? {#why-setting-up-subdomains}
 
@@ -33,27 +33,48 @@ Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comun
 
 Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo incluídos na lista de bloqueios por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem incluídos na lista de bloqueios.
 
-## Métodos de delegação de subdomínios {#subdomain-delegation-methods}
+## Métodos de configuração do subdomínio {#subdomain-delegation-methods}
 
-A delegação de subdomínio permite delegar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para usar com o Adobe Campaign. Os métodos de configuração disponíveis são:
+A configuração de subdomínio permite configurar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para uso com a Adobe Campaign. Os métodos de configuração disponíveis são:
 
 * **Delegação completa do subdomínio para o Adobe Campaign** (recomendado): o subdomínio é totalmente delegado à Adobe. A Adobe pode disponibilizar o Campaign como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
-* **Uso de CNAMEs** (não recomendado e incompatível com o Painel de controle do Campaign): crie um subdomínio e use CNAMEs para apontar para registros específicos da Adobe. Usando essa configuração, a Adobe e o cliente compartilham a responsabilidade pela manutenção do DNS.
+* **Utilização de CNAMEs**: Crie um subdomínio e use CNAMEs para apontar para registros específicos do Adobe. Usando essa configuração, a Adobe e o cliente compartilham a responsabilidade pela manutenção do DNS.
 
 A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o nível de esforço necessário:
 
-| Método de delegação | Como funciona | Nível de esforço |
+| Método de configuração | Como funciona | Nível de esforço |
 |---|---|---|
 | **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
 | **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 
-Outras informações sobre a delegação de domínio estão disponíveis [nesta documentação](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
+Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
 
-Em caso de dúvida sobre os métodos de delegação de subdomínio, entre em contato com a Equipe de avaliação do delivery da Adobe ou entre em contato com o Atendimento ao cliente para solicitar consultoria sobre deliveries.
+Se tiver alguma dúvida sobre os métodos de configuração do subdomínio, entre em contato com a equipe de Disponibilidade do Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar a consultoria de Disponibilidade.
+
+## Casos de uso de subdomínios (Campaign Classic) (#subdomain-use-cases)
+
+Ao configurar subdomínios para instâncias de Campaign Classic, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+
+Os possíveis casos de utilização são:
+
+* **Comunicações de marketing**: comunicações destinadas a fins comerciais. Exemplo: campanha de email de vendas.
+
+* **Comunicações transacionais e operacionais**: as comunicações transacionais contêm informações destinadas a concluir um processo que o recipient iniciou com você. Exemplo: confirmação de compra, email de redefinição de senha. As comunicações organizacionais estão relacionadas com o intercâmbio de informações, ideias e visualizações dentro e fora da organização, sem fins comerciais.
+
+**Separar os subdomínios de acordo com os casos de uso é uma prática recomendada para o delivery**. A reputação de cada subdomínio é isolada e protegida. Por exemplo, se o subdomínio para comunicações de marketing acabar sendo incluído na lista de bloqueios por provedores de serviço de internet, o subdomínio de comunicações transacionais não será afetado e continuará sendo capaz de enviar comunicações.
+
+**Você pode configurar subdomínios para casos** de uso de Marketing e Transacional:
+
+* Para casos de uso de Marketing, os subdomínios serão configurados em instâncias **MID** (Mid sourcing).
+* Para casos de uso transacional, os subdomínios serão configurados em TODAS as instâncias **RT** (Centro de mensagens/Mensagens em tempo real) para garantir a conectividade. Os subdomínios operarão, portanto, com todas as instâncias de RT.
+
+>[!NOTE]
+>
+>Se você estiver usando o Campaign Classic, o Painel de controle permitirá que você veja quais instâncias de RT/MID estão conectadas à instância de Marketing com a qual você está trabalhando. Para obter mais informações, consulte a seção [Detalhes da instância](../../instances-settings/using/instance-details.md).
 
 **Tópicos relacionados:**
 
 * [Configurar um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)
-* [Delegar subdomínios (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
+* [Vídeo tutorial](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
 * [Monitorar subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
