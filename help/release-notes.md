@@ -1,10 +1,10 @@
 ---
 title: Versões do Painel de Controle do Campaign
 translation-type: tm+mt
-source-git-commit: 6607bb44a3a40607a653c37bfb19ae0d9fc6f5a9
+source-git-commit: 1c7e5a830ff9a6b6a726cfbe30ca2ad264f1d8c6
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 92%
+source-wordcount: '619'
+ht-degree: 79%
 
 ---
 
@@ -16,6 +16,16 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >[!NOTE]
 >
 >Observe que o Painel de controle do Campaign está disponível somente para clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são compatíveis. Nenhuma atualização é necessária para acessar o Painel de controle do Campaign. Você deve ser um usuário administrador para acessá-lo.
+
+## Outubro de 2020 {#october-2020}
+
+**Configuração de subdomínio usando CNAMEs**
+
+O Painel de controle do Campaign agora permite que você configure um subdomínio para funcionar com o Adobe usando CNAMEs diretamente da interface. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+
+**Melhorias no monitoramento de banco de dados**
+
+A **[!UICONTROL Database monitoring]** guia foi aprimorada com métricas adicionais, permitindo obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
 
 ## Junho de 2020 {#june-2020}
 
@@ -43,7 +53,7 @@ O Painel de controle do Campaign agora permite monitorar o número de perfis ati
 
 **Gerenciamento de certificados para subdomínios CNAME**
 
-O Painel de controle do Campaign agora permite renovar os certificados SSL de seus subdomínios que foram delegados com o método CNAME. [Leia mais](subdomains-certificates/using/renewing-subdomain-certificate.md)
+O Painel de controle do Campaign agora permite renovar os certificados SSL de seus subdomínios que foram configurados com o método CNAME. [Leia mais](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Abril de 2020 {#april-2020}
 
@@ -63,7 +73,7 @@ O Painel de controle do Campaign está equipado com recursos de email de alerta 
 
 *22 de janeiro de 2020*
 
-Adicionamos novos recursos para usuários administradores delegarem subdomínios e renovarem certificados SSL pelo Painel de controle do Campaign.
+Adicionamos novos recursos para usuários administradores configurarem subdomínios e renovarem certificados SSL do Painel de controle do Campaign.
 
 Para obter mais informações, consulte estas páginas:
 * [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
