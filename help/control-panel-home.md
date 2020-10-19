@@ -1,10 +1,10 @@
 ---
 title: Documentação do produto
-translation-type: ht
-source-git-commit: d8fe1c2e847fa25919f81bf0a4195de5ad0b2781
-workflow-type: ht
-source-wordcount: '122'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 75a10bc5c9886cf99df5d2bffb087b91ce81bb10
+workflow-type: tm+mt
+source-wordcount: '124'
+ht-degree: 59%
 
 ---
 
@@ -15,13 +15,14 @@ ht-degree: 100%
 
 ## Novidades
 
-* **Auditoria de entrega de subdomínio**
 
-   Depois de delegar um novo subdomínio, o Painel de controle do Campaign agora permite rastrear a auditoria realizada pela equipe de avaliação do delivery. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+**Configuração de subdomínio usando CNAMEs**
 
-* **Gerenciamento de chaves GPG**
+O Painel de controle do Campaign agora permite que você configure um subdomínio para funcionar com o Adobe usando CNAMEs diretamente da interface. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-   Instale e/ou gere chaves GPG em uma instância de marketing para criptografar dados enviados pelo Campaign e descriptografar dados recebidos. [Leia mais](instances-settings/using/gpg-keys-management.md)
+**Melhorias no monitoramento de banco de dados**
+
+A **[!UICONTROL Database monitoring]** guia foi aprimorada com métricas adicionais, permitindo obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
 
 ## Recursos adicionais {#additional-resources}
 
