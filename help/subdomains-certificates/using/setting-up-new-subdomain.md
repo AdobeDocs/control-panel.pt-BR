@@ -2,9 +2,9 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
 translation-type: tm+mt
-source-git-commit: c215836129487530e50398ca1454895a2f319867
+source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
 workflow-type: tm+mt
-source-wordcount: '1098'
+source-wordcount: '1100'
 ht-degree: 50%
 
 ---
@@ -27,7 +27,7 @@ Esta página fornece informações sobre como configurar novos subdomínios usan
 **Tópicos relacionados:**
 
 * [Delegar subdomínios (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/subdomain-delegation.html)
-* [Configurar subdomínios usando CNAMEs](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
+* [Configuração de subdomínios usando CNAMEs (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-classic-learn/control-panel/subdomains-and-certificates/delegating-subdomains-using-cname.html)
 * [Monitorar subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
 
 ## Leitura obrigatória {#must-read}
