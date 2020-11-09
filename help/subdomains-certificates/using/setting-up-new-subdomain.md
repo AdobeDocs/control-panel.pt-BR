@@ -2,10 +2,10 @@
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
 translation-type: tm+mt
-source-git-commit: 4488040118bac708348bc73c5e525f35f6b1e6c1
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 50%
+source-wordcount: '1106'
+ht-degree: 49%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
 
-Esta página fornece informações sobre como configurar novos subdomínios usando delegação de subdomínio completa ou CNAMEs. Os conceitos globais sobre estes dois métodos são apresentados nesta seção: [](../../subdomains-certificates/using/subdomains-branding.md).
+Esta página fornece informações sobre como configurar novos subdomínios usando delegação de subdomínio completa ou CNAMEs. Os conceitos globais sobre estes dois métodos são apresentados nesta seção: [Marca](../../subdomains-certificates/using/subdomains-branding.md)de subdomínios.
 
 **Tópicos relacionados:**
 
@@ -74,7 +74,7 @@ Para delegar completamente um subdomínio ao Adobe Campaign, siga estas etapas:
 
    ![](assets/subdomain6.png)
 
-Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle do Campaign. Para obter mais informações, consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-verify-and-configuration).
+Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle do Campaign. Para obter mais informações, consulte [Verificações de subdomínio e configuração](#subdomain-checks-and-configuration).
 
 ## Configuração de subdomínio usando CNAMEs {#use-cnames}
 
@@ -112,7 +112,7 @@ Para configurar um subdomínio usando CNAMEs, siga estas etapas:
    >
    >Observe que os registros de DNS a serem colocados em seu servidor serão mantidos por Painel de controle do Campaign 30 dias. Além desse período, será necessário configurar o subdomínio do zero.
 
-Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle do Campaign. Para obter mais informações, consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md#subdomain-checks-and-configuration).
+Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle do Campaign. Para obter mais informações, consulte [Verificações de subdomínio e configuração](#subdomain-checks-and-configuration).
 
 ## Verificações e configuração do subdomínio {#subdomain-checks-and-configuration}
 
