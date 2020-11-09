@@ -2,10 +2,10 @@
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
 translation-type: tm+mt
-source-git-commit: 17f51b60310b4fbc89e2106eb4ee9251fd525a59
+source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
 workflow-type: tm+mt
-source-wordcount: '702'
-ht-degree: 80%
+source-wordcount: '707'
+ht-degree: 79%
 
 ---
 
@@ -54,7 +54,7 @@ Se tiver alguma dúvida sobre os métodos de configuração do subdomínio, entr
 
 ## Casos de uso de subdomínios (Campaign Classic) (#subdomain-use-cases)
 
-Ao configurar subdomínios para instâncias de Campaign Classic, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Ao configurar subdomínios para instâncias de Campaign Classic, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [Configuração de um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Os possíveis casos de utilização são:
 
