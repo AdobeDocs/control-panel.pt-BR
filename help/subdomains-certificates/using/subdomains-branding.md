@@ -2,9 +2,9 @@
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
 translation-type: tm+mt
-source-git-commit: a9dbcef585be629b77b7154535df95fc4778d781
+source-git-commit: 3ff864e7e8c896d49c89d49800b7471d00b777e7
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '706'
 ht-degree: 79%
 
 ---
@@ -52,7 +52,7 @@ Additional information on domain configuration is available in [this documentati
 
 Se tiver alguma dúvida sobre os métodos de configuração do subdomínio, entre em contato com a equipe de Disponibilidade do Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar a consultoria de Disponibilidade.
 
-## Casos de uso de subdomínios (Campaign Classic) (#subdomain-use-cases)
+## Casos de uso de subdomínios (Campaign Classic){#subdomains-use-cases}
 
 Ao configurar subdomínios para instâncias de Campaign Classic, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [Configuração de um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
