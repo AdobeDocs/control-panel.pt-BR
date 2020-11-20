@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Detalhes da instância
 description: Saiba como monitorar os detalhes da instância no Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 35723590195ef54df42d1d1df5b37490787f8836
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
