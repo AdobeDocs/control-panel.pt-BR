@@ -1,9 +1,11 @@
 ---
+product: campaign
+solution: Campaign
 title: Monitoramento de perfis ativos
 description: Saiba como obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos Perfis ativos para cada uma de suas instâncias do Campaign.
-translation-type: ht
-source-git-commit: 024eb750021ff2446b34d648b5abfb016eabc289
-workflow-type: ht
+translation-type: tm+mt
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
 
