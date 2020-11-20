@@ -1,8 +1,10 @@
 ---
-title: Gerenciamento de permissões para o Painel de controle
-description: Saiba como gerenciar permissões no Painel de controle
+product: campaign
+solution: Campaign
+title: Gerenciamento de permissões para o Painel de controle do Campaign
+description: Saiba como gerenciar permissões para o Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: aae2007169cc2abc003b3ef6b72e32570ffacba5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
@@ -10,11 +12,11 @@ ht-degree: 0%
 ---
 
 
-# Gerenciamento de permissões para o Painel de controle {#managing-permissions-control-panel}
+# Managing permsissions to Control Panel {#managing-permissions-control-panel}
 
-O Painel de controle está disponível para todos os usuários administradores de uma instância de Campanha. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder acesso ao Painel de controle.
+O Painel de controle do Campaign está disponível para todos os usuários administradores de uma instância de Campanha. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder acesso ao Painel de controle do Campaign.
 
-1. Navegue até a [Adobe Experience Cloud](https://experiencecloud.adobe.com/)e selecione a **[!UICONTROL Administration]** guia.
+1. Navegue até o [Adobe Experience Cloud](https://experiencecloud.adobe.com/)e selecione a **[!UICONTROL Administration]** guia.
 
    ![](assets/do-not-localize/control_panel_add_user1.png)
 
@@ -40,7 +42,7 @@ O Painel de controle está disponível para todos os usuários administradores d
 
    >[!NOTE]
    >
-   >Você pode adicionar usuários administradores diferentes para cada instância de Campanha. Nesse caso, os usuários administradores acessarão o Painel de controle da instância à qual pertencem apenas.
+   >Você pode adicionar usuários administradores diferentes para cada instância de Campanha. Nesse caso, os usuários administradores acessarão apenas o Painel de controle do Campaign da instância à qual pertencem.
 
 1. A lista de Perfis de Produto para a instância selecionada é exibida. Clique no perfil do **[!UICONTROL Administrators]** produto para acessar a lista de usuários administradores.
 
@@ -56,4 +58,4 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 >[!NOTE]
 >
->Depois que o acesso for configurado, o usuário terá que sair da Adobe Experience Cloud e fazer logon novamente para acessar o Painel do controle de acesso.
+>Depois que o acesso for configurado, o usuário terá que sair do Adobe Experience Cloud e fazer login novamente para acessar o Painel do controle de acesso.
