@@ -1,11 +1,13 @@
 ---
+product: campaign
+solution: Campaign
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
 translation-type: tm+mt
-source-git-commit: 1fe1bf8cd90218c54076988780b53819e9fad304
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '1112'
-ht-degree: 12%
+ht-degree: 16%
 
 ---
 
@@ -28,8 +30,8 @@ Depois será possível:
 
 **Tópicos relacionados:**
 
-* [Vídeos de tutoriais do Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
-* [Vídeos de tutoriais do Campaign Classic](https://docs.adobe.com/content/help/en/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
+* [Vídeos tutoriais sobre o Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard-learn/tutorials/administrating/control-panel/gpg-key-management/gpg-key-management-overview.html)
+* [Vídeos tutoriais sobre o Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic-learn/tutorials/administrating/control-panel-acc/gpg-key-management/gpg-key-management-overview.html)
 
 ## Criptografar dados {#encrypting-data}
 
