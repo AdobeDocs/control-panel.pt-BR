@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Fazer logon no servidor SFTP
 description: Saiba como fazer logon no servidor SFTP
 translation-type: tm+mt
-source-git-commit: f6d75de9c3d92e4f5d0b3d254f103db0901ab20a
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 5%
@@ -16,7 +18,7 @@ As etapas abaixo detalham como conectar seu servidor SFTP por meio do aplicativo
 
 Antes de fazer logon no servidor, verifique se:
 
-* Seu servidor SFTP é **hospedado pela Adobe**.
+* Seu servidor SFTP é **hospedado pelo Adobe**.
 * Seu **nome de usuário** foi configurado para o servidor. You can check this information directly in the Control Panel, in the **Key management** tab from the SFTP Card.
 * Você tem um par **de chaves** privadas e públicas para fazer logon no servidor SFTP. Consulte [esta seção](../../sftp/using/key-management.md) para obter mais informações sobre como adicionar a chave SSH.
 * Seu endereço IP **público foi adicionado à lista de permissões** no servidor SFTP. Caso contrário, consulte [esta seção](../../sftp/using/ip-range-allow-listing.md) para obter mais informações sobre como adicionar seu intervalo IP à lista de permissões.
@@ -24,11 +26,11 @@ Antes de fazer logon no servidor, verifique se:
 
 Para se conectar ao servidor SFTP, siga estas etapas:
 
-1. Inicie o Painel de controle e selecione a **[!UICONTROL Key Management]** guia na **[!UICONTROL SFTP]** placa.
+1. Inicie o Painel de controle do Campaign e selecione a **[!UICONTROL Key Management]** guia no **[!UICONTROL SFTP]** cartão.
 
    ![](assets/sftp_card.png)
 
-1. Inicie seu aplicativo cliente SFTP, copie e cole o endereço do servidor do Painel de controle, seguido por &quot;campanha.adobe.com&quot; e preencha seu nome de usuário.
+1. Inicie seu aplicativo cliente SFTP, copie e cole o endereço do servidor do Painel de controle do Campaign, seguido por &quot;campanha.adobe.com&quot; e preencha seu nome de usuário.
 
    ![](assets/do-not-localize/connect1.png)
 
@@ -40,7 +42,7 @@ Para se conectar ao servidor SFTP, siga estas etapas:
 
    ![](assets/do-not-localize/connect3.png)
 
-   Você pode verificar se a chave que está tentando usar está salva no Painel de controle ao comparar a impressão digital da chave privada ou pública com a impressão digital das chaves que aparecem na guia Gerenciamento de chaves da placa SFTP.
+   Você pode verificar se a chave que está tentando usar está salva no Painel de controle do Campaign comparando a impressão digital da chave privada ou pública com a impressão digital das chaves que aparecem na guia Gerenciamento de chaves da placa SFTP.
 
    ![](assets/fingerprint_compare.png)
 
