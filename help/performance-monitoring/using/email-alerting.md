@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Alerta por email
 description: Saiba como receber notificações por email em caso de problemas com as instâncias de Campanha
 translation-type: tm+mt
-source-git-commit: e2ee8badd9fffdfadabbe6c659aef8504ee62e9d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 2%
@@ -12,11 +14,11 @@ ht-degree: 2%
 
 # Alerta por email {#email-alerting}
 
-Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle está equipado com a funcionalidade de alertas por email em tempo real.
+Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle do Campaign está equipado com funcionalidade de alertas por email em tempo real.
 
 Para assinar esses alertas, siga estas etapas:
 
-1. Clique no **[!UICONTROL Alerting notifications]** botão disponível em qualquer local no Painel de controle e, em seguida, clique em **[!UICONTROL Subscribe]**.
+1. Clique no **[!UICONTROL Alerting notifications]** botão disponível em qualquer local no Painel de controle do Campaign e, em seguida, clique em **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -24,7 +26,7 @@ Para assinar esses alertas, siga estas etapas:
 
    ![](assets/email_subscription.png)
 
-1. Após a assinatura, o Painel de controle notificará sobre problemas do sistema e recomendará as ações a serem tomadas. Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são administradores.
+1. Após a inscrição, o Painel de controle do Campaign notificará sobre problemas do sistema e recomendará as ações a serem tomadas. Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são administradores.
 
    ![](assets/alert_sample.png)
 
