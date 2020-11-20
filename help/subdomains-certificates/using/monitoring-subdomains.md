@@ -1,13 +1,18 @@
 ---
-title: Monitorando certificados SSL de subdomínios
-description: Saiba como monitorar certificados SSL de seus subdomínios
+product: campaign
+solution: Campaign
+title: Monitorar certificados SSL de subdomínios
+description: Saiba como monitorar certificados SSL de subdomínios
 translation-type: tm+mt
-source-git-commit: a2c19296894ff893987290cb287dc7002ab999e5
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+workflow-type: tm+mt
+source-wordcount: '157'
+ht-degree: 24%
 
 ---
 
 
-# Monitoramento de seus subdomínios {#monitoring-subdomains}
+# Monitorar subdomínios {#monitoring-subdomains}
 
 É essencial monitorar seus subdomínios para garantir que todos estejam configurados corretamente para funcionar com o Adobe Campaign.
 
@@ -19,7 +24,7 @@ A **[!UICONTROL Last verification]** coluna indica quando um subdomínio foi ver
 
 >[!IMPORTANT]
 >
->A Adobe não recomenda o uso de subdomínios sem data de certificado, pois isso pode significar que esses subdomínios podem estar com problemas de entrega.
+>O Adobe não recomenda o uso de subdomínios sem data de certificado, pois isso pode significar que esses subdomínios podem estar com problemas de entrega.
 
 Ao iniciar uma verificação, várias operações são executadas para verificar se o subdomínio está configurado corretamente (verificação do locatário da instância, teste de envio de email etc.)
 
@@ -28,5 +33,5 @@ Se a verificação do subdomínio falhar, entre em contato com o Atendimento ao 
 **Tópicos relacionados:**
 
 * [Adicionar certificados SSL (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
-* [Renovando um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
+* [Renovar um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
