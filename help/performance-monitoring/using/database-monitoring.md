@@ -1,8 +1,10 @@
 ---
+product: campaign
+solution: Campaign
 title: Monitoramento de banco de dados
 description: Saiba como monitorar seu banco de dados de Campanhas no Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 3dca1a261c4c92104170f70e6dbd12ba72e61e7d
+source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 1%
