@@ -4,10 +4,10 @@ solution: Campaign
 title: Gerenciamento de armazenamentos SFTP
 description: Saiba como monitorar e gerenciar o armazenamento do servidor SFTP
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '352'
+ht-degree: 91%
 
 ---
 
@@ -24,10 +24,7 @@ Você pode ter uma capacidade de armazenamento diferente provisionada no servido
 
 É essencial monitorar regularmente o espaço disponível para cada um dos servidores SFTP. Caso contrário, talvez você não consiga salvar mais arquivos no servidor ou executar com êxito workflows que dependam das atualizações deste servidor.
 
-**Tópicos relacionados:**
-
-* [Vídeo tutorial sobre o Campaign Standard](https://docs.adobe.com/content/help/en/campaign-standard-learn/tutorials/administrating/control-panel/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
-* [Vídeo tutorial sobre o Campaign Classic](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/monitoring-server-capacity-allow-listing-adding-ssh-key.html)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/monitoring-server-capacity.html?lang=en#sftp-management)
 
 ## Acessar informações de capacidade de armazenamento {#accessing-storage-capacity-information}
 
