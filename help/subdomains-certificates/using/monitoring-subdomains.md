@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitorar certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de subdomínios
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 24%
+source-wordcount: '142'
+ht-degree: 16%
 
 ---
 
@@ -32,6 +32,5 @@ Se a verificação do subdomínio falhar, entre em contato com o Atendimento ao 
 
 **Tópicos relacionados:**
 
-* [Adicionar certificados SSL (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-standard-tutorials/administrating/control-panel/adding-ssl-certificates.html)
 * [Renovar um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md)
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
