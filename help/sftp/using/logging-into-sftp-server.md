@@ -4,10 +4,10 @@ solution: Campaign
 title: Fazer logon no servidor SFTP
 description: Saiba como fazer logon no servidor SFTP
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 5%
+source-wordcount: '374'
+ht-degree: 4%
 
 ---
 
@@ -15,6 +15,8 @@ ht-degree: 5%
 # Fazer logon no servidor SFTP {#logging-into-sft-server}
 
 As etapas abaixo detalham como conectar seu servidor SFTP por meio do aplicativo cliente SFTP.
+
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/connect-to-sftp-server.html?lang=en#sftp-management)
 
 Antes de fazer logon no servidor, verifique se:
 
