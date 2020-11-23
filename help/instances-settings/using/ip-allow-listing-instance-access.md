@@ -4,7 +4,7 @@ solution: Campaign
 title: Lista de permissões de IP
 description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle do Campaign para obter acesso à instância
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 94%
@@ -20,11 +20,11 @@ ht-degree: 94%
 >abstract="Adicione endereços IP à lista de permissões para acessar suas instâncias."
 >additional-url="https://images-tv.adobe.com/mpcv3/045cac99-f948-478e-ae04-f8c161dcb9e2_1568132508.1920x1080at3000_h264.mp4" text="Assista ao vídeo de demonstração"
 
+## Sobre a lista de permissões de IP {#about-ip-allow-listing}
+
 >[!IMPORTANT]
 >
 >Esse recurso está disponível apenas para instâncias do Campaign Classic.
-
-## Sobre a lista de permissões de IP {#about-ip-allow-listing}
 
 Por padrão, a instância do Adobe Campaign Classic não pode ser acessada de vários endereços IP.
 
