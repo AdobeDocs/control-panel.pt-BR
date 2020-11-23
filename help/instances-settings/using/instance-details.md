@@ -4,7 +4,7 @@ solution: Campaign
 title: Detalhes da instância
 description: Saiba como monitorar os detalhes da instância no Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '554'
 ht-degree: 94%
@@ -21,11 +21,11 @@ ht-degree: 94%
 >additional-url="https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/release-notes/latest-release.html" text="Notas de versão do Campaign Classic"
 >additional-url="https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/release-notes/release-notes.html" text="Notas de versão do Campaign Standard"
 
+## Sobre detalhes da instância {#about-instance-details}
+
 >[!IMPORTANT]
 >
 >Esse recurso está disponível apenas para instâncias do Campaign Classic.
-
-## Sobre detalhes da instância {#about-instance-details}
 
 A arquitetura de instâncias do Adobe Campaign Classic pode conter vários servidores para permitir a flexibilidade das atividades de marketing. Por exemplo, você pode ter servidores de Marketing, Tempo real (ou Centro de mensagens) e Mid Sourcing para dar suporte à sua instância.
 
