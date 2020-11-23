@@ -4,9 +4,9 @@ solution: Campaign
 title: Monitoramento de banco de dados
 description: Saiba como monitorar seu banco de dados de Campanhas no Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '936'
 ht-degree: 1%
 
 ---
@@ -29,6 +29,8 @@ O sobrefluxo de um banco de dados de instância pode levar a vários problemas (
 >Se a quantidade de espaço do banco de dados fornecido, conforme mostrado no Painel de controle do Campaign, não refletir a quantidade especificada em seu contrato, entre em contato com o Atendimento ao cliente.
 
 ## Monitoramento do uso do banco de dados {#monitoring-instances-database}
+
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=en#performance-monitoring)
 
 O Painel de controle do Campaign permite monitorar o uso do banco de dados para cada uma das instâncias de Campanha. Para fazer isso, abra o **[!UICONTROL Performance Monitoring]** cartão e selecione a **[!UICONTROL Databases]** guia.
 
