@@ -4,7 +4,7 @@ solution: Campaign
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 79%
@@ -20,11 +20,11 @@ ht-degree: 79%
 >abstract="Monitore subdomínios e os certificados SSL associados."
 >additional-url="https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Como monitorar os certificados SSL de subdomínios"
 
+## Por que configurar subdomínios? {#why-setting-up-subdomains}
+
 >[!IMPORTANT]
 >
 >A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
-
-## Por que configurar subdomínios? {#why-setting-up-subdomains}
 
 Um subdomínio é uma divisão do seu domínio que pode ser usada para isolar suas marcas ou vários tipos de tráfego (mensagens transacionais, informações de marketing etc.).
 
