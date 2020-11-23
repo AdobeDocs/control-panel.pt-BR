@@ -4,9 +4,9 @@ solution: Campaign
 title: Gerenciamento de permissões para o Painel de controle do Campaign
 description: Saiba como gerenciar permissões para o Painel de controle do Campaign
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 O Painel de controle do Campaign está disponível para todos os usuários administradores de uma instância de Campanha. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder acesso ao Painel de controle do Campaign.
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights) ou [Campaign Standard](https://experienceleague.corp.adobe.com/docs/campaign-standard-learn/control-panel/getting-started-with-the-control-panel.html?lang=en#administrator-rights)
 
 1. Navegue até o [Adobe Experience Cloud](https://experiencecloud.adobe.com/)e selecione a **[!UICONTROL Administration]** guia.
 
