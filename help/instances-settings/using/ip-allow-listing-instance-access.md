@@ -4,10 +4,10 @@ solution: Campaign
 title: Lista de permissões de IP
 description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle do Campaign para obter acesso à instância
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -33,6 +33,8 @@ Se seu endereço IP não tiver sido incluído na lista de permissões, você nã
 O Painel de controle do Campaign permite configurar novas conexões às suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Para fazer isso, siga as etapas descritas abaixo.
 
 Depois que os endereços IP forem exibido na lista de permissões, você poderá criar e vincular operadores do Campaign a eles para que os usuários possam acessar a instância.
+
+![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=en#instance-settings)
 
 ## Práticas recomendadas {#best-practices}
 
@@ -91,5 +93,5 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 Para excluir intervalos IP da lista de permissões, selecione-os e clique no botão **[!UICONTROL Delete IP range]** .
 
 **Tópicos relacionados:**
-* [Lista de permissões de IP (vídeo tutorial)](https://docs.adobe.com/content/help/en/campaign-learn/campaign-classic-tutorials/administrating/control-panel-acc/ip-allow-listing.html)
+
 * [Vincular uma zona de segurança a um operador](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Linking_a_security_zone_to_an_operator)
