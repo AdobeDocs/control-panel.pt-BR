@@ -4,7 +4,7 @@ solution: Campaign
 title: Monitoramento de perfis ativos
 description: Saiba como obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos Perfis ativos para cada uma de suas instâncias do Campaign.
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 100%
@@ -14,13 +14,13 @@ ht-degree: 100%
 
 # Monitoramento de perfis ativos {#active-profiles-monitoring}
 
+## Sobre perfis ativos {#about-active-profiles}
+
 >[!IMPORTANT]
 >
 >O monitoramento de perfis ativos pelo Painel de controle do Campaign está disponível em beta e está sujeito a atualizações e modificações frequentes sem aviso prévio.
 >
 >O recurso está disponível para clientes hospedados no AWS a partir da build 10368 do Campaign Standard e da build 8931 do Campaign Classic. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
-
-## Sobre perfis ativos {#about-active-profiles}
 
 De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com uma quantidade específica de perfis ativos que são contados para fins de faturamento. Consulte seu contrato mais recente para obter uma referência sobre o número de perfis ativos adquiridos.
 
