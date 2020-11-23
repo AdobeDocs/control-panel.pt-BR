@@ -4,7 +4,7 @@ solution: Campaign
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
 translation-type: tm+mt
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
+source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
 workflow-type: tm+mt
 source-wordcount: '1140'
 ht-degree: 47%
@@ -20,6 +20,8 @@ ht-degree: 47%
 >abstract="É necessário configurar um novo subdomínio e gerenciar os certificados SSL dos subdomínios para iniciar a enviar emails ou publicar páginas de aterrissagem com o Adobe Campaign."
 >additional-url="https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Como monitorar os certificados SSL de subdomínios"
 
+## Leitura obrigatória {#must-read}
+
 >[!IMPORTANT]
 >
 >A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
@@ -29,8 +31,6 @@ Esta página fornece informações sobre como configurar novos subdomínios usan
 **Tópicos relacionados:**
 
 * [Monitorar subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
-
-## Leitura obrigatória {#must-read}
 
 ### Seleção da instância
 
