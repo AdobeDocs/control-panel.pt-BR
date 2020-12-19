@@ -16,9 +16,9 @@ ht-degree: 16%
 
 É essencial monitorar seus subdomínios para garantir que todos estejam configurados corretamente para funcionar com o Adobe Campaign.
 
-A lista de subdomínios para cada uma das instâncias de produção pode ser acessada diretamente ao selecionar o **[!UICONTROL Subdomains & Certificates]** cartão.
+A lista de subdomínios para cada uma das instâncias de produção pode ser acessada diretamente ao selecionar o cartão **[!UICONTROL Subdomains & Certificates]**.
 
-A **[!UICONTROL Last verification]** coluna indica quando um subdomínio foi verificado pela última vez. Você pode iniciar uma verificação a qualquer momento clicando em **...** / **[!UICONTROL Verify subdomain]** .
+A coluna **[!UICONTROL Last verification]** indica quando um subdomínio foi verificado pela última vez. Você pode iniciar uma verificação a qualquer momento clicando em **...** / **[!UICONTROL Verify subdomain]**.
 
 ![](assets/subdomain_verification.png)
 
