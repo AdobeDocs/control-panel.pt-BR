@@ -16,7 +16,7 @@ ht-degree: 14%
 
 O Painel de controle do Campaign oferece várias funcionalidades para ajudá-lo a monitorar suas instâncias e garantir o desempenho ideal.
 
-O **[!UICONTROL Performance monitoring]** cartão no home page do Painel de controle do Campaign permite monitorar o uso de instâncias de Campanha como, por exemplo, a capacidade do banco de dados. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/database-monitoring.md).
+O cartão **[!UICONTROL Performance monitoring]** no home page do Painel de controle do Campaign permite monitorar o uso de instâncias de Campanha como, por exemplo, a capacidade do banco de dados. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 
