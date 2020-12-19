@@ -21,8 +21,8 @@ O acesso aos servidores SFTP é feito usando um software cliente SFTP, que pode 
 
 O painel de controle permite executar as ações abaixo para gerenciar os servidores SFTP:
 
-* Monitorar a capacidade **do seu** armazenamento,
-* Gerenciar endereços **IP permite listagem**: adicionar ou eliminar intervalos de endereços IP para um ou vários servidores,
-* Gerencie chaves **SSH** públicas para acessar seus servidores.
+* Monitore a capacidade **do armazenamento**,
+* Gerenciar **Endereços IP que permitem listagem**: adicionar ou eliminar intervalos de endereços IP para um ou vários servidores,
+* Gerencie **chaves SSH públicas** para acessar seus servidores.
 
 As seções abaixo contêm informações detalhadas sobre cada uma destas ações.
