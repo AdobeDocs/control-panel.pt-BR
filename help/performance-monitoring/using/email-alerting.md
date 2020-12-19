@@ -18,7 +18,7 @@ Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle do Campa
 
 Para assinar esses alertas, siga estas etapas:
 
-1. Clique no **[!UICONTROL Alerting notifications]** botão disponível em qualquer local no Painel de controle do Campaign e, em seguida, clique em **[!UICONTROL Subscribe]**.
+1. Clique no botão **[!UICONTROL Alerting notifications]** disponível em qualquer local no Painel de controle do Campaign e clique em **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
@@ -26,16 +26,16 @@ Para assinar esses alertas, siga estas etapas:
 
    ![](assets/email_subscription.png)
 
-1. Após a inscrição, o Painel de controle do Campaign notificará sobre problemas do sistema e recomendará as ações a serem tomadas. Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são administradores.
+1. Após a inscrição, o Painel de controle do Campaign notificará sobre problemas do sistema e recomendará as ações a serem tomadas. Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são Administradores.
 
    ![](assets/alert_sample.png)
 
 
 A lista das indicações é a seguinte:
 
-* **Uso** do armazenamento SFTP: Um de seus servidores SFTP alcançou 80% ou mais de sua capacidade. See [SFTP storage management](../../sftp/using/sftp-storage-management.md).
+* **Uso** do armazenamento SFTP: Um de seus servidores SFTP alcançou 80% ou mais de sua capacidade. Consulte [Gerenciamento de armazenamentos SFTP](../../sftp/using/sftp-storage-management.md).
 
-* **Uso** do banco de dados: Um dos bancos de dados de suas instâncias alcançou 80% ou mais de sua capacidade. Consulte Monitoramento [de](../../performance-monitoring/using/database-monitoring.md)banco de dados.
+* **Uso** do banco de dados: Um dos bancos de dados de suas instâncias alcançou 80% ou mais de sua capacidade. Consulte [Monitoramento de banco de dados](../../performance-monitoring/using/database-monitoring.md).
 
-* **Expiração** do certificado SSL: Um dos certificados SSL de seus subdomínios expirou ou vai expirar em 60 dias ou menos. See [Monitoring subdomains&#39; SSL certificates](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **Expiração** do certificado SSL: Um dos certificados SSL de seus subdomínios expirou ou vai expirar em 60 dias ou menos. Consulte [Monitorando certificados SSL de subdomínios](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
