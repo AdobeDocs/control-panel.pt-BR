@@ -35,7 +35,7 @@ Vamos ver o exemplo do domínio &quot;mybrand.com&quot;, usado para enviar comun
 
 Ao fazer isso, você ajudará a preservar a reputação do seu domínio e de outros subdomínios. Por exemplo, se os subdomínios &quot;marketing.mybrand.com&quot; acabassem sendo incluídos na lista de bloqueios por provedores de serviço de internet devido a uma entrega incorreta, isso evitaria que todo o domínio &quot;mybrand.com&quot; e o subdomínio &quot;info.mybrand.com&quot; fossem incluídos na lista de bloqueios.
 
-## Métodos de configuração do subdomínio {#subdomain-delegation-methods}
+## Métodos de configuração de subdomínio {#subdomain-delegation-methods}
 
 A configuração de subdomínio permite configurar uma subseção do seu domínio (tecnicamente uma &quot;zona DNS&quot;) para uso com a Adobe Campaign. Os métodos de configuração disponíveis são:
 
@@ -50,7 +50,7 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 | **Delegação completa** | Crie o subdomínio e o registro de namespace. A Adobe irá configurar todos os registros DNS necessários para o Adobe Campaign.<br/><br/>Nesta configuração, a Adobe é totalmente responsável pelo gerenciamento do subdomínio e de todos os registros DNS. | Baixo |
 | **CNAME, método personalizado** | Crie o subdomínio e o registro de namespace. A Adobe fornecerá os registros que serão colocados em seus servidores DNS e configurará os valores correspondentes em servidores DNS do Adobe Campaign.<br/><br/>Nessa configuração, você e a Adobe compartilham a responsabilidade pela manutenção do DNS. | Alto |
 
-Additional information on domain configuration is available in [this documentation](https://helpx.adobe.com/br/campaign/kb/domain-name-delegation.html).
+Informações adicionais sobre a configuração de domínio estão disponíveis em [esta documentação](https://helpx.adobe.com/campaign/kb/domain-name-delegation.html).
 
 Se tiver alguma dúvida sobre os métodos de configuração do subdomínio, entre em contato com a equipe de Disponibilidade do Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar a consultoria de Disponibilidade.
 
