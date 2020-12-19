@@ -18,7 +18,7 @@ ht-degree: 92%
 
 O Adobe Campaign recomenda proteger os subdomínios que hospedam suas páginas de aterrissagem, especialmente aqueles que estão coletando informações confidenciais dos clientes.
 
-**A criptografia** SSL (Secure Socket Layer) garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
+**A** criptografia SSL (Secure Socket Layer) garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
 
 **Os certificados SSL não são instalados nos próprios** subdomínios configurados. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam páginas de aterrissagem, páginas de recursos e outros.
 
