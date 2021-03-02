@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoramento de perfis ativos
 description: Saiba como obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos Perfis ativos para cada uma de suas instâncias do Campaign.
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '387'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,7 @@ Para fazer isso, siga estes passos:
 >Os perfis ativos são contados com base em workflows técnicos dedicados que são executados diariamente em suas instâncias:
 >
 >* O workflow [&quot;Faturamento&quot;](https://docs.adobe.com/help/pt-BR/campaign-standard/using/administrating/application-settings/technical-workflows.html) para o Campaign Standard,
->* O workflow [&quot;Número de perfis de faturamento ativos&quot;](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/automating-with-workflows/technical-workflows/deliveries.html) para o Campaign Classic.
+>* O workflow [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) para o Campaign Classic.
 
 
 A área inferior fornece uma representação gráfica do uso de perfis ativos nos últimos 30 dias. Você pode alterar o período exibido para 1 ano usando os filtros disponíveis no canto superior direito.
