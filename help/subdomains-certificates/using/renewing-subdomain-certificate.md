@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Renovar um certificado SSL de subdomínio
 description: Saiba como renovar certificados SSL de subdomínios
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '858'
+source-wordcount: '862'
 ht-degree: 90%
 
 ---
@@ -25,7 +28,7 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
 
 O processo de renovação do certificado SSL inclui 3 etapas:
 
@@ -36,7 +39,7 @@ Depois que a CSR é gerada, você pode baixá-la e usá-la para comprar o certif
 1. **Instalação do certificado SSL**
 Depois de comprar o certificado SSL, você pode instalá-lo no subdomínio desejado.
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando o  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classicor  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classic ou o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Gerar uma solicitação de assinatura de certificado (CSR) {#generating-csr}
 
@@ -105,7 +108,7 @@ Após obter uma Solicitação de assinatura de certificado (CSR) pelo Painel de 
 Depois que um certificado SSL for adquirido, você poderá instalá-lo em sua instância. Antes de continuar, verifique os pré-requisitos abaixo:
 
 * A Solicitação de assinatura de certificado (CSR) deve ter sido gerada pelo Painel de controle do Campaign. Caso contrário, você não poderá instalar o certificado pelo Painel de controle do Campaign.
-* A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi configurado para funcionar com o Adobe. Por exemplo, ele não pode conter mais subdomínios que o que foi configurado.
+* A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi configurado para funcionar com o Adobe. Por exemplo, ele não pode conter mais subdomínios do que o que foi configurado.
 * O certificado deve ter uma data atual. Não é possível instalar certificados com datas futuras e eles não devem estar expirados (ou seja, datas de início e término devem ser válidas).
 * O certificado deve ser emitido por uma autoridade de certificação (CA) confiável, como Comodo, DigiCert, Goaddy, etc.
 * O tamanho do certificado deve ser de 2048 bits e o algoritmo deve ser RSA.
