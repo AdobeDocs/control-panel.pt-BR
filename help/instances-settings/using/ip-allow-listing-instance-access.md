@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Lista de permissões de IP
 description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle do Campaign para obter acesso à instância
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '769'
 ht-degree: 94%
 
 ---
@@ -57,7 +60,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
    >[!NOTE]
    >
-   >Se o cartão de Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, isso significa que a ID de organização do IMS não está associada a nenhuma instância do Adobe Campaign Classic
+   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic
 
    ![](assets/ip_whitelist_list1.png)
 
