@@ -2,11 +2,14 @@
 product: campaign
 solution: Campaign
 title: Documentação do produto
-translation-type: ht
-source-git-commit: 317b4c1cee34667a36f5e1a1197649bfd69c151a
-workflow-type: ht
-source-wordcount: '116'
-ht-degree: 100%
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Iniciante
+translation-type: tm+mt
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+workflow-type: tm+mt
+source-wordcount: '120'
+ht-degree: 98%
 
 ---
 
