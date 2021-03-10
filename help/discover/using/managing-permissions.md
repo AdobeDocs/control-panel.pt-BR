@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Gerenciamento de permissões para o Painel de controle do Campaign
 description: Saiba como gerenciar permissões para o Painel de controle do Campaign
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: b3eb3dd5144a0d29ac4c684a151525cc5a37287b
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '273'
 ht-degree: 5%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 5%
 
 # Gerenciamento de permissões para o Painel de controle do Campaign {#managing-permissions-control-panel}
 
-O Painel de controle do Campaign está disponível para todos os usuários administradores de uma instância de Campanha. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder acesso ao Painel de controle do Campaign.
+O Painel de controle do Campaign está disponível para todos os usuários administradores de uma instância do Campaign. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder a eles acesso ao Painel de controle do Campaign.
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra este recurso no vídeo](#video)
 
@@ -30,29 +33,29 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 
    ![](assets/do-not-localize/control_panel_admin1.png)
 
-1. Selecione o produto de Campanha desejado.
+1. Selecione o produto Campaign desejado.
 
    ![](assets/do-not-localize/control_panel_add_user3.png)
 
    >[!NOTE]
    >
-   >Se você não vir seu produto, entre em contato com os administradores da organização para que eles lhe concedam acesso a ele.
+   >Caso não veja o produto, entre em contato com os administradores da organização para que eles lhe concedam acesso.
 
-1. A lista de instâncias para seu produto de Campanha é exibida. Selecione a instância à qual deseja adicionar um usuário administrador.
+1. A lista de instâncias do seu produto Campaign é exibida. Selecione a instância à qual deseja adicionar um usuário administrador.
 
    ![](assets/do-not-localize/control_panel_add_user4.png)
 
    >[!NOTE]
    >
-   >Você pode adicionar usuários administradores diferentes para cada instância de Campanha. Nesse caso, os usuários administradores acessarão apenas o Painel de controle do Campaign da instância à qual pertencem.
+   >Você pode adicionar diferentes usuários Administradores para cada instância do Campaign. Nesse caso, os usuários administradores acessarão o Painel de controle da instância à qual pertencem apenas.
 
-1. A lista de Perfis de Produto para a instância selecionada é exibida. Clique no lista do produto **[!UICONTROL Administrators]** para acessar a perfil de usuários administradores.
+1. A lista de Perfis de produto para a instância selecionada é exibida. Clique no perfil de produto **[!UICONTROL Administrators]** para acessar a lista de usuários administradores.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
-   >Por padrão, os usuários administradores pertencem ao Perfil de produtos &quot;Administradores&quot;. De acordo com a configuração de sua organização, o Perfil de produto pode ser nomeado de forma diferente (&quot;admin&quot;, &quot;admins&quot; etc.).
+   >Por padrão, os usuários administradores pertencem ao Perfil de produto &quot;Administradores&quot;. De acordo com a configuração de sua organização, o Perfil do produto pode ser nomeado de forma diferente (&quot;administrador&quot;, &quot;administradores&quot; etc.).
 
 1. A lista de usuários administradores é exibida. Clique no botão **[!UICONTROL Add User]** para adicionar o usuário desejado.
 
@@ -60,7 +63,7 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 
 >[!NOTE]
 >
->Depois que o acesso for configurado, o usuário terá que sair do Adobe Experience Cloud e fazer login novamente para acessar o Painel do controle de acesso.
+>Depois que o acesso é configurado, o usuário terá que sair do Adobe Experience Cloud e fazer logon novamente para acessar o Painel de controle do Campaign.
 
 ## Vídeo tutorial {#video}
 
