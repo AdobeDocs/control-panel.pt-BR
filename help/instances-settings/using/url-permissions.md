@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Permissões de URL
 description: Saiba como gerenciar permissões de URL no Painel de controle do Campaign
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 2d84a5ebe8dbf42264c94f882a51180aae2a58a6
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '612'
 ht-degree: 93%
 
 ---
@@ -58,7 +61,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    >[!NOTE]
    >
-   >Se o cartão de Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, isso significa que a ID de organização do IMS não está associada a nenhuma instância do Adobe Campaign Classic
+   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic
    >
    >A guia de <b><span class="uicontrol">permissões de URL</span></b> lista todos os URLs externos aos quais sua instância pode se conectar. Essa lista não inclui URLs necessários para que o Campaign funcione (por exemplo, conexões entre peças de infraestrutura).
 
