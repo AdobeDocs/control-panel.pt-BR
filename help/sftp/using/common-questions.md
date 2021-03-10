@@ -3,11 +3,14 @@ product: campaign
 solution: Campaign
 title: Perguntas comuns
 description: Saiba mais sobre questões comuns relacionadas ao gerenciamento de SFTP
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Intermediário
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 100%
+source-wordcount: '113'
+ht-degree: 98%
 
 ---
 
