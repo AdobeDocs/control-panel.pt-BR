@@ -3,10 +3,13 @@ product: campaign
 solution: Campaign
 title: Monitoramento de perfis ativos
 description: Saiba como obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos Perfis ativos para cada uma de suas instâncias do Campaign.
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 90c6d50dcb0d70616745170b5c35e42b7e5d784e
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '391'
 ht-degree: 97%
 
 ---
