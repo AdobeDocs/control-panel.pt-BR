@@ -2,40 +2,43 @@
 product: campaign
 solution: Campaign
 title: Alerta por email
-description: Saiba como receber notificações por email em caso de problemas com as instâncias de Campanha
+description: Saiba como receber notificações por email em caso de problemas com as instâncias do Campaign
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Experienciado
 translation-type: tm+mt
-source-git-commit: 168ae32d7931497bb37d63f7dd1d14eadbb4b1bf
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 2%
+source-wordcount: '170'
+ht-degree: 3%
 
 ---
 
 
 # Alerta por email {#email-alerting}
 
-Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle do Campaign está equipado com funcionalidade de alertas por email em tempo real.
+Para oferecer maior flexibilidade ao seu trabalho, o Painel de controle do Campaign está equipado com funcionalidade de alerta por email em tempo real.
 
-Para assinar esses alertas, siga estas etapas:
+Para se inscrever nesses alertas, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Alerting notifications]** disponível em qualquer local no Painel de controle do Campaign e clique em **[!UICONTROL Subscribe]**.
 
    ![](assets/subscribing.png)
 
-1. Um email é enviado para confirmar sua subscrição.
+1. Um email é enviado para confirmar a assinatura.
 
    ![](assets/email_subscription.png)
 
-1. Após a inscrição, o Painel de controle do Campaign notificará sobre problemas do sistema e recomendará as ações a serem tomadas. Os alertas de email são enviados para todos os que se inscreveram em **todas as instâncias** das quais são Administradores.
+1. Após a assinatura, o Painel de controle do Campaign notificará sobre problemas do sistema e recomendará as ações a serem executadas. Os alertas de email são enviados a todos os que se inscreveram em **todas as instâncias** das quais são Administradores.
 
    ![](assets/alert_sample.png)
 
 
-A lista das indicações é a seguinte:
+A lista de alertas é a seguinte:
 
-* **Uso** do armazenamento SFTP: Um de seus servidores SFTP alcançou 80% ou mais de sua capacidade. Consulte [Gerenciamento de armazenamentos SFTP](../../sftp/using/sftp-storage-management.md).
+* **Uso** do armazenamento SFTP: Um dos servidores SFTP atingiu 80% ou mais de sua capacidade. Consulte [Gerenciamento de armazenamento SFTP](../../sftp/using/sftp-storage-management.md).
 
-* **Uso** do banco de dados: Um dos bancos de dados de suas instâncias alcançou 80% ou mais de sua capacidade. Consulte [Monitoramento de banco de dados](../../performance-monitoring/using/database-monitoring.md).
+* **Uso** do banco de dados: Um dos bancos de dados de suas instâncias atingiu 80% ou mais de sua capacidade. Consulte [Monitoramento de banco de dados](../../performance-monitoring/using/database-monitoring.md).
 
-* **Expiração** do certificado SSL: Um dos certificados SSL de seus subdomínios expirou ou vai expirar em 60 dias ou menos. Consulte [Monitorando certificados SSL de subdomínios](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
+* **Expiração** do certificado SSL: Um dos certificados SSL de subdomínios expirou ou expirará em 60 dias ou menos. Consulte [Monitorar certificados SSL de subdomínios](../../subdomains-certificates/using/monitoring-ssl-certificates.md).
 
