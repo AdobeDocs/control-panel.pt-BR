@@ -2,10 +2,13 @@
 product: campaign
 solution: Campaign
 title: Versões do Painel de Controle do Campaign
+feature: 'Painel de controle do Campaign   '
+role: Arquiteto
+level: Iniciante
 translation-type: tm+mt
-source-git-commit: 1e1421494e5a6e357e56a77ee192475a03d18a28
+source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '594'
 ht-degree: 95%
 
 ---
@@ -27,7 +30,7 @@ Agora o Painel de Controle do Campaign permite configurar um subdomínio para fu
 
 **Melhorias no monitoramento de banco de dados**
 
-O monitoramento do banco de dados foi aprimorado com métricas adicionais que permitem obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
+O monitoramento de banco de dados foi aprimorado com métricas adicionais que permitem obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
 
 ## Junho de 2020 {#june-2020}
 
