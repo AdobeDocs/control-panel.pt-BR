@@ -7,10 +7,10 @@ feature: Painel de controle do Campaign
 role: Arquiteto
 level: Iniciante
 translation-type: tm+mt
-source-git-commit: c6401d8aba84e414f37eada9da593c353dcf3080
+source-git-commit: 56797d4d418f353738a241534eab3938fc5f747f
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,9 +32,10 @@ Principais benefícios:
 * Aumente a segurança controlando as configurações de acesso conforme a necessidade.
 
 >[!NOTE]
->O Painel de controle do Campaign é acessível somente para usuários administradores e está disponível para todos os clientes hospedados no AWS, exceto para ambientes híbridos que ainda não são compatíveis. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](../../discover/using/managing-permissions.md). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nessa seção](../../faq.md).
 >
->Observe que não é necessário atualizar para a versão mais recente da build do Campaign para acessar o Painel de Controle.
+>O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=en#discover-control-panel).
+>
+>Para o Campaign Classic, observe que sua instância deve ser hospedada no AWS e atualizada com a build mais recente do [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html) ou a build mais recente do GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html#release-notes). [ Saiba como verificar sua versão em [this section](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas em [this page](../../faq.md).
 
 <table style="table-layout:fixed">
 <tr>
