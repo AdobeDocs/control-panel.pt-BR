@@ -3,13 +3,13 @@ product: campaign
 solution: Campaign
 title: Monitoramento de banco de dados
 description: Saiba como monitorar o banco de dados do Campaign no Painel de controle do Campaign
-feature: 'Painel de controle do Campaign   '
+feature: Painel de controle do Campaign
 role: Arquiteto
 level: Experienciado
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '945'
 ht-degree: 1%
 
 ---
@@ -45,13 +45,9 @@ Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir in
 >
 >Observe que os dados desse painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte a documentação [Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) e [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html) ).
 >
->Você pode verificar a última vez que o workflow foi executado abaixo das métricas **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Observe que, se o fluxo de trabalho não estiver em execução há mais de 3 dias, recomendamos entrar em contato com o Atendimento ao cliente do Adobe para que ele investigue por que o fluxo de trabalho não está em execução.
+>Você pode verificar a opção , pode receber notificações quando um de seus bancos de dados estiver atingindo a c última vez que o workflow foi executado abaixo das métricas **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** . Observe que, se o fluxo de trabalho não estiver em execução há mais de 3 dias, recomendamos entrar em contato com o Atendimento ao cliente do Adobe para que ele investigue por que o fluxo de trabalho não está em execução.
 
-Métricas adicionais, descritas abaixo, estão disponíveis neste painel para ajudar você a analisar o uso do banco de dados da instância:
-
-* [Utilização do Banco de Dados](../../performance-monitoring/using/database-monitoring.md#database-utilization)
-* [Visão geral do armazenamento](../../performance-monitoring/using/database-monitoring.md#storage-overview)
-* [Os 10 principais recursos temporários](../../performance-monitoring/using/database-monitoring.md#top-10)
+Métricas adicionais, descritas abaixo, estão disponíveis neste painel para ajudar você a analisar o uso do banco de dados da instância.
 
 ### Utilização do banco de dados {#database-utilization}
 
@@ -130,7 +126,7 @@ A seção abaixo fornece recursos úteis das documentações do Campaign para aj
 
 * Workflow técnico de limpeza do banco de dados ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Guia](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html)  de manutenção de banco de dados (Campaign Classic)
-* [Solução de problemas de desempenho do banco de dados](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/troubleshooting/database-performances.html)  (Campaign Classic)
+* [Solução de problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html)  (Campaign Classic)
 * [Opções](https://docs.adobe.com/help/en/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html#database)  relacionadas ao banco de dados (Campaign Classic)
 * Retenção de dados ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/data-retention.html) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html#data-retention))
 
