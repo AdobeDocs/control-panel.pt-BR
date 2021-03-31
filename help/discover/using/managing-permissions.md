@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Gerenciamento de permissões para o Painel de controle do Campaign
 description: Saiba como gerenciar permissões para o Painel de controle do Campaign
-feature: 'Painel de controle do Campaign   '
+feature: Painel de controle do Campaign
 role: Arquiteto
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
 source-wordcount: '273'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 5%
 
 O Painel de controle do Campaign está disponível para todos os usuários administradores de uma instância do Campaign. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder a eles acesso ao Painel de controle do Campaign.
 
-![](assets/do-not-localize/how-to-video.png)[ Descubra este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Descubra este recurso no vídeo](../../discover/using/managing-permissions.md#video)
 
 1. Navegue até [Adobe Experience Cloud](https://experiencecloud.adobe.com/) e selecione a guia **[!UICONTROL Administration]**.
 
