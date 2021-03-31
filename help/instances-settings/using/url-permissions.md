@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Permissões de URL
 description: Saiba como gerenciar permissões de URL no Painel de controle do Campaign
-feature: 'Painel de controle do Campaign   '
+feature: Painel de controle do Campaign
 role: Arquiteto
 level: Intermediário
 translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 93%
+source-wordcount: '607'
+ht-degree: 91%
 
 ---
 
@@ -40,7 +40,7 @@ Depois de adicionado, o URL é referenciado no arquivo de configuração da inst
 **Tópicos relacionados:**
 
 * [Configuração do servidor do Campaign](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html)
-* [Proteção de conexão de saída](https://docs.campaign.adobe.com/doc/AC/en/INS_Additional_configurations_Configuring_Campaign_server.html#Outgoing_connection_protection)
+* [Proteção de conexão de saída](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
 
 ## Práticas recomendadas {#best-practices}
 
