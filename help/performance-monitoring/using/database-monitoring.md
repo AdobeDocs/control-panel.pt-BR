@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Monitoramento de banco de dados
 description: Saiba como monitorar os bancos de dados no Painel de controle do Campaign
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e

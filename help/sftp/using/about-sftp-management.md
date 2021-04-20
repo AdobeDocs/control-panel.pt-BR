@@ -4,9 +4,9 @@ solution: Campaign
 title: Sobre o gerenciamento de SFTP
 description: Saiba mais sobre o gerenciamento de SFTP no Painel de controle do Campaign
 testing: SSECD-836 2
-feature: 'Painel de controle do Campaign   '
-role: Arquiteto
-level: Intermediário
+feature: Control Panel
+role: Architect
+level: Intermediate
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

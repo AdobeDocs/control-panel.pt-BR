@@ -3,7 +3,7 @@ product: campaign
 solution: Campaign
 title: Versões do Painel de Controle do Campaign
 description: Notas de versão mais recentes do Painel de controle do Campaign.
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa

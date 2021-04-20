@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Acesso ao Painel de controle do Campaign
 description: Saiba como acessar o Painel de controle do Campaign
-feature: 'Painel de controle do Campaign   '
-role: Arquiteto
-level: Iniciante
+feature: Control Panel
+role: Architect
+level: Beginner
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt

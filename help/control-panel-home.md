@@ -1,7 +1,7 @@
 ---
 title: Documentação do produto
 description: Documentação do Painel de controle do Campaign.
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab

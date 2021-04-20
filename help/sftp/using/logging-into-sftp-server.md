@@ -3,9 +3,9 @@ product: campaign
 solution: Campaign
 title: Fazer logon no servidor SFTP
 description: Saiba como fazer logon no servidor SFTP
-feature: 'Painel de controle do Campaign   '
-role: Arquiteto
-level: Experienciado
+feature: Control Panel
+role: Architect
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
 workflow-type: tm+mt
