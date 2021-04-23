@@ -3,15 +3,15 @@ product: campaign
 solution: Campaign
 title: Monitoramento de banco de dados
 description: Saiba como monitorar os bancos de dados no Painel de controle do Campaign
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '943'
-ht-degree: 100%
+translation-type: tm+mt
+source-git-commit: 263f86fb08cdfdc42e84812d07ac790119bd302f
+workflow-type: tm+mt
+source-wordcount: '952'
+ht-degree: 86%
 
 ---
 
@@ -29,7 +29,7 @@ A sobrecarga de um banco de dados de instância pode gerar vários problemas (in
 
 >[!NOTE]
 >
->Se o espaço de banco de dados fornecido, conforme mostrado no Painel de controle do Campaign, não refletir o espaço especificado em seu contrato, entre em contato com o Atendimento ao cliente.
+>Se a quantidade de espaço disponível no banco de dados, conforme mostrado no Painel de controle do Campaign, não refletir a quantidade especificada em seu contrato, entre em contato com o Atendimento ao cliente.
 
 ## Monitoramento do uso do banco de dados {#monitoring-instances-database}
 
@@ -45,7 +45,7 @@ Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir in
 >
 >Observe que os dados desse painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte a documentação do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#administrating) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR)).
 >
->Você pode verificar a opção, pode receber notificações quando um de seus bancos de dados está atingindo a última vez que o fluxo de trabalho foi executado abaixo das métricas **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
+>Além disso, você pode receber notificações quando um de seus bancos de dados estiver atingindo a c última vez que o workflow foi executado abaixo das métricas **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]**. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
 
 Métricas adicionais, descritas abaixo, estão disponíveis neste painel para ajudar você a analisar o uso do banco de dados da instância.
 
@@ -105,11 +105,13 @@ O botão **[!UICONTROL View all]** permite acessar informações detalhadas sobr
 
 ![](assets/database-top10-view.png)
 
->[!NOTE]
+O valor na coluna **[!UICONTROL Keep interim results]** indica se a opção está ativada (&quot;1&quot;) ou desativada (&quot;0&quot;) no Campaign. Essa opção permite salvar os resultados das transições entre as várias atividades de um workflow (consulte a documentação [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=pt-BR) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=pt-BR#logs) ).
+
+>[!IMPORTANT]
 >
->O valor na coluna **[!UICONTROL Keep interim results]** indica se a opção está ativada (&quot;1&quot;) ou desativada (&quot;0&quot;) no Campaign. A opção **[!UICONTROL Keep interim results]** é acessível nas propriedades dos workflows. Ele permite salvar os resultados das transições entre as várias atividades de um fluxo de trabalho (consulte a documentação do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=pt-BR) e do [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html?lang=pt-BR#logs) ).
+>Essa opção nunca deve ser verificada em um workflow de produção. Ele é usado para analisar os resultados e é projetado apenas para fins de teste e, portanto, deve ser usado apenas em ambientes de desenvolvimento ou de preparo.
 >
->Se a opção estiver habilitada para um de seus workflows, o fluxo de trabalho de limpeza do banco de dados não poderá recuperar o espaço consumido pelos resultados provisórios. Portanto, recomendamos examinar o fluxo de trabalho para verificar se a opção pode ser desativada.
+>Se o valor no Painel de controle do Campaign indicar que a opção está habilitada para um de seus fluxos de trabalho, recomendamos desativar o Campaign.
 
 ## Como impedir a sobrecarga do banco de dados {#preventing-database-overload}
 
@@ -124,7 +126,7 @@ A seção abaixo fornece recursos úteis das documentações do Campaign para aj
 
 **Manutenção do banco de dados**
 
-* Fluxo de trabalho técnico de limpeza de banco de dados ([Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#administrating) / [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR))
+* Fluxo de trabalho técnico de limpeza de banco de dados ([Campaign Standard](https://docs.adobe.com/help/en/campaign-standard/using/administrating/application-settings/technical-workflows.html#list-of-technical-workflows) / [Campaign Classic](https://docs.adobe.com/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html))
 * [Manual de manutenção de banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=pt-BR) (Campaign Classic)
 * [Solução de problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=pt-BR) (Campaign Classic)
 * [Opções relacionadas ao banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=pt-BR#database) (Campaign Classic)
