@@ -5,11 +5,10 @@ feature: Painel de controle do Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-translation-type: ht
-source-git-commit: 63491701dd099b12d22bf9a1eab3c8a290a2e6af
-workflow-type: ht
-source-wordcount: '229'
-ht-degree: 100%
+source-git-commit: e7350750800f68a132ac4607e962221b7fd20909
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 68%
 
 ---
 
@@ -18,7 +17,6 @@ ht-degree: 100%
 ![](assets/do-not-localize/banner.png)
 
 ## Novidades
-
 
 **Configuração de subdomínio usando CNAMEs**
 
@@ -30,9 +28,13 @@ A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicion
 
 >[!NOTE]
 >
->O Painel de controle do Campaign é acessível a todos os usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
+>O Painel de controle do Campaign é restrito a usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 >
->Para o Campaign Classic, observe que sua instância deve ser hospedada no AWS e atualizada com a compilação mais recente do [Gold Standard](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/gs-release/gs-overview.html?lang=pt-BR#release-notes) ou a compilação mais recente do GA (21.1)](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html?lang=pt-BR#release-notes). [ Saiba como verificar sua versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md).
+>Para o Campaign Classic, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a build mais recente [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html#rn-statuses).
+>
+>Saiba como verificar a versão do Campaign Classic em [esta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version).
+>
+>Para verificar se a instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas em [this page](faq.md).
 
 ## Recursos adicionais {#additional-resources}
 
