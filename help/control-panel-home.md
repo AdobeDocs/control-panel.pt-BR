@@ -29,9 +29,8 @@ A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicion
 >[!NOTE]
 >
 >* O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
-   >
-   >
-* Para o Campaign Classic, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para O build mais recente do [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses). Saiba como verificar a versão do Campaign Classic [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md).
+>
+>* Para o Campaign Classic, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para O build mais recente do [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses). Saiba como verificar a versão do Campaign Classic [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md).
 
 
 ## Recursos adicionais {#additional-resources}
