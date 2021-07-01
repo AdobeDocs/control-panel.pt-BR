@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '1142'
-ht-degree: 100%
+source-git-commit: c8a17ca49f83282070c4ab50883454433970f2a7
+workflow-type: tm+mt
+source-wordcount: '1158'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +63,10 @@ Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
    ![](assets/subdomain3.png)
 
 1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Servidor de nomes da Adobe exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o [vídeo tutorial](https://video.tv.adobe.com/v/30175).
+
+   >[!NOTE]
+   >
+   > Para instâncias do Adobe Campaign Standard, os subdomínios permitirão enviar comunicações de marketing e transacionais.
 
    ![](assets/subdomain4.png)
 
