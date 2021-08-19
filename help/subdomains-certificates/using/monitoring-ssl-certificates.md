@@ -3,19 +3,22 @@ product: campaign
 solution: Campaign
 title: Monitorar certificados SSL de subdomínios
 description: Saiba como monitorar certificados SSL de subdomínios
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 90%
 
 ---
 
-
 # Monitorar certificados SSL de subdomínios {#monitoring-ssl-certificates}
+
+>[!AVAILABILITY]
+>
+>Esse recurso não está disponível para o Campaign v8.
 
 ## Sobre certificados SSL {#about-ssl-certificates}
 
