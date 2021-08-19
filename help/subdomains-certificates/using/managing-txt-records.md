@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Gerenciamento de registros TXT
 description: Saiba como gerenciar registros TXT para verificação de propriedade de domínio.
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 90%
+source-wordcount: '354'
+ht-degree: 92%
 
 ---
-
 
 # Gerenciamento de registros TXT {#managing-txt-records}
 
@@ -21,6 +20,10 @@ ht-degree: 90%
 >id="cp_siteverification_add"
 >title="Gerenciamento de registros TXT"
 >abstract="Alguns serviços como o Google exigem a adição de um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio."
+
+>[!AVAILABILITY]
+>
+>Esse recurso não está disponível para o Campaign v8.
 
 ## Sobre registros TXT {#about-txt-records}
 
@@ -30,7 +33,7 @@ Para garantir altas taxas de caixa de entrada e baixas taxas de spam, alguns ser
 
 Atualmente, o Gmail está entre os provedores de endereços de email mais usados. Para garantir um bom delivery de emails para endereços Gmail, o Adobe Campaign permite adicionar registros especiais TXT de verificação de site do Google aos subdomínios para garantir que eles sejam verificados.
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) Classic ou o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=en#subdomains-and-certificates)
 
 ## Adicionar um registro TXT do Google a um subdomínio {#adding-a-google-txt-record}
 
