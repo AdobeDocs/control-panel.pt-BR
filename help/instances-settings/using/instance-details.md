@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Detalhes da instância
 description: Saiba como monitorar os detalhes da instância no Painel de controle do Campaign
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
-
 
 # Detalhes da instância {#instance-details}
 
@@ -28,9 +27,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível apenas para instâncias do Campaign Classic.
+>Esse recurso está disponível somente para instâncias do Campaign Classic v7 e Campaign v8.
 
-A arquitetura de instâncias do Adobe Campaign Classic pode conter vários servidores para permitir a flexibilidade das atividades de marketing. Por exemplo, você pode ter servidores de Marketing, Tempo real (ou Centro de mensagens) e Mid Sourcing para dar suporte à sua instância.
+A arquitetura de instâncias do Adobe Campaign pode conter vários servidores para permitir a flexibilidade das atividades de marketing. Por exemplo, você pode ter servidores de Marketing, Tempo real (ou Centro de mensagens) e Mid Sourcing para dar suporte à sua instância.
 
 A funcionalidade Detalhes da instância permite a visualização de uma arquitetura simples da instância. Além das informações do servidor, ela também permite saber se a build da instância está ou não atualizada, além de recomendar atualizações quando necessário.
 
@@ -53,7 +52,7 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
    >
    >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic
 
-1. Selecione no painel esquerdo a instância desejada do Campaign Classic.
+1. Selecione no painel esquerdo a instância desejada do Campaign 
 
    >[!NOTE]
    >
