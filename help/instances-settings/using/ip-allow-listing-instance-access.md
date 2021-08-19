@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Lista de permissões de IP
 description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle do Campaign para obter acesso à instância
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 94%
+source-wordcount: '770'
+ht-degree: 91%
 
 ---
-
 
 # Lista de permissões de IP {#ip-allow-listing}
 
@@ -27,9 +26,9 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível apenas para instâncias do Campaign Classic.
+>Esse recurso está disponível somente para instâncias do Campaign Classic v7 e Campaign v8.
 
-Por padrão, a instância do Adobe Campaign Classic não pode ser acessada de vários endereços IP.
+Por padrão, a instância do Adobe Campaign não pode ser acessada de vários endereços IP.
 
 Se seu endereço IP não tiver sido incluído na lista de permissões, você não poderá fazer logon na instância com esse endereço. Da mesma forma, talvez você não consiga conectar uma API ao seu Centro de mensagens ou à sua instância de marketing se o endereço IP não tiver sido explicitamente incluído na lista de permissões com a instância.
 
@@ -83,7 +82,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
 1. Especifique o tipo de acesso que deseja conceder aos endereços IP:
 
-   * **[!UICONTROL Campaign Console Access]**: os endereços IP poderão se conectar ao Console do Campaign Classic. Observe que o acesso ao Console é ativado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
+   * **[!UICONTROL Campaign Console Access]**: Os endereços IP poderão se conectar ao Console do Cliente do Campaign. Observe que o acesso ao Console é ativado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
    * **[!UICONTROL AEM connection]**: os endereços IP AEM especificados poderão se conectar à instância de marketing.
    * **[!UICONTROL External API connection]**: as APIs externas com os endereços IP especificados poderão se conectar à instância do Centro de mensagens e/ou Marketing (RT). Observe que a conexão com o console de instâncias de RT não está habilitada.
 
