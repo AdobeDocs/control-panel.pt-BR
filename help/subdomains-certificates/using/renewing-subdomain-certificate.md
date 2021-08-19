@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Renovar um certificado SSL de subdomínio
 description: Saiba como renovar certificados SSL de subdomínios
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
+source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 90%
+source-wordcount: '868'
+ht-degree: 93%
 
 ---
-
 
 # Renovar um certificado SSL de subdomínio {#renewing-subdomains-ssl-certificates}
 
@@ -28,7 +27,9 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->A configuração de subdomínio do Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A delegação de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
+>
+>Esse recurso não está disponível para o Campaign v8.
 
 O processo de renovação do certificado SSL inclui 3 etapas:
 
@@ -39,7 +40,7 @@ Depois que a CSR é gerada, você pode baixá-la e usá-la para comprar o certif
 1. **Instalação do certificado SSL**
 Depois de comprar o certificado SSL, você pode instalá-lo no subdomínio desejado.
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) Classic ou o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#subdomains-and-certificates) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=en#adding-ssl-certificates)
 
 ## Gerar uma solicitação de assinatura de certificado (CSR) {#generating-csr}
 
@@ -144,4 +145,4 @@ Depois que o certificado SSL é instalado, a data de expiração e o ícone de s
 **Tópicos relacionados:**
 
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
-* [Monitorar subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
+* [Monitoramento de subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
