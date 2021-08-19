@@ -3,17 +3,16 @@ product: campaign
 solution: Campaign
 title: Monitoramento de perfis ativos
 description: Saiba como obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos Perfis ativos para cada uma de suas instâncias do Campaign.
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 5a74107daaff7e3470e1db45f4ef8d75e40c83c1
+exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
+source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '365'
+ht-degree: 92%
 
 ---
-
 
 # Monitoramento de perfis ativos {#active-profiles-monitoring}
 
@@ -33,7 +32,7 @@ Os perfis são considerados ativos se tiverem sido direcionados ou comunicados n
 >
 >Os canais Facebook e Twitter não são considerados.
 
-Para obter mais informações sobre Perfis ativos, consulte as documentações do [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e do [Campaign Classic](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Para obter mais informações sobre Perfis ativos, consulte as documentações [Campaign Standard](https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) .
 
 ## Monitoramento de perfis ativos {#monitoring-active-profiles}
 
