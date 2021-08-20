@@ -7,7 +7,7 @@ feature: Painel de controle do Campaign
 role: Architect
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 008edcd915017d147ee496ae7c0130a868b099b9
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 92%
@@ -21,11 +21,11 @@ ht-degree: 92%
 >title="Gerenciamento de registros TXT"
 >abstract="Alguns serviços como o Google exigem a adição de um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio."
 
+## Sobre registros TXT {#about-txt-records}
+
 >[!AVAILABILITY]
 >
 >Esse recurso não está disponível para o Campaign v8.
-
-## Sobre registros TXT {#about-txt-records}
 
 Os registros TXT são um tipo de registro DNS usado para fornecer informações de texto sobre um domínio, que pode ser lido por fontes externas.
 
