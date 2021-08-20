@@ -3,15 +3,14 @@ product: campaign
 solution: Campaign
 title: Perguntas frequentes do Painel de Controle do Campaign
 description: Questões comuns relacionadas ao Painel de Controle do Campaign
-feature: Control Panel
+feature: Painel de controle do Campaign
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-translation-type: ht
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
-workflow-type: ht
-source-wordcount: '631'
-ht-degree: 100%
+source-git-commit: c88e18e97d2f6fa1fc308050c337a2a578187f9b
+workflow-type: tm+mt
+source-wordcount: '669'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +26,7 @@ Para obter mais informações, consulte a [documentação da Adobe Experience Cl
 
 **Onde encontro minha IMS Organization ID?**
 
-Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua IMS Organization ID na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/pt_BR/mcloud/organizations.html).
+Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua IMS Organization ID na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/organizations.html).
 
 Outra maneira é iniciar o **Admin Console**. A IMS Organization ID estará visível no URL e será semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
@@ -100,6 +99,10 @@ O Painel de Controle do Campaign permite que os administradores de produtos gere
 O Painel de controle do Campaign permite rastrear armazenamentos, adicionar IPs à lista de permissões e gerenciar chaves SSH de servidores SFTP por conta própria, com base em suas necessidades e outras ações.
 
 Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
+
+**Quais recursos não são compatíveis com o Campaign v8, mas estão disponíveis no Campaign Classic v7**
+
+As funções relacionadas ao gerenciamento de subdomínio e certificado ainda não são compatíveis por meio do Painel de controle do Campaign v8. Entre em contato com o Atendimento ao cliente do Campaign para obter qualquer suporte relacionado.
 
 **O Painel de controle é apenas para o Adobe Campaign?**
 
