@@ -5,10 +5,10 @@ feature: Painel de controle do Campaign
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: b915b78858810c1ad6600fb459f3ce0d6978897e
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 83%
+source-wordcount: '192'
+ht-degree: 78%
 
 ---
 
@@ -26,15 +26,15 @@ Agora o Painel de Controle do Campaign permite configurar um subdomínio para fu
 
 A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicionais, permitindo obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
 
->[!NOTE]
+>[!CAUTION]
 >
->* O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
+>* O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel)
    >
    >
-* Para o Campaign Classic v7, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a build mais recente [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses). Saiba como verificar a versão do Campaign Classic [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md).
+* Para o Campaign Classic v7, as restrições de implantação se aplicam. [Saiba mais](faq.md#v7-restrictions)
    >
    >
-* Os seguintes recursos não estão disponíveis para o Campaign v8: Gerenciamento de subdomínio e gerenciamento de certificados.
+* Para o Campaign v8, alguns recursos não estão disponíveis. [Saiba mais](faq.md#v8-restrictions)
 
 
 ## Recursos adicionais {#additional-resources}
@@ -47,10 +47,16 @@ A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicion
             <li><a href="https://docs.adobe.com/content/help/pt-BR/campaign-standard/using/campaign-standard-home.html">Documentação do produto Campaign Standard</a></li>
         </ul>
         </td>
-        <td><b>Campaign Classic</b><br/>
+        <td><b>Campaign Classic v7</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=pt-BR">Vídeos tutoriais do Painel de controle do Campaign Classic</a></li>
-            <li><a href="https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html">Documentação do produto Campaign Classic</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=pt-BR">Vídeos tutoriais do Painel de controle do Campaign para Campaign Classic v7</a></li>
+            <li><a href="https://docs.adobe.com/content/help/pt-BR/campaign-classic/using/campaign-classic-home.html">Documentação do produto Campaign Classic v7</a></li>
+        </ul>
+        </td>
+        <td><b>Campaign v8</b><br/>
+        <ul>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=en">Vídeos tutoriais do Painel de controle do Campaign v8</a></li>
+            <li><a href="https://docs.adobe.com/content/help/en/campaign-classic/using/campaign-classic-home.html">Documentação do produto Campaign v8</a></li>
         </ul>
         </td>
     </tr>
