@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Perguntas frequentes do Painel de Controle do Campaign
 description: Questões comuns relacionadas ao Painel de Controle do Campaign
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 85%
+workflow-type: ht
+source-wordcount: '774'
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 85%
 
 ### O que é o Painel de controle do Campaign?
 
-O Painel de Controle do Campaign permite que os administradores de produtos gerenciem diretamente várias configurações e monitorem a capacidade dos servidores SFTP conectados ao Adobe Campaign.
+O painel de Controle do Campaign permite que os administradores de produtos gerenciem diretamente várias configurações e monitorem a capacidade dos servidores SFTP conectados ao Adobe Campaign.
 
 ### Quais são alguns dos recursos atuais do Painel de controle do Campaign?
 
@@ -28,13 +28,13 @@ O Painel de controle do Campaign permite rastrear armazenamentos, adicionar IPs 
 
 Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
 
-### Quais recursos não são compatíveis com o Campaign v8, mas estão disponíveis no Campaign Classic v7{#v8-restrictions}
+### Quais recursos não são compatíveis com o Campaign v8, mas estão disponíveis no Campaign Classic v7?{#v8-restrictions}
 
-As funções relacionadas ao gerenciamento de subdomínio e certificado ainda não são compatíveis por meio do Painel de controle do Campaign v8. Entre em contato com o Atendimento ao cliente do Campaign para obter qualquer suporte relacionado.
+As funções relacionadas ao gerenciamento de subdomínios e certificados ainda não são compatíveis por meio do Painel de controle do Campaign v8. Entre em contato com o Atendimento ao cliente do Campaign para obter qualquer suporte relacionado.
 
-### O Painel de controle é apenas para o Adobe Campaign?
+### O Painel de controle do Campaign é apenas para o Adobe Campaign?
 
-Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Painel de controle.
+Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Painel de controle do Campaign.
 
 ### Posso usar o Painel de controle do Campaign?
 
@@ -46,11 +46,11 @@ Se você não for administrador, mas quiser acessá-lo, entre em contato com o a
 
 O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 
-Para o Campaign Classic v7, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a build mais recente [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses). Saiba como verificar a versão do Campaign Classic [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se a instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas em [this section](#hosted-aws).
+Para o Campaign Classic v7, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a build [Campaign GA](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) mais recente. Saiba como verificar a versão do Campaign Classic [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas [nesta seção](#hosted-aws).
 
 ### Como posso acessar o Painel de controle do Campaign?
 
-Siga as instruções detalhadas na documentação Acesso ao painel de controle do Campaign.
+Siga as instruções detalhadas na documentação Acesso ao Painel de controle do Campaign.
 
 ### Há uma taxa extra para usar o Painel de controle do Campaign?
 
@@ -62,17 +62,17 @@ Não, não há custo extra se você for cliente do Adobe Campaign.
 
 É uma ID exclusiva fornecida para sua instância quando você faz logon pela primeira vez na Adobe Experience Cloud. Ela deve estar no formato: xxx@AdobeOrg.
 
-Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Para obter mais informações, consulte a [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=br).
 
 ### Onde encontro minha IMS Organization ID?
 
-Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua IMS Organization ID na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua IMS Organization ID na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=br).
 
 Outra maneira é iniciar o **Admin Console**. A IMS Organization ID estará visível no URL e será semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 ### Por que preciso saber minha IMS Organization ID?
 
-Para gerenciar as configurações da sua instância, queremos garantir que você esteja obtendo as informações corretas para a instância certa caso esteja usando várias instâncias para a sua empresa.
+Para gerenciar as configurações da sua instância, queremos garantir que você esteja obtendo as informações corretas para a instância certa, caso esteja usando várias instâncias para a sua empresa.
 
 ### E se eu tiver várias IMS Organization IDs?
 
