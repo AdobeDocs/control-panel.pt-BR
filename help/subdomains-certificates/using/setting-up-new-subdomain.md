@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
-workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 97%
+workflow-type: ht
+source-wordcount: '1163'
+ht-degree: 100%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 97%
 >id="cp_subdomain_management"
 >title="Configurar novos subdomínios e gerenciar certificados"
 >abstract="É necessário configurar um novo subdomínio e gerenciar os certificados SSL dos subdomínios para iniciar a enviar emails ou publicar páginas de aterrissagem com o Adobe Campaign."
->additional-url="https://https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Como monitorar os certificados SSL de subdomínios"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=pt-BR" text="Como monitorar os certificados SSL de subdomínios"
 
 
 ## Leitura obrigatória {#must-read}
 
 >[!IMPORTANT]
 >
->A delegação de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A configuração de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
 >
 >Esse recurso não está disponível para o Campaign v8.
 
@@ -69,7 +69,7 @@ Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   > Para o Adobe Campaign Standard, os subdomínios delegados permitirão enviar comunicações **Marketing** e **Transactional**.
+   > Para o Adobe Campaign Standard, os subdomínios delegados permitirão enviar comunicações de **Marketing** e **Transacional**.
 
    ![](assets/subdomain4.png)
 
