@@ -6,14 +6,13 @@ description: Saiba como gerenciar permissões para o Painel de controle do Campa
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 8fc348d0a4c858219fbead48e1d31f86c8576f72
+exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
+source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 6%
+source-wordcount: '282'
+ht-degree: 7%
 
 ---
-
 
 # Gerenciamento de permissões para o Painel de controle do Campaign {#managing-permissions-control-panel}
 
@@ -21,21 +20,19 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra este recurso no vídeo](../../discover/using/managing-permissions.md#video)
 
-1. Navegue até [Adobe Experience Cloud](https://experiencecloud.adobe.com/) e selecione a guia **[!UICONTROL Administration]**.
+1. Navegue até a [página inicial do Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
 
-   ![](assets/do-not-localize/control_panel_add_user1.png)
+1. Inicie o **Admin Console** clicando no link disponível na seção **Acesso rápido** ou no menu superior direito.
+
+   ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Se a guia <b>Administration</b> não estiver visível, isso significa que você não tem direitos de Administrador para sua organização. Entre em contato com os administradores da organização para executar as etapas com eles.
+   >Se o link **Admin Console** não estiver visível, isso significa que você não tem direitos de Administrador para sua organização. Entre em contato com os administradores da organização para executar as etapas com eles.
 
-1. Inicie o **Admin Console** clicando nos links disponíveis.
+1. No **Admin Console**, selecione o produto Campaign desejado na lista **[!UICONTROL Products and services]**.
 
-   ![](assets/do-not-localize/control_panel_admin1.png)
-
-1. Selecione o produto Campaign desejado.
-
-   ![](assets/do-not-localize/control_panel_add_user3.png)
+   ![](assets/do-not-localize/control_panel_product-list.png)
 
    >[!NOTE]
    >
@@ -43,13 +40,13 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 
 1. A lista de instâncias do seu produto Campaign é exibida. Selecione a instância à qual deseja adicionar um usuário administrador.
 
-   ![](assets/do-not-localize/control_panel_add_user4.png)
+   ![](assets/do-not-localize/control_panel_add_user_4.png)
 
    >[!NOTE]
    >
-   >Você pode adicionar diferentes usuários Administradores para cada instância do Campaign. Nesse caso, os usuários administradores acessarão o Painel de controle da instância à qual pertencem apenas.
+   >Você pode adicionar diferentes usuários Administradores para cada instância do Campaign. Os usuários administradores acessarão o Painel de controle da instância à qual pertencem apenas.
 
-1. A lista de Perfis de produto para a instância selecionada é exibida. Clique no perfil de produto **[!UICONTROL Administrators]** para acessar a lista de usuários administradores.
+1. A lista de **[!UICONTROL Product Profiles]** para a instância selecionada é exibida. Clique no perfil de produto **[!UICONTROL Administrators]** para acessar a lista de usuários administradores.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -65,6 +62,6 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 >
 >Depois que o acesso é configurado, o usuário terá que sair do Adobe Experience Cloud e fazer logon novamente para acessar o Painel de controle do Campaign.
 
-## Vídeo tutorial {#video}
+## Tutorial em vídeo {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
