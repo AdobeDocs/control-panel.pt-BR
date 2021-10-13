@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 13%
+source-wordcount: '1183'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 13%
 >id="cp_instancesettings_gpg_management"
 >title="Sobre chaves GPG"
 >abstract="Nesta guia, é possível instalar e/ou gerar chaves GPG em uma instância de marketing para criptografar dados enviados pelo Campaign e descriptografar dados recebidos."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Sobre o monitoramento de desempenho"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR" text="Sobre o monitoramento de desempenho"
 
 ## Sobre criptografia GPG {#about-gpg-encryption}
 
@@ -102,7 +102,7 @@ Para obter mais informações sobre esse tópico, consulte a documentação do A
 
 **Campaign Standard:**
 
-* [Gerenciamento de dados criptografados](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Gerenciamento de dados criptografados](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
 * [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html#use-case-gpg-encrypt)
 
 ## Descriptografar dados {#decrypting-data}
@@ -145,8 +145,8 @@ Para obter mais informações, consulte a documentação da Adobe Campaign:
 
 **Campaign Standard:**
 
-* [Gerenciamento de dados criptografados](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
-* [Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](https://https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
+* [Gerenciamento de dados criptografados](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html)
+* [Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-decrypt)
 
 ## Monitoramento de chaves GPG
 
@@ -186,6 +186,6 @@ Como prática recomendada, recomendamos que você remova qualquer chave que não
 
 O vídeo abaixo mostra como gerar e instalar chaves GPG para criptografia de dados.
 
-Vídeos tutoriais adicionais relacionados ao gerenciamento de chaves GPG estão disponíveis nas páginas de tutoriais do [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings) e do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=en#instance-settings).
+Vídeos tutoriais adicionais relacionados ao gerenciamento de chaves GPG estão disponíveis nas páginas de tutoriais do [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings) e do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html#instance-settings).
 
 >[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

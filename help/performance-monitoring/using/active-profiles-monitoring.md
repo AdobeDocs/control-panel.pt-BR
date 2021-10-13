@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '396'
 ht-degree: 78%
 
 ---
@@ -32,7 +32,7 @@ Os perfis são considerados ativos se tiverem sido direcionados ou comunicados n
 >
 >Os canais Facebook e Twitter não são considerados.
 
-Para obter mais informações sobre perfis ativos, consulte as documentações [Campaign Standard](https://https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Para obter mais informações sobre perfis ativos, consulte as documentações [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
 
 ## Monitoramento de perfis ativos {#monitoring-active-profiles}
 
@@ -40,7 +40,7 @@ Para obter mais informações sobre perfis ativos, consulte as documentações [
 >id="cp_performancemonitoring_active_profile"
 >title="Sobre o monitoramento de perfis ativos"
 >abstract="Nesta guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos perfis ativos para cada uma das instâncias do Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Sobre o monitoramento de desempenho"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR" text="Sobre o monitoramento de desempenho"
 
 O Painel de controle do Campaign permite monitorar a utilização de perfis ativos para cada uma das instâncias do Campaign.
 
@@ -58,7 +58,7 @@ Para fazer isso, siga estes passos:
 >
 >Os perfis ativos são contados com base em workflows técnicos dedicados que são executados diariamente em suas instâncias:
 >
->* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=br) para o Campaign Standard,
+>* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) para o Campaign Standard,
 >* O workflow [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) para o Campaign Classic.
 
 
