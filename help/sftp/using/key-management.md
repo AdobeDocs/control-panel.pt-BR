@@ -6,21 +6,20 @@ description: Saiba como gerenciar chaves para conexão com servidores SFTP
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
+source-git-commit: dd5b69604178ef9a11af88a90a1a4f9e74374b7e
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '646'
+ht-degree: 91%
 
 ---
-
 
 # Gerenciamento de chaves {#key-management}
 
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
->title="Sobre o Gerenciamento de chaves"
->abstract="Nesta guia você pode gerenciar chaves públicas."
+>title="Sobre o gerenciamento de chaves públicas"
+>abstract="Nesta guia, você pode criar, gerenciar e editar suas chaves públicas."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Assista ao vídeo de demonstração"
 
 A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores SFTP usando um **par de chaves públicas e privadas**.
@@ -33,7 +32,7 @@ Quando o acesso ao servidor estiver configurado, lembre-se de **adicionar os end
 >
 >Atualmente não é possível excluir uma chave pública SSH.
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) Classic ou o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html?lang=en#sftp-management)
 
 ## Práticas recomendadas {#best-practices}
 
@@ -53,8 +52,8 @@ Em casos muito raros, a autenticação com senha é ativada em alguns servidores
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_publickey_add"
->title="Adicionar nova chave pública"
->abstract="Adicione uma nova chave pública para uma instância."
+>title="Adição de chave pública"
+>abstract="Gere uma chave SSH pública para uma instância e adicione-a ao Painel de controle do Campaign para acessar o servidor SFTP."
 
 >[!IMPORTANT]
 >

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: c29b6d4bf59628a10f6b8e402176b1835770fc54
-workflow-type: ht
-source-wordcount: '954'
-ht-degree: 100%
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+workflow-type: tm+mt
+source-wordcount: '1013'
+ht-degree: 94%
 
 ---
 
@@ -31,6 +31,12 @@ A sobrecarga de um banco de dados de instância pode gerar vários problemas (in
 >Se o espaço de banco de dados fornecido, conforme mostrado no Painel de controle do Campaign, não refletir o espaço especificado em seu contrato, entre em contato com o Atendimento ao cliente.
 
 ## Monitoramento do uso do banco de dados {#monitoring-instances-database}
+
+>[!CONTEXTUALHELP]
+>id="cp_performancemonitoring_database"
+>title="Sobre o monitoramento de banco de dados"
+>abstract="Nesta guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica do banco de dados para cada uma das instâncias do Campaign."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Sobre o monitoramento de desempenho"
 
 ![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring)
 
@@ -61,6 +67,11 @@ Para obter mais detalhes sobre um período específico, passe o mouse sobre o gr
 ![](assets/databases_dashboard_detail.png)
 
 ### Visão geral de armazenamento {#storage-overview}
+
+>[!CONTEXTUALHELP]
+>id="cp_dbdetails_storagedetails"
+>title="Sobre a visão geral do armazenamento"
+>abstract="Nesta guia, você pode obter informações detalhadas sobre os diferentes recursos do Campaign que estão consumindo espaço no banco de dados."
 
 A área **[!UICONTROL Storage overview]** fornece uma representação gráfica do espaço ocupado por:
 
@@ -125,7 +136,7 @@ A seção abaixo fornece recursos úteis das documentações do Campaign para aj
 
 **Manutenção do banco de dados**
 
-* Fluxo de trabalho técnico de limpeza de banco de dados: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=br#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=br)
+* Fluxo de trabalho técnico de limpeza de banco de dados: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=en#list-of-technical-workflows) - [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=en)
 * [Manual de manutenção de banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=pt-BR) (Campaign Classic)
 * [Solução de problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=pt-BR) (Campaign Classic)
 * [Opções relacionadas ao banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=br#database) (Campaign Classic)

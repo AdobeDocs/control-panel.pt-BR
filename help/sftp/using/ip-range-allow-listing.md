@@ -6,14 +6,13 @@ description: Saiba como adicionar intervalos IP à lista de permissões para ace
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 94%
+source-wordcount: '631'
+ht-degree: 96%
 
 ---
-
 
 # Lista de permissões de intervalo IP {#ip-range-allow-listing}
 
@@ -25,7 +24,7 @@ ht-degree: 94%
 
 Os servidores SFTP estão protegidos. Para poder acessá-los para visualizar arquivos ou gravar novos, é necessário adicionar o endereço IP público do sistema ou cliente que acessa os servidores à lista de permissões.
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o  [Campaign ](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) Classic ou o  [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=en#sftp-management)
 
 ## Sobre o formato CIDR {#about-cidr-format}
 
@@ -48,7 +47,7 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_add"
->title="Adicione um novo intervalo IP"
+>title="Configuração do intervalo IP"
 >abstract="Defina os intervalos IP que deseja adicionar à lista de permissões para se conectar aos servidores SFTP."
 
 Para adicionar um intervalo IP à lista de permissões, siga estas etapas:

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 3bd3dcc0e09d887cab7d810d43f2c72bb4251ac9
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 80%
+source-wordcount: '753'
+ht-degree: 79%
 
 ---
 
@@ -20,14 +20,13 @@ ht-degree: 80%
 >id="cp_certificate_management"
 >title="Sobre subdomínios e certificados SSL"
 >abstract="Monitore subdomínios e os certificados SSL associados."
->additional-url="https://docs.adobe.com/content/help/pt-BR/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html" text="Como monitorar os certificados SSL de subdomínios"
-
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=pt-BR" text="Monitorar certificados SSL"
 
 ## Por que configurar subdomínios? {#why-setting-up-subdomains}
 
 >[!IMPORTANT]
 >
->A delegação de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
+>A configuração de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
 >
 >Esse recurso não está disponível para o Campaign v8.
 
@@ -60,6 +59,13 @@ Informações adicionais sobre a configuração de domínio estão disponíveis 
 Em caso de dúvidas relacionadas aos métodos de configuração do subdomínio, entre em contato com a equipe de Deliverability do Adobe ou entre em contato com o Atendimento ao cliente para solicitar consultoria sobre Deliverability.
 
 ## Casos de uso de subdomínios (Campaign Classic){#subdomains-use-cases}
+
+>[!CONTEXTUALHELP]
+>id="cp_add_subdomain_usecase_selection"
+>title="Selecione o caso de uso para seu subdomínio"
+>abstract="Separar os subdomínios por casos de uso é uma prática recomendada para o delivery. A reputação de cada subdomínio é isolada e protegida."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR" text="Marca de subdomínios"
 
 Ao configurar subdomínios para instâncias do Campaign Classic, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [Configuração de um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 

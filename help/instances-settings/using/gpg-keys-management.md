@@ -3,18 +3,24 @@ product: campaign
 solution: Campaign
 title: Gerenciamento de chaves GPG
 description: Saiba como gerenciar chaves GPG para criptografar e descriptografar dados no Adobe Campaign.
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 599cb22da734f53c0b06583be3e47668dcb57ef1
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 14%
+source-wordcount: '1192'
+ht-degree: 13%
 
 ---
 
 # Gerenciamento de chaves GPG {#gpg-keys-management}
+
+>[!CONTEXTUALHELP]
+>id="cp_instancesettings_gpg_management"
+>title="Sobre chaves GPG"
+>abstract="Nesta guia, é possível instalar e/ou gerar chaves GPG em uma instância de marketing para criptografar dados enviados pelo Campaign e descriptografar dados recebidos."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=en" text="Sobre o monitoramento de desempenho"
 
 ## Sobre criptografia GPG {#about-gpg-encryption}
 
@@ -92,7 +98,7 @@ Para obter mais informações sobre esse tópico, consulte a documentação do A
 **Campaign Classic v7 e Campaign v8:**
 
 * [Compactação ou criptografia de um arquivo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html)
-* [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/general-operation/how-to-use-workflow-data.html#use-case-gpg-encrypt)
+* [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 

@@ -3,14 +3,14 @@ product: campaign
 solution: Campaign
 title: Lista de permissões de IP
 description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle do Campaign para obter acesso à instância
-feature: Painel de controle do Campaign
+feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 1bf4f7b6f6d4d9a47f6496299ca1c155eec4a2f3
+source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 91%
+source-wordcount: '767'
+ht-degree: 89%
 
 ---
 
@@ -50,7 +50,7 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
->title="Adicione um novo intervalo IP"
+>title="Configuração do intervalo IP"
 >abstract="Defina o intervalo IP que deseja adicionar à lista de permissões para se conectar à sua instância."
 
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
