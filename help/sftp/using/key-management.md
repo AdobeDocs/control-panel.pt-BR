@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 99861c898c216d2589f23bd52779db328ea47256
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 91%
+source-wordcount: '1053'
+ht-degree: 36%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 91%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="Sobre o gerenciamento de chaves públicas"
->abstract="Nesta guia, você pode criar, gerenciar e editar suas chaves públicas."
+>abstract="Nesta guia, crie, gerencie e edite suas chaves públicas."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Assista ao vídeo de demonstração"
 
 A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores SFTP usando um **par de chaves públicas e privadas**.
@@ -27,10 +27,6 @@ A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores 
 As etapas para gerar uma chave SSH pública e adicioná-la ao servidor SFTP são descritas abaixo, bem como recomendações relacionadas à autenticação.
 
 Quando o acesso ao servidor estiver configurado, lembre-se de **adicionar os endereços IP que exigirão acesso ao servidor para a lista de permissões** para que você possa se conectar a ele. Para obter mais informações, consulte [esta seção](../../instances-settings/using/ip-allow-listing-instance-access.md).
-
->[!NOTE]
->
->Atualmente não é possível excluir uma chave pública SSH.
 
 ![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/generate-ssh-key.html#sftp-management)
 
@@ -42,7 +38,7 @@ Use sempre a mesma autenticação para se conectar ao servidor e use um formato 
 
 **Integração da API com nome de usuário e senha**
 
-Em casos muito raros, a autenticação com senha é ativada em alguns servidores SFTP. A Adobe recomenda usar a autenticação com chave, pois esse método é mais eficiente e seguro. Você pode solicitar a autenticação com chave entrando em contato com o Atendimento ao cliente.
+Em casos muito raros, a autenticação por senha é ativada em alguns servidores SFTP. O Adobe recomenda usar a autenticação baseada em chave, pois esse método é mais eficiente e seguro. Você pode solicitar a autenticação com chave entrando em contato com o Atendimento ao cliente.
 
 >[!IMPORTANT]
 >
@@ -57,7 +53,7 @@ Em casos muito raros, a autenticação com senha é ativada em alguns servidores
 
 >[!IMPORTANT]
 >
->As etapas abaixo são apenas um exemplo de criação de chave SSH. Siga as diretrizes da organização em relação às chaves SSH. O exemplo abaixo mostra como isso pode ser feito e serve como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
+>Você sempre deve seguir as diretrizes da organização em relação às chaves SSH. As etapas abaixo são apenas um exemplo de como a criação da chave SSH pode ser feita e podem servir como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
 1. Navegue até a guia **[!UICONTROL Key Management]** e clique no botão **[!UICONTROL Add new public key]**.
 
@@ -65,19 +61,25 @@ Em casos muito raros, a autenticação com senha é ativada em alguns servidores
 
 1. Na caixa de diálogo que é exibida, selecione o nome de usuário para o qual deseja criar a chave pública e o servidor para o qual deseja ativar a chave.
 
+   ![](assets/key1.png)
+
    >[!NOTE]
    >
-   >A interface verificará se um determinado nome de usuário está ativo em uma certa instância e dará a você a opção de ativar a chave em uma ou várias instâncias.
+   >O Painel de controle do Campaign verificará se um determinado nome de usuário está ativo em uma determinada instância e permitirá que você ative a chave em uma ou várias instâncias.
    >
    >Uma ou mais chaves SSH públicas podem ser adicionadas para cada usuário.
 
-   ![](assets/key1.png)
+1. Para gerenciar melhor suas chaves públicas, você pode definir uma duração para a disponibilidade de cada chave. Para fazer isso, selecione uma unidade na lista suspensa **[!UICONTROL Type]** e defina uma duração no campo correspondente. Para obter mais informações sobre expiração de chave pública, consulte [esta seção](#expiry).
 
-1. Copie e cole a chave SSH pública. Para gerar uma chave pública, siga as etapas abaixo correspondentes ao seu sistema operacional:
+   ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >O tamanho da chave pública SSH deve ser de **2048 bits**.
+   >Por padrão, o campo **[!UICONTROL Type]** é definido como **[!UICONTROL Unlimited]**, o que significa que a chave pública nunca expira.
+
+1. No campo **[!UICONTROL Comment]**, é possível indicar um motivo para adicionar essa chave pública (por quê, para quem etc.).
+
+1. Para preencher o campo **[!UICONTROL Public Key]**, é necessário gerar uma chave SSH pública. Siga as etapas abaixo de acordo com seu sistema operacional.
 
    **Linux e Mac:**
 
@@ -95,12 +97,76 @@ Em casos muito raros, a autenticação com senha é ativada em alguns servidores
 
    ![](assets/publickey.png)
 
+   >[!NOTE]
+   >
+   >O campo **[!UICONTROL Public Key]** aceita apenas o formato OpenSSH. O tamanho da chave pública SSH deve ser de **2048 bits**.
+
 1. Clique no botão **[!UICONTROL Save]** para criar a chave. O Painel de controle do Campaign salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
 
-Você pode utilizar a impressão digital como um equivalente às chaves privadas salvas no computador com as chaves públicas correspondentes salvas no Painel de controle do Campaign.
+>[!IMPORTANT]
+>
+>Se a chave criada for usada para estabelecer uma conexão com um sistema que nunca foi conectado ao servidor SFTP selecionado antes, será necessário adicionar um IP público desse sistema à lista de permissões antes de poder usar esse sistema com o servidor SFTP. Consulte [esta seção](ip-range-allow-listing.md).
+
+Você pode usar impressões digitais para corresponder às chaves privadas salvas em seu computador com as chaves públicas correspondentes salvas no Painel de controle do Campaign.
 
 ![](assets/fingerprint_compare.png)
 
 O botão &quot;**...**&quot; permite excluir uma chave existente ou copiar sua impressão digital associada na área de transferência.
 
 ![](assets/key_options.png)
+
+## Gerenciamento de chaves públicas {#managing-public-keys}
+
+As chaves públicas criadas são exibidas na guia **[!UICONTROL Key Management]**.
+
+Você pode classificar os itens com base na data de criação ou na data de edição, no usuário que a criou ou editou e na expiração do intervalo de IP.
+
+Também é possível pesquisar uma chave pública começando a digitar um nome ou um comentário.
+
+![](assets/control_panel_key_management_sort.png)
+
+Para editar um ou mais intervalos IP, consulte [esta seção](#editing-public-keys).
+
+Para excluir uma ou mais chaves públicas da lista, selecione-as e clique no botão **[!UICONTROL Delete public key]**.
+
+![](assets/control_panel_delete_key.png)
+
+### Expiração {#expiry}
+
+A coluna **[!UICONTROL Expires]** mostra quantos dias restam até que a chave pública expire.
+
+Se você se inscreveu em [email de alerta](../../performance-monitoring/using/email-alerting.md), receberá notificações por email 10 dias e 5 dias antes de uma chave pública expirar e no dia em que ela expirar. Ao receber o alerta, você pode [editar a chave pública](#editing-public-keys) para estender seu período de validade, se necessário.
+
+Uma chave pública expirada será excluída automaticamente após 7 dias. Ele é mostrado como **[!UICONTROL Expired]** na coluna **[!UICONTROL Expires]**. Neste período de 7 dias:
+
+* Uma chave pública expirada não pode mais ser usada para se conectar ao servidor SFTP.
+
+* Você pode [editar](#editing-public-keys) uma chave pública expirada e atualizar sua duração para torná-la disponível novamente.
+
+* Você pode excluí-lo da lista.
+
+## Edição de chaves públicas {#editing-public-keys}
+
+>[!CONTEXTUALHELP]
+>id="cp_sftp_publickey_update"
+>title="Editar chaves públicas"
+>abstract="Atualize as chaves públicas selecionadas para acessar o servidor SFTP."
+
+Para editar chaves públicas, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Você só pode editar chaves públicas criadas desde a versão de outubro de 2021 do Painel de controle do Campaign.
+
+1. Selecione um ou mais itens na lista **[!UICONTROL Key Management]**.
+1. Clique no botão **[!UICONTROL Update public key]**.
+
+   ![](assets/control_panel_edit_key.png)
+
+1. Você só pode editar a expiração da chave pública e/ou adicionar um novo comentário.
+
+   >[!NOTE]
+   >
+   >Para modificar o nome de usuário, a instância e a chave pública no formato OpenSSH, exclua a chave pública e crie uma nova que corresponda às suas necessidades.
+
+1. Salve as alterações.
