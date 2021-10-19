@@ -6,26 +6,25 @@ description: Saiba mais sobre a interface do Painel de controle do Campaign
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
+source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 20%
+source-wordcount: '124'
+ht-degree: 21%
 
 ---
-
 
 # Descobrindo a interface do Painel de controle do Campaign {#discovering-interface}
 
 A home page do Painel de controle do Campaign fornece acesso a todas as ações que podem ser executadas nas instâncias do Campaign.
 
-Eles são representados por cartões organizados em tópicos, por exemplo **Storage &amp; Database Management**.
+Eles são representados por cartões que são organizados em tópicos, por exemplo **Monitoramento de desempenho**.
 
-Com as próximas versões do Campaign, mais tópicos e cartões serão disponibilizados.
+<!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
 ![](assets/control_panel_interface.png)
 
-## Registros de trabalho {#job-logs}
+## Logs de trabalho {#job-logs}
 
 O botão **[!UICONTROL Job Logs]** no canto superior direito permite auditar todas as alterações feitas pelos usuários da organização.
 

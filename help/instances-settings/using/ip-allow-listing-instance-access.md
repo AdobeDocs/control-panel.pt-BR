@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 89%
+source-wordcount: '770'
+ht-degree: 87%
 
 ---
 
@@ -53,13 +53,15 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 >title="Configuração do intervalo IP"
 >abstract="Defina o intervalo IP que deseja adicionar à lista de permissões para se conectar à sua instância."
 
+>[!NOTE]
+>
+>Se a variável **[!UICONTROL Instance Settings]** não está visível na página inicial do Painel de controle do Campaign, isso significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic v7 ou Campaign v8.
+
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
 1. Abra **[!UICONTROL Instances Settings card]** para acessar a guia da lista de permissões de IP e clique em **[!UICONTROL Add new IP Range]**.
 
-   >[!NOTE]
-   >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic
+
 
    ![](assets/ip_whitelist_list1.png)
 
@@ -90,9 +92,11 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
 1. Clique no botão **[!UICONTROL Save]**. O Intervalo IP é adicionado à lista de permissões.
 
-   ![](assets/ip_whitelist_added.png)
+   <!--![](assets/ip_whitelist_added.png)-->
 
-Para excluir intervalos IP da lista de permissões, selecione-os e clique no botão **[!UICONTROL Delete IP range]** .
+Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no botão **[!UICONTROL Delete IP range]** botão.
+
+![](assets/ip_whitelist_delete.png)
 
 **Tópicos relacionados:**
 
