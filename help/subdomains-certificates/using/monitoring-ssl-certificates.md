@@ -7,26 +7,22 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d37c83c19863992fb02251e50dddd6965b068e23
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 91%
 
 ---
 
 # Monitorar certificados SSL de subdomínios {#monitoring-ssl-certificates}
 
->[!AVAILABILITY]
->
->Esse recurso não está disponível para o Campaign v8.
-
 ## Sobre certificados SSL {#about-ssl-certificates}
 
 O Adobe Campaign recomenda proteger os subdomínios que hospedam suas páginas de aterrissagem, especialmente aqueles que estão coletando informações confidenciais dos clientes.
 
-**A** criptografia SSL (Secure Socket Layer) garante a segurança dos subdomínios que você configurou para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
+**Criptografia SSL (Secure Socket Layer)** garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
 
-**Os certificados SSL não são instalados nos próprios** subdomínios configurados. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam páginas de aterrissagem, páginas de recursos e outros.
+**Os certificados SSL não são instalados nos próprios subdomínios configurados**. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam páginas de aterrissagem, páginas de recursos e outros.
 
 **Os certificados SSL são fornecidos por um período específico** (1 ano, 60 dias, etc.). Depois que um certificado expirar, você poderá enfrentar problemas ao acessar as páginas de aterrissagem ou usar recursos do subdomínio. Para evitar isso, o Painel de controle do Campaign permite monitorar os certificados SSL dos subdomínios e iniciar o processo de renovação.
 
