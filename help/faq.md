@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 7998dba576488ca1e7e587a9d987458beec101b3
+source-git-commit: d6bf3db521085078499e88c9a2077f63914d9c4c
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 91%
+source-wordcount: '768'
+ht-degree: 97%
 
 ---
 
@@ -28,9 +28,9 @@ O Painel de controle do Campaign permite rastrear armazenamentos, adicionar IPs 
 
 Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
 
-### Há alguns recursos que ainda não são suportados no Campaign v8, mas estão disponíveis no Campaign Classic v7?{#v8-restrictions}
+### Quais recursos não são compatíveis com o Campaign v8, mas estão disponíveis no Campaign Classic v7?{#v8-restrictions}
 
-Não. Todos os recursos disponíveis no Campaign Classic v7 também agora são suportados pelo Painel de controle do Campaign v8, incluindo funções relacionadas ao Subdomínio e Gerenciamento de certificados.
+As funções relacionadas ao gerenciamento de subdomínios e certificados ainda não são compatíveis por meio do Painel de controle do Campaign v8. Entre em contato com o Atendimento ao cliente do Campaign para obter qualquer suporte relacionado.
 
 ### O Painel de controle do Campaign é apenas para o Adobe Campaign?
 

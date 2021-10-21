@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: a315b98ac3fc35eca0234a44afdd513ba24dce63
+source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 59%
+source-wordcount: '212'
+ht-degree: 92%
 
 ---
 
@@ -25,23 +25,21 @@ ht-degree: 59%
 
 ## Novidades
 
-**Suporte total com o Campaign v8**
+**Configuração de subdomínio usando CNAMEs**
 
-All capabilities, including **Subdomain** and **Certificate** management, are now supported by Control Panel on Adobe Campaign v8. [Leia mais](faq.md#v8-restrictions)
+Agora o Painel de Controle do Campaign permite configurar um subdomínio para funcionar com a Adobe usando CNAMEs diretamente da interface. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
 
-**Período de validade do intervalo IP e edição**
+**Melhorias no monitoramento de banco de dados**
 
-It is now possible to set a duration for the availability of IP ranges and to edit the IP ranges that you create. [Leia mais](sftp/using/ip-range-allow-listing.md)
-
-**Período de validade da chave pública e edição**
-
-Da mesma forma, agora é possível definir uma duração para a disponibilidade de chaves públicas e editar as chaves públicas criadas. [Leia mais](sftp/using/key-management.md)
+A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicionais, permitindo obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
 
 >[!CAUTION]
 >
 >* O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
 >
 >* Para o Campaign Classic v7, restrições de implantação se aplicam. [Saiba mais](faq.md#v7-restrictions)
+>
+>* Para o Campaign v8, alguns recursos não estão disponíveis. [Saiba mais](faq.md#v8-restrictions)
 
 
 ## Recursos adicionais {#additional-resources}
