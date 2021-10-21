@@ -55,7 +55,7 @@ A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicion
         <td><b>Campaign Classic v7</b><br/>
         <ul>
             <li><a href="https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/control-panel-overview.html?lang=pt-BR">tutoriais em vídeo do Painel de controle do Campaign</a></li>
-            <li><a href="://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=pt-BR">Documentação do produto Campaign Classic v7</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-classic/using/campaign-classic-home.html?lang=pt-BR">Documentação do produto Campaign Classic v7</a></li>
         </ul>
         </td>
         <td><b>Campaign v8</b><br/>
