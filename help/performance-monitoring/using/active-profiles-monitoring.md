@@ -32,7 +32,7 @@ Os perfis são considerados ativos se tiverem sido direcionados ou comunicados n
 >
 >Os canais Facebook e Twitter não são considerados.
 
-Para obter mais informações sobre perfis ativos, consulte as documentações [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles).
+Para obter mais informações sobre perfis ativos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentações.
 
 ## Monitoramento de perfis ativos {#monitoring-active-profiles}
 
