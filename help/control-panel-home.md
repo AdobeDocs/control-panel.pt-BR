@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 056d5b91652b07ccf9ce8e46e11a4c29cccf6e70
+source-git-commit: 75d369f52be140732525411239ae18b7269e761f
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 92%
+source-wordcount: '243'
+ht-degree: 60%
 
 ---
 
@@ -25,13 +25,17 @@ ht-degree: 92%
 
 ## Novidades
 
-**Configuração de subdomínio usando CNAMEs**
+**Período de validade do intervalo IP e edição**
 
-Agora o Painel de Controle do Campaign permite configurar um subdomínio para funcionar com a Adobe usando CNAMEs diretamente da interface. [Leia mais](subdomains-certificates/using/setting-up-new-subdomain.md)
+Agora é possível definir uma duração para a disponibilidade de intervalos IP e editar os intervalos IP criados. [Leia mais](sftp/using/ip-range-allow-listing.md)
 
-**Melhorias no monitoramento de banco de dados**
+**Período de validade da chave pública e edição**
 
-A guia **[!UICONTROL Database monitoring]** foi aprimorada com métricas adicionais, permitindo obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
+Da mesma forma, agora é possível definir uma duração para a disponibilidade de chaves públicas e editar as chaves públicas criadas. [Leia mais](sftp/using/key-management.md)
+
+**Suporte com o Campaign v8**
+
+O Painel de controle do Campaign agora está disponível para Adobe Campaign v8, exceto o **Subdomínio** e **Certificado** recursos de gerenciamento, que ainda não são compatíveis.
 
 >[!CAUTION]
 >
