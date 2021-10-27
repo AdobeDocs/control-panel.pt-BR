@@ -8,7 +8,7 @@ exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
 workflow-type: tm+mt
 source-wordcount: '232'
-ht-degree: 59%
+ht-degree: 66%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 59%
 >id="cp_overview"
 >title="Sobre o Painel de controle do Campaign"
 >abstract="A home page do Painel de controle do Campaign fornece acesso a todas as ações que podem ser executadas nas instâncias do Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html" text="Descobrir a interface"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html" text="Acesso ao Painel de controle do Campaign"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/discovering-the-interface.html?lang=pt-BR" text="Descobrir a interface"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/accessing-control-panel.html?lang=pt-BR" text="Acesso ao Painel de controle do Campaign"
 
 ![](assets/do-not-localize/banner.png)
 
@@ -39,7 +39,7 @@ Da mesma forma, agora é possível definir uma duração para a disponibilidade 
 
 >[!CAUTION]
 >
->* O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html#discover-control-panel)
+>* O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel)
 >
 >* Para o Campaign Classic v7, restrições de implantação se aplicam. [Saiba mais](faq.md#v7-restrictions)
 
@@ -62,7 +62,7 @@ Da mesma forma, agora é possível definir uma duração para a disponibilidade 
         </td>
         <td><b>Campaign v8</b><br/>
         <ul>
-            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=pt-BR">tutoriais em vídeo do Painel de controle do Campaign</a></li>
+            <li><a href="https://experienceleague.adobe.com/docs/campaign-learn/control-panel/control-panel-overview.html?lang=pt-BR">Tutoriais em vídeo do Painel de controle do Campaign</a></li>
             <li><a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/campaign-home.html?lang=pt-BR">Documentação do produto Campaign v8</a></li>
         </ul>
         </td>
