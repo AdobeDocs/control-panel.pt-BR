@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8b0f652559e0296a22b3eac92057e6f4487215e1
+source-git-commit: 23c2cd3172a846c1006fc172acf07cae1f222a9c
 workflow-type: tm+mt
-source-wordcount: '771'
-ht-degree: 74%
+source-wordcount: '792'
+ht-degree: 72%
 
 ---
 
@@ -38,9 +38,9 @@ Agora é possível editar a variável [Intervalos de IP](sftp/using/ip-range-all
 
 A funcionalidade de alerta por email agora inclui alertas sobre IP SFTP, permitindo listar a expiração e a expiração da chave pública SFTP. [Leia mais](performance-monitoring/using/email-alerting.md)
 
-<!--**Full support with Campaign v8**
+**Suporte total com o Campaign v8**
 
-The **Subdomain** and **Certificate** management capabilities are now supported by Control Panel on Adobe Campaign v8.-->
+O **Subdomínio** e **Certificado** Os recursos de gerenciamento agora são suportados pelo Painel de controle do Campaign no Adobe Campaign v8.
 
 ## Agosto de 2021 {#august-2021}
 
