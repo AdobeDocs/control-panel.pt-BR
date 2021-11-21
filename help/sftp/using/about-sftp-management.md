@@ -7,14 +7,13 @@ testing: SSECD-836 2
 feature: Control Panel
 role: Architect
 level: Intermediate
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 4%
+source-wordcount: '168'
+ht-degree: 16%
 
 ---
-
 
 # Sobre o gerenciamento de SFTP {#about-sftp-management}
 
@@ -24,8 +23,8 @@ O acesso a servidores SFTP é feito usando um software cliente SFTP, que pode se
 
 O Painel de controle do Campaign permite executar as ações abaixo para gerenciar os servidores SFTP:
 
-* Monitorar a **capacidade de armazenamento**,
-* Gerenciar **Endereços IP para permitir a listagem**: adicionar ou excluir intervalos de endereços IP de um ou vários servidores,
-* Gerencie **chaves SSH públicas** para acessar seus servidores.
+* Monitorar os **capacidade de armazenamento**,
+* Gerenciar **Lista de permissões de endereços IP**: adicionar ou excluir intervalos de endereços IP de um ou vários servidores,
+* Gerenciar **chaves SSH públicas** para acessar seus servidores.
 
 Informações detalhadas sobre cada uma dessas ações estão disponíveis nas seções abaixo.

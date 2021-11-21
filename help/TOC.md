@@ -1,15 +1,14 @@
 ---
 product: adobe campaign
-sub-product: Painel de controle do Campaign
+sub-product: control panel
 audience: end-user
 user-guide-title: Guia do Painel de controle
 feature: Control Panel
 role: Architect
 level: Beginner
-translation-type: ht
 source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
-workflow-type: ht
-source-wordcount: '102'
+workflow-type: tm+mt
+source-wordcount: '98'
 ht-degree: 100%
 
 ---
@@ -33,7 +32,7 @@ ht-degree: 100%
    + [Perguntas comuns](sftp/using/common-questions.md)
 + Subdomínios e certificados {#subdomains-and-certificates}
    + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
-   + [Monitorar subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Monitoramento de subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Monitorar certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
    + [Renovação de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
@@ -44,7 +43,7 @@ ht-degree: 100%
    + [Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Alerta por email](performance-monitoring/using/email-alerting.md)
 + Configurações de instâncias {#instances-settings}
-   + [Lista de permissões de IP para acesso de instância](instances-settings/using/ip-allow-listing-instance-access.md)
+   + [Lista de permissões de IP para acessar a instância](instances-settings/using/ip-allow-listing-instance-access.md)
    + [Permissões de URL](instances-settings/using/url-permissions.md)
    + [Detalhes da instância](instances-settings/using/instance-details.md)
    + [Gerenciamento de chaves GPG](instances-settings/using/gpg-keys-management.md)

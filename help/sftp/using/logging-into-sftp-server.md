@@ -6,14 +6,13 @@ description: Saiba como fazer logon no servidor SFTP
 feature: Control Panel
 role: Architect
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
+source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 7%
+source-wordcount: '348'
+ht-degree: 6%
 
 ---
-
 
 # Fazer logon no servidor SFTP {#logging-into-sft-server}
 
@@ -24,14 +23,14 @@ As etapas abaixo detalham como conectar o servidor SFTP por meio do aplicativo c
 Antes de fazer logon no servidor, verifique se:
 
 * Seu servidor SFTP é **hospedado pelo Adobe**.
-* Seu **nome de usuário** foi configurado para o servidor. Você pode verificar essas informações diretamente no Painel de controle, na guia **Key management** do cartão SFTP.
+* Seu **nome de usuário** foi configurado para o servidor. Você pode verificar essas informações diretamente no Painel de controle do Campaign, na **Gerenciamento de chaves** no cartão SFTP.
 * Você tem um **par de chaves privadas e públicas** para fazer logon no servidor SFTP. Consulte [esta seção](../../sftp/using/key-management.md) para obter mais informações sobre como adicionar a chave SSH.
-* Seu **endereço IP público foi adicionado ao lista de permissões** no servidor SFTP. Caso contrário, consulte [esta seção](../../sftp/using/ip-range-allow-listing.md) para obter mais informações sobre como adicionar o intervalo IP à lista de permissões.
-* Você tem acesso a um **software cliente SFTP**. Você pode consultar seu departamento de TI para obter o aplicativo cliente SFTP que eles recomendam usar ou pesquisar um na Internet, se isso for permitido pelas políticas de sua empresa.
+* Seu **o endereço IP público foi adicionado à lista de permissões** no servidor SFTP. Caso contrário, consulte [esta seção](../../sftp/using/ip-range-allow-listing.md) para obter mais informações sobre como adicionar o intervalo IP à lista de permissões.
+* Você tem acesso a um **Software cliente SFTP**. Você pode consultar seu departamento de TI para obter o aplicativo cliente SFTP que eles recomendam usar ou pesquisar um na Internet, se isso for permitido pelas políticas de sua empresa.
 
 Para se conectar ao servidor SFTP, siga estas etapas:
 
-1. Inicie o Painel de controle e selecione a guia **[!UICONTROL Key Management]** no cartão **[!UICONTROL SFTP]**.
+1. Inicie o Painel de controle e selecione o **[!UICONTROL Key Management]** na guia do **[!UICONTROL SFTP]** cartão.
 
    ![](assets/sftp_card.png)
 
@@ -39,11 +38,11 @@ Para se conectar ao servidor SFTP, siga estas etapas:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. No campo **[!UICONTROL SSH Private Key]**, selecione o arquivo de chave privada armazenado em seu computador. Corresponde a um arquivo de texto que tem o mesmo nome de sua chave pública, sem a extensão &quot;.pub&quot; (por exemplo, &quot;ativar&quot;).
+1. No **[!UICONTROL SSH Private Key]** selecione o arquivo de chave privada armazenado em seu computador. Corresponde a um arquivo de texto que tem o mesmo nome de sua chave pública, sem a extensão &quot;.pub&quot; (por exemplo, &quot;ativar&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   O campo **[!UICONTROL Password]** é preenchido automaticamente com a chave privada do arquivo.
+   O **[!UICONTROL Password]** é automaticamente preenchido com a chave privada do arquivo.
 
    ![](assets/do-not-localize/connect3.png)
 

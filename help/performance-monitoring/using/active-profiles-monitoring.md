@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 78%
+ht-degree: 81%
 
 ---
 
@@ -58,7 +58,7 @@ Para fazer isso, siga estes passos:
 >
 >Os perfis ativos são contados com base em workflows técnicos dedicados que são executados diariamente em suas instâncias:
 >
->* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html) para o Campaign Standard,
+>* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) para o Campaign Standard,
 >* O workflow [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) para o Campaign Classic.
 
 
