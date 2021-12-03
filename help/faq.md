@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 47a57b38e9af8b03d277bf9ee6922b19f0298944
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '771'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ O Painel de controle do Campaign permite rastrear armazenamentos, adicionar IPs 
 
 Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
 
-### Há alguns recursos que ainda não são suportados no Campaign v8, mas estão disponíveis no Campaign Classic v7?{#v8-restrictions}
+### Há recursos que ainda não estão disponíveis no Campaign v8, mas estão disponíveis no Campaign Classic v7?{#v8-restrictions}
 
-Não. Todos os recursos disponíveis no Campaign Classic v7 também agora são suportados pelo Painel de controle do Campaign v8, incluindo funções relacionadas ao Subdomínio e Gerenciamento de certificados.
+Não. Todos os recursos disponíveis no Campaign Classic v7 agora também estão disponíveis através do Painel de controle do Campaign v8, incluindo funções relacionadas ao Subdomínio e Gerenciamento de certificados.
 
 ### O Painel de controle do Campaign é apenas para o Adobe Campaign?
 
@@ -66,7 +66,7 @@ Para obter mais informações, consulte a [documentação da Adobe Experience Cl
 
 ### Onde encontro minha IMS Organization ID?
 
-Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua IMS Organization ID na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua IMS Organization ID na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
 
 Outra maneira é iniciar o **Admin Console**. A IMS Organization ID estará visível no URL e será semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
