@@ -8,7 +8,7 @@ role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
 ht-degree: 100%
 
@@ -62,13 +62,13 @@ Além disso, **não crie um arquivo de zona separado** para esse novo subdomíni
 >id="cp_add_subdomain_create_delegate"
 >title="Criar e delegar o subdomínio"
 >abstract="Crie o subdomínio que você deseja usar com o Adobe Campaign na solução de hospedagem e delegue-o à Adobe."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configurar um novo subdomínio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_submit"
 >title="Enviar o subdomínio"
 >abstract="Confirme e envie o subdomínio que foi configurado nas etapas anteriores."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configurar um novo subdomínio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 
 Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
 
@@ -110,19 +110,19 @@ Depois que o subdomínio for enviado, várias verificações e etapas de configu
 >id="cp_add_cname_subdomain_create_delegate"
 >title="Configurar o subdomínio"
 >abstract="Nesta tela, especifique o subdomínio que deseja configurar usando CNAMEs."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configurar um novo subdomínio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_records"
 >title="Gerar registros"
 >abstract="Navegue até a solução de hospedagem para gerar a lista de registros DNS mostrados nessa tela."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configurar um novo subdomínio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 
 >[!CONTEXTUALHELP]
 >id="cp_add_cname_subdomain_submit"
 >title="Enviar o subdomínio"
 >abstract="Confirme e envie o subdomínio que foi configurado nas etapas anteriores."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html" text="Configurar um novo subdomínio"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 
 Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo.
 
