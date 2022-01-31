@@ -6,10 +6,10 @@ user-guide-title: Guia do Painel de controle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 4b8020dfd5d1f81a81d0e20025cfabe734744d34
+source-git-commit: 9a864f8a80ed0d34212e5e825cc8962e557345a7
 workflow-type: tm+mt
-source-wordcount: '98'
-ht-degree: 100%
+source-wordcount: '118'
+ht-degree: 94%
 
 ---
 
@@ -39,8 +39,15 @@ ht-degree: 100%
    + [Gerenciamento de registros TXT](subdomains-certificates/using/managing-txt-records.md)
 + Monitoramento de desempenho {#performance-monitoring}
    + [Sobre o monitoramento de desempenho](performance-monitoring/using/about-performance-monitoring.md)
-   + [Monitoramento de banco de dados](performance-monitoring/using/database-monitoring.md)
+   + Monitoramento de banco de dados {#database-monitoring}
+      + [Sobre o monitoramento de banco de dados](performance-monitoring/using/database-monitoring.md)
+      + [Utilização do banco de dados](performance-monitoring/using/database-utilization.md)
+      + [Visão geral de armazenamento](performance-monitoring/using/database-storage-overview.md)
+      + [Os 10 principais recursos temporários](performance-monitoring/using/database-top-ten-resources.md)
+      + [Monitoramento de consultas ativas](performance-monitoring/using/database-active-queries.md)
+      + [Como impedir a sobrecarga do banco de dados](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
+   + [Throughput e monitoramento de latência](performance-monitoring/using/thoughputs-latencies.md)
    + [Alerta por email](performance-monitoring/using/email-alerting.md)
 + Configurações de instâncias {#instances-settings}
    + [Lista de permissões de IP para acessar a instância](instances-settings/using/ip-allow-listing-instance-access.md)

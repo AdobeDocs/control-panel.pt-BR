@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 5c7937fc201e83f8afd3973b50e8121e2fd2bf41
+source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 71%
+source-wordcount: '858'
+ht-degree: 65%
 
 ---
 
@@ -23,6 +23,20 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 >O Painel de controle do Campaign é acessível somente para usuários administradores. Saiba mais sobre permissões em [esta seção](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 >
 >Para o Campaign Classic v7, sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável da campanha](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) (ou para build 9032 ou superior). Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md#hosted-aws).
+
+## Janeiro de 2022 {#january-2022}
+
+**Monitoramento de consultas ativas**
+
+O Painel de controle do Campaign agora permite monitorar consultas que estão sendo executadas por mais tempo em suas instâncias. [Leia mais](performance-monitoring/using/database-active-queries.md)
+
+**Throughput e monitoramento de latência**
+
+Agora você pode monitorar a tendência das taxas de transferência e da latência do delivery ao longo de um período em suas instâncias. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
+
+**Operações de certificados SSL em novos subdomínios**
+
+As operações de certificados SSL agora podem ser executadas em um subdomínio recém-configurado, mesmo se a auditoria de deliverability ainda estiver em andamento. [Leia mais](subdomains-certificates/using/renewing-subdomain-certificate.md)
 
 ## Outubro de 2021 {#october-2021}
 
