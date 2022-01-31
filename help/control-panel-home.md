@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 28688c8abc92d77d41ee27fe727b85504ba74877
-workflow-type: ht
-source-wordcount: '232'
-ht-degree: 100%
+source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,17 +25,14 @@ ht-degree: 100%
 
 ## Novidades
 
-**Suporte total com o Campaign v8**
+**Monitoramento de consultas ativas**
 
-Todos os recursos, incluindo o **Subdomínio** e o gerenciamento de **Certificado** agora estão disponíveis no Painel de controle do Adobe Campaign v8. [Leia mais](faq.md#v8-restrictions)
+O Painel de controle do Campaign agora permite monitorar consultas que estão sendo executadas por mais tempo em suas instâncias. [Leia mais](performance-monitoring/using/database-active-queries.md)
 
-**Período de validade e edição do intervalo de IP**
+**Throughput e monitoramento de latência**
 
-Agora é possível definir uma duração para a disponibilidade de intervalos de IP e editar os intervalos de IP criados. [Leia mais](sftp/using/ip-range-allow-listing.md)
+Agora você pode monitorar a tendência das taxas de transferência e da latência do delivery ao longo de um período em suas instâncias. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
 
-**Período de validade e edição da chave pública**
-
-De maneira similar, agora é possível definir uma duração para a disponibilidade de chaves públicas e editar as chaves públicas criadas. [Leia mais](sftp/using/key-management.md)
 
 >[!CAUTION]
 >
