@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: a99c3753a2bf4378e981629feb934e39fdd410d8
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '197'
+ht-degree: 100%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 0%
 
 **Monitoramento de consultas ativas**
 
-O Painel de controle do Campaign agora permite monitorar consultas que estão sendo executadas por mais tempo em suas instâncias. [Leia mais](performance-monitoring/using/database-active-queries.md)
+O Painel de controle do Campaign agora permite monitorar as consultas que estão sendo executadas há mais tempo em suas instâncias. [Saiba mais](performance-monitoring/using/database-active-queries.md)
 
-**Throughput e monitoramento de latência**
+**Monitoramento de taxas de transferência e latência**
 
-Agora você pode monitorar a tendência das taxas de transferência e da latência do delivery ao longo de um período em suas instâncias. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
+Agora, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
 
 
 >[!CAUTION]
