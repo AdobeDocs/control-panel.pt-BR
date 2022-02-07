@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 6249776ef4981cd3d706bf1946be0e054b471fb6
+source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '240'
 ht-degree: 1%
 
 ---
@@ -43,3 +43,5 @@ A lista de alertas é a seguinte:
 * **Expiração da lista de permissões de IP SFTP**: Um dos intervalos IP definidos expirou ou expirará em 10 dias ou menos. Consulte [Lista de permissões de intervalo IP](../../sftp/using/ip-range-allow-listing.md).
 
 * **Expiração de chave pública SFTP**: Uma das chaves públicas que você definiu expirou ou expirará em 10 dias ou menos. Consulte [Gerenciamento de chaves](../../sftp/using/key-management.md).
+
+* **Consultas de longa execução**: Um query está sendo executado por mais de 24 horas em uma de suas instâncias. Consulte [Monitoramento de consultas ativas](database-active-queries.md).

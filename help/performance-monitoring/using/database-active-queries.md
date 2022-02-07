@@ -6,11 +6,10 @@ description: Saiba como monitorar consultas ativas nas instâncias do Campaign n
 feature: Control Panel
 role: Architect
 level: Experienced
-exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 6922e132321f67e1e8122e33ead3c5e54c639763
-workflow-type: ht
-source-wordcount: '106'
-ht-degree: 100%
+source-git-commit: 12e9326ba220776874654705587152bf3978949c
+workflow-type: tm+mt
+source-wordcount: '118'
+ht-degree: 50%
 
 ---
 
@@ -24,4 +23,6 @@ As colunas **[!UICONTROL Duration]** especificam há quanto tempo uma consulta e
 
 >[!IMPORTANT]
 >
->Se uma das consultas estiver ativa há mais de 24 horas, entre em contato com o Atendimento ao cliente para que eles identifiquem e resolvam o problema. Nesse caso, será necessário fornecer a eles o valor da coluna **[!UICONTROL PID]**, que é um identificador exclusivo para a consulta.
+>Se um dos queries estiver ativo por mais de 24 horas, você será notificado por email se tiver assinado com o [alerta por email](email-alerting.md).
+>
+>Nesse caso, entre em contato com o Atendimento ao cliente para que ele identifique e resolva o problema. Você precisará fornecê-las a variável **[!UICONTROL PID]** valor da coluna , que é um identificador exclusivo para a consulta.
