@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
-source-git-commit: 71dce2340ccc3da406e29b9a650c9bcf6a5d938c
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '376'
+ht-degree: 86%
 
 ---
 
@@ -53,6 +53,7 @@ Métricas adicionais estão disponíveis neste painel para ajudar você a analis
 * [Utilização do banco de dados](../../performance-monitoring/using/database-utilization.md)
 * [Visão geral de armazenamento](../../performance-monitoring/using/database-storage-overview.md)
 * [Os 10 principais recursos temporários](../../performance-monitoring/using/database-top-ten-resources.md)
-* [Consultas ativas](../../performance-monitoring/using/database-active-queries.md)
+
+<!--* [Active queries](../../performance-monitoring/using/database-active-queries.md)-->
 
 ![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring)

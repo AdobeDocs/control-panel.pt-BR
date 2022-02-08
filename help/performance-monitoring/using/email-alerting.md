@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: ec83878e93536c979c39da52ed07b465f4fbbcb1
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '219'
 ht-degree: 1%
 
 ---
@@ -44,4 +44,4 @@ A lista de alertas é a seguinte:
 
 * **Expiração de chave pública SFTP**: Uma das chaves públicas que você definiu expirou ou expirará em 10 dias ou menos. Consulte [Gerenciamento de chaves](../../sftp/using/key-management.md).
 
-* **Consultas de longa execução**: Um query está sendo executado por mais de 24 horas em uma de suas instâncias. Consulte [Monitoramento de consultas ativas](database-active-queries.md).
+<!--* **Long running Queries**: A query has been running for more than 24 hours on one of your instances. See [Monitoring active queries](database-active-queries.md).-->

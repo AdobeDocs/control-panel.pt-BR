@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 10c4cf41dc9502bb66566951780cf8f963b08aa9
+source-git-commit: 65f4603e6ff6c232479bf567981871e92b1cfa1c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '834'
+ht-degree: 70%
 
 ---
 
@@ -26,13 +26,13 @@ Aqui você encontrará informações sobre as versões mais recentes do Painel d
 
 ## Janeiro de 2022 {#january-2022}
 
-**Monitoramento de consultas ativas**
+<!-- **Active queries monitoring**
 
-O Painel de controle do Campaign agora permite monitorar consultas que estão sendo executadas por mais tempo em suas instâncias. [Leia mais](performance-monitoring/using/database-active-queries.md)
+Control Panel now allows you to monitor queries that have been running for the longest time on your instances. [Read more](performance-monitoring/using/database-active-queries.md)-->
 
-**Throughput e monitoramento de latência**
+**Monitoramento de taxas de transferência e latência**
 
-Agora você pode monitorar a tendência das taxas de transferência e da latência do delivery ao longo de um período em suas instâncias. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
+Agora, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias. [Saiba mais](performance-monitoring/using/thoughputs-latencies.md)
 
 **Operações de certificados SSL em novos subdomínios**
 
@@ -50,7 +50,7 @@ Agora é possível editar a variável [Intervalos de IP](sftp/using/ip-range-all
 
 **Alertas no intervalo IP SFTP e expiração da chave pública**
 
-A funcionalidade de alerta por email agora inclui alertas sobre IP SFTP, permitindo listar a expiração e a expiração da chave pública SFTP. [Leia mais](performance-monitoring/using/email-alerting.md)
+A funcionalidade de alerta por email agora inclui alertas sobre IP SFTP, permitindo listar a expiração e a expiração da chave pública SFTP. [Saiba mais](performance-monitoring/using/email-alerting.md)
 
 **Suporte total com o Campaign v8**
 
@@ -70,7 +70,7 @@ Agora o Painel de Controle do Campaign permite configurar um subdomínio para fu
 
 **Melhorias no monitoramento de banco de dados**
 
-O monitoramento de banco de dados foi aprimorado com métricas adicionais que permitem obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Leia mais](performance-monitoring/using/database-monitoring.md)
+O monitoramento de banco de dados foi aprimorado com métricas adicionais que permitem obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados. [Saiba mais](performance-monitoring/using/database-monitoring.md)
 
 ## Junho de 2020 {#june-2020}
 
