@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 12e9326ba220776874654705587152bf3978949c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '118'
-ht-degree: 50%
+ht-degree: 100%
 
 ---
 
@@ -23,6 +23,6 @@ As colunas **[!UICONTROL Duration]** especificam há quanto tempo uma consulta e
 
 >[!IMPORTANT]
 >
->Se um dos queries estiver ativo por mais de 24 horas, você será notificado por email se tiver assinado com o [alerta por email](email-alerting.md).
+>Se uma das consultas estiver ativa por mais de 24 horas, você será notificado por email caso esteja inscrito no [alerta por email](email-alerting.md).
 >
->Nesse caso, entre em contato com o Atendimento ao cliente para que ele identifique e resolva o problema. Você precisará fornecê-las a variável **[!UICONTROL PID]** valor da coluna , que é um identificador exclusivo para a consulta.
+>Nesse caso, entre em contato com o Atendimento ao cliente para identificar e resolver o problema. Em seguida, será necessário informar o valor da coluna **[!UICONTROL PID]**, que é um identificador exclusivo da consulta.
