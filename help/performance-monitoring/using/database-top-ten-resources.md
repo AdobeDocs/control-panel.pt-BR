@@ -6,10 +6,11 @@ description: Saiba como monitorar no Painel de controle do Campaign os 10 maiore
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
+source-git-commit: b17abddf6bad7e58cb7bd825cd97322427a0b21f
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 92%
+source-wordcount: '175'
+ht-degree: 69%
 
 ---
 
@@ -21,24 +22,10 @@ Monitorar workflows e deliveries que estão criando grandes recursos temporário
 
 >[!IMPORTANT]
 >
->A recomendação geral é evitar ter **mais de 40 colunas** em recursos não prontos para uso.
+>A recomendação geral é evitar ter **mais de 40 colunas** em recursos não prontos para uso. Se um fluxo de trabalho tiver muitas tabelas ou um banco de dados grande, recomendamos examinar o fluxo de tabalho para investigar por que ele está gerando tantos dados.
+>
+>As diretrizes do Campaign Standard e do Classic também estão disponíveis em [esta página](database-preventing-overload.md) para ajudá-lo a evitar a sobrecarga do banco de dados.
 
 ![](assets/database-top10.png)
 
->[!NOTE]
->
->Se um fluxo de trabalho tiver muitas tabelas ou um banco de dados grande, recomendamos examinar o fluxo de tabalho para investigar por que ele está gerando tantos dados.
->
->Os recursos do Campaign Standard e do Classic também estão disponíveis no final desta página para ajudar você a evitar a sobrecarga do banco de dados.
-
-O botão **[!UICONTROL View all]** permite acessar informações detalhadas sobre esses recursos temporários.
-
-![](assets/database-top10-view.png)
-
-O valor na coluna **[!UICONTROL Keep interim results]** indica se a opção está ativada (&quot;1&quot;) ou desativada (&quot;0&quot;) no Campaign. Essa opção permite salvar os resultados das transições entre as várias atividades de um fluxo de trabalho (consulte a documentação do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=pt-BR) e do [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/introduction/workflow-best-practices.html?lang=pt-BR#logs)).
-
->[!IMPORTANT]
->
->Essa opção nunca deve ser verificada em um fluxo de trabalho de produção. Essa opção é usada para analisar os resultados e é projetada apenas para fins de teste e, portanto, deve ser usada apenas em ambientes de desenvolvimento ou de preparo.
->
->Se o valor no Painel de controle do Campaign indicar que a opção está habilitada para um de seus workflows, recomendamos desativar o Campaign.
+O **[!UICONTROL View all]** permite acessar o **[!UICONTROL Storage overview]** detalhes para obter informações detalhadas sobre esses recursos temporários. Para obter mais informações, consulte [esta página](database-storage-overview.md).
