@@ -4,9 +4,9 @@ solution: Campaign
 title: Versões do Painel de Controle do Campaign
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1022'
 ht-degree: 63%
 
 ---
@@ -32,7 +32,7 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 <tbody>
 <tr>
 <td>
-<p>O monitoramento de throughput e latência agora está disponível para todos os clientes do Campaign Standard e v8 com números de compilação 9032,9330, 9346 ou 9349 que têm implantações independentes (sem nenhuma instância mid).</p><p>Para obter mais informações, consulte a <a href="performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
+<p>O monitoramento de throughput e latência agora está disponível para todos os clientes do Campaign Standard e v8, e para clientes do Campaign V7 com números de compilação 9032,9330, 9346 ou 9349 que têm implantações independentes (sem qualquer instância mid).</p><p>Para obter mais informações, consulte a <a href="performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>
