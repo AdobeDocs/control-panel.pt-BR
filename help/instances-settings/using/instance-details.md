@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 62ad3edb604ebd9fab6a3f930b7c79af6b9ca968
+source-git-commit: d323fa76c5707b3284e5763b5f60a82974a6c045
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 86%
+source-wordcount: '530'
+ht-degree: 77%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 86%
 >id="cp_instancesettings_instancedetails"
 >title="Sobre detalhes da instância"
 >abstract="Visualize os detalhes das instâncias do Adobe Campaign: tipos, nomes, informações de criação e possíveis recomendações de atualização."
->additional-url="https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/latest-release.html" text="Notas de versão do Campaign Classic"
->additional-url="https://experienceleague.adobe.com/docs/campaign-standard/using/release-notes/release-notes.html" text="Notas de versão do Campaign Standard"
 
 ## Sobre detalhes da instância {#about-instance-details}
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível somente para instâncias do Campaign Classic v7 e Campaign v8.
+>Esse recurso está disponível somente para instâncias do Campaign v7/v8.
 
 A arquitetura de instâncias do Adobe Campaign pode conter vários servidores para permitir a flexibilidade das atividades de marketing. Por exemplo, você pode ter servidores de Marketing, Tempo real (ou Centro de mensagens) e Mid Sourcing para dar suporte à sua instância.
 
@@ -35,7 +33,7 @@ A funcionalidade Detalhes da instância permite a visualização de uma arquitet
 
 >[!NOTE]
 >
->Recomendamos atualizar as instâncias pelo menos uma vez por ano para evitar a degradação do desempenho e aproveitar os recursos e as correções mais recentes que o Adobe Campaign Classic tem a oferecer.
+>Recomendamos que suas instâncias sejam atualizadas pelo menos uma vez por ano para evitar a degradação do desempenho e aproveitar os recursos e correções mais recentes que o Adobe Campaign v7/v8 tem a oferecer.
 
 **Tópicos relacionados:**
 
@@ -50,13 +48,13 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic
+   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign v7/v8
 
 1. Selecione no painel esquerdo a instância desejada do Campaign 
 
    >[!NOTE]
    >
-   >Todas as instâncias do Campaign são exibidas na lista do painel esquerdo. Como o recurso Detalhes da instância é dedicado somente às instâncias do Campaign Classic, a mensagem &quot;Instância não aplicável&quot; é exibida ao selecionar uma instância do Campaign Standard.
+   >Todas as instâncias do Campaign são exibidas na lista do painel esquerdo. Como o recurso Detalhes da instância é dedicado somente às instâncias do Campaign v7/v8, a mensagem &quot;Instância não aplicável&quot; é exibida se você selecionar uma instância Campaign Standard.
 
 1. Os servidores conectados à instância são exibidos.
 

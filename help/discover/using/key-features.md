@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: fa45ec38ff06a0b02ab724e7ced79b7b5de2c766
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 83%
+source-wordcount: '295'
+ht-degree: 79%
 
 ---
 
@@ -28,7 +28,7 @@ Principais benefícios:
 >
 >O Painel de controle do Campaign é restrito aos usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](managing-permissions.md).
 >
->Para o Campaign Classic, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável da campanha](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) ou para a build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
+>Para o Campaign v7/v8, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável da campanha](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) ou para a build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>
@@ -50,7 +50,7 @@ Principais benefícios:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Gerencie configurações de instância</strong></a></div>
-        <br/><em>Saiba como gerenciar configurações de instâncias (somente Campaign Classic).</em>
+        <br/><em>Saiba como gerenciar configurações de instâncias (somente Campaign v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condições" src="assets/do-not-localize/monitoring-performance.png"/></a>

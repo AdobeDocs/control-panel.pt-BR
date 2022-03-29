@@ -6,10 +6,11 @@ description: Saiba como monitorar os bancos de dados no Painel de controle do Ca
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 34af1000aeb444b273ade358eb35096bd3365fc7
+exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 85%
+source-wordcount: '380'
+ht-degree: 82%
 
 ---
 
@@ -45,7 +46,7 @@ Além disso, você poderá receber notificações quando um de seus bancos de da
 
 ![](assets/databases_dashboard.png)
 
-Os dados desse painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR) documentação). Você pode verificar a última vez que o workflow foi executado abaixo do **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** métricas. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
+Os dados desse painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR) documentação). Você pode verificar a última vez que o workflow foi executado abaixo do **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** métricas. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
 
 Métricas adicionais estão disponíveis neste painel para ajudar você a analisar o uso do banco de dados da instância. Eles estão detalhados nestas seções:
 
@@ -54,4 +55,4 @@ Métricas adicionais estão disponíveis neste painel para ajudar você a analis
 * [Os 10 principais recursos temporários](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Consultas ativas](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring)

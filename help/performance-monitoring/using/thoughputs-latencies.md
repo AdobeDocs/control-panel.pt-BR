@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: 7f7623a747bbc9c3b0816f12195068e04eee9b2f
-workflow-type: ht
-source-wordcount: '231'
-ht-degree: 100%
+source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
+workflow-type: tm+mt
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 
@@ -21,11 +21,21 @@ ht-degree: 100%
 >title="Sobre monitoramento de taxas de transferência e latência "
 >abstract="Nesta guia, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias."
 
+O Painel de controle do Campaign permite monitorar a taxa de transferência e a latência do delivery para cada uma de suas instâncias.
+
+>[!IMPORTANT]
+>
+>Esse recurso está disponível para todos os clientes do Campaign Standard e v8 e para clientes do Campaign V7 com números de compilação 9032,9330, 9346 ou 9349 que têm [autônoma](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html) implantações (sem qualquer instância mid).
+
 Monitorar a tendência das taxas de transferência e da latência de entrega ao longo de um período é essencial para entender o uso de suas instâncias e garantir elas estejam apresentando um bom desempenho.
 
 Essas informações são disponibilizadas no painel de controle para cada uma das instâncias do Campaign no cartão **[!UICONTROL Performance Monitoring]**, na guia **[!UICONTROL Throughputs & Latency]** (observe que o painel de controle pode levar até 1 hora para exibir os números).
 
 * A área **[!UICONTROL Throughput]** fornece informações sobre o número de mensagens enviadas por hora desde a instância selecionada do Campaign para todos os canais de comunicação aos quais você está habilitado.
+
+   >[!NOTE]
+   >
+   >Para o Campaign v7/v8, o número de taxa de transferência mostrado é a taxa de transferência obtida das instâncias MID (mid-sourcing). Para implantações de marketing independente (MKT) (sem qualquer instância MID), a taxa de transferência da instância MKT é mostrada.
 
 * A área **[!UICONTROL Latency]** fornece informações sobre a latência encontrada na instância selecionada ao enviar comunicações transacionais em tempo real. As latências são capturadas e visualizadas nos percentis 95 e 99, o que significa que 95% e 99% das solicitações devem ser mais rápidas do que a latência fornecida.
 

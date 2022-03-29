@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '748'
+ht-degree: 75%
 
 ---
 
@@ -56,7 +56,7 @@ Informações adicionais sobre a configuração de domínio estão disponíveis 
 
 Em caso de dúvidas relacionadas aos métodos de configuração do subdomínio, entre em contato com a equipe de Deliverability do Adobe ou entre em contato com o Atendimento ao cliente para solicitar consultoria sobre Deliverability.
 
-## Casos de uso de subdomínios (Campaign Classic){#subdomains-use-cases}
+## Casos de uso de subdomínios (Campaign v7/v8){#subdomains-use-cases}
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
@@ -65,7 +65,7 @@ Em caso de dúvidas relacionadas aos métodos de configuração do subdomínio, 
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR" text="Marca de subdomínios"
 
-Ao configurar subdomínios para instâncias do Campaign Classic, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [Configurar um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
+Ao configurar subdomínios para instâncias do Campaign v7/v8, é necessário selecionar o caso de uso para o qual o subdomínio será usado (consulte [Configurar um novo subdomínio](../../subdomains-certificates/using/setting-up-new-subdomain.md)).
 
 Os possíveis casos de uso são:
 
@@ -82,7 +82,7 @@ Os possíveis casos de uso são:
 
 >[!NOTE]
 >
->Se você estiver usando o Campaign Classic, o Painel de controle permitirá que você veja quais instâncias de RT/MID estão conectadas à instância de Marketing com a qual você está trabalhando. Para obter mais informações, consulte a seção [Detalhes da instância](../../instances-settings/using/instance-details.md).
+>Se você estiver usando o Campaign v7/v8, o Painel de controle permitirá que você veja quais instâncias de RT/MID estão conectadas à instância de marketing com a qual você está trabalhando. Para obter mais informações, consulte a seção [Detalhes da instância](../../instances-settings/using/instance-details.md).
 
 **Tópicos relacionados:**
 

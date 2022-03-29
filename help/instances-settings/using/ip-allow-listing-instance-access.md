@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 83a6d002a5a21815a66d198c6e5e805f559d5ee2
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 87%
+source-wordcount: '764'
+ht-degree: 88%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível somente para instâncias do Campaign Classic v7 e Campaign v8.
+>Esse recurso está disponível somente para instâncias do Campaign v7/v8.
 
 Por padrão, a instância do Adobe Campaign não pode ser acessada de vários endereços IP.
 
@@ -55,7 +55,7 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 
 >[!NOTE]
 >
->Se a variável **[!UICONTROL Instance Settings]** não está visível na página inicial do Painel de controle do Campaign, isso significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign Classic v7 ou Campaign v8.
+>Se a variável **[!UICONTROL Instance Settings]** não está visível na página inicial do Painel de controle do Campaign, isso significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign v7/v8.
 
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
 

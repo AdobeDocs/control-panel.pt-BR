@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 81%
+source-wordcount: '397'
+ht-degree: 78%
 
 ---
 
@@ -32,7 +32,7 @@ Os perfis são considerados ativos se tiverem sido direcionados ou comunicados n
 >
 >Os canais Facebook e Twitter não são considerados.
 
-Para obter mais informações sobre perfis ativos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign Classic v7](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentações.
+Para obter mais informações sobre perfis ativos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentações.
 
 ## Monitoramento de perfis ativos {#monitoring-active-profiles}
 
@@ -59,7 +59,7 @@ Para fazer isso, siga estes passos:
 >Os perfis ativos são contados com base em workflows técnicos dedicados que são executados diariamente em suas instâncias:
 >
 >* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) para o Campaign Standard,
->* O workflow [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) para o Campaign Classic.
+>* O [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html) workflow para Campaign v7/v8.
 
 
 A área inferior fornece uma representação gráfica do uso de perfis ativos nos últimos 30 dias. Você pode alterar o período exibido para 1 ano usando os filtros disponíveis no canto superior direito.

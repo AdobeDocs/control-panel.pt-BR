@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
+source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '602'
-ht-degree: 89%
+source-wordcount: '600'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível somente para instâncias do Campaign v8 e Campaign Classic v7, a partir da build 8850. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
+>Esse recurso está disponível somente para instâncias do Campaign v7/v8, a partir da build 8850. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
 
 A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows, etc.) pelas instâncias do Campaign é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
 
@@ -72,7 +72,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
    >
    >Todas as instâncias do Campaign são exibidas na lista do painel esquerdo.
    >
-   >Como o gerenciamento de permissões de URL é dedicado apenas a instâncias Campaign Classic, a mensagem &quot;Instância não aplicável&quot; é exibida se você selecionar uma instância do Campaign Standard.
+   >Como o gerenciamento de permissões de URL é dedicado somente a instâncias do Campaign v7/v8, a mensagem &quot;Instância não aplicável&quot; é exibida se você selecionar uma instância Campaign Standard.
 
 1. Digite o URL a ser autorizado com seu protocolo associado (http, https ou sftp).
 
