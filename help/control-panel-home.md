@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: aa5dbe361febee91eb936661da6dea09fc023eaa
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '228'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ![](assets/do-not-localize/banner.png)
 
-O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Campaign Standard e V7/v8, permitindo gerenciar configurações e rastrear os usos de cada uma das instâncias do Campaign.
+O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produto do Campaign Standard, v7 e v8, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias do Campaign.
 
 ## Novidades
 
