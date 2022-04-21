@@ -4,10 +4,10 @@ solution: Campaign
 title: Versões do Painel de Controle do Campaign
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 35b849725711bfee9852cf8f503bc599f6d8eaff
+source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 63%
+source-wordcount: '1070'
+ht-degree: 61%
 
 ---
 
@@ -20,6 +20,23 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 >O Painel de controle do Campaign é acessível somente para usuários administradores. Saiba mais sobre permissões em [esta seção](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/managing-permissions.html?lang=pt-BR#discover-control-panel).
 >
 >Para o Campaign v7, sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável da campanha](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) (ou para build 9032 ou superior). Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md#hosted-aws).
+
+## Abril de 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitore contatos e eventos importantes em suas instâncias</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode monitorar versões e revisões de serviços passadas e futuras em suas instâncias, bem como acessar uma lista de contatos importantes no Adobe para qualquer solicitação ou problema.</p><p>Para obter mais informações, consulte a <a href="service-events/service-events.md">documentação detalhada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Março de 2022 {#march-2022}
 

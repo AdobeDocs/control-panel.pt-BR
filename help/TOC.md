@@ -6,10 +6,10 @@ user-guide-title: Guia do Painel de controle do Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 33afa568cb850c72d1a65b03f68d1922addfc034
-workflow-type: ht
-source-wordcount: '119'
-ht-degree: 100%
+source-git-commit: 03f88c50e0eff20654dfcb90c711bb3d381591ed
+workflow-type: tm+mt
+source-wordcount: '127'
+ht-degree: 93%
 
 ---
 
@@ -55,4 +55,5 @@ ht-degree: 100%
    + [Permissões de URL](instances-settings/using/url-permissions.md)
    + [Detalhes da instância](instances-settings/using/instance-details.md)
    + [Gerenciamento de chaves GPG](instances-settings/using/gpg-keys-management.md)
++ [Identificar os principais contatos e eventos em suas instâncias](service-events/service-events.md)
 + [Perguntas frequentes](faq.md)
