@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 9dc288986f11cd64f187ba9253e4e4ff9f1b00b3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '124'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
    + [Acesso ao Painel de controle do Campaign](discover/using/accessing-control-panel.md)
    + [Gerenciamento de permissões para o Painel de controle do Campaign](discover/using/managing-permissions.md)
    + [Apresentação à interface do Painel de controle do Campaign](discover/using/discovering-the-interface.md)
-+ [Monitorar contatos e eventos importantes](service-events/service-events.md)
++ [Monitorar contatos importantes e eventos](service-events/service-events.md)
 + Gerenciamento de SFTP {#sftp-management}
    + [Sobre o gerenciamento de SFTP](sftp/using/about-sftp-management.md)
    + [Gerenciamento de armazenamentos SFTP](sftp/using/sftp-storage-management.md)
