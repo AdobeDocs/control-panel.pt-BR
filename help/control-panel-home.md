@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '221'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 ## Novidades
 
-**Monitore contatos e eventos importantes em suas instâncias**
+**Monitore contatos importantes e eventos em suas instâncias**
 
-Agora você pode monitorar versões e revisões de serviços passadas e futuras em suas instâncias, bem como acessar uma lista de contatos importantes no Adobe para qualquer solicitação ou problema. [Leia mais](service-events/service-events.md)
+Agora você pode monitorar versões e revisões de serviços anteriores e futuras em suas instâncias, bem como acessar uma lista de contatos importantes na Adobe para qualquer solicitação ou problema. [Leia mais](service-events/service-events.md)
 
 >[!CAUTION]
 >
