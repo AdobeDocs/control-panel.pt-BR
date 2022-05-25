@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '600'
 ht-degree: 86%
 
 ---
@@ -60,7 +60,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização não está associada a nenhuma instância do Adobe Campaign
+   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign
    >
    >A guia de <b><span class="uicontrol">permissões de URL</span></b> lista todos os URLs externos aos quais sua instância pode se conectar. Essa lista não inclui URLs necessários para que o Campaign funcione (por exemplo, conexões entre peças de infraestrutura).
 

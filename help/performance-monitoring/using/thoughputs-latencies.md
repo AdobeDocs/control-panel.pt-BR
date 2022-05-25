@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: 84fe0aeb10bc5e535a7ab54a3316a51a1a32b3ca
-workflow-type: ht
-source-wordcount: '314'
-ht-degree: 100%
+source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
+workflow-type: tm+mt
+source-wordcount: '425'
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="Sobre monitoramento de taxas de transferência e latência "
->abstract="Nesta guia, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias."
+>abstract="Nesta guia, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias. Para obter informações sobre deliveries que contribuem para a taxa de transferência, alterne para a exibição em tabela."
 
 O Painel de controle do Campaign permite monitorar a taxa de transferência e a latência da entrega de cada uma de suas instâncias.
 
@@ -31,22 +31,49 @@ Monitorar a tendência das taxas de transferência e da latência da entrega ao 
 
 Essas informações são disponibilizadas no painel de controle para cada uma das instâncias do Campaign no cartão **[!UICONTROL Performance Monitoring]**, na guia **[!UICONTROL Throughputs & Latency]** (observe que o painel de controle pode levar até 1 hora para exibir os números).
 
-* A área **[!UICONTROL Throughput]** fornece informações sobre o número de mensagens enviadas por hora desde a instância selecionada do Campaign para todos os canais de comunicação aos quais você está habilitado.
-
-   >[!NOTE]
-   >
-   >Para o Campaign v7/v8, o número de taxa de transferência exibido é a taxa de transferência obtida das instâncias MID (mid-sourcing). Para implantações de marketing (MKT) autônomas (sem qualquer instância MID), a taxa de transferência da instância MKT é exibida.
-
-* A área **[!UICONTROL Latency]** fornece informações sobre a latência encontrada na instância selecionada ao enviar comunicações transacionais em tempo real. As latências são capturadas e visualizadas nos percentis 95 e 99, o que significa que 95% e 99% das solicitações devem ser mais rápidas do que a latência fornecida.
-
-![](assets/throughput-latencies-overview.png)
-
 >[!NOTE]
 >
 >Todos os valores apresentados nesta área são aproximados e meramente informativos.
 
-Por padrão, os dados são exibidos para o dia atual. Você pode alterar o período exibido usando os botões **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** e **[!UICONTROL 7 days]**.
+![](assets/throughput-latencies-overview.png)
+
+Por padrão, os dados são exibidos para o dia atual. Você pode alterar o período exibido usando os botões **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** e **[!UICONTROL 7 days]**. Os dados serão apresentados:
+* Por hora para visualização de 1 dia e 7 dias,
+* 6 por hora para visualização de 30 dias,
+* Por dia, durante 6 meses.
 
 Também é possível visualizar essas informações em formato tabular com colunas classificáveis, em vez de em um gráfico. Para fazer isso, clique no botão **[!UICONTROL Visualization settings]** e selecione **[!UICONTROL Table]**.
 
 ![](assets/throughput-latencies-table.png)
+
+## Monitorar throughput {#throughput}
+
+A área **[!UICONTROL Throughput]** fornece informações sobre o número de mensagens enviadas por hora desde a instância selecionada do Campaign para todos os canais de comunicação aos quais você está habilitado.
+
+>[!NOTE]
+>
+>Para o Campaign v7/v8, o número de taxa de transferência exibido é a taxa de transferência obtida das instâncias MID (mid-sourcing). Para implantações de marketing (MKT) autônomas (sem qualquer instância MID), a taxa de transferência da instância MKT é exibida.
+
+Além disso, o Painel de controle do Campaign permite identificar as IDs dos 5 principais deliveries que estão contribuindo para a taxa de transferência do período selecionado. Essas informações estão disponíveis somente na exibição em tabelas:
+
+![](assets/throughput-latencies-top5.png)
+
+## Latência do Monitor {#latency}
+
+A área **[!UICONTROL Latency]** fornece informações sobre a latência encontrada na instância selecionada ao enviar comunicações transacionais em tempo real.
+
+>[!NOTE]
+>
+>Observe que as informações relacionadas a **Latência do perfil** também está disponível para [!DNL Campaign Standard] somente instâncias.
+
+As latências são capturadas e visualizadas nos percentis 95 e 99, o que significa que 95% e 99% das solicitações devem ser mais rápidas do que a latência fornecida.
+
+![](assets/throughput-latencies-latency.png)
+
+Por padrão, a latência é mostrada para todos os canais. É possível visualizar a latência de um canal específico usando a lista suspensa.
+
+![](assets/throughput-latencies-filter.png)
+
+>[!NOTE]
+>
+>A filtragem de canal está disponível somente para instâncias do Campaign Classic v7/v8.

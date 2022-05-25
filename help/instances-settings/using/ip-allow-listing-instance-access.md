@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: 330733c5a025ed8f26120a38f40743bfb5023fd4
+source-git-commit: 2458263ef5981a16d983912b498e320501df7889
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 88%
+source-wordcount: '831'
+ht-degree: 82%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >Esse recurso está disponível somente para instâncias do Campaign v7/v8.
+>
+>Se estiver usando uma instância com um modelo de hospedagem híbrido, você só poderá adicionar endereços IP em &quot;Conexão de API externa&quot; para a Instância de RT.
 
 Por padrão, a instância do Adobe Campaign não pode ser acessada de vários endereços IP.
 
@@ -55,7 +57,7 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 
 >[!NOTE]
 >
->Se a variável **[!UICONTROL Instance Settings]** O cartão não está visível na página inicial do Painel de controle do Campaign. Isso significa que a ID da organização não está associada a nenhuma instância do Adobe Campaign v7/v8.
+>Se a variável **[!UICONTROL Instance Settings]** não está visível na página inicial do Painel de controle do Campaign, isso significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign v7/v8.
 
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
@@ -88,11 +90,16 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
    * **[!UICONTROL AEM connection]**: os endereços IP AEM especificados poderão se conectar à instância de marketing.
    * **[!UICONTROL External API connection]**: as APIs externas com os endereços IP especificados poderão se conectar à instância do Centro de mensagens e/ou Marketing (RT). Observe que a conexão com o console de instâncias de RT não está habilitada.
 
+      >[!NOTE]
+      >
+      >Se estiver usando uma instância com um modelo de hospedagem híbrido, você só poderá adicionar endereços IP em &quot;Conexão de API externa&quot; para a Instância de RT.
    ![](assets/ip_whitelist_acesstype.png)
 
 1. Clique no botão **[!UICONTROL Save]**. O Intervalo IP é adicionado à lista de permissões.
 
    <!--![](assets/ip_whitelist_added.png)-->
+
+Por padrão, a instância do Adobe Campaign não pode ser acessada de vários endereços IP.
 
 Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no botão **[!UICONTROL Delete IP range]** botão.
 

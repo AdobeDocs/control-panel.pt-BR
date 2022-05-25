@@ -4,10 +4,10 @@ solution: Campaign
 title: Versões do Painel de Controle do Campaign
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: da68420340ea8605f6e1347e86797c9e6a790ea6
+source-git-commit: 87b28195ede08756d5084aad36bf1c95f621b5f5
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 61%
+source-wordcount: '1174'
+ht-degree: 60%
 
 ---
 
@@ -21,18 +21,51 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 >
 >Para o Campaign v7, sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável da campanha](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) (ou para build 9032 ou superior). Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](faq.md#hosted-aws).
 
-## Abril de 2022 {#april-2022}
+## Maio de 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Monitore contatos e eventos importantes em suas instâncias</strong><br/></th>
+<th><strong>Disponibilidade do Painel de controle do Campaign para o modelo de hospedagem híbrida</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>Agora você pode monitorar versões e revisões de serviços passadas e futuras em suas instâncias, bem como acessar uma lista de contatos importantes no Adobe para qualquer solicitação ou problema.</p><p>Para obter mais informações, consulte a <a href="service-events/service-events.md">documentação detalhada.</a></p>
+<p>O Painel de controle do Campaign agora está disponível para clientes com modelo de hospedagem híbrida. Esses clientes podem aproveitar os recursos do Painel de controle do Campaign fornecendo o URL da instância MID/RT configurado em sua instância de marketing no Painel de controle do Campaign.</p><p>Para obter mais informações, consulte a <a href="instances-settings/using/external-accounts.md">documentação detalhada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Atualizações de monitoramento de throughs e latências</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Os recursos de monitoramento de throughput e latências foram aprimorados:<ul><li>Agora é possível identificar as IDs dos 5 deliveries principais que estão contribuindo para a taxa de transferência da sua instância.</li><li>Clientes Campaign Classic v7/v8 agora podem visualizar a latência de um canal específico.</p></li><p>Para obter mais informações, consulte a <a href="performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+
+## Abril de 2022 {#april-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Monitore contatos importantes e eventos em suas instâncias</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora você pode monitorar versões e revisões de serviços anteriores e futuras em suas instâncias, bem como acessar uma lista de contatos importantes na Adobe para qualquer solicitação ou problema.</p><p>Para obter mais informações, consulte a <a href="service-events/service-events.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>

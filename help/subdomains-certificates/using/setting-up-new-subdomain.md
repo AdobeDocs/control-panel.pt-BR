@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
-source-wordcount: '1358'
-ht-degree: 91%
+source-wordcount: '1366'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 91%
 
 >[!IMPORTANT]
 >
->A configuração de subdomínios pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
+>Se estiver usando uma instância com um modelo de hospedagem híbrido, você só poderá visualizar subdomínios já delegados e não poderá configurar subdomínios.
 
 Esta página fornece informações sobre como configurar novos subdomínios usando a delegação de subdomínio completa ou CNAMEs. Os conceitos globais sobre esses dois métodos são apresentados nesta seção: [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md).
 
