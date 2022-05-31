@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a5bd04c4659ae18c4f05934f42e071b209a58fff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '425'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 73%
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_throughputslatencies"
 >title="Sobre monitoramento de taxas de transferência e latência "
->abstract="Nesta guia, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias. Para obter informações sobre deliveries que contribuem para a taxa de transferência, alterne para a exibição em tabela."
+>abstract="Nesta guia, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias. Para obter informações sobre entregas que contribuem para a taxa de transferência, alterne para a exibição em tabelas."
 
 O Painel de controle do Campaign permite monitorar a taxa de transferência e a latência da entrega de cada uma de suas instâncias.
 
@@ -38,15 +38,15 @@ Essas informações são disponibilizadas no painel de controle para cada uma da
 ![](assets/throughput-latencies-overview.png)
 
 Por padrão, os dados são exibidos para o dia atual. Você pode alterar o período exibido usando os botões **[!UICONTROL 6 months]**, **[!UICONTROL 30 days]** e **[!UICONTROL 7 days]**. Os dados serão apresentados:
-* Por hora para visualização de 1 dia e 7 dias,
-* 6 por hora para visualização de 30 dias,
-* Por dia, durante 6 meses.
+* Por hora, para visualizações de 1 dia e 7 dias,
+* A cada 6 horas, para uma visualização de 30 dias,
+* Diariamente, para uma visualização de 6 meses.
 
 Também é possível visualizar essas informações em formato tabular com colunas classificáveis, em vez de em um gráfico. Para fazer isso, clique no botão **[!UICONTROL Visualization settings]** e selecione **[!UICONTROL Table]**.
 
 ![](assets/throughput-latencies-table.png)
 
-## Monitorar throughput {#throughput}
+## Monitorar taxa de transferência {#throughput}
 
 A área **[!UICONTROL Throughput]** fornece informações sobre o número de mensagens enviadas por hora desde a instância selecionada do Campaign para todos os canais de comunicação aos quais você está habilitado.
 
@@ -54,17 +54,17 @@ A área **[!UICONTROL Throughput]** fornece informações sobre o número de men
 >
 >Para o Campaign v7/v8, o número de taxa de transferência exibido é a taxa de transferência obtida das instâncias MID (mid-sourcing). Para implantações de marketing (MKT) autônomas (sem qualquer instância MID), a taxa de transferência da instância MKT é exibida.
 
-Além disso, o Painel de controle do Campaign permite identificar as IDs dos 5 principais deliveries que estão contribuindo para a taxa de transferência do período selecionado. Essas informações estão disponíveis somente na exibição em tabelas:
+Além disso, o Painel de controle do Campaign permite identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência do período selecionado. Essas informações estão disponíveis somente na exibição em tabelas:
 
 ![](assets/throughput-latencies-top5.png)
 
-## Latência do Monitor {#latency}
+## Monitorar latência {#latency}
 
 A área **[!UICONTROL Latency]** fornece informações sobre a latência encontrada na instância selecionada ao enviar comunicações transacionais em tempo real.
 
 >[!NOTE]
 >
->Observe que as informações relacionadas a **Latência do perfil** também está disponível para [!DNL Campaign Standard] somente instâncias.
+>Observe que as informações relacionadas à **Latência do perfil** também estão disponíveis somente para instâncias do [!DNL Campaign Standard].
 
 As latências são capturadas e visualizadas nos percentis 95 e 99, o que significa que 95% e 99% das solicitações devem ser mais rápidas do que a latência fornecida.
 
@@ -76,4 +76,4 @@ Por padrão, a latência é mostrada para todos os canais. É possível visualiz
 
 >[!NOTE]
 >
->A filtragem de canal está disponível somente para instâncias do Campaign Classic v7/v8.
+>O filtro de canal está disponível somente para instâncias do Campaign Classic v7/v8.
