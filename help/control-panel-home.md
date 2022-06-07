@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '271'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
@@ -29,15 +29,15 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 **Disponibilidade do Painel de controle do Campaign para o modelo de hospedagem híbrida**
 
-O Painel de controle do Campaign agora está disponível para clientes com modelo de hospedagem híbrida. Esses clientes podem aproveitar os recursos do Painel de controle do Campaign fornecendo o URL da instância MID/RT configurado em sua instância de marketing no Painel de controle do Campaign. [Leia mais](instances-settings/using/external-accounts.md)
+O Painel de controle do Campaign agora está disponível para clientes com modelo de hospedagem híbrida. Esses clientes podem aproveitar os recursos do Painel de controle do Campaign ao fornecerem o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle. [Leia mais](instances-settings/using/external-accounts.md)
 
 
-**Atualizações de monitoramento de throughs e latências**
+**Atualizações do monitoramento de taxas de transferências e latências**
 
-Os recursos de monitoramento de throughput e latências foram aprimorados. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
+Os recursos de monitoramento de taxas de transferência e latências foram aprimorados. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
 
-* Agora é possível identificar as IDs dos 5 deliveries principais que estão contribuindo para a taxa de transferência da sua instância.
-* Clientes Campaign Classic v7/v8 agora podem visualizar a latência de um canal específico.
+* Agora, é possível identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência da instância.
+* Agora, clientes do Campaign Classic v7/v8 podem visualizar a latência de um canal específico.
 
 >[!CAUTION]
 >
