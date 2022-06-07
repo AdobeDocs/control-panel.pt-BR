@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: bcc9ae9e8f3d6ed88f6f930af81e46c98dfd3d89
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '424'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ O Painel de controle do Campaign permite monitorar a taxa de transferência e a 
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível para todos os clientes do Campaign Standard, v8 e para clientes do Campaign v7 com números de compilação 9032 e mais recentes, incluindo [implantações independentes](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=pt-BR) (sem nenhuma instância mid).
+>Esse recurso está disponível para todos os clientes do Campaign Standard e v8, bem como para clientes do Campaign V7 com builds de número 9032 ou mais recentes, incluindo [implantações autônomas](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=pt-BR) (sem qualquer instância MID).
 
 Monitorar a tendência das taxas de transferência e da latência da entrega ao longo de um período é essencial para entender o uso de suas instâncias e garantir elas estejam apresentando um bom desempenho.
 
