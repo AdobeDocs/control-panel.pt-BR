@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1189'
 ht-degree: 14%
 
 ---
@@ -41,6 +41,10 @@ Depois será possível:
 O Painel de controle do Campaign permite criptografar dados provenientes da instância do Adobe Campaign.
 
 Para fazer isso, você precisa gerar um par de chaves GPG de uma ferramenta de criptografia PGP e, em seguida, instalar a chave pública no Painel de controle do Campaign. É possível criptografar dados antes de enviá-los da instância. Para fazer isso, siga as etapas abaixo.
+
+>[!NOTE]
+>
+>Você pode instalar até 60 chaves GPG no Painel de controle do Campaign.
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra este recurso no vídeo](#video)
 

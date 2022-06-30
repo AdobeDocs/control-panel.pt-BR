@@ -6,10 +6,10 @@ user-guide-title: Guia do Painel de controle do Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 085d1854eda2c9fe05473760e1f1a30113de01a9
-workflow-type: ht
-source-wordcount: '130'
-ht-degree: 100%
+source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+workflow-type: tm+mt
+source-wordcount: '151'
+ht-degree: 73%
 
 ---
 
@@ -17,27 +17,35 @@ ht-degree: 100%
 # Guia do Painel de controle do Campaign {#using}
 
 + [Documentação do produto](control-panel-home.md)
-+ [Notas de versão](release-notes.md)
++ Notas de versão {#release-notes}
+   + [Versão mais recente](rn/release-notes.md)
+   + Versões anteriores {#previous-releases}
+      + [Notas de versão de 2021](rn/release-notes-2021.md)
+      + [Notas de versão de 2020](rn/release-notes-2020.md)
+      + [Notas de versão de 20219](rn/release-notes-2019.md)
 + Conheça o Painel de controle do Campaign {#discover-control-panel}
    + [Principais recursos](discover/using/key-features.md)
-   + [Acesso ao Painel de controle do Campaign](discover/using/accessing-control-panel.md)
-   + [Gerenciamento de permissões para o Painel de controle do Campaign](discover/using/managing-permissions.md)
-   + [Apresentação à interface do Painel de controle do Campaign](discover/using/discovering-the-interface.md)
+   + [Painel de controle de acesso](discover/using/accessing-control-panel.md)
+   + [Gerenciar permissões para o Painel de controle do Campaign](discover/using/managing-permissions.md)
+   + [Interface do Painel de controle do Discover](discover/using/discovering-the-interface.md)
 + [Monitorar contatos importantes e eventos](service-events/service-events.md)
 + Gerenciamento de SFTP {#sftp-management}
    + [Sobre o gerenciamento de SFTP](sftp/using/about-sftp-management.md)
-   + [Gerenciamento de armazenamentos SFTP](sftp/using/sftp-storage-management.md)
+   + [Gerenciar armazenamento SFTP](sftp/using/sftp-storage-management.md)
    + [Lista de permissões de intervalos IP](sftp/using/ip-range-allow-listing.md)
    + [Gerenciamento de chaves](sftp/using/key-management.md)
-   + [Fazer logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
+   + [Faça logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Perguntas comuns](sftp/using/common-questions.md)
 + Subdomínios e certificados {#subdomains-and-certificates}
    + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
-   + [Monitoramento de subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Monitore subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Monitoramento de certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-   + [Renovação de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
-   + [Gerenciamento de registros TXT](subdomains-certificates/using/managing-txt-records.md)
+   + [Gerenciar registros TXT](subdomains-certificates/using/managing-txt-records.md)
+   + [Monitorar certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
+   + Renovar certificados SSL {#renew-ssl}
+      + [Sobre a renovação de certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
+      + [Gerar a CSR](subdomains-certificates/using/generate-csr.md)
+      + [Instalar o certificado SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitoramento de desempenho {#performance-monitoring}
    + [Sobre o monitoramento de desempenho](performance-monitoring/using/about-performance-monitoring.md)
    + Monitoramento de banco de dados {#database-monitoring}
@@ -47,7 +55,7 @@ ht-degree: 100%
       + [Os 10 principais recursos temporários](performance-monitoring/using/database-top-ten-resources.md)
       + [Consultas ativas](performance-monitoring/using/database-active-queries.md)
       + [Monitorar workflows](performance-monitoring/using/workflow-monitoring.md)
-      + [Como evitar a sobrecarga do banco de dados](performance-monitoring/using/database-preventing-overload.md)
+      + [Impedir sobrecarga de banco de dados](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Monitoramento de taxas de transferência e latência](performance-monitoring/using/thoughputs-latencies.md)
    + [Alerta por email](performance-monitoring/using/email-alerting.md)

@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: d2d5f43b4fcd8f0161681b55d2834e753e388de4
-workflow-type: ht
-source-wordcount: '271'
-ht-degree: 100%
+source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+workflow-type: tm+mt
+source-wordcount: '252'
+ht-degree: 73%
 
 ---
 
@@ -27,17 +27,19 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 ## Novidades
 
-**Disponibilidade do Painel de controle do Campaign para o modelo de hospedagem híbrida**
+**Os 10 arquivos principais consomem espaço em servidores SFTP**
 
-O Painel de controle do Campaign agora está disponível para clientes com modelo de hospedagem híbrida. Esses clientes podem aproveitar os recursos do Painel de controle do Campaign ao fornecerem o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle. [Leia mais](instances-settings/using/external-accounts.md)
+Agora é possível identificar os 10 arquivos principais que estão consumindo mais espaço em um servidor SFTP. [Leia mais](sftp/using/sftp-storage-management.md)
 
 
-**Atualizações do monitoramento de taxas de transferências e latências**
+**Lembretes do Calendário de Serviço**
 
-Os recursos de monitoramento de taxas de transferência e latências foram aprimorados. [Leia mais](performance-monitoring/using/thoughputs-latencies.md)
+O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. [Leia mais](instances-settings/using/external-accounts.md)
 
-* Agora, é possível identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência da instância.
-* Agora, clientes do Campaign Classic v7/v8 podem visualizar a latência de um canal específico.
+**Aprimoramentos na geração de CSR de subdomínios**
+
+Foram feitos vários aprimoramentos no processo de geração de RSE. [Leia mais](subdomains-certificates/using/renewing-subdomain-certificate.md)
+
 
 >[!CAUTION]
 >
