@@ -5,7 +5,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 66456eefea1bf442874e2b388f292af9df9ec186
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 73%
@@ -34,7 +34,7 @@ Agora é possível identificar os 10 arquivos principais que estão consumindo m
 
 **Lembretes do Calendário de Serviço**
 
-O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. [Leia mais](instances-settings/using/external-accounts.md)
+O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. [Leia mais](service-events/service-events.md)
 
 **Aprimoramentos na geração de CSR de subdomínios**
 

@@ -2,7 +2,7 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: daa52035ea5db89552b56afc4ab5690610b6e846
 workflow-type: tm+mt
 source-wordcount: '501'
 ht-degree: 55%
@@ -42,7 +42,7 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 <tbody>
 <tr>
 <td>
-<p>O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. <a href="../instances-settings/using/external-accounts.md">Saiba mais</a></p>
+<p>O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. <a href="../service-events/service-events.md">Saiba mais</a></p>
 <img src="../assets/do-not-localize/reminders.gif"/>
 </td>
 </tr>
