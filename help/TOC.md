@@ -6,9 +6,9 @@ user-guide-title: Guia do Painel de controle do Campaign
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
+source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '153'
 ht-degree: 73%
 
 ---
@@ -20,9 +20,10 @@ ht-degree: 73%
 + Notas de versão {#release-notes}
    + [Versão mais recente](rn/release-notes.md)
    + Versões anteriores {#previous-releases}
+      + [Notas de versão de 2022](rn/release-notes-2022.md)
       + [Notas de versão de 2021](rn/release-notes-2021.md)
       + [Notas de versão de 2020](rn/release-notes-2020.md)
-      + [Notas de versão de 20219](rn/release-notes-2019.md)
+      + [Notas de versão de 2019](rn/release-notes-2019.md)
 + Conheça o Painel de controle do Campaign {#discover-control-panel}
    + [Principais recursos](discover/using/key-features.md)
    + [Painel de controle de acesso](discover/using/accessing-control-panel.md)
