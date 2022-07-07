@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '497'
-ht-degree: 59%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 59%
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Calendário de serviço"
->abstract="A seção Contatos importantes lista as pessoas na Adobe a serem contatadas para qualquer solicitação ou problema em suas instâncias. Na seção Calendário do evento do serviço , você pode identificar versões e revisões de serviço para a instância selecionada e configurar lembretes para eventos futuros."
+>abstract="A seção Contatos importantes lista as pessoas na Adobe a serem contatadas para qualquer solicitação ou problema em suas instâncias. Na seção Calendário de evento do serviço, você pode identificar versões e revisões de serviço para a instância selecionada e configurar lembretes para eventos futuros."
 
 >[!IMPORTANT]
 >
@@ -77,11 +77,11 @@ Com o Calendário de serviço, você pode definir lembretes para ser notificado 
 
 >[!NOTE]
 >
->Para ser notificado sobre eventos futuros, verifique se você assinou alertas de email no Painel de controle do Campaign. [Saiba mais](../performance-monitoring/using/email-alerting.md)
+>Para ser notificado sobre eventos futuros, inscreva-se no sistema de alertas de email do Painel de controle do Campaign. [Saiba mais](../performance-monitoring/using/email-alerting.md)
 
 Para definir um alerta para um evento, siga estas etapas:
 
-1. Clique no botão da elipse ao lado do evento do qual você deseja lembrar e selecione **[!UICONTROL Set Reminder]**.
+1. Clique no botão de elipse ao lado do evento do qual você deseja ser lembrado e selecione **[!UICONTROL Set Reminder]**.
 
 1. Forneça um título para o lembrete e selecione a data em que deseja ser notificado antes que o evento ocorra.
 
@@ -91,7 +91,7 @@ Para definir um alerta para um evento, siga estas etapas:
    >
    >Se você não se inscreveu nos alertas do Painel de controle do Campaign, uma mensagem será exibida e permitirá que você se inscreva para receber notificações por email.
 
-1. O lembrete agora é definido para o evento selecionado. Você pode passar o mouse sobre ele a qualquer momento para exibir seu título.
+1. O lembrete agora está definido para o evento selecionado. Você pode passar o mouse sobre ele a qualquer momento para exibir seu título.
 
    ![](assets/service-events-reminder.png)
 
@@ -99,4 +99,4 @@ Para definir um alerta para um evento, siga estas etapas:
    >
    >Você pode configurar até dois lembretes para o mesmo evento.
 
-1. Na data especificada no lembrete, um email será enviado para notificá-lo sobre o evento futuro, e o lembrete será removido automaticamente do **[!UICONTROL Reminders]** no menu Calendário de serviço.
+1. Na data especificada no lembrete, um email será enviado para notificá-lo sobre o evento futuro, e o lembrete será removido automaticamente da lista **[!UICONTROL Reminders]** do menu Calendário de serviço.
