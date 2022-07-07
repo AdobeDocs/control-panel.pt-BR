@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '277'
-ht-degree: 28%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 28%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="Renovação do certificado SSL"
->abstract="Para renovar um certificado SSL, você precisa gerar uma CSR, comprar o certificado SSL para seus subdomínios e instalar o Pacote de certificados."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#generating-csr" text="Gerar uma solicitação de assinatura de certificado (CSR)"
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html#installing-ssl-certificate" text="Instalação de um certificado SSL"
+>abstract="Para renovar um certificado SSL, você precisa gerar uma CSR, comprar o certificado SSL para os subdomínios e instalar o Pacote de certificados."
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#generating-csr" text="Gerar uma solicitação de assinatura de certificado (CSR)"
+>additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#installing-ssl-certificate" text="Instalação de um certificado SSL"
 
 >[!IMPORTANT]
 >
@@ -31,22 +31,22 @@ ht-degree: 28%
 
 O processo de renovação do certificado SSL inclui 3 etapas:
 
-1. **Geração da Solicitação de Assinatura de Certificado (CSR)**
+1. **Geração da Solicitação de assinatura de certificado (CSR)**
 
    A Solicitação de assinatura de certificado deve ser gerada para a instância e os subdomínios que você pretende proteger antes de adquirir um certificado.  Você precisará fornecer algumas informações necessárias para gerar a CSR (como Nome, Nome e endereço da organização etc.). [Saiba mais](generate-csr.md)
 
 1. **Compra do certificado SSL**
 
-   Depois que a CSR é gerada, você pode usá-la para comprar o certificado SSL da autoridade de certificação que sua empresa aprovar.
+   Depois que a CSR é gerada, você pode usá-la para comprar o certificado SSL da Autoridade de certificação que sua empresa aprova.
 
 1. **Instalação do certificado SSL**
 
    Instale o certificado SSL adquirido no subdomínio desejado para protegê-los. [Saiba mais](install-ssl-certificate.md)
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#subdomains-and-certificates) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html#adding-ssl-certificates)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=pt-BR#subdomains-and-certificates) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/adding-ssl-certificates.html?lang=pt-BR#adding-ssl-certificates)
 
 **Tópicos relacionados:**
 
-* [Guia de práticas recomendadas de entrega - processo de solicitação de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html)
+* [Manual de práticas recomendadas de entrega - processo de solicitação de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=pt-BR)
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
 * [Monitoramento de subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
