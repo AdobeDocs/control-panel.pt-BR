@@ -1,10 +1,10 @@
 ---
 title: Notas de versão de 2020
-description: Esta página lista todas as versões 2020 do Painel de controle do Campaign.
+description: Esta página lista todas as versões de 2020 do Painel de controle do Campaign.
 source-git-commit: e0b0daba3a5820dc80b35d8c83ffc9143d547529
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '429'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Agora o Painel de Controle do Campaign permite configurar um subdomínio para funcionar com a Adobe usando CNAMEs diretamente da interface.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
+<p>Agora o Painel de controle do Campaign permite configurar um subdomínio para funcionar com a Adobe usando CNAMEs diretamente da interface.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -36,7 +36,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>O monitoramento de banco de dados foi aprimorado com métricas adicionais que permitem obter informações detalhadas sobre os recursos que estão consumindo espaço no banco de dados.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/database-monitoring.md">documentação detalhada</a>.</p>
+<p>O monitoramento do banco de dados foi aprimorado com métricas adicionais que permitem obter informações detalhadas sobre os recursos que estão consumindo espaço em seu banco de dados.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/database-monitoring.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -68,7 +68,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do campaign agora permite gerar um par de chaves GPG para que você possa decodificar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign.</p><p>Para obter mais informações, consulte a <a href="../instances-settings/using/gpg-keys-management.md">documentação detalhada</a>.</p>
+<p>O Painel de controle do Campaign agora permite gerar um par de chaves GPG para que você possa descriptografar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign.</p><p>Para obter mais informações, consulte a <a href="../instances-settings/using/gpg-keys-management.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -104,7 +104,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>Agora o Painel de Controle do Campaign permite renovar os certificados SSL de seus subdomínios que foram delegados com o método CNAME.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada</a>.</p>
+<p>Agora o Painel de controle do Campaign permite renovar os certificados SSL de seus subdomínios que foram delegados com o método CNAME.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -151,7 +151,7 @@ ht-degree: 92%
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do Campaign está equipado com recursos de email de alerta em tempo real, permitindo que você faça logon no Painel de controle do Campaign e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/email-alerting.md">documentação detalhada</a>.</p>
+<p>O Painel de controle do Campaign está equipado com recursos de email de alerta em tempo real, permitindo que você faça logon no Painel de controle e se inscreva para receber alertas quando o sistema estiver em risco de deterioração do desempenho, ou quando uma ação for necessária para garantir alto desempenho no futuro.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/email-alerting.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
