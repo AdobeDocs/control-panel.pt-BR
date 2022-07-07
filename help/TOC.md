@@ -9,7 +9,7 @@ level: Beginner
 source-git-commit: bf710d56b0f4d3834ab505633ae85cf9444b6ccf
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -27,19 +27,19 @@ ht-degree: 73%
 + Conheça o Painel de controle do Campaign {#discover-control-panel}
    + [Principais recursos](discover/using/key-features.md)
    + [Painel de controle de acesso](discover/using/accessing-control-panel.md)
-   + [Gerenciar permissões para o Painel de controle do Campaign](discover/using/managing-permissions.md)
-   + [Interface do Painel de controle do Discover](discover/using/discovering-the-interface.md)
+   + [Gerenciar permissões no Painel de controle do Campaign](discover/using/managing-permissions.md)
+   + [Conheça a interface do Painel de controle do Campaign](discover/using/discovering-the-interface.md)
 + [Monitorar contatos importantes e eventos](service-events/service-events.md)
 + Gerenciamento de SFTP {#sftp-management}
    + [Sobre o gerenciamento de SFTP](sftp/using/about-sftp-management.md)
    + [Gerenciar armazenamento SFTP](sftp/using/sftp-storage-management.md)
    + [Lista de permissões de intervalos IP](sftp/using/ip-range-allow-listing.md)
    + [Gerenciamento de chaves](sftp/using/key-management.md)
-   + [Faça logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
+   + [Fazer logon no servidor SFTP](sftp/using/logging-into-sftp-server.md)
    + [Perguntas comuns](sftp/using/common-questions.md)
 + Subdomínios e certificados {#subdomains-and-certificates}
    + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
-   + [Monitore subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
+   + [Monitorar subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
    + [Gerenciar registros TXT](subdomains-certificates/using/managing-txt-records.md)
    + [Monitorar certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
