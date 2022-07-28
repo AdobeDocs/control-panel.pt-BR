@@ -1,14 +1,71 @@
 ---
 title: Notas de versão de 2022
-description: Esta página lista todas as versões 2022 do Painel de controle do Campaign.
-source-git-commit: 737ff99e60bb940980f3b7179672fdb984e6d4bf
+description: Esta página lista todas as versões de 2022 do Painel de controle do Campaign.
+exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
+source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 78%
+source-wordcount: '485'
+ht-degree: 100%
 
 ---
 
 # Notas de versão de 2021 {#rn-2022}
+
+## Junho de 2022 {#june-2022}
+
+### Novidades
+
+<table>
+<thead>
+<tr>
+<th><strong>Os 10 arquivos que consomem mais espaço em servidores SFTP</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Agora é possível identificar os 10 arquivos que consomem mais espaço em um servidor SFTP. <a href="../sftp/using/sftp-storage-management.md">Saiba mais</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Lembretes do calendário de serviço</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. <a href="../service-events/service-events.md">Saiba mais</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+<table>
+<thead>
+<tr>
+<th><strong>Aprimoramentos na geração de CSR de subdomínios</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p>Foram feitos vários aprimoramentos no processo de geração de CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Saiba mais</a></p><ul><li>Ao gerar uma CSR, agora você pode selecionar um dos subdomínios incluídos como o Nome comum.</li><li>Agora você pode copiar o resumo da CSR antes de gerá-la.</li><li>Depois que uma CSR é gerada, você pode baixá-la novamente nos logs do processo. Esse recurso não se aplica a certificados gerados antes desta versão.</li></ul><p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+### Aprimoramentos
+
+**Configurações de instâncias**
+
+* O número máximo de chaves GPG no Painel de controle do Campaign foi aumentado para 60 chaves. [Saiba mais](../instances-settings/using/gpg-keys-management.md)
 
 ## Maio de 2022 {#may-2022}
 
@@ -48,7 +105,7 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Monitore contatos importantes e eventos em suas instâncias</strong><br/></th>
+<th><strong>Monitore contatos e eventos importantes em suas instâncias</strong><br/></th>
 </tr>
 </thead>
 <tbody>
@@ -65,13 +122,13 @@ ht-degree: 78%
 <table>
 <thead>
 <tr>
-<th><strong>Throughput e disponibilidade de monitoramento de latência</strong><br/></th>
+<th><strong>Disponibilidade de monitoramento de taxas de transferência e latência</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O monitoramento de throughput e latência agora está disponível para todos os clientes do Campaign Standard e v8, e para clientes do Campaign V7 com números de compilação 9032,9330, 9346 ou 9349 que têm implantações independentes (sem qualquer instância mid).</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
+<p>O monitoramento de taxas de transferência e latência agora está disponível para todos os clientes do Campaign Standard e v8 e para clientes do Campaign V7 com números de build 9032, 9330, 9346 ou 9349 que têm implantações independentes (sem nenhuma instância intermediária).</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -120,7 +177,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>Agora, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada</a>.</p>
+<p>Agora é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -135,7 +192,7 @@ ht-degree: 78%
 <tbody>
 <tr>
 <td>
-<p>As operações de certificados SSL agora podem ser executadas em um subdomínio recém-configurado, mesmo se a auditoria de deliverability ainda estiver em andamento.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada</a>.</p>
+<p>As operações de certificados SSL agora podem ser executadas em um subdomínio recém-configurado, mesmo se a auditoria de entrega ainda estiver em andamento.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
