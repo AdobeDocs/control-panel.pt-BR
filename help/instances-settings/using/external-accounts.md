@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 4740a446265e5d06be35e66aa29676a24d4f7d29
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '460'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -74,7 +74,7 @@ Para acessar os recursos do Painel de controle do Campaign, é preciso inserir a
 
 1. Clique em **[!UICONTROL Save]** para confirmar.
 
-Ao adicionar o URL de MID/RT, um processo assíncrono é acionado para validar a exatidão dos URLs. Esse processo pode levar alguns minutos. Até que o URL da instância MID/RT seja validado, o trabalho permanecerá pendente. Somente após a conclusão da validação será possível acessar os principais recursos do Painel de controle do Campaign.
+Ao adicionar o URL de MID/RT, um processo assíncrono é acionado para validar a exatidão dos URLs. Esse processo pode levar alguns minutos. Até que o URL da instância MID/RT seja validado, o processo permanecerá pendente. Somente após a conclusão da validação será possível acessar os principais recursos do Painel de controle do Campaign.
 
 ![](assets/external-account-pending.png)
 
