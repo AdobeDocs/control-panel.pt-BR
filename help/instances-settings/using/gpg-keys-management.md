@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 140a84657325a3cb0e209996ca1aed7d6c1a3282
+source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
 workflow-type: tm+mt
 source-wordcount: '1189'
 ht-degree: 14%
@@ -61,7 +61,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG de uma ferramenta de c
 1. Quando solicitado, especifique os parâmetros desejados para sua chave. Os parâmetros obrigatórios são:
 
    * **tipo de chave**: RSA
-   * **comprimento da chave**: 1024 - 4096 bits
+   * **comprimento da chave**: 3072 - 4096 bits
    * **nome real** e **endereço de email**: Permite rastrear quem criou o par de chaves. Insira um nome e endereço de email vinculado à sua organização ou departamento.
    * **comentário**: adicionar um rótulo ao campo de comentário ajudará você a identificar facilmente a chave que será usada para criptografar seus dados.
    * **expiração**: Data ou &quot;0&quot; para nenhuma data de expiração.
