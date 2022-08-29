@@ -2,10 +2,10 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+source-git-commit: 8310762a92f5db7fdf85520ce50d4862e7a45ee5
 workflow-type: tm+mt
-source-wordcount: '54'
-ht-degree: 59%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
