@@ -2,14 +2,31 @@
 title: Notas de versão de 2022
 description: Esta página lista todas as versões de 2022 do Painel de controle do Campaign.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: c3c8d71e36cb1d55c2fcc8600b5063ea73d6e2e8
-workflow-type: ht
-source-wordcount: '485'
+source-git-commit: 6ba347d1cbcefa9b9d59b1f368a7d754d3eb92bb
+workflow-type: tm+mt
+source-wordcount: '517'
 ht-degree: 100%
 
 ---
 
-# Notas de versão de 2021 {#rn-2022}
+# Notas de versão de 2022 {#rn-2022}
+
+## Julho de 2022 {#july-2022}
+
+<table>
+<thead>
+<tr>
+<th><strong>Instalação de certificados de subdomínios para modelo de hospedagem híbrido</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Os clientes com modelo de hospedagem híbrida agora podem renovar os certificados SSL dos subdomínios pelo Painel de controle do Campaign.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada.</a></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Junho de 2022 {#june-2022}
 
