@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 46a4e13e8017c5406dcd65f21c9839374dd44aa7
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 91%
+source-wordcount: '372'
+ht-degree: 90%
 
 ---
 
@@ -28,7 +28,7 @@ O Adobe Campaign recomenda proteger os subdomínios que hospedam suas páginas d
 
 ![](assets/no_certificate.png)
 
-## Monitorar certificados SSL {#monitoring-certificates}
+## Monitoramento de certificados SSL {#monitoring-certificates}
 
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
@@ -54,10 +54,6 @@ A guia **[!UICONTROL Sender info]** fornece informações sobre as caixas de ent
 ![](assets/subdomain_details.png)
 
 Se um dos certificados SSL de subdomínio estiver prestes a expirar, você poderá renová-lo diretamente no Painel de controle do Campaign. Para obter mais informações, consulte esta seção: [Renovar um certificado SSL de subdomínio](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
-
->[!IMPORTANT]
->
->A renovação do certificado pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
 
 **Tópicos relacionados:**
 

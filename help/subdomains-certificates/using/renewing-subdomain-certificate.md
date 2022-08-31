@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
-source-git-commit: 5a5ac1a604fe5bdce07479ff84184abdb2e0ddba
-workflow-type: ht
-source-wordcount: '277'
+source-git-commit: 963c2af5cdca80ebc2cd79e0708dc4dfe8c6ec1e
+workflow-type: tm+mt
+source-wordcount: '228'
 ht-degree: 100%
 
 ---
@@ -22,12 +22,6 @@ ht-degree: 100%
 >abstract="Para renovar um certificado SSL, você precisa gerar uma CSR, comprar o certificado SSL para os subdomínios e instalar o Pacote de certificados."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#generating-csr" text="Gerar uma solicitação de assinatura de certificado (CSR)"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/renewing-subdomain-certificate.html?lang=pt-BR#installing-ssl-certificate" text="Instalação de um certificado SSL"
-
->[!IMPORTANT]
->
->A renovação do certificado SSL pelo Painel de controle do Campaign está disponível em beta e está sujeita a atualizações e modificações frequentes sem aviso prévio.
->
->Se estiver usando uma instância com um modelo de hospedagem híbrido, você só poderá exibir certificados associados aos subdomínios delegados e não poderá renová-los.
 
 O processo de renovação do certificado SSL inclui 3 etapas:
 
