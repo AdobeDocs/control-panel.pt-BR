@@ -2,10 +2,10 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 8310762a92f5db7fdf85520ce50d4862e7a45ee5
+source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '41'
+ht-degree: 73%
 
 ---
 
@@ -13,7 +13,6 @@ ht-degree: 0%
 
 Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign.
 
-## Agosto de 2022 {#august-2022}
+## Setembro de 2022 {#september-2022}
 
-* Os clientes com modelo de hospedagem híbrida agora podem verificar seus subdomínios. [Saiba mais](../subdomains-certificates/using/monitoring-subdomains.md)
-* O campo Unidade da Organização (OU) agora é opcional na Solicitação de geração de certificado (CSR). [Saiba mais](../subdomains-certificates/using/renewing-subdomain-certificate.md)
+Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdomínios. [Saiba mais](../subdomains-certificates/using/setting-up-new-subdomain.md)
