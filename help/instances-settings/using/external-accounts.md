@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 99%
+source-wordcount: '466'
+ht-degree: 93%
 
 ---
 
@@ -48,7 +48,7 @@ Os clientes híbridos devem se conectar ao Painel de controle do Campaign por me
 
 >[!NOTE]
 >
->Caso tenha problemas para acessar o Painel de controle do Campaign, é provável que sua instância de marketing ainda não esteja mapeada com a ID da organização. Entre em contato com o Atendimento ao cliente para concluir a configuração e prosseguir. Após uma conexão bem-sucedida, você verá a página inicial do Painel de controle do Campaign.
+>Caso tenha problemas para acessar o Painel de controle do Campaign, é provável que sua instância de marketing ainda não esteja mapeada com seu [ID da organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR). Entre em contato com o Atendimento ao cliente para concluir a configuração e prosseguir. Após uma conexão bem-sucedida, você verá a página inicial do Painel de controle do Campaign.
 
 Para acessar os recursos do Painel de controle do Campaign, é preciso inserir as informações da instância MID/RT no cartão **[!UICONTROL Instances Settings]**. Para fazer isso, siga as etapas abaixo.
 

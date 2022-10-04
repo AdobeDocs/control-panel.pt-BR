@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: 3f68145c40f40df3e69f4fdfd889f3a7a2e995ab
+source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '529'
 ht-degree: 77%
 
 ---
@@ -48,7 +48,7 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização IMS não está associada a nenhuma instância do Adobe Campaign v7/v8
+   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que a ID da organização não está associada a nenhuma instância do Adobe Campaign v7/v8
 
 1. Selecione no painel esquerdo a instância desejada do Campaign 
 
