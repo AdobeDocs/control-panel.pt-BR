@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '783'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -60,7 +60,7 @@ Não, não há custo extra se você for cliente do Adobe Campaign.
 
 ## ID da organização {#ims-org-id}
 
-### O que é uma ID da organização?
+### O que é a ID da organização?
 
 É uma ID exclusiva fornecida para sua instância quando você faz logon pela primeira vez na Adobe Experience Cloud. Ela deve estar no formato: xxx@AdobeOrg.
 
@@ -68,9 +68,9 @@ Para obter mais informações, consulte a [documentação da Adobe Experience Cl
 
 ### Onde encontro minha ID da organização?
 
-Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará a ID da organização na parte inferior da Administração **[!UICONTROL Quick Access]** seção. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html).
+Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administration]**. Você encontrará sua ID da organização na parte inferior da seção Administração **[!UICONTROL Quick Access]**. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
 
-Outra maneira é iniciar o **Admin Console**. A ID da organização estará visível no URL. Deve ser semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
+Outra maneira é iniciar o **Admin Console**. A ID da organização estará visível no URL e será semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
 ### Por que preciso saber minha ID da organização?
 
@@ -78,13 +78,13 @@ Para gerenciar as configurações da sua instância, queremos garantir que você
 
 ### E se eu tiver várias IDs de organização?
 
-Você pode ter mais de uma ID de empresa se tiver acesso a várias soluções do Adobe. Nesse caso, a ID correta da organização que você deve usar é aquela que você vê na instância do Adobe Campaign.
+Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
 
 >[!NOTE]
 >
->Se você tiver a mesma ID da organização para Adobe Campaign e Adobe Analytics, está ótimo. Ter uma ID de empresa entre o Analytics e o Campaign é um requisito caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para AA + AC).
+>Caso você tenha a mesma ID de organização para o Adobe Campaign e o Adobe Analytics, isso é ótimo. Ter a mesma ID de organização para o Analytics e o Campaign é um requisito caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para o AA + AC).
 >
->Se você tiver IDs de organização diferentes para Adobe Campaign e Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
+>Se suas IDs de organização forem diferentes para o Adobe Campaign e o Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
 
 ### Como posso saber se minha instância do Adobe Campaign está hospedada no AWS ou não?{#hosted-aws}
 
