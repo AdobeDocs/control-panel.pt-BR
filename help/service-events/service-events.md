@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 8d1eda31cbe6ab915760d4894a03a4a0055a3130
-workflow-type: ht
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+workflow-type: tm+mt
 source-wordcount: '497'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
