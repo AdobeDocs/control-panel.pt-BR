@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: 6430a1719528e6b4d8c219eb5a88b6ace93b209d
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 33%
+source-wordcount: '79'
+ht-degree: 36%
 
 ---
 
@@ -26,4 +26,3 @@ O **[!UICONTROL Performance monitoring]** Na home page do Painel de controle do 
 >
 >Com as próximas versões do Painel de controle do Campaign, funcionalidades de monitoramento adicionais serão disponibilizadas neste cartão.
 
-Além disso, o Painel de controle do Campaign permite que você se inscreva para receber notificações por email sempre que um problema for detectado em uma de suas instâncias do Campaign. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/email-alerting.md).
