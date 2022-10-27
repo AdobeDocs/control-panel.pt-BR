@@ -2,10 +2,10 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: bbf1aa11ef7e1b43b4df7799c4a4491b73cfbef1
-workflow-type: ht
-source-wordcount: '41'
-ht-degree: 100%
+source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
+workflow-type: tm+mt
+source-wordcount: '49'
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign.
 
-## Setembro de 2022 {#september-2022}
+## Outubro de 2022 {#october-2022}
 
-Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdomínios. [Saiba mais](../subdomains-certificates/using/setting-up-new-subdomain.md)
+O alerta por email agora o notifica quando um dos certificados SSL expirará em 30 dias ou menos. [Saiba mais](../performance-monitoring/using/email-alerting.md)
