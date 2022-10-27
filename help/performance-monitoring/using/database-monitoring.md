@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 82%
+source-wordcount: '384'
+ht-degree: 79%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 82%
 
 ## Sobre bancos de dados de instâncias {#about-instances-databases}
 
-De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com uma quantidade específica de espaço no banco de dados.
-
-Os bancos de dados incluem todos os **ativos**, **workflows** e **dados** que estão armazenados no Adobe Campaign.
+De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com uma quantidade específica de espaço no banco de dados. Os bancos de dados incluem todos os **ativos**, **workflows** e **dados** que estão armazenados no Adobe Campaign.
 
 Com o tempo, os bancos de dados podem atingir sua capacidade máxima, especialmente se os recursos armazenados nunca são excluídos da instância ou se há muitos workflows em um estado pausado.
 
 A sobrecarga de um banco de dados de instância pode gerar vários problemas (incapacidade de fazer logon, enviar emails etc.). Portanto, o monitoramento dos bancos de dados das instâncias é essencial para garantir o desempenho ideal.
+
+Se você se inscreveu em [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email quando um dos bancos de dados de suas instâncias atingir 80% ou mais de sua capacidade.
 
 ## Monitoramento do uso do banco de dados{#monitoring-database-usage}
 
@@ -37,8 +37,6 @@ A sobrecarga de um banco de dados de instância pode gerar vários problemas (in
 O Painel de controle do Campaign permite monitorar a utilização do banco de dados para cada uma das instâncias do Campaign. Para fazer isso, abra o cartão **[!UICONTROL Performance Monitoring]** e selecione a guia **[!UICONTROL Databases]**.
 
 Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir informações sobre a capacidade do banco de dados da instância e o espaço usado.
-
-Além disso, você poderá receber notificações quando um de seus bancos de dados estiver atingindo sua capacidade. Para fazer isso, assine os [alertas de email](../../performance-monitoring/using/email-alerting.md).
 
 >[!NOTE]
 >
@@ -55,4 +53,4 @@ Métricas adicionais estão disponíveis neste painel para ajudar você a analis
 * [Os 10 principais recursos temporários](../../performance-monitoring/using/database-top-ten-resources.md)
 * [Consultas ativas](../../performance-monitoring/using/database-active-queries.md)
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso em vídeo usando [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring) ou [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring)
+![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/performance-monitoring/monitoring-databases.html?lang=pt-BR#performance-monitoring)
