@@ -2,10 +2,10 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 641c5ef1a62c278972e6a90ed85c52851deddb56
-workflow-type: ht
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 100%
+ht-degree: 61%
 
 ---
 
@@ -13,6 +13,6 @@ ht-degree: 100%
 
 Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign.
 
-## Outubro de 2022 {#october-2022}
+## Janeiro de 2023 {#january-2023}
 
-O alerta por email agora o notifica quando um dos certificados SSL expirará em 30 dias ou menos. [Saiba mais](../performance-monitoring/using/email-alerting.md)
+Clientes com modelo de hospedagem híbrida agora podem adicionar endereços IP à lista de permissões para acessar instâncias MID. [Saiba mais](../instances-settings/using/ip-allow-listing-instance-access.md)

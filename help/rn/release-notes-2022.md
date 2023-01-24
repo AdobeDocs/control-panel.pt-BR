@@ -2,14 +2,18 @@
 title: Notas de versão de 2022
 description: Esta página lista todas as versões de 2022 do Painel de controle do Campaign.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: 95390bb1f8af21907ce8984279a6a73dd7828b00
-workflow-type: ht
-source-wordcount: '558'
+source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+workflow-type: tm+mt
+source-wordcount: '580'
 ht-degree: 100%
 
 ---
 
 # Notas de versão de 2022 {#rn-2022}
+
+## Outubro de 2022 {#october-2022}
+
+O alerta por email agora o notifica quando um dos certificados SSL expirará em 30 dias ou menos. [Saiba mais](../performance-monitoring/using/email-alerting.md)
 
 ## Setembro de 2022 {#september-2022}
 

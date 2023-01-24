@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
-workflow-type: ht
-source-wordcount: '466'
-ht-degree: 100%
+source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+workflow-type: tm+mt
+source-wordcount: '463'
+ht-degree: 98%
 
 ---
 
@@ -92,6 +92,6 @@ Depois que uma instância MID/RT for adicionada ao Painel de controle do Campaig
 
 * [Monitorar contatos importantes e eventos](../../service-events/service-events.md)
 * [Exibir detalhes da instância](../../instances-settings/using/instance-details.md),
-* [Adicionar endereços IP à lista de permissões](../../instances-settings/using/ip-allow-listing-instance-access.md) (para instâncias RT),
+* [Adicionar endereços IP à lista de permissões](../../instances-settings/using/ip-allow-listing-instance-access.md),
 * [Configurar novos subdomínios](../../subdomains-certificates/using/setting-up-new-subdomain.md),
 * [Renovar certificados SSL de subdomínios](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
