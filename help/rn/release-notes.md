@@ -2,10 +2,10 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
+source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 61%
+source-wordcount: '71'
+ht-degree: 42%
 
 ---
 
@@ -15,4 +15,10 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 
 ## Janeiro de 2023 {#january-2023}
 
+**Nova capacidade de modelo de hospedagem híbrida**
+
 Clientes com modelo de hospedagem híbrida agora podem adicionar endereços IP à lista de permissões para acessar instâncias MID. [Saiba mais](../instances-settings/using/ip-allow-listing-instance-access.md)
+
+**Aprimoramento da solicitação de assinatura de certificado (CSR)**
+
+O campo Cidade/Localidade agora é opcional durante a Geração de solicitação de assinatura de certificado.
