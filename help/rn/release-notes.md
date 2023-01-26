@@ -5,7 +5,7 @@ exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: e72d3809eddc47cf0b41422f6c703671ebefad38
 workflow-type: tm+mt
 source-wordcount: '71'
-ht-degree: 42%
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 
 **Nova capacidade de modelo de hospedagem híbrida**
 
-Clientes com modelo de hospedagem híbrida agora podem adicionar endereços IP à lista de permissões para acessar instâncias MID. [Saiba mais](../instances-settings/using/ip-allow-listing-instance-access.md)
+Os clientes que utilizam o modelo de hospedagem híbrida agora podem adicionar endereços IP à lista de permissões de acesso às instâncias MID. [Saiba mais](../instances-settings/using/ip-allow-listing-instance-access.md)
 
 **Aprimoramento da solicitação de assinatura de certificado (CSR)**
 
