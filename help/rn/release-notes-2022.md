@@ -2,8 +2,8 @@
 title: Notas de versão de 2022
 description: Esta página lista todas as versões de 2022 do Painel de controle do Campaign.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: f617995e7313e7ac239116e0595d1746dfc7e51f
-workflow-type: ht
+source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%
 
@@ -123,7 +123,7 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 <tbody>
 <tr>
 <td>
-<p>Os recursos de monitoramento de taxas de transferência e latências foram aprimorados:<ul><li>Agora, é possível identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência da instância.</li><li>Agora, clientes do Campaign Classic v7/v8 podem visualizar a latência de um canal específico.</p></li><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
+<p>Os recursos de monitoramento de taxas de transferência e latências foram aprimorados:<ul><li>Agora, é possível identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência da instância.</li><li>Agora, clientes do Campaign Classic v7/v8 podem visualizar a latência de um canal específico.</p></li><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/throughputs-latencies.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -158,7 +158,7 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 <tbody>
 <tr>
 <td>
-<p>O monitoramento de taxas de transferência e latência agora está disponível para todos os clientes do Campaign Standard e v8 e para clientes do Campaign V7 com números de build 9032, 9330, 9346 ou 9349 que têm implantações independentes (sem nenhuma instância intermediária).</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada.</a></p>
+<p>O monitoramento de taxas de transferência e latência agora está disponível para todos os clientes do Campaign Standard e v8 e para clientes do Campaign V7 com números de build 9032, 9330, 9346 ou 9349 que têm implantações independentes (sem nenhuma instância intermediária).</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/throughputs-latencies.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -207,7 +207,7 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 <tbody>
 <tr>
 <td>
-<p>Agora é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/thoughputs-latencies.md">documentação detalhada</a>.</p>
+<p>Agora é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/throughputs-latencies.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
