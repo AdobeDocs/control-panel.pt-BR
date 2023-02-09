@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: c834ae7226ed9dd1f78d4f4511b52cb5f04abfae
+source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 77%
+source-wordcount: '527'
+ht-degree: 72%
 
 ---
 
@@ -37,8 +37,8 @@ A funcionalidade Detalhes da instância permite a visualização de uma arquitet
 
 **Tópicos relacionados:**
 
-* [Atualização de uma build](https://helpx.adobe.com/br/campaign/kb/acc-build-upgrade.html)
-* [Atualização do Adobe Campaign](https://docs.campaign.adobe.com/doc/AC/en/PRO_Updating_Adobe_Campaign_Introduction.html)
+* [Atualização de uma build](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html)
+* [Atualização do Adobe Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/introduction.html)
 
 ## Recuperar informações sobre instâncias {#retrieving-information-about-instances}
 
@@ -70,7 +70,7 @@ As informações disponíveis são:
    * Amarelo: você deve pensar em atualizar. Faltam os recursos e as correções mais recentes.
    * Vermelho: atualize assim que possível. Faltam novos recursos e o desempenho do servidor pode não ser o ideal.
 
-Se um dos seus servidores precisar ser atualizado, consulte [esta documentação](https://docs.campaign.adobe.com/doc/AC/getting_started/EN/buildUpgrade.html) para obter mais detalhes sobre como proceder.
+Se um dos seus servidores precisar ser atualizado, consulte [esta documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html) para obter mais detalhes sobre como proceder.
 
 ## Perguntas comuns {#common-questions}
 
