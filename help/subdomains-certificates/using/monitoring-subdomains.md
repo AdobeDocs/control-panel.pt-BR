@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: edd55d07-bf0b-44b0-8281-be69c698d5e8
-source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
+source-git-commit: 76c42ba45b3430b1b93458f18b1b0e78f289fad1
 workflow-type: tm+mt
 source-wordcount: '207'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_undelegate"
 >title="Remover subdomínios delegados "
->abstract="Essa tela permite remover qualquer subdomínio que tenha sido delegado no Painel de controle do Campaign. Lembre-se de que a remoção de subdomínio não pode ser desfeita e será irreversível após o envio.<br>Se estiver tentando remover o domínio primário da instância selecionada, você será solicitado a escolher o domínio que a substituirá."
+>abstract="Essa tela permite remover qualquer subdomínio que tenha sido delegado no Painel de controle do Campaign. Lembre-se de que a remoção de subdomínio não pode ser desfeita e será irreversível após o envio.<br><br>Se estiver tentando remover o domínio primário da instância selecionada, você será solicitado a escolher o domínio que a substituirá."
 
 É essencial monitorar os subdomínios para garantir que todos estejam configurados corretamente para funcionar com o Adobe Campaign.
 
