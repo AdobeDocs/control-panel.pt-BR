@@ -9,7 +9,7 @@ level: Beginner
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
 source-git-commit: cca04cd965c00a9e2bc496de632ee41ce53a166a
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '174'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ O Painel de controle do Campaign está disponível diretamente do Experience Clo
 
 Para acessar o Painel de controle na Plataforma Adobe Experience Cloud, siga as etapas abaixo.
 
-1. Navegue até o [Experience Cloud homepage](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}.
+1. Navegue até o [Experience Cloud homepage](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Clique no link dedicado na **Acesso rápido** seção.
 
@@ -32,7 +32,7 @@ Para acessar o Painel de controle na Plataforma Adobe Experience Cloud, siga as 
 
 O Painel de controle também pode ser acessado na plataforma Experience Cloud **seletor de soluções**:
 
-1. No [Página inicial do Adobe Experience Cloud](https://experiencecloud.adobe.com/){target=&quot;_blank&quot;}, selecione **Campanha** do **Acesso rápido** ou no menu superior à direita.
+1. No [Página inicial do Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}, selecione **Campanha** do **Acesso rápido** ou no menu superior à direita.
 
    ![](assets/do-not-localize/control_panel_access1.png)
 
@@ -44,7 +44,7 @@ O Painel de controle também pode ser acessado na plataforma Experience Cloud **
 
 >[!NOTE]
 >
->O acesso de dentro do produto está disponível para [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=pt-BR)Somente {target=&quot;_blank&quot;}.
+>O acesso de dentro do produto está disponível para [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/campaign-standard-home.html?lang=pt-BR){target="_blank"} somente.
 
 1. Abra seu produto Campaign Standard.
 
