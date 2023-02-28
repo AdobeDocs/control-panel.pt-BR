@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: 9fc94d403a0cd4229feea112f460514bef9a2104
+source-git-commit: 861061eefcb38235a7f056192237842bceec55eb
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 73%
 
 ---
 
@@ -26,19 +26,13 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 ## Novidades
 
-**Os 10 arquivos que mais consomem espaço em servidores SFTP**
+**Remoção de delegação para subdomínios delegados na Adobe**
 
-Agora é possível identificar os 10 arquivos que consomem mais espaço em um servidor SFTP. [Leia mais](sftp/using/sftp-storage-management.md)
+Agora é possível remover a delegação de um subdomínio que foi delegado ao Adobe, incluindo a configuração CNAME. [Saiba mais](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
+**Calendário de serviços**
 
-**Lembretes do calendário de serviço**
-
-O Calendário de serviço agora permite que você defina lembretes para ser notificado por email antes que um evento ocorra em suas instâncias. [Leia mais](service-events/service-events.md)
-
-**Aprimoramentos na geração de CSR de subdomínios**
-
-Foram feitos vários aprimoramentos no processo de geração de CSR. [Leia mais](subdomains-certificates/using/renewing-subdomain-certificate.md)
-
+O calendário de serviços agora fornece uma visualização do calendário para rastrear eventos importantes que ocorrem em suas instâncias. Além disso, foram adicionadas informações sobre as notificações enviadas aos usuários que assinaram alertas do Painel de controle do Campaign. [Saiba mais](../service-events/service-events.md)
 
 >[!CAUTION]
 >
