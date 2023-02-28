@@ -2,7 +2,7 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 85726597c62cbca7d1055a5cb45271a63218a012
+source-git-commit: 975ed013a50c6f5e15178e3c8700c554c5baa34c
 workflow-type: tm+mt
 source-wordcount: '94'
 ht-degree: 34%
@@ -20,6 +20,7 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 Agora é possível remover a delegação de um subdomínio que foi delegado ao Adobe, incluindo a configuração CNAME. [Saiba mais](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
+
 
 **Calendário de serviços**
 
