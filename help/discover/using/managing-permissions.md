@@ -20,23 +20,23 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 
 ![](assets/do-not-localize/how-to-video.png)[ Descubra este recurso no vídeo](../../discover/using/managing-permissions.md#video)
 
-1. Navegue até o [Página inicial do Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Navegue até a [Página inicial do Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
-1. Inicie o **Admin Console** clicando no link disponível no **Acesso rápido** ou no menu superior direito.
+1. Inicie o **Admin Console** clicando no link disponível na **Acesso rápido** ou no menu superior direito.
 
    ![](assets/do-not-localize/control_panel_admin-console.png)
 
    >[!NOTE]
    >
-   >Se a variável **Admin Console** link não está visível, isso significa que você não tem direitos de administrador para sua organização. Entre em contato com os administradores da organização para executar as etapas com eles.
+   >Se a variável **Admin Console** não estiver visível, significa que você não tem direitos de Administrador para sua organização. Entre em contato com os administradores da organização para executar as etapas com eles.
 
-1. No **Admin Console**, selecione o produto Campaign desejado no **[!UICONTROL Products and services]** lista.
+1. No **Admin Console**, selecione o produto do Campaign desejado na **[!UICONTROL Products and services]** lista.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
    >[!NOTE]
    >
-   >Caso não veja o produto, entre em contato com os administradores da organização para que eles lhe concedam acesso.
+   >Caso não veja seu produto, entre em contato com os administradores da organização para que eles possam acessá-lo.
 
 1. A lista de instâncias do seu produto Campaign é exibida. Selecione a instância à qual deseja adicionar um usuário administrador.
 
@@ -44,23 +44,23 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
 
    >[!NOTE]
    >
-   >Você pode adicionar diferentes usuários Administradores para cada instância do Campaign. Os usuários administradores acessarão o Painel de controle da instância à qual pertencem apenas.
+   >É possível adicionar diferentes usuários administradores para cada instância do Campaign. Os usuários administradores acessarão somente o Painel de controle da instância à qual pertencem.
 
-1. A lista de **[!UICONTROL Product Profiles]** para a instância selecionada é exibida. Clique no botão **[!UICONTROL Administrators]** perfil de produto para acessar a lista de usuários administradores.
+1. A lista de **[!UICONTROL Product Profiles]** para a instância selecionada é exibida. Clique em **[!UICONTROL Administrators]** perfil de produto para acessar a lista de usuários Administradores.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
    >[!NOTE]
    >
-   >Por padrão, os usuários administradores pertencem ao Perfil de produto &quot;Administradores&quot;. De acordo com a configuração de sua organização, o Perfil do produto pode ser nomeado de forma diferente (&quot;administrador&quot;, &quot;administradores&quot; etc.).
+   >Por padrão, os usuários administradores pertencem ao Perfil de produto &quot;Administradores&quot;. De acordo com a configuração da organização, o Perfil do produto pode ser nomeado de forma diferente (&quot;administrador&quot;, &quot;administradores&quot; etc.).
 
-1. A lista de usuários administradores é exibida. Clique no botão **[!UICONTROL Add User]** para adicionar o usuário desejado.
+1. A lista de usuários Administradores é exibida. Clique em **[!UICONTROL Add User]** botão para adicionar o usuário desejado.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 
 >[!NOTE]
 >
->Depois que o acesso é configurado, o usuário terá que sair do Adobe Experience Cloud e fazer logon novamente para acessar o Painel de controle do Campaign.
+>Depois que o acesso for configurado, o usuário terá que fazer logout do Adobe Experience Cloud e fazer logon novamente para acessar o Painel de controle do Campaign.
 
 ## Tutorial em vídeo {#video}
 

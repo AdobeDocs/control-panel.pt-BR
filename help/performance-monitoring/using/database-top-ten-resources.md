@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Os 10 principais recursos temporários
-description: Saiba como monitorar no Painel de controle do Campaign os 10 maiores recursos temporários gerados por workflows e deliveries no banco de dados do Campaign.
+description: Saiba como monitorar no Painel de controle os 10 maiores recursos temporários gerados por workflows e deliveries no banco de dados do Campaign.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -24,8 +24,8 @@ Monitorar workflows e deliveries que estão criando grandes recursos temporário
 >
 >A recomendação geral é evitar ter **mais de 40 colunas** em recursos não prontos para uso. Se um fluxo de trabalho tiver muitas tabelas ou um banco de dados grande, recomendamos examinar o fluxo de tabalho para investigar por que ele está gerando tantos dados.
 >
->As diretrizes do Campaign Standard e do Classic também estão disponíveis em [esta página](database-preventing-overload.md) para ajudá-lo a evitar a sobrecarga do banco de dados.
+>As diretrizes para o Campaign Standard e o Classic também estão disponíveis em [esta página](database-preventing-overload.md) para ajudar a evitar a sobrecarga do banco de dados.
 
 ![](assets/database-top10.png)
 
-O **[!UICONTROL View all]** permite acessar o **[!UICONTROL Storage overview]** detalhes para obter informações detalhadas sobre esses recursos temporários. Para obter mais informações, consulte [esta página](database-storage-overview.md).
+A variável **[!UICONTROL View all]** permite acessar a variável **[!UICONTROL Storage overview]** detalhes para obter informações detalhadas sobre esses recursos temporários. Para obter mais informações, consulte [esta página](database-storage-overview.md).

@@ -18,7 +18,7 @@ ht-degree: 23%
 
 A home page do Painel de controle do Campaign fornece acesso a todas as ações que podem ser executadas nas instâncias do Campaign.
 
-São representados por cartões organizados em tópicos, por exemplo **Monitoramento de desempenho**.
+Eles são representados por cartões organizados em tópicos, por exemplo **Monitoramento de desempenho**.
 
 <!--With upcoming Campaign releases, more topics and cards will be made available.-->
 
@@ -26,18 +26,18 @@ São representados por cartões organizados em tópicos, por exemplo **Monitoram
 
 ## Logs de processo {#job-logs}
 
-O **[!UICONTROL Job Logs]** no canto superior direito permite auditar todas as alterações feitas pelos usuários da organização.
+A variável **[!UICONTROL Job Logs]** O botão no canto superior direito permite auditar todas as alterações feitas pelos usuários da organização.
 
 ![](assets/control_panel_interface2.png)
 
 Clique em um elemento da lista para obter mais detalhes.
 
-O **[!UICONTROL Open]** permite acessar diretamente a guia Painel de controle, onde a alteração foi feita.
+A variável **[!UICONTROL Open]** permite acessar diretamente a guia Painel de controle, onde a alteração foi feita.
 
 ![](assets/control_panel_logdetails.png)
 
 ## Recursos de ajuda {#help-resources}
 
-O **[!UICONTROL Help Resources]** A seção fornece documentação útil para ajudá-lo a usar o Painel de controle do Campaign e os produtos do Campaign. Não hesite em explorá-las.
+A variável **[!UICONTROL Help Resources]** fornece documentação útil para ajudá-lo a usar os produtos Painel de controle do Campaign e Campaign. Não hesite em explorá-los.
 
 ![](assets/helpresources.png)

@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: Identificar os principais contatos e eventos
+title: Identificar contatos e eventos importantes
 description: Saiba como identificar eventos que ocorrem em suas instâncias e contatos importantes na Adobe.
 feature: Control Panel
 role: Architect
@@ -14,20 +14,20 @@ ht-degree: 43%
 
 ---
 
-# Identificar os principais contatos e eventos {#keycontacts-events}
+# Identificar contatos e eventos importantes {#keycontacts-events}
 
 >[!CONTEXTUALHELP]
 >id="cp_servicecalendar_serviceevents"
 >title="Calendário de serviço"
->abstract="A seção Contatos importantes lista as pessoas na Adobe a serem contatadas para qualquer solicitação ou problema em suas instâncias. Na seção Calendário do evento do serviço, você pode identificar versões e alertas passados/futuros para a instância selecionada, bem como configurar lembretes para um determinado evento."
+>abstract="A seção Contatos importantes lista as pessoas na Adobe a serem contatadas para qualquer solicitação ou problema em suas instâncias. Na seção Calendário de evento do serviço, você pode identificar versões e alertas anteriores/futuros para a instância selecionada, bem como configurar lembretes para um determinado evento."
 
 >[!IMPORTANT]
 >
 >O Calendário de serviço está disponível na versão beta e está sujeito a atualizações e modificações frequentes sem aviso prévio.
 
-Para monitorar efetivamente as instâncias do Campaign, é fundamental acompanhar eventos importantes que podem afetar potencialmente suas instâncias. O Painel de controle do Campaign permite identificar eventos como novas versões, atualizações, correções, hot fixes etc. e fornece uma lista de contatos-chave do Adobe para qualquer solicitação ou problema.
+Para monitorar com eficiência as instâncias do Campaign, é crucial acompanhar eventos importantes que possam afetar potencialmente suas instâncias. O Painel de controle do Campaign permite identificar eventos como novas versões, atualizações, patches, hot fixes etc. e fornece uma lista de contatos de Adobe para qualquer solicitação ou problema.
 
-Essas informações podem ser acessadas pelo **[!UICONTROL Service Calendar]** na página inicial do Painel de controle do Campaign.
+Essas informações podem ser acessadas no **[!UICONTROL Service Calendar]** na página inicial do Painel de controle do Campaign.
 
 ## Contatos importantes {#key-contacts}
 
@@ -35,7 +35,7 @@ A seção **[!UICONTROL Key contacts]** lista as pessoas na Adobe que você pode
 
 >[!NOTE]
 >
->Esta seção mostra apenas informações para Contas de Serviço Gerenciado.
+>Esta seção mostra apenas informações para Contas do Managed Services.
 
 ![](assets/service-events-contacts.png)
 
@@ -47,25 +47,25 @@ Os contatos importantes incluem as seguintes funções:
 * **[!UICONTROL Transition Manager]**: gerente de transição do Managed Services (somente para contas do Managed Services),
 * **[!UICONTROL On-boarding Specialist]**: especialista atribuído à conta para ajudá-lo a começar no Campaign Classic (somente para contas do Managed Services).
 
-## Acompanhe os eventos importantes {#events}
+## Rastrear eventos importantes {#events}
 
-O **[!UICONTROL Service Event Calendar]** mostra todas as versões anteriores e futuras, bem como alertas os usuários inscritos nos alertas de email do Painel de controle do Campaign. Além disso, o Painel de controle do Campaign permite que os usuários definam lembretes e sinalizem eventos relevantes para a instância selecionada, para que eles sejam melhor organizados e eficientes.
+A variável **[!UICONTROL Service Event Calendar]** A seção mostra todas as versões anteriores e futuras, bem como alertas que os usuários assinaram nos alertas de email do Painel de controle do Campaign. Além disso, o Painel de controle do Campaign permite que os usuários definam lembretes e sinalizem eventos relevantes para a instância selecionada para que eles sejam mais bem organizados e eficientes.
 
-Os eventos são exibidos em um calendário ou em uma lista. Você pode alternar entre as duas exibições usando a variável **[!UICONTROL Calendar]** e **[!UICONTROL List]** botões no canto superior direito da seção.
+Os eventos são exibidos em um calendário ou em uma lista. Você pode alternar entre as duas exibições usando o **[!UICONTROL Calendar]** e **[!UICONTROL List]** no canto superior direito da seção.
 
 ![](assets/service-events-calendar.png)
 
 <table><tr style="border: 0;">
 <td><img src="assets/do-not-localize/nav-buttons.png">
-</td><td>Na exibição do calendário, os botões de navegação estão disponíveis no canto superior direito para ajudar você a navegar pelos eventos. Use o <b>setas duplas</b> para navegar até o primeiro evento presente depois/antes do mês selecionado, e a variável <b>setas simples</b> para navegar de um mês para outro. Clique no botão <b>botão círculo</b> voltar ao ponto de vista de hoje.</td>
+</td><td>Na exibição de calendário, os botões de navegação estão disponíveis no canto superior direito para ajudá-lo a navegar pelos eventos. Use o <b>setas duplas</b> para navegar até o primeiro evento presente após/antes do mês selecionado e o <b>setas simples</b> para navegar de um mês para outro. Clique em <b>botão de círculo</b> para voltar para a exibição de hoje.</td>
 </tr></table>
 
 Três tipos de eventos são exibidos:
 
-* **Lembretes** são definidas por usuários para serem notificadas antes de ocorrer um evento. Elas são mostradas em verde na exibição de calendário. [Saiba como definir lembrete](#reminders)
-* **Alertas** são enviadas por email pelo Painel de controle do Campaign para notificar os usuários sobre problemas em suas instâncias, como sobrecarga de armazenamento ou expiração de certificado SSL. Elas são exibidas em laranja na exibição de calendário. A descrição do evento especifica se o alerta é enviado para o usuário conectado, dependendo de sua assinatura nos alertas de email. [Saiba mais sobre os recursos de email de alerta do Painel de controle do Campaign](../performance-monitoring/using/email-alerting.md)
+* **Lembretes** são definidos por usuários para serem notificados antes da ocorrência de um evento. Elas são mostradas em verde na exibição de calendário. [Saiba como definir lembrete](#reminders)
+* **Alertas** são enviados por email pelo Painel de controle do Campaign para notificar os usuários sobre problemas em suas instâncias, como sobrecarga de armazenamento ou expiração de certificado SSL. Elas são exibidas em laranja na exibição de calendário. A descrição do evento especifica se o alerta é enviado para o usuário conectado, dependendo de sua assinatura de alertas de email. [Saiba mais sobre os recursos de alerta por email do Painel de controle do Campaign](../performance-monitoring/using/email-alerting.md)
 
-* **Versões** indica implantações anteriores e futuras na instância, mostradas respectivamente em cinza e azul na exibição do calendário. Os detalhes do evento especificam o tipo de versão associada a cada implantação:
+* **Versões** indique as implantações anteriores e futuras da instância, mostradas respectivamente em cinza e azul na exibição de calendário. Os detalhes do evento especificam o tipo de versão associado a cada implantação:
 
    * **[!UICONTROL General availability]**: build estável disponível mais recente.
    * **[!UICONTROL Limited availability]**: implantação somente sob demanda.
@@ -88,7 +88,7 @@ Com o Calendário de serviço, você pode definir lembretes para ser notificado 
 
 Para definir um alerta para um evento, siga estas etapas:
 
-1. Passe o mouse sobre o evento do qual deseja ser lembrado ou clique no botão de elipse na exibição de lista e selecione **[!UICONTROL Set Reminder]**.
+1. Passe o mouse sobre o evento do qual você deseja ser lembrado ou clique no botão de elipse na exibição de lista e selecione **[!UICONTROL Set Reminder]**.
 
 1. Forneça um título para o lembrete e selecione a data em que deseja ser notificado antes que o evento ocorra.
 

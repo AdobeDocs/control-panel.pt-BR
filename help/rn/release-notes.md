@@ -15,15 +15,15 @@ Esta página lista todos os novos recursos e melhorias do Painel de controle do 
 
 ## Fevereiro de 2023 {#february-2023}
 
-**Remoção de delegação para subdomínios delegados na Adobe**
+**Remoção de delegação para subdomínios delegados no Adobe**
 
 Agora é possível remover a delegação de um subdomínio que foi delegado ao Adobe, incluindo a configuração CNAME. [Saiba mais](../subdomains-certificates/using/remove-delegated-subdomains.md)
 
 ![](assets/do-not-localize/gif-delegation.gif)
 
 
-**Calendário de serviços**
+**Calendário de serviço**
 
-O calendário de serviços agora fornece uma visualização do calendário para rastrear eventos importantes que ocorrem em suas instâncias. Além disso, foram adicionadas informações sobre as notificações enviadas aos usuários que assinaram alertas do Painel de controle do Campaign. [Saiba mais](../service-events/service-events.md)
+O calendário de serviço agora fornece uma visualização de calendário para rastrear eventos importantes que ocorrem em suas instâncias. Além disso, foram adicionadas informações sobre as notificações enviadas aos usuários que se inscreveram nos alertas do Painel de controle do Campaign. [Saiba mais](../service-events/service-events.md)
 
 ![](assets/do-not-localize/gif-calendar.gif)

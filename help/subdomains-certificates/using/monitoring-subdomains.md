@@ -19,17 +19,17 @@ ht-degree: 10%
 
 É essencial monitorar os subdomínios para garantir que todos estejam configurados corretamente para funcionar com o Adobe Campaign.
 
-A lista de subdomínios para cada uma das instâncias de produção é acessível diretamente ao selecionar a variável **[!UICONTROL Subdomains & Certificates]** cartão.
+A lista de subdomínios para cada uma das instâncias de produção pode ser acessada diretamente ao selecionar o **[!UICONTROL Subdomains & Certificates]** cartão.
 
-O **[!UICONTROL Last verification]** indica quando um subdomínio foi verificado pela última vez. Você pode iniciar uma verificação a qualquer momento clicando no botão **...** / **[!UICONTROL Verify subdomain]** botão.
+A variável **[!UICONTROL Last verification]** indica quando um subdomínio foi verificado pela última vez. É possível iniciar uma verificação a qualquer momento, clicando no link **..** / **[!UICONTROL Verify subdomain]** botão.
 
 ![](assets/subdomain_verification.png)
 
 >[!IMPORTANT]
 >
->O Adobe não recomenda usar subdomínios sem data de certificado, pois pode significar que esses subdomínios podem estar tendo alguns problemas de deliverability.
+>O Adobe não recomenda usar subdomínios sem data de certificado, pois isso pode significar que esses subdomínios podem estar tendo alguns problemas de entrega.
 
-Ao iniciar uma verificação, várias operações são executadas para verificar se o subdomínio está configurado corretamente (verificação do locatário da instância, teste de envio de email, etc.) Se a verificação do subdomínio falhar, entre em contato com o Atendimento ao cliente do Adobe para obter mais investigações.
+Ao iniciar uma verificação, várias operações são executadas para verificar se o subdomínio está configurado corretamente (verificação de locatário de instância, teste de envio de email etc.) Se a verificação do subdomínio falhar, entre em contato com o Atendimento ao cliente da Adobe para obter mais investigação.
 
 **Tópicos relacionados:**
 

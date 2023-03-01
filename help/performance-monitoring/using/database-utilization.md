@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Utilização do banco de dados
-description: Saiba como monitorar a utilização do banco de dados do Campaign no Painel de controle do Campaign.
+description: Saiba como monitorar a utilização do banco de dados do Campaign no Painel de controle.
 feature: Control Panel
 role: Architect
 level: Experienced

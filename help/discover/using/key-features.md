@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic.
+title: O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic.
 description: Saiba como acessar o Painel de controle do Campaign
 feature: Control Panel
 role: Architect
@@ -28,7 +28,7 @@ Principais benefícios:
 >
 >O Painel de controle do Campaign é restrito aos usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](managing-permissions.md).
 >
->Para o Campaign v7/v8, observe que sua instância deve ser hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável da campanha](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) ou para a build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
+>Para o Campaign v7/v8, observe que sua instância deve estar hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) ou para build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
 
 <table style="table-layout:fixed">
 <tr>

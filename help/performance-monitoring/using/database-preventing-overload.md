@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Como evitar a sobrecarga do banco de dados
-description: Acesse os recursos das documentações do Campaign para ajudá-lo a evitar a sobrecarga de banco de dados em suas instâncias.
+description: Acesse os recursos das documentações do Campaign para ajudar a evitar a sobrecarga do banco de dados em suas instâncias.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -23,11 +23,11 @@ A seção abaixo fornece recursos úteis das documentações do Campaign para aj
 **Monitoramento de workflows**
 
 * [Práticas recomendadas para workflows](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/workflow-general-operation/best-practices-workflows.html?lang=pt-BR) (Campaign Standard)
-* [Monitoramento da execução do workflow](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=pt-BR) (Campaign v7/v8)
+* [Monitoramento da execução do fluxo de trabalho](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/monitoring-workflows/monitoring-workflow-execution.html?lang=pt-BR) (Campaign v7/v8)
 
 **Manutenção do banco de dados**
 
-* Workflow técnico de limpeza do banco de dados: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR)
+* Fluxo de trabalho técnico de limpeza de banco de dados: [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) - [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR)
 * [Guia de manutenção de banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/database-maintenance/recommendations.html?lang=pt-BR) (Campaign v7/v8)
 * [Solução de problemas de desempenho do banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/troubleshooting-toc/database-issues-toc/database-performances.html?lang=pt-BR) (Campaign v7/v8)
 * [Opções relacionadas ao banco de dados](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/appendices/configuring-campaign-options.html?lang=pt-BR#database) (Campaign v7/v8)

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Sobre o monitoramento de desempenho
-description: Saiba como monitorar o desempenho de instâncias no Painel de controle do Campaign
+description: Saiba como monitorar o desempenho das instâncias no Painel de controle do Campaign
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 O Painel de controle oferece várias funcionalidades para ajudá-lo a monitorar suas instâncias e garantir um ótimo desempenho.
 
-O **[!UICONTROL Performance monitoring]** Na home page do Painel de controle do Campaign, é possível monitorar o uso das instâncias do Campaign, como, por exemplo, a capacidade do banco de dados. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/database-monitoring.md).
+A variável **[!UICONTROL Performance monitoring]** na home page do Painel de controle do Campaign permite monitorar o uso de instâncias do Campaign, como a capacidade do banco de dados. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 

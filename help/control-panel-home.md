@@ -26,13 +26,13 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 ## Novidades
 
-**Remoção de delegação para subdomínios delegados na Adobe**
+**Remoção de delegação para subdomínios delegados no Adobe**
 
 Agora é possível remover a delegação de um subdomínio que foi delegado ao Adobe, incluindo a configuração CNAME. [Saiba mais](../help/subdomains-certificates/using/remove-delegated-subdomains.md)
 
-**Calendário de serviços**
+**Calendário de serviço**
 
-O calendário de serviços agora fornece uma visualização do calendário para rastrear eventos importantes que ocorrem em suas instâncias. Além disso, foram adicionadas informações sobre as notificações enviadas aos usuários que assinaram alertas do Painel de controle do Campaign. [Saiba mais](../help/service-events/service-events.md)
+O calendário de serviço agora fornece uma visualização de calendário para rastrear eventos importantes que ocorrem em suas instâncias. Além disso, foram adicionadas informações sobre as notificações enviadas aos usuários que se inscreveram nos alertas do Painel de controle do Campaign. [Saiba mais](../help/service-events/service-events.md)
 
 >[!CAUTION]
 >
