@@ -17,7 +17,7 @@ ht-degree: 16%
 
 # Sobre o gerenciamento de SFTP {#about-sftp-management}
 
-No Painel de controle do Campaign, é possível interagir com todos os servidores SFTP conectados às instâncias do Campaign às quais você tem acesso. A maioria das instâncias conectou servidores SFTP (em alguns casos, as instâncias de desenvolvimento e de estágio podem não estar conectadas a servidores SFTP).
+No Painel de controle, é possível interagir com todos os servidores SFTP conectados às instâncias do Campaign às quais você tem acesso. A maioria das instâncias conectou servidores SFTP (em alguns casos, as instâncias de desenvolvimento e de estágio podem não estar conectadas a servidores SFTP).
 
 O acesso aos servidores SFTP é feito usando um software cliente SFTP, que você pode localizar e baixar online. Para se conectar a um servidor, por meio desse aplicativo cliente ou de uma API, é necessário configurar uma chave SSH pública e adicionar o endereço IP que se conecta ao servidor SFTP na lista de permissões.
 

@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Lista de permissões de IP
-description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle do Campaign para obter acesso à instância
+description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle para obter acesso à instância
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -32,7 +32,7 @@ Por padrão, a instância do Adobe Campaign não pode ser acessada de vários en
 
 Se seu endereço IP não tiver sido incluído na lista de permissões, você não poderá fazer logon na instância com esse endereço. Da mesma forma, talvez você não consiga conectar uma API ao seu Centro de mensagens ou à sua instância de marketing se o endereço IP não tiver sido explicitamente incluído na lista de permissões com a instância.
 
-O Painel de controle do Campaign permite configurar novas conexões às suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Para fazer isso, siga as etapas descritas abaixo.
+O Painel de controle permite configurar novas conexões às suas instâncias ao adicionar intervalos de endereços IP à lista de permissões. Para fazer isso, siga as etapas descritas abaixo.
 
 Depois que os endereços IP forem exibido na lista de permissões, você poderá criar e vincular operadores do Campaign a eles para que os usuários possam acessar a instância.
 
@@ -40,7 +40,7 @@ Depois que os endereços IP forem exibido na lista de permissões, você poderá
 
 ## Práticas recomendadas {#best-practices}
 
-Siga as recomendações e limitações abaixo ao adicionar endereços IP à lista de permissões no Painel de controle do Campaign.
+Siga as recomendações e limitações abaixo ao adicionar endereços IP à lista de permissões no Painel de controle.
 
 * **Não ative o acesso IP a todos os tipos de acesso** se você não quiser que o endereço IP se conecte aos servidores RT ou à zona de segurança do AEM.
 * **Se você ativou temporariamente o acesso à sua instância para um endereço IP**, remova os endereços IP da lista de permissões depois que não precisar mais se conectar à sua instância.
@@ -74,7 +74,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
    >[!NOTE]
    >
-   >CIDR (Roteamento interdomínio sem classe) é o formato aceito ao adicionar intervalos IP com a interface do Painel de controle do Campaign. A sintaxe consiste em um endereço IP seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
+   >CIDR (Roteamento interdomínio sem classe) é o formato aceito ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
    >
    >Você pode procurar na Internet ferramentas online gratuitas que ajudarão você a converter o intervalo IP disponível para o formato CIDR.
 

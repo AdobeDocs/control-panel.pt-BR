@@ -28,7 +28,7 @@ Os servidores SFTP estão protegidos. Para poder acessá-los para visualizar arq
 
 ## Sobre o formato CIDR {#about-cidr-format}
 
-CIDR (Roteamento interdomínio sem classe) é o formato aceito ao adicionar intervalos IP com a interface do Painel de controle do Campaign.
+CIDR (Roteamento interdomínio sem classe) é o formato aceito ao adicionar intervalos IP com a interface do Painel de controle.
 
 A sintaxe consiste em um endereço IP seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr){target="_blank"}.
 
@@ -36,10 +36,10 @@ Você pode pesquisar na Internet ferramentas online gratuitas que ajudarão voc�
 
 ## Práticas recomendadas {#best-practices}
 
-Siga as recomendações e limitações abaixo ao adicionar endereços IP à lista de permissões no Painel de controle do Campaign.
+Siga as recomendações e limitações abaixo ao adicionar endereços IP à lista de permissões no Painel de controle.
 
 * **Adicione intervalos IP à lista de permissões** em vez de endereços IP únicos. Para adicionar um único endereço IP à lista de permissões, anexe um &#39;/32&#39; a ela para indicar que o intervalo inclui apenas um único IP.
-* **Não adicione intervalos muito amplos à lista de permissões**, por exemplo, incluindo > 265 endereços IP. O Painel de controle do Campaign rejeitará qualquer intervalo no formato CIDR que esteja entre /0 e /23.
+* **Não adicione intervalos muito amplos à lista de permissões**, por exemplo, incluindo > 265 endereços IP. O Painel de controle rejeitará qualquer intervalo no formato CIDR que esteja entre /0 e /23.
 * Somente **endereços IP públicos** podem ser adicionados à lista de permissões.
 * Verifique se **excluir endereços IP regularmente** que você não precisa mais da lista de permissões.
 
@@ -163,6 +163,6 @@ Para editar intervalos IP, siga as etapas abaixo.
 
 A variável **[!UICONTROL Job Logs]** na home page do Painel de controle do Campaign, é possível rastrear e monitorar todas as alterações feitas em endereços IP na lista de permissões.
 
-Para obter mais informações sobre a interface do Painel de controle do Campaign, consulte [esta seção](../../discover/using/discovering-the-interface.md).
+Para obter mais informações sobre a interface do Painel de controle, consulte [esta seção](../../discover/using/discovering-the-interface.md).
 
 ![](assets/control_panel_ip_log.png)

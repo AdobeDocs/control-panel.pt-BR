@@ -1,6 +1,6 @@
 ---
 title: Versão mais recente
-description: Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign
+description: Esta página lista todos os novos recursos e melhorias do Painel de controle
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
 source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
 workflow-type: tm+mt
@@ -11,7 +11,7 @@ ht-degree: 30%
 
 # Versão mais recente {#control-panel-releases}
 
-Esta página lista todos os novos recursos e melhorias do Painel de controle do Campaign.
+Esta página lista todos os novos recursos e melhorias do Painel de controle.
 
 ## Fevereiro de 2023 {#february-2023}
 

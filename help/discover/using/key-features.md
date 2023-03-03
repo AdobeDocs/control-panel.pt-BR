@@ -2,21 +2,21 @@
 product: campaign
 solution: Campaign
 title: O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic.
-description: Saiba como acessar o Painel de controle do Campaign
+description: Saiba como acessar o Painel de controle
 feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Principais recursos {#key-features}
 
-O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite monitorar facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como adicionar lista de permissão de endereços IP, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
+O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic, permitindo gerenciar configurações e rastrear o uso de cada uma de suas instâncias. Sua interface intuitiva permite monitorar facilmente o uso dos principais ativos, além de realizar tarefas administrativas, como adicionar lista de permissão de endereços IP, monitoramento de armazenamentos SFTP, gerenciamento de chaves e muito mais.
 
 Principais benefícios:
 
@@ -26,7 +26,7 @@ Principais benefícios:
 
 >[!NOTE]
 >
->O Painel de controle do Campaign é restrito aos usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](managing-permissions.md).
+>O Painel de controle é restrito aos usuários administradores. As etapas para conceder acesso de Administrador a um usuário estão detalhadas [nesta seção](managing-permissions.md).
 >
 >Para o Campaign v7/v8, observe que sua instância deve estar hospedada no Amazon Web Services (AWS) e atualizada para a mais recente [Build estável do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) ou para build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
 
@@ -35,7 +35,7 @@ Principais benefícios:
     <td>
         <a href="../../discover/using/accessing-control-panel.md"><img alt="condições" src="assets/do-not-localize/discover.png"/></a>
         <div><a href="../../discover/using/accessing-control-panel.md"><strong>Painel de controle do Discover</strong></a></div>
-        <em>Saiba mais sobre o Painel de controle do Campaign e como acessá-lo.</em>
+        <em>Saiba mais sobre o Painel de controle e como acessá-lo.</em>
     </td>
     <td>
         <a href="../../sftp/using/about-sftp-management.md"><img alt="condições" src="assets/do-not-localize/sftp.png"/></a>

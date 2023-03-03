@@ -1,8 +1,8 @@
 ---
 product: campaign
 solution: Campaign
-title: Acesso ao Painel de controle do Campaign
-description: Saiba como acessar o Painel de controle do Campaign
+title: Acesso ao Painel de controle
+description: Saiba como acessar o Painel de controle
 feature: Control Panel
 role: Architect
 level: Beginner
@@ -14,7 +14,7 @@ ht-degree: 14%
 
 ---
 
-# Acesso ao Painel de controle do Campaign {#accessing-control-panel}
+# Acesso ao Painel de controle {#accessing-control-panel}
 
 O Painel de controle do Campaign está disponível diretamente no Experience Cloud ou no próprio produto.
 

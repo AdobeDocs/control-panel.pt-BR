@@ -2,19 +2,19 @@
 product: adobe campaign
 sub-product: control panel
 audience: end-user
-user-guide-title: Guia do Painel de controle do Campaign
+user-guide-title: Guia do Painel de controle
 feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
-# Guia do Painel de controle do Campaign {#using}
+# Guia do Painel de controle {#using}
 
 + [Documentação do produto](control-panel-home.md)
 + Notas de versão {#release-notes}
@@ -25,11 +25,11 @@ ht-degree: 94%
       + [Notas de versão de 2021](rn/release-notes-2021.md)
       + [Notas de versão de 2020](rn/release-notes-2020.md)
       + [Notas de versão de 2019](rn/release-notes-2019.md)
-+ Conheça o Painel de controle do Campaign {#discover-control-panel}
++ Conheça o Painel de controle {#discover-control-panel}
    + [Principais recursos](discover/using/key-features.md)
    + [Painel de controle de acesso](discover/using/accessing-control-panel.md)
-   + [Gerenciar permissões no Painel de controle do Campaign](discover/using/managing-permissions.md)
-   + [Conheça a interface do Painel de controle do Campaign](discover/using/discovering-the-interface.md)
+   + [Gerenciar permissões no Painel de controle](discover/using/managing-permissions.md)
+   + [Conheça a interface do Painel de controle](discover/using/discovering-the-interface.md)
 + [Monitorar contatos importantes e eventos](service-events/service-events.md)
 + [Alerta por email](performance-monitoring/using/email-alerting.md)
 + Gerenciamento de SFTP {#sftp-management}

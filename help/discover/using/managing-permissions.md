@@ -1,7 +1,7 @@
 ---
 product: campaign
 solution: Campaign
-title: Gerenciamento de permissões para o Painel de controle do Campaign
+title: Gerenciamento de permissões para o Painel de controle
 description: Saiba como gerenciar permissões para o Painel de controle do Campaign
 feature: Control Panel
 role: Architect
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ---
 
-# Gerenciamento de permissões para o Painel de controle do Campaign {#managing-permissions-control-panel}
+# Gerenciamento de permissões para o Painel de controle {#managing-permissions-control-panel}
 
 O Painel de controle do Campaign está disponível para todos os usuários administradores de uma instância do Campaign. Siga as etapas abaixo para atribuir usuários ao grupo Administradores e conceder a eles acesso ao Painel de controle do Campaign.
 

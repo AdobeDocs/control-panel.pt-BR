@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: Permissões de URL
-description: Saiba como gerenciar permissões de URL no Painel de controle do Campaign
+description: Saiba como gerenciar permissões de URL no Painel de controle
 feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 84%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 84%
 
 A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows, etc.) pelas instâncias do Campaign é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
 
-Por padrão, as instâncias não têm permissão para se conectar a URLs externos. O Painel de controle do Campaign permite adicionar URLs externos à lista de URLs autorizados para que sua instância possa se conectar a eles. Dessa forma, você pode conectar as instâncias do Campaign a sistemas externos, como servidores ou sites SFTP para habilitar a transferência de arquivos e/ou dados.
+Por padrão, as instâncias não têm permissão para se conectar a URLs externos. O Painel de controle permite adicionar URLs externos à lista de URLs autorizados para que sua instância possa se conectar a eles. Dessa forma, você pode conectar as instâncias do Campaign a sistemas externos, como servidores ou sites SFTP para habilitar a transferência de arquivos e/ou dados.
 
 Depois de adicionado, o URL é referenciado no arquivo de configuração da instância (serverConf.xml).
 
@@ -45,7 +45,7 @@ Depois de adicionado, o URL é referenciado no arquivo de configuração da inst
 
 * Não conecte a instância do Campaign a sites/servidores aos quais você não pretende se conectar.
 * Exclua URLs com os quais você não está mais trabalhando. No entanto, lembre-se de que, se outra seção da sua empresa ainda estiver se conectando ao URL excluído, ninguém poderá usá-lo novamente.
-* O Painel de controle do Campaign oferece suporte aos protocolos **http**, **https** e **sftp**. A inserção de URLs ou protocolos inválidos resultará em erros.
+* O Painel de controle oferece suporte aos protocolos **http**, **https** e **sftp**. A inserção de URLs ou protocolos inválidos resultará em erros.
 
 ## Gerenciamento de permissões de URL {#managing-url-permissions}
 
@@ -98,4 +98,4 @@ Lembre-se de que se você excluir um URL, sua instância não poderá chamá-lo 
 
 **Adicionei um novo URL, mas minha instância ainda não consegue se conectar a esse URL. Por que isso ocorre?**
 
-Em alguns casos, os URLs que você tenta conectar exigem uma lista de permissão, uma senha ou outra forma de autenticação. O Painel de controle do Campaign não gerencia autenticação adicional.
+Em alguns casos, os URLs que você tenta conectar exigem uma lista de permissão, uma senha ou outra forma de autenticação. O Painel de controle não gerencia autenticação adicional.

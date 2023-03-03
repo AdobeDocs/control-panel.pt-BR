@@ -96,7 +96,7 @@ Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
 
    ![](assets/subdomain6.png)
 
-Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle do Campaign. Para obter mais informações, consulte [Verificações e configuração de subdomínio](#subdomain-checks-and-configuration).
+Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle. Para obter mais informações, consulte [Verificações e configuração de subdomínio](#subdomain-checks-and-configuration).
 
 ## Configuração de subdomínio usando CNAMEs {#use-cnames}
 
@@ -152,19 +152,19 @@ Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo.
    >
    >Se desejar criar os registros e enviar a configuração de subdomínio posteriormente, selecione a segunda instrução e clique em **[!UICONTROL Submit later]**. Você poderá retomar a configuração do subdomínio diretamente da área da tela de gerenciamento de subdomínio **[!UICONTROL Processing]**.
    >
-   >Observe que os registros DNS que serão colocados em seu servidor serão mantidos pelo Painel de controle do Campaign por 30 dias. Após esse período, será necessário configurar o subdomínio do zero.
+   >Observe que os registros DNS que serão colocados em seu servidor serão mantidos pelo Painel de controle por 30 dias. Após esse período, será necessário configurar o subdomínio do zero.
 
-Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle do Campaign. Para obter mais informações, consulte [Verificações e configuração de subdomínio](#subdomain-checks-and-configuration).
+Depois que o subdomínio for enviado, várias verificações e etapas de configuração serão executadas pelo Painel de controle. Para obter mais informações, consulte [Verificações e configuração de subdomínio](#subdomain-checks-and-configuration).
 
 ## Verificações e configuração de subdomínio {#subdomain-checks-and-configuration}
 
-1. Depois que o subdomínio for enviado, o Painel de controle do Campaign verificará se ele aponta corretamente para os registros Adobe NS e se o registro de SOA (Start of Authority, Início de Autoridade) não existe para esse subdomínio.
+1. Depois que o subdomínio for enviado, o Painel de controle verificará se ele aponta corretamente para os registros Adobe NS e se o registro de SOA (Start of Authority, Início de Autoridade) não existe para esse subdomínio.
 
    >[!NOTE]
    >
    >Observe que enquanto a configuração de subdomínio for executada, outras solicitações do Painel de controle do Campaign serão inseridas em uma fila e executadas somente após a conclusão da configuração de subdomínio, para evitar problemas de desempenho.
 
-1. Se as verificações forem bem-sucedidas, o Painel de controle do Campaign começará a configurar o subdomínio com registros DNS, URLs adicionais, caixas de entrada etc.
+1. Se as verificações forem bem-sucedidas, o Painel de controle começará a configurar o subdomínio com registros DNS, URLs adicionais, caixas de entrada etc.
 
    ![](assets/subdomain7.png)
 
@@ -186,7 +186,7 @@ Depois que o subdomínio for enviado, várias verificações e etapas de configu
    * **Subdomínios adicionais** para hospedar mirror, recursos, páginas de rastreamento e chave de domínio,
    * **Caixas de entrada**: Remetente, Erro, Responder para.
 
-   Por padrão, a caixa de entrada &quot;Responder para&quot; no Painel de controle do Campaign está configurada para apagar emails e não é revisável. Se quiser monitorar a caixa de entrada “Responder para” para suas campanhas de marketing, não use este endereço.
+   Por padrão, a caixa de entrada &quot;Responder para&quot; no Painel de controle está configurada para apagar emails e não é revisável. Se quiser monitorar a caixa de entrada “Responder para” para suas campanhas de marketing, não use este endereço.
 
 Para obter mais detalhes sobre o subdomínio, clique nos botões **[!UICONTROL Subdomain details]** e **[!UICONTROL Sender info]**.
 

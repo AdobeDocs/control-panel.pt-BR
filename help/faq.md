@@ -16,45 +16,45 @@ ht-degree: 100%
 
 # Perguntas frequentes {#faq}
 
-## Painel de controle do Campaign {#control-panel}
+## Painel de controle {#control-panel}
 
-### O que é o Painel de controle do Campaign?
+### O que é o Painel de controle?
 
 O painel de Controle do Campaign permite que os administradores de produtos gerenciem diretamente várias configurações e monitorem a capacidade dos servidores SFTP conectados ao Adobe Campaign.
 
-### Quais são alguns dos recursos atuais do Painel de controle do Campaign?
+### Quais são alguns dos recursos atuais do Painel de controle?
 
-O Painel de controle do Campaign permite rastrear armazenamentos, adicionar IPs à lista de permissões e gerenciar chaves SSH de servidores SFTP por conta própria, com base em suas necessidades e outras ações.
+O Painel de controle permite rastrear armazenamentos, adicionar IPs à lista de permissões e gerenciar chaves SSH de servidores SFTP por conta própria, com base em suas necessidades e outras ações.
 
-Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle do Campaign.
+Para obter mais informações, consulte a documentação de ações compatíveis com o Painel de controle.
 
 ### Há recursos que ainda não estão disponíveis no Campaign v8, mas estão disponíveis no Campaign Classic v7?{#v8-restrictions}
 
-Não. Todos os recursos disponíveis no Campaign v7 agora também estão disponíveis através do Painel de controle do Campaign v8, incluindo funções relacionadas ao Subdomínio e Gerenciamento de certificados.
+Não. Todos os recursos disponíveis no Campaign v7 agora também estão disponíveis através do Painel de controle v8, incluindo funções relacionadas ao Subdomínio e Gerenciamento de certificados.
 
-### O Painel de controle do Campaign é apenas para o Adobe Campaign?
+### O Painel de controle é apenas para o Adobe Campaign?
 
-Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Painel de controle do Campaign.
+Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Painel de controle.
 
-### Posso usar o Painel de controle do Campaign?
+### Posso usar o Painel de controle?
 
-O Painel de controle do Campaign está aberto somente para administradores de produtos de nossos clientes atuais que têm o Adobe Campaign hospedado no AWS.
+O Painel de controle está aberto somente para administradores de produtos de nossos clientes atuais que têm o Adobe Campaign hospedado no AWS.
 
-O Painel de controle do Campaign permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle do Campaign. [Saiba mais](instances-settings/using/external-accounts.md)
+O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle. [Saiba mais](instances-settings/using/external-accounts.md)
 
 Se você não for administrador, mas quiser acessá-lo, entre em contato com o administrador do produto para ser adicionado como administrador.
 
-### Como usuário do Campaign Classic v7, quais são as condições para acessar o Painel de controle do Campaign? {#v7-restrictions}
+### Como usuário do Campaign Classic v7, quais são as condições para acessar o Painel de controle? {#v7-restrictions}
 
-O Painel de controle do Campaign é restrito aos usuários administradores. [Saiba mais](discover/using/managing-permissions.md).
+O Painel de controle é restrito aos usuários administradores. [Saiba mais](discover/using/managing-permissions.md).
 
 Para o Campaign v7, observe que sua instância deve estar hospedada no Amazon Web Services (AWS) e atualizada para a [build estável do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) mais recente ou para a build 9032 ou superior. Saiba como verificar a versão do Campaign Classic v7 [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância do Campaign Classic está hospedada no AWS, siga as etapas detalhadas [nesta seção](#hosted-aws).
 
-### Como posso acessar o Painel de controle do Campaign?
+### Como posso acessar o Painel de controle?
 
-Siga as instruções detalhadas na documentação Acesso ao Painel de controle do Campaign.
+Siga as instruções detalhadas na documentação Acesso ao Painel de controle.
 
-### Há uma taxa extra para usar o Painel de controle do Campaign?
+### Há uma taxa extra para usar o Painel de controle?
 
 Não, não há custo extra se você for cliente do Adobe Campaign.
 

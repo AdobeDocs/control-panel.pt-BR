@@ -2,15 +2,15 @@
 product: campaign
 solution: Campaign
 title: Sobre o monitoramento de banco de dados
-description: Saiba como monitorar os bancos de dados no Painel de controle do Campaign
+description: Saiba como monitorar os bancos de dados no Painel de controle
 feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 79%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -34,13 +34,13 @@ Se você se inscreveu no [alerta por email](../../performance-monitoring/using/e
 >abstract="Nesta guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica do banco de dados para cada uma das instâncias do Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR" text="Sobre o monitoramento de desempenho"
 
-O Painel de controle do Campaign permite monitorar a utilização do banco de dados para cada uma das instâncias do Campaign. Para fazer isso, abra o cartão **[!UICONTROL Performance Monitoring]** e selecione a guia **[!UICONTROL Databases]**.
+O Painel de controle permite monitorar a utilização do banco de dados para cada uma das instâncias do Campaign. Para fazer isso, abra o cartão **[!UICONTROL Performance Monitoring]** e selecione a guia **[!UICONTROL Databases]**.
 
 Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir informações sobre a capacidade do banco de dados da instância e o espaço usado.
 
 >[!NOTE]
 >
->Se o espaço de banco de dados fornecido, conforme mostrado no Painel de controle do Campaign, não refletir o espaço especificado em seu contrato, entre em contato com o Atendimento ao cliente.
+>Se o espaço de banco de dados fornecido, conforme mostrado no Painel de controle, não refletir o espaço especificado em seu contrato, entre em contato com o Atendimento ao cliente.
 
 ![](assets/databases_dashboard.png)
 

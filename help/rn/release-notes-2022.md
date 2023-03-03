@@ -1,6 +1,6 @@
 ---
 title: Notas de versão de 2022
-description: Esta página lista todas as versões de 2022 do Painel de controle do Campaign.
+description: Esta página lista todas as versões de 2022 do Painel de controle.
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
 workflow-type: tm+mt
@@ -35,7 +35,7 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 <tbody>
 <tr>
 <td>
-<p><p>Os clientes com modelo de hospedagem híbrida agora podem renovar os certificados SSL dos subdomínios pelo Painel de controle do Campaign.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada.</a></p>
+<p><p>Os clientes com modelo de hospedagem híbrida agora podem renovar os certificados SSL dos subdomínios pelo Painel de controle.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -95,20 +95,20 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 
 **Configurações de instâncias**
 
-* O número máximo de chaves GPG no Painel de controle do Campaign foi aumentado para 60 chaves. [Saiba mais](../instances-settings/using/gpg-keys-management.md)
+* O número máximo de chaves GPG no Painel de controle foi aumentado para 60 chaves. [Saiba mais](../instances-settings/using/gpg-keys-management.md)
 
 ## Maio de 2022 {#may-2022}
 
 <table>
 <thead>
 <tr>
-<th><strong>Disponibilidade do Painel de controle do Campaign para o modelo de hospedagem híbrida</strong><br/></th>
+<th><strong>Disponibilidade do Painel de controle para o modelo de hospedagem híbrida</strong><br/></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do Campaign agora está disponível para clientes com modelo de hospedagem híbrida. Esses clientes podem aproveitar os recursos do Painel de controle do Campaign ao fornecerem o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle.</p><p>Para obter mais informações, consulte a <a href="../instances-settings/using/external-accounts.md">documentação detalhada.</a></p>
+<p>O Painel de controle agora está disponível para clientes com modelo de hospedagem híbrida. Esses clientes podem aproveitar os recursos do Painel de controle ao fornecerem o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle.</p><p>Para obter mais informações, consulte a <a href="../instances-settings/using/external-accounts.md">documentação detalhada.</a></p>
 </td>
 </tr>
 </tbody>
@@ -192,7 +192,7 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do Campaign agora permite monitorar as consultas que estão sendo executadas há mais tempo em suas instâncias.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/database-active-queries.md">documentação detalhada</a>.</p>
+<p>O Painel de controle agora permite monitorar as consultas que estão sendo executadas há mais tempo em suas instâncias.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/database-active-queries.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

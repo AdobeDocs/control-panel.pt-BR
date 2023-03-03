@@ -21,7 +21,7 @@ ht-degree: 100%
 >title="Sobre monitoramento de taxas de transferência e latência "
 >abstract="Nesta guia, é possível monitorar a tendência das taxas de transferência e latência de entrega ao longo de um período em suas instâncias. Para obter informações sobre entregas que contribuem para a taxa de transferência, alterne para a exibição em tabelas."
 
-O Painel de controle do Campaign permite monitorar a taxa de transferência e a latência da entrega de cada uma de suas instâncias.
+O Painel de controle permite monitorar a taxa de transferência e a latência da entrega de cada uma de suas instâncias.
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ A área **[!UICONTROL Throughput]** fornece informações sobre o número de men
 >
 >Para o Campaign v7/v8, o número de taxa de transferência exibido é a taxa de transferência obtida das instâncias MID (mid-sourcing). Para implantações de marketing (MKT) autônomas (sem qualquer instância MID), a taxa de transferência da instância MKT é exibida.
 
-Além disso, o Painel de controle do Campaign permite identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência do período selecionado. Essas informações estão disponíveis somente na exibição em tabelas:
+Além disso, o Painel de controle permite identificar as IDs das 5 principais entregas que estão contribuindo para a taxa de transferência do período selecionado. Essas informações estão disponíveis somente na exibição em tabelas:
 
 ![](assets/throughput-latencies-top5.png)
 

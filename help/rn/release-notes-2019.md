@@ -1,11 +1,11 @@
 ---
 title: Notas de versão de 2019
-description: Esta página lista todas as versões de 2019 do Painel de controle do Campaign.
+description: Esta página lista todas as versões de 2019 do Painel de controle.
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -26,6 +26,6 @@ Além disso, agora os usuários administradores podem excluir chaves SSH que for
 
 ## Julho de 2019 {#july-2019}
 
-Adicionamos novos recursos para permitir que os usuários administradores tenham mais controle das configurações de instâncias do Campaign v7/v8. Os novos recursos do Painel de controle do Campaign incluem a habilidade de adicionar URLs aos quais o Adobe Campaign se conecta para transferir dados/arquivos.
+Adicionamos novos recursos para permitir que os usuários administradores tenham mais controle das configurações de instâncias do Campaign v7/v8. Os novos recursos do Painel de controle incluem a habilidade de adicionar URLs aos quais o Adobe Campaign se conecta para transferir dados/arquivos.
 
 Para obter mais informações, consulte a [documentação detalhada](../instances-settings/using/url-permissions.md).

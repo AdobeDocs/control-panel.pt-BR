@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Detalhes da instância
-description: Saiba como monitorar os detalhes da instância no Painel de controle do Campaign
+description: Saiba como monitorar os detalhes da instância no Painel de controle
 feature: Control Panel
 role: Architect
 level: Experienced

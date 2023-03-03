@@ -1,11 +1,11 @@
 ---
 title: Notas de versão de 2021
-description: Esta página lista todas as versões de 2021 do Painel de controle do Campaign.
+description: Esta página lista todas as versões de 2021 do Painel de controle.
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Agora é possível editar os <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalos IP</a> e <a href="../sftp/using/key-management.md#editing-public-keys">chaves públicas</a> que você cria. Observe que esse recurso não está disponível para os itens criados antes da versão atual do Painel de controle do Campaign.
+<p>Agora é possível editar os <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalos IP</a> e <a href="../sftp/using/key-management.md#editing-public-keys">chaves públicas</a> que você cria. Observe que esse recurso não está disponível para os itens criados antes da versão atual do Painel de controle.
 </td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do Campaign agora está disponível para o Adobe Campaign v8, com exceção dos recursos de gerenciamento de <strong>Subdomínio</strong> e <strong>Certificado</strong>, que ainda não são compatíveis.</p><p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=pt-BR" target="blank">documentação do Campaign v8</a>.</p>
+<p>O Painel de controle agora está disponível para o Adobe Campaign v8, com exceção dos recursos de gerenciamento de <strong>Subdomínio</strong> e <strong>Certificado</strong>, que ainda não são compatíveis.</p><p>Para obter mais informações, consulte a <a href="https://experienceleague.adobe.com/docs/campaign/campaign-v8/deploy/self-service.html?lang=pt-BR" target="blank">documentação do Campaign v8</a>.</p>
 </td>
 </tr>
 </tbody>

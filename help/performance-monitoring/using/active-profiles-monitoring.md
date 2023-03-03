@@ -20,7 +20,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->O monitoramento de perfis ativos pelo Painel de controle do Campaign está disponível em beta e está sujeito a atualizações e modificações frequentes sem aviso prévio. Ele está disponível na build Campaign Standard 10368.
+>O monitoramento de perfis ativos pelo Painel de controle está disponível em beta e está sujeito a atualizações e modificações frequentes sem aviso prévio. Ele está disponível na build Campaign Standard 10368.
 
 De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com uma quantidade específica de perfis ativos que são contados para fins de faturamento. Consulte seu contrato mais recente para obter uma referência sobre o número de perfis ativos adquiridos.
 
@@ -42,7 +42,7 @@ Para obter mais informações sobre perfis ativos, consulte [Campaign Standard](
 >abstract="Nesta guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos perfis ativos para cada uma das instâncias do Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR" text="Sobre o monitoramento de desempenho"
 
-O Painel de controle do Campaign permite monitorar a utilização de perfis ativos para cada uma das instâncias do Campaign.
+O Painel de controle permite monitorar a utilização de perfis ativos para cada uma das instâncias do Campaign.
 
 Para fazer isso, siga estes passos:
 

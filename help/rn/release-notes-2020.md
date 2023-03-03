@@ -1,11 +1,11 @@
 ---
 title: Notas de versão de 2020
-description: Esta página lista todas as versões de 2020 do Painel de controle do Campaign.
+description: Esta página lista todas as versões de 2020 do Painel de controle.
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Agora o Painel de controle do Campaign permite configurar um subdomínio para funcionar com a Adobe usando CNAMEs diretamente da interface.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
+<p>Agora o Painel de controle permite configurar um subdomínio para funcionar com a Adobe usando CNAMEs diretamente da interface.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -54,7 +54,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Após delegar um novo subdomínio, o Painel de controle do Campaign agora permite rastrear a auditoria feita pela equipe de avaliação do delivery.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
+<p>Após delegar um novo subdomínio, o Painel de controle agora permite rastrear a auditoria feita pela equipe de avaliação do delivery.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -69,7 +69,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do Campaign agora permite gerar um par de chaves GPG para que você possa descriptografar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign.</p><p>Para obter mais informações, consulte a <a href="../instances-settings/using/gpg-keys-management.md">documentação detalhada</a>.</p>
+<p>O Painel de controle agora permite gerar um par de chaves GPG para que você possa descriptografar facilmente os dados externos que chegam ao Campaign. Além disso, adicionamos um recurso para que você possa instalar uma chave GPG pública para criptografar os dados ao deixar o Campaign.</p><p>Para obter mais informações, consulte a <a href="../instances-settings/using/gpg-keys-management.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -84,7 +84,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>O Painel de controle do Campaign agora permite monitorar o número de perfis ativos usados por suas instâncias e contados para fins de faturamento.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentação detalhada</a>.</p>
+<p>O Painel de controle agora permite monitorar o número de perfis ativos usados por suas instâncias e contados para fins de faturamento.</p><p>Para obter mais informações, consulte a <a href="../performance-monitoring/using/active-profiles-monitoring.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>
@@ -92,7 +92,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->O monitoramento de perfis ativos pelo Painel de controle do Campaign está disponível em beta e está sujeito a atualizações e modificações frequentes sem aviso prévio.
+>O monitoramento de perfis ativos pelo Painel de controle está disponível em beta e está sujeito a atualizações e modificações frequentes sem aviso prévio.
 
 ## Maio de 2020 {#may-2020}
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Agora o Painel de controle do Campaign permite renovar os certificados SSL de seus subdomínios que foram delegados com o método CNAME.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada</a>.</p>
+<p>Agora o Painel de controle permite renovar os certificados SSL de seus subdomínios que foram delegados com o método CNAME.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

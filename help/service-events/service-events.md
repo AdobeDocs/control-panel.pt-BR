@@ -84,7 +84,7 @@ Com o Calendário de serviço, você pode definir lembretes para ser notificado 
 
 >[!NOTE]
 >
->Para ser notificado sobre eventos futuros, inscreva-se no sistema de alertas de email do Painel de controle do Campaign. [Saiba mais](../performance-monitoring/using/email-alerting.md)
+>Para ser notificado sobre eventos futuros, inscreva-se no sistema de alertas de email do Painel de controle. [Saiba mais](../performance-monitoring/using/email-alerting.md)
 
 Para definir um alerta para um evento, siga estas etapas:
 
@@ -96,7 +96,7 @@ Para definir um alerta para um evento, siga estas etapas:
 
    >[!NOTE]
    >
-   >Se você não se inscreveu nos alertas do Painel de controle do Campaign, uma mensagem será exibida e permitirá que você se inscreva para receber notificações por email.
+   >Se você não se inscreveu nos alertas do Painel de controle, uma mensagem será exibida e permitirá que você se inscreva para receber notificações por email.
 
 1. O lembrete agora está definido para o evento selecionado. Você pode passar o mouse sobre ele a qualquer momento para exibir seu título.
 

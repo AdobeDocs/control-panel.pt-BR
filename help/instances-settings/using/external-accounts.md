@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Adicionar instâncias MID/RT (modelo híbrido)
-description: Saiba como adicionar instâncias MID/RT ao Painel de controle do Campaign com o modelo de hospedagem híbrida.
+description: Saiba como adicionar instâncias MID/RT ao Painel de controle com o modelo de hospedagem híbrida.
 feature: Control Panel
 role: Architect
 level: Intermediate
@@ -19,9 +19,9 @@ ht-degree: 100%
 >[!CONTEXTUALHELP]
 >id="cp_externalaccounts"
 >title="Contas externas"
->abstract="Nesta tela, os clientes com modelo de hospedagem híbrida podem fornecer o URL da instância MID/RT configurado na instância de marketing do Painel de controle do Campaign para aproveitar seus recursos."
+>abstract="Nesta tela, os clientes com modelo de hospedagem híbrida podem fornecer o URL da instância MID/RT configurado na instância de marketing do Painel de controle para aproveitar seus recursos."
 
-O Painel de controle do Campaign permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle do Campaign.
+O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle.
 
 Para obter mais informações sobre modelos de hospedagem, consulte a [Documentação do Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=pt-BR).
 
@@ -42,15 +42,15 @@ Para obter mais informações sobre modelos de hospedagem, consulte a [Documenta
 >title="Senha"
 >abstract="Senha do operador fornecida após o provisionamento inicial pelo administrador da Adobe."
 
-Os clientes híbridos devem se conectar ao Painel de controle do Campaign por meio da Experience Cloud. Ao acessar o Painel de controle do Campaign pela primeira vez, somente dois cartões serão exibidos na página inicial.
+Os clientes híbridos devem se conectar ao Painel de controle por meio da Experience Cloud. Ao acessar o Painel de controle pela primeira vez, somente dois cartões serão exibidos na página inicial.
 
 ![](assets/hybrid-homepage.png)
 
 >[!NOTE]
 >
->Caso tenha problemas para acessar o Painel de controle do Campaign, é provável que sua instância de marketing ainda não esteja mapeada com a [ID da sua organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR). Entre em contato com o Atendimento ao cliente para concluir a configuração e prosseguir. Após uma conexão bem-sucedida, você verá a página inicial do Painel de controle do Campaign.
+>Caso tenha problemas para acessar o Painel de controle, é provável que sua instância de marketing ainda não esteja mapeada com a [ID da sua organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR). Entre em contato com o Atendimento ao cliente para concluir a configuração e prosseguir. Após uma conexão bem-sucedida, você verá a página inicial do Painel de controle.
 
-Para acessar os recursos do Painel de controle do Campaign, é preciso inserir as informações da instância MID/RT no cartão **[!UICONTROL Instances Settings]**. Para fazer isso, siga as etapas abaixo.
+Para acessar os recursos do Painel de controle, é preciso inserir as informações da instância MID/RT no cartão **[!UICONTROL Instances Settings]**. Para fazer isso, siga as etapas abaixo.
 
 1. No cartão **[!UICONTROL Instances Settings]**, selecione a guia **[!UICONTROL External Accounts]**. 
 
@@ -74,7 +74,7 @@ Para acessar os recursos do Painel de controle do Campaign, é preciso inserir a
 
 1. Clique em **[!UICONTROL Save]** para confirmar.
 
-Ao adicionar o URL de MID/RT, um processo assíncrono é acionado para validar a exatidão dos URLs. Esse processo pode levar alguns minutos. Até que o URL da instância MID/RT seja validado, o processo permanecerá pendente. Somente após a conclusão da validação será possível acessar os principais recursos do Painel de controle do Campaign.
+Ao adicionar o URL de MID/RT, um processo assíncrono é acionado para validar a exatidão dos URLs. Esse processo pode levar alguns minutos. Até que o URL da instância MID/RT seja validado, o processo permanecerá pendente. Somente após a conclusão da validação será possível acessar os principais recursos do Painel de controle.
 
 ![](assets/external-account-pending.png)
 
@@ -88,7 +88,7 @@ Observe que é possível monitorar qualquer ação executada na guia **[!UICONTR
 
 ## Recursos disponíveis para clientes híbridos {#capabilities}
 
-Depois que uma instância MID/RT for adicionada ao Painel de controle do Campaign, você poderá aproveitar os recursos listados abaixo:
+Depois que uma instância MID/RT for adicionada ao Painel de controle, você poderá aproveitar os recursos listados abaixo:
 
 * [Monitorar contatos importantes e eventos](../../service-events/service-events.md)
 * [Exibir detalhes da instância](../../instances-settings/using/instance-details.md),

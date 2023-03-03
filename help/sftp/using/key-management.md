@@ -93,7 +93,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 
    Talvez seja necessário instalar uma ferramenta de terceiros que ajudará você a gerar um par de chaves privadas/públicas no mesmo formato &quot;name.pub&quot;.
 
-1. Abra o arquivo .pub e copie e cole a sequência inteira começando por &quot;ssh...&quot; no Painel de controle do Campaign.
+1. Abra o arquivo .pub e copie e cole a sequência inteira começando por &quot;ssh...&quot; no Painel de controle.
 
    ![](assets/publickey.png)
 
