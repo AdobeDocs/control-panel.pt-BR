@@ -8,8 +8,8 @@ role: Architect
 level: Beginner
 source-git-commit: a62bf4913a97c12ab282709d06c9a50b8b503d8d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '160'
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 0%
    + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
    + [Monitorar subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
    + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Remover delegação de subdomínios para o Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+   + [Remover delegação de subdomínios para a Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + [Gerenciar registros TXT](subdomains-certificates/using/managing-txt-records.md)
    + Gerenciar certificados SSL {#manage-certificates}
       + [Monitorar certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
