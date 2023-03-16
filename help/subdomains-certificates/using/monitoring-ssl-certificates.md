@@ -18,13 +18,13 @@ ht-degree: 90%
 
 ## Sobre certificados SSL {#about-ssl-certificates}
 
-O Adobe Campaign recomenda proteger os subdomínios que hospedam suas páginas de aterrissagem, especialmente aqueles que estão coletando informações confidenciais dos clientes.
+O Adobe Campaign recomenda proteger os subdomínios que hospedam suas landing pages, especialmente aqueles que estão coletando informações confidenciais dos clientes.
 
-**Criptografia SSL (Secure Socket Layer)** A garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma página de aterrissagem hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
+**Criptografia SSL (Secure Socket Layer)** garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma landing page hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
 
-**Os certificados SSL não são instalados nos próprios subdomínios configurados**. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam páginas de aterrissagem, páginas de recursos e outros.
+**Os certificados SSL não são instalados nos próprios subdomínios configurados**. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam landing pages, páginas de recursos e outros.
 
-**Os certificados SSL são fornecidos por um período específico** (1 ano, 60 dias, etc.). Depois que um certificado expirar, você poderá enfrentar problemas ao acessar as páginas de aterrissagem ou usar recursos do subdomínio. Para evitar isso, o Painel de controle permite monitorar os certificados SSL dos subdomínios e iniciar o processo de renovação.
+**Os certificados SSL são fornecidos por um período específico** (1 ano, 60 dias, etc.). Depois que um certificado expirar, você poderá enfrentar problemas ao acessar as landing pages ou usar recursos do subdomínio. Para evitar isso, o Painel de controle permite monitorar os certificados SSL dos subdomínios e iniciar o processo de renovação.
 
 ![](assets/no_certificate.png)
 
@@ -33,7 +33,7 @@ O Adobe Campaign recomenda proteger os subdomínios que hospedam suas páginas d
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_details"
 >title="Detalhes do subdomínio"
->abstract="Recupere informações sobre os certificados SSL dos subdomínios."
+>abstract="Recupere informações dos certificados SSL dos subdomínios."
 
 O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o cartão **[!UICONTROL Subdomains & Certificates]**.
 
@@ -47,7 +47,7 @@ Os subdomínios são organizados pela data de expiração mais próxima do certi
 ![](assets/subdomains_list.png)
 
 Para obter mais detalhes sobre um subdomínio, clique no botão **[!UICONTROL Subdomain Details]**.
-A lista de todos os subdomínios relacionados é exibida. Em geral, a lista inclui subdomínios de páginas de aterrissagem, páginas de recursos, etc.
+A lista de todos os subdomínios relacionados é exibida. Em geral, a lista inclui subdomínios de landing pages, páginas de recursos, etc.
 
 A guia **[!UICONTROL Sender info]** fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, Email de erro).
 

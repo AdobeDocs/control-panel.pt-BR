@@ -19,7 +19,7 @@ ht-degree: 72%
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_instancedetails"
 >title="Sobre detalhes da instância"
->abstract="Visualize os detalhes das instâncias do Adobe Campaign: tipos, nomes, informações de build e possíveis recomendações de atualização."
+>abstract="Visualize os detalhes das instâncias do Adobe Campaign: tipos, nomes, informações de criação e possíveis recomendações de atualização."
 
 ## Sobre detalhes da instância {#about-instance-details}
 
@@ -33,7 +33,7 @@ A funcionalidade Detalhes da instância permite a visualização de uma arquitet
 
 >[!NOTE]
 >
->Recomendamos atualizar as instâncias pelo menos uma vez por ano para evitar a degradação do desempenho e aproveitar os recursos e as correções mais recentes que o Adobe Campaign v7/v8 tem a oferecer.
+>Recomendamos que suas instâncias sejam atualizadas pelo menos uma vez por ano para evitar a degradação do desempenho e aproveitar os recursos e correções mais recentes que o Adobe Campaign v7/v8 tem a oferecer.
 
 **Tópicos relacionados:**
 

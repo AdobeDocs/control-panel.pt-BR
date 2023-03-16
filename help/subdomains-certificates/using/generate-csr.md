@@ -9,8 +9,8 @@ level: Experienced
 exl-id: b6d017c2-f633-48f7-8180-1264c1087fa2
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '436'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="Geração de CSR"
+>title="Geração de RSE"
 >abstract="A Solicitação de assinatura de certificado deve ser gerada para a instância e os subdomínios que você pretende proteger antes de adquirir um certificado."
 
 >[!CONTEXTUALHELP]
@@ -46,7 +46,7 @@ Para gerar uma Solicitação de assinatura de certificado (CSR), siga estas etap
    * **[!UICONTROL Organization]**: nome oficial da organização.
    * **[!UICONTROL Organization Unit]**: unidade vinculada ao subdomínio (por exemplo: Marketing, TI).
    * **[!UICONTROL Instance]** (pré-preenchido): URL da instância do Campaign associado ao subdomínio.
-   * **[!UICONTROL Common name]**: o nome comum é selecionado por padrão. Você pode selecionar um dos subdomínios se necessário.
+   * **[!UICONTROL Common name]**: se o nome comum for selecionado por padrão, é possível selecionar um dos subdomínios, se necessário.
 
    ![](assets/renewal3.png)
 
@@ -64,22 +64,22 @@ Para gerar uma Solicitação de assinatura de certificado (CSR), siga estas etap
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Copy CSR content]** O botão permite copiar todas as informações relacionadas à CSR (ID da organização, instância, nome da organização, nome comum, subdomínios incluídos etc.)
+   >O **[!UICONTROL Copy CSR content]** permite copiar todas as informações relacionadas à CSR (ID da organização, instância, nome da organização, nome comum, subdomínios incluídos etc.)
 
-1. O arquivo .csr correspondente à seleção é gerado e baixado automaticamente. Agora você pode usá-lo para adquirir o certificado SSL da Autoridade de certificação que sua empresa aprovar. Se precisar baixar a CSR novamente, siga as etapas detalhadas em [nesta seção](#download).
+1. O arquivo .csr correspondente à seleção é gerado e baixado automaticamente. Agora você pode usá-lo para adquirir o certificado SSL da Autoridade de certificação que sua empresa aprovar. Se precisar baixar a CSR novamente, siga as etapas detalhadas em [esta seção](#download).
 
 Depois que a CSR for gerada e baixada, você poderá usá-la para comprar um certificado SSL de uma autoridade de certificação aprovada pela organização.
 
-Depois que o certificado SSL for comprado, você poderá instalá-lo em sua instância para proteger seu subdomínio. [Saiba mais](install-ssl-certificate.md)
+Depois que o certificado SSL for adquirido, você poderá instalá-lo em sua instância para proteger seu subdomínio. [Saiba mais](install-ssl-certificate.md)
 
-## Baixar a CSR {#download}
+## Baixe a CSR {#download}
 
-Para comprar um certificado SSL, primeiro é necessário baixar a Solicitação de assinatura de certificado. O CSR é baixado automaticamente após ser gerado. Também é possível baixá-lo novamente a qualquer momento em Logs de trabalho:
+Para comprar um certificado SSL, primeiro é necessário baixar a Solicitação de assinatura de certificado. O CSR é baixado automaticamente após ser gerado. Você também pode baixá-lo novamente a qualquer momento nos Logs de trabalho:
 
-1. No **[!UICONTROL Job Logs]**, selecione o **[!UICONTROL Finished]** e filtre a lista para exibir tarefas relacionadas ao gerenciamento de subdomínios.
+1. No **[!UICONTROL Job Logs]**, selecione o **[!UICONTROL Finished]** em seguida, filtre a lista para exibir tarefas relacionadas ao gerenciamento de subdomínios.
 
    ![](assets/renewal-download.png)
 
-1. Abra o job correspondente à geração da CSR e clique no link **[!UICONTROL Downbload]** link para obter o arquivo .csr.
+1. Abra o trabalho correspondente à geração da CSR e clique no link **[!UICONTROL Downbload]** link para obter o arquivo .csr.
 
    ![](assets/renewal-download-button.png)

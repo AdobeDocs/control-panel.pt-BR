@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '384'
+ht-degree: 79%
 
 ---
 
@@ -24,7 +24,7 @@ Com o tempo, os bancos de dados podem atingir sua capacidade máxima, especialme
 
 A sobrecarga de um banco de dados de instância pode gerar vários problemas (incapacidade de fazer logon, enviar emails etc.). Portanto, o monitoramento dos bancos de dados das instâncias é essencial para garantir o desempenho ideal.
 
-Se você se inscreveu no [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email quando um dos bancos de dados de suas instâncias atingir 80% ou mais de sua capacidade.
+Se você se inscreveu em [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email quando um dos bancos de dados de suas instâncias atingir 80% ou mais de sua capacidade.
 
 ## Monitoramento do uso do banco de dados{#monitoring-database-usage}
 
@@ -44,7 +44,7 @@ Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir in
 
 ![](assets/databases_dashboard.png)
 
-Os dados deste painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR) documentação). Você pode verificar a última vez que o workflow foi executado abaixo de **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** métricas. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
+Os dados desse painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR) documentação). Você pode verificar a última vez que o workflow foi executado abaixo do **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** métricas. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
 
 Métricas adicionais estão disponíveis neste painel para ajudar você a analisar o uso do banco de dados da instância. Eles estão detalhados nestas seções:
 
