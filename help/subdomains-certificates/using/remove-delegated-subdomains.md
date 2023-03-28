@@ -6,10 +6,10 @@ description: Saiba como remover a delegação de subdomínios para a Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
+source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 100%
+source-wordcount: '808'
+ht-degree: 61%
 
 ---
 
@@ -20,11 +20,7 @@ ht-degree: 100%
 >title="Remover delegação de subdomínio"
 >abstract="Essa tela permite remover a delegação de um subdomínio para a Adobe. Lembre-se de que esse processo não pode ser desfeito e é irreversível até que sua execução seja concluída.<br><br>Se estiver tentando remover a delegação de um domínio principal para a instância selecionada, você deverá escolher o domínio que a substituirá."
 
-O Painel de controle permite remover a delegação de um subdomínio que foi delegado à Adobe.
-
->[!NOTE]
->
->A remoção de delegação não está disponível no momento para subdomínios que foram configurados usando CNAMEs.
+O Painel de controle do Campaign permite remover a delegação de um subdomínio que foi totalmente delegado ao Adobe ou delegado usando CNAMEs.
 
 ## Observações importantes {#important}
 
@@ -52,6 +48,8 @@ Para remover a delegação de um subdomínio para a Adobe, siga estas etapas:
 
    ![](assets/undelegate-subdomain-details.png)
 
+1. Se você estiver removendo uma delegação do tipo CNAME ou se estiver substituindo um domínio primário por um domínio delegado usando CNAMEs, uma **[!UICONTROL Action]** é exibida para gerenciar registros DNS. [Saiba mais nesta seção](#dns)
+
 1. Revise o resumo exibido. Para confirmar a remoção, digite o URL do domínio para o qual deseja remover a delegação e clique em **[!UICONTROL Submit]**.
 
    ![](assets/undelegate-submit.png)
@@ -59,6 +57,39 @@ Para remover a delegação de um subdomínio para a Adobe, siga estas etapas:
 Após iniciar a remoção da delegação, o processo pendente é exibido nos logs de processo até sua conclusão.
 
 ![](assets/undelegate-job.png)
+
+## Gerenciamento de registros DNS {#dns}
+
+Para configurar uma delegação de domínio usando CNAMEs, o Painel de controle do Campaign requer a adição de registros específicos ao servidor DNS. [Saiba como configurar subdomínios usando CNAMEs](setting-up-new-subdomain.md#use-cnames)
+
+Ao remover uma delegação do tipo CNAME, é necessário **remover estes registros DNS** do servidor para evitar qualquer problema. Além disso, se desejar remover a delegação de um subdomínio primário e substituí-lo por um domínio que foi delegado usando CNAMEs, talvez seja necessário **adicionar registros DNS** no servidor, dependendo das afinidades de IP definidas para o subdomínio.
+
+A tabela abaixo lista as ações a serem executadas, dependendo do tipo de delegação que você está removendo e do tipo de delegação usado para configurar o domínio de substituição.
+
+| Delegação removida | Domínio de substituição | Ação necessária |
+|  ---  |  ---  |  ---  |
+| Completo | Nenhum domínio de substituição | Nenhuma ação necessária |
+| Completo | CNAME | Adicionar registros DNS (opcional com base nas afinidades de IP) |
+| Completo | Completo | Nenhuma ação necessária |
+| CNAME | Nenhum domínio de substituição | Excluir registros DNS |
+| CNAME | CNAME | Excluir e adicionar registros DNS (opcional com base nas afinidades de IP) |
+| CNAME | Completo | Excluir registros DNS |
+
+Para fazer isso, um **[!DNL Action]** etapa é exibida antes de confirmar a remoção da delegação. Essa tela lista os registros DNS a serem removidos ou adicionados, dependendo do contexto.
+
+![](assets/action-step.png)
+
+### Excluir registros DNS
+
+1. Navegue até o servidor DNS e remova os registros listados no Painel de controle do Campaign.
+1. Volte para Painel de controle e clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
+
+### Adicionar registros DNS
+
+1. Navegue até o servidor DNS e adicione os registros listados no Painel de controle do Campaign.
+1. Aguarde a adição de DNS entrar em vigor.
+1. Volte para Painel de controle e clique em **[!UICONTROL Verify]**.
+1. Depois que a adição dos registros for verificada com êxito, clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
 
 ## Códigos de erro {#FAQ}
 
