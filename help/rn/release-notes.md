@@ -2,10 +2,10 @@
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: 349eb8778a19263b83b70b8c920c401aff7fa24a
+source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 100%
+source-wordcount: '49'
+ht-degree: 61%
 
 ---
 
@@ -13,20 +13,8 @@ ht-degree: 100%
 
 Esta página lista todos os novos recursos e melhorias do Painel de controle.
 
-## Fevereiro de 2023 {#february-2023}
+## Março de 2023 {#march-2023}
 
-**Remoção de delegação para subdomínios delegados à Adobe**
+**Remoção de delegação de subdomínio para CNAMEs**
 
-Agora é possível remover a delegação de um subdomínio que está totalmente delegado à Adobe. [Saiba mais](../subdomains-certificates/using/remove-delegated-subdomains.md)
-
-![](assets/do-not-localize/gif-delegation.gif)
-
->[!NOTE]
->
->A remoção de delegação não está disponível no momento para subdomínios que foram configurados usando CNAMEs.
-
-**Calendário de serviço**
-
-O calendário de serviço agora fornece uma visualização de calendário para rastrear eventos importantes que ocorrem em suas instâncias. Além disso, foram adicionadas informações sobre as notificações enviadas aos usuários que se inscreveram nos alertas do Painel de controle. [Saiba mais](../service-events/service-events.md)
-
-![](assets/do-not-localize/gif-calendar.gif)
+Agora é possível remover a delegação de subdomínios que foram configurados usando CNAMEs. [Saiba mais](../subdomains-certificates/using/remove-delegated-subdomains.md)
