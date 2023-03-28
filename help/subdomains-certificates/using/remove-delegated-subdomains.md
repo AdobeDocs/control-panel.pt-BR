@@ -6,10 +6,10 @@ description: Saiba como remover a delegação de subdomínios para a Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: dbd1b2dd31cf732609f8a515e9adc1c43cbf39c6
+source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 61%
+source-wordcount: '810'
+ht-degree: 60%
 
 ---
 
@@ -66,14 +66,16 @@ Ao remover uma delegação do tipo CNAME, é necessário **remover estes registr
 
 A tabela abaixo lista as ações a serem executadas, dependendo do tipo de delegação que você está removendo e do tipo de delegação usado para configurar o domínio de substituição.
 
-| Delegação removida | Domínio de substituição | Ação necessária |
+| Delegação removida | Delegação de domínio de substituição | Ação necessária |
 |  ---  |  ---  |  ---  |
-| Completo | Nenhum domínio de substituição | Nenhuma ação necessária |
-| Completo | CNAME | Adicionar registros DNS (opcional com base nas afinidades de IP) |
-| Completo | Completo | Nenhuma ação necessária |
 | CNAME | Nenhum domínio de substituição | Excluir registros DNS |
-| CNAME | CNAME | Excluir e adicionar registros DNS (opcional com base nas afinidades de IP) |
+| CNAME | CNAME | Excluir registros DNS<br/>Adicionar registros DNS *(opcional, dependendo das afinidades de IP)* |
 | CNAME | Completo | Excluir registros DNS |
+| Completo | Nenhum domínio de substituição | Nenhuma ação necessária |
+| Completo | CNAME | Adicionar registros DNS *(opcional, dependendo das afinidades de IP)* |
+| Completo | Completo | Nenhuma ação necessária |
+
+{style="table-layout:auto"}
 
 Para fazer isso, um **[!DNL Action]** etapa é exibida antes de confirmar a remoção da delegação. Essa tela lista os registros DNS a serem removidos ou adicionados, dependendo do contexto.
 
