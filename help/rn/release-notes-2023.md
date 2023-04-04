@@ -3,7 +3,7 @@ title: Notas de versão de 2023
 description: Esta página lista todas as versões de 2023 do Painel de controle do Campaign.
 source-git-commit: 83138e63558125757259849064552904594e2e0b
 workflow-type: ht
-source-wordcount: '0'
+source-wordcount: '134'
 ht-degree: 100%
 
 ---
