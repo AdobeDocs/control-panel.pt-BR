@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '810'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 60%
 >title="Remover delegação de subdomínio"
 >abstract="Essa tela permite remover a delegação de um subdomínio para a Adobe. Lembre-se de que esse processo não pode ser desfeito e é irreversível até que sua execução seja concluída.<br><br>Se estiver tentando remover a delegação de um domínio principal para a instância selecionada, você deverá escolher o domínio que a substituirá."
 
-O Painel de controle do Campaign permite remover a delegação de um subdomínio que foi totalmente delegado ao Adobe ou delegado usando CNAMEs.
+O Painel de controle permite remover a delegação de um subdomínio que foi totalmente delegado à Adobe ou delegado usando CNAMEs.
 
 ## Observações importantes {#important}
 
@@ -48,7 +48,7 @@ Para remover a delegação de um subdomínio para a Adobe, siga estas etapas:
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. Se você estiver removendo uma delegação do tipo CNAME ou se estiver substituindo um domínio primário por um domínio delegado usando CNAMEs, uma **[!UICONTROL Action]** é exibida para gerenciar registros DNS. [Saiba mais nesta seção](#dns)
+1. Se estiver removendo uma delegação do tipo CNAME ou se estiver substituindo um domínio principal por um domínio delegado usando CNAMEs, uma etapa **[!UICONTROL Action]** adicional será exibida para gerenciar registros DNS. [Saiba mais nesta seção](#dns)
 
 1. Revise o resumo exibido. Para confirmar a remoção, digite o URL do domínio para o qual deseja remover a delegação e clique em **[!UICONTROL Submit]**.
 
@@ -60,38 +60,38 @@ Após iniciar a remoção da delegação, o processo pendente é exibido nos log
 
 ## Gerenciamento de registros DNS {#dns}
 
-Para configurar uma delegação de domínio usando CNAMEs, o Painel de controle do Campaign requer a adição de registros específicos ao servidor DNS. [Saiba como configurar subdomínios usando CNAMEs](setting-up-new-subdomain.md#use-cnames)
+Para configurar uma delegação de domínio usando CNAMEs, o Painel de controle precisa que sejam adicionados registros específicos no servidor DNS. [Saiba como configurar subdomínios usando CNAMEs](setting-up-new-subdomain.md#use-cnames)
 
-Ao remover uma delegação do tipo CNAME, é necessário **remover estes registros DNS** do servidor para evitar qualquer problema. Além disso, se desejar remover a delegação de um subdomínio primário e substituí-lo por um domínio que foi delegado usando CNAMEs, talvez seja necessário **adicionar registros DNS** no servidor, dependendo das afinidades de IP definidas para o subdomínio.
+Ao remover uma delegação do tipo CNAME, é necessário **remover esses registros DNS** do servidor para evitar problemas. Além disso, se desejar remover a delegação de um subdomínio principal e substituí-lo por um domínio que foi delegado usando CNAMEs, talvez seja necessário **adicionar registros DNS** no servidor, dependendo das afinidades de IP definidas para o subdomínio.
 
-A tabela abaixo lista as ações a serem executadas, dependendo do tipo de delegação que você está removendo e do tipo de delegação usado para configurar o domínio de substituição.
+A tabela abaixo lista as ações a serem executadas, dependendo do tipo de delegação que você está removendo e do tipo de delegação usado para configurar o domínio substituto.
 
-| Delegação removida | Delegação de domínio de substituição | Ação necessária |
+| Delegação removida | Delegação do domínio substituto | Ação necessária |
 |  ---  |  ---  |  ---  |
-| CNAME | Nenhum domínio de substituição | Excluir registros DNS |
-| CNAME | CNAME | Excluir registros DNS<br/>Adicionar registros DNS *(opcional, dependendo das afinidades de IP)* |
+| CNAME | Nenhum domínio substituto | Excluir registros DNS |
+| CNAME | CNAME | Excluir registros DNS <br/>Adicionar registros DNS *(opcional, dependendo das afinidades de IP)* |
 | CNAME | Completo | Excluir registros DNS |
-| Completo | Nenhum domínio de substituição | Nenhuma ação necessária |
+| Completo | Nenhum domínio substituto | Nenhuma ação necessária |
 | Completo | CNAME | Adicionar registros DNS *(opcional, dependendo das afinidades de IP)* |
 | Completo | Completo | Nenhuma ação necessária |
 
 {style="table-layout:auto"}
 
-Para fazer isso, um **[!DNL Action]** etapa é exibida antes de confirmar a remoção da delegação. Essa tela lista os registros DNS a serem removidos ou adicionados, dependendo do contexto.
+Para fazer isso, uma etapa **[!DNL Action]** adicional será exibida antes de confirmar a remoção da delegação. Essa tela lista os registros DNS a serem removidos ou adicionados, dependendo do contexto.
 
 ![](assets/action-step.png)
 
 ### Excluir registros DNS
 
-1. Navegue até o servidor DNS e remova os registros listados no Painel de controle do Campaign.
-1. Volte para Painel de controle e clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
+1. Navegue até o servidor DNS e remova os registros listados no Painel de controle.
+1. Volte para o Painel de controle e clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
 
 ### Adicionar registros DNS
 
-1. Navegue até o servidor DNS e adicione os registros listados no Painel de controle do Campaign.
-1. Aguarde a adição de DNS entrar em vigor.
-1. Volte para Painel de controle e clique em **[!UICONTROL Verify]**.
-1. Depois que a adição dos registros for verificada com êxito, clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
+1. Navegue até o servidor DNS e adicione os registros listados no Painel de controle.
+1. Aguarde a conclusão da adição de DNS.
+1. Volte para o Painel de controle e clique em **[!UICONTROL Verify]**.
+1. Depois que a adição dos registros for confirmada com sucesso, clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
 
 ## Códigos de erro {#FAQ}
 
