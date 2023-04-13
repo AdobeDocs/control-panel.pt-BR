@@ -6,10 +6,11 @@ description: Saiba como remover a delegação de subdomínios para a Adobe.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: 4cf7fc767deaff12ca63c844e5c0842eea558078
-workflow-type: ht
-source-wordcount: '810'
-ht-degree: 100%
+exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
+source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+workflow-type: tm+mt
+source-wordcount: '818'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +35,7 @@ Antes de continuar, considere cuidadosamente os impactos que ocorrem assim que o
 
 Para remover a delegação de um subdomínio para a Adobe, siga estas etapas:
 
-1. Clique no botão de reticências ao lado da delegação de domínio que deseja remover e selecione **[!UICONTROL Remove delegated subdomain]**.
+1. Clique no botão de reticências ao lado da delegação de domínio que deseja remover e selecione **[!UICONTROL Remove delegation]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -77,7 +78,7 @@ A tabela abaixo lista as ações a serem executadas, dependendo do tipo de deleg
 
 {style="table-layout:auto"}
 
-Para fazer isso, uma etapa **[!DNL Action]** adicional será exibida antes de confirmar a remoção da delegação. Essa tela lista os registros DNS a serem removidos ou adicionados, dependendo do contexto.
+Se uma dessas ações for necessária para remover a delegação, um **[!DNL Action]** etapa é exibida antes de confirmar a remoção da delegação. Essa tela lista os registros DNS a serem removidos ou adicionados, dependendo do contexto.
 
 ![](assets/action-step.png)
 
