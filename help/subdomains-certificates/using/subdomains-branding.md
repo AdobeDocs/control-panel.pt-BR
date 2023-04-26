@@ -10,7 +10,7 @@ exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
 workflow-type: tm+mt
 source-wordcount: '729'
-ht-degree: 75%
+ht-degree: 78%
 
 ---
 
@@ -56,8 +56,8 @@ Em caso de dúvidas relacionadas aos métodos de configuração do subdomínio, 
 
 >[!CONTEXTUALHELP]
 >id="cp_add_subdomain_usecase_selection"
->title="Selecione o caso de uso para seu subdomínio"
->abstract="Separar os subdomínios por casos de uso é uma prática recomendada para o delivery. A reputação de cada subdomínio é isolada e protegida."
+>title="Selecionar o caso de uso para seu subdomínio"
+>abstract="Separar os subdomínios por casos de uso é uma prática recomendada de entregabilidade. A reputação de cada subdomínio é isolada e protegida."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/setting-up-new-subdomain.html?lang=pt-BR" text="Configurar um novo subdomínio"
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/subdomains-branding.html?lang=pt-BR" text="Marca de subdomínios"
 

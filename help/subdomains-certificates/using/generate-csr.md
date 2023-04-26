@@ -18,7 +18,7 @@ ht-degree: 59%
 
 >[!CONTEXTUALHELP]
 >id="cp_generate_csr"
->title="Geração de RSE"
+>title="Geração de CSR"
 >abstract="A Solicitação de assinatura de certificado deve ser gerada para a instância e os subdomínios que você pretende proteger antes de adquirir um certificado."
 
 >[!CONTEXTUALHELP]

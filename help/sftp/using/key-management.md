@@ -10,7 +10,7 @@ exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1054'
-ht-degree: 36%
+ht-degree: 41%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 36%
 >[!CONTEXTUALHELP]
 >id="cp_key_management"
 >title="Sobre o gerenciamento de chaves públicas"
->abstract="Nesta guia, crie, gerencie e edite suas chaves públicas."
+>abstract="Nessa guia, crie, gerencie e edite suas chaves públicas."
 >additional-url="https://images-tv.adobe.com/mpcv3/8a977e03-d76c-44d3-853c-95d0b799c870_1560205338.1920x1080at3000_h264.mp4#t=166" text="Assista ao vídeo de demonstração"
 
 A Adobe recomenda que todos os clientes estabeleçam conexão com os servidores SFTP usando um **par de chaves públicas e privadas**.
