@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: 803068a1f6dec68afba11a4ea49edae1eafcedd5
+source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 100%
+source-wordcount: '555'
+ht-degree: 80%
 
 ---
 
@@ -21,7 +21,10 @@ ht-degree: 100%
 >title="Contas externas"
 >abstract="Nesta tela, os clientes com modelo de hospedagem híbrida podem fornecer o URL da instância MID/RT configurado na instância de marketing do Painel de controle para aproveitar seus recursos."
 
-O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle.
+O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, você precisa:
+
+* [Forneça o URL da instância MID/RT](#add) configurado na sua instância de marketing no Painel de controle do Campaign,
+* [Adicionar o endereço IP da instância MID/RT à lista de permissões](#ip) para permitir que a instância de marketing se conecte a ela.
 
 Para obter mais informações sobre modelos de hospedagem, consulte a [Documentação do Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=pt-BR).
 
@@ -85,6 +88,14 @@ Você pode remover ou desativar um URL de instância MID/RT a qualquer momento, 
 Observe que é possível monitorar qualquer ação executada na guia **[!UICONTROL External Accounts]** em um URL de instância MID/RT a partir do **[!UICONTROL Job Logs]**:
 
 ![](assets/external-account-logs.png)
+
+## Adicionar o endereço IP à lista de permissões {#ip}
+
+Depois que a instância MID/RT for adicionada, será necessário adicionar seu endereço IP à lista de permissões para que sua instância de marketing possa se conectar a ela.
+
+Isso pode ser executado do **[!UICONTROL IP Allow Listing]** na guia no **[!UICONTROL Instances Settings]** cartão. [Saiba como adicionar endereços IP à lista de permissões](ip-allow-listing-instance-access.md)
+
+Depois de concluído, você poderá usar os recursos do Painel de controle do Campaign com sua instância MID/RT.
 
 ## Recursos disponíveis para clientes híbridos {#capabilities}
 
