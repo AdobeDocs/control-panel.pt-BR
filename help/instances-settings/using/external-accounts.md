@@ -8,9 +8,9 @@ role: Architect
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: 96d18b56f70a6a8bf0270a5c94f5ba16923d0e9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '555'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 80%
 
 O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, você precisa:
 
-* [Forneça o URL da instância MID/RT](#add) configurado na sua instância de marketing no Painel de controle do Campaign,
+* [Fornecer o URL da instância MID/RT](#add) configurado na sua instância de marketing no Painel de controle,
 * [Adicionar o endereço IP da instância MID/RT à lista de permissões](#ip) para permitir que a instância de marketing se conecte a ela.
 
 Para obter mais informações sobre modelos de hospedagem, consulte a [Documentação do Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/architecture-and-hosting-models/hosting-models-lp/hosting-models.html?lang=pt-BR).
@@ -93,9 +93,9 @@ Observe que é possível monitorar qualquer ação executada na guia **[!UICONTR
 
 Depois que a instância MID/RT for adicionada, será necessário adicionar seu endereço IP à lista de permissões para que sua instância de marketing possa se conectar a ela.
 
-Isso pode ser executado do **[!UICONTROL IP Allow Listing]** na guia no **[!UICONTROL Instances Settings]** cartão. [Saiba como adicionar endereços IP à lista de permissões](ip-allow-listing-instance-access.md)
+Isso pode ser feito a partir da guia **[!UICONTROL IP Allow Listing]** no cartão **[!UICONTROL Instances Settings]**. [Saiba como adicionar endereços IP à lista de permissões](ip-allow-listing-instance-access.md)
 
-Depois de concluído, você poderá usar os recursos do Painel de controle do Campaign com sua instância MID/RT.
+Após concluído, será possível usar os recursos do Painel de controle com sua instância MID/RT.
 
 ## Recursos disponíveis para clientes híbridos {#capabilities}
 
