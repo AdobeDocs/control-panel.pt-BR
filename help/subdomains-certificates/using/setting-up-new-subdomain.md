@@ -19,7 +19,7 @@ ht-degree: 92%
 >[!CONTEXTUALHELP]
 >id="cp_subdomain_management"
 >title="Configurar novos subdomínios e gerenciar certificados"
->abstract="É necessário configurar um novo subdomínio e gerenciar os certificados SSL dos subdomínios para iniciar a enviar emails ou publicar landing pages com o Adobe Campaign."
+>abstract="É necessário configurar um novo subdomínio e gerenciar os certificados SSL dos subdomínios para começar a enviar emails ou publicar páginas de destino com o Adobe Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/subdomains-and-certificates/monitoring-ssl-certificates.html?lang=pt-BR" text="Monitorar certificados SSL"
 
 ## Leitura obrigatória {#must-read}
@@ -162,7 +162,7 @@ Depois que o subdomínio for enviado, várias verificações e etapas de configu
 
    >[!NOTE]
    >
-   >Observe que enquanto a configuração do subdomínio é executada, outras solicitações do Painel de controle do Campaign serão inseridas em uma fila e executadas somente após a conclusão da configuração do subdomínio para evitar problemas de desempenho.
+   >Observe que enquanto a configuração de subdomínio for executada, outras solicitações do Painel de controle do Campaign serão inseridas em uma fila e executadas somente após a conclusão da configuração de subdomínio, para evitar problemas de desempenho.
 
 1. Se as verificações forem bem-sucedidas, o Painel de controle começará a configurar o subdomínio com registros DNS, URLs adicionais, caixas de entrada etc.
 
@@ -178,7 +178,7 @@ Depois que o subdomínio for enviado, várias verificações e etapas de configu
    >
    >As verificações de capacidade de delivery realizadas incluem loops de feedback e testes de loops de reclamação de spam. Portanto, não recomendamos a utilização do subdomínio antes da conclusão da auditoria, uma vez que poderá resultar em má reputação do subdomínio.
    >
-   >No entanto, observe que você pode executar operações relacionadas a certificados SSL em seu subdomínio, mesmo que a auditoria de deliverability ainda esteja sendo processada.
+   >No entanto, observe que você pode executar operações relacionadas aos certificados SSL em seu subdomínio, mesmo que a auditoria de entrega ainda esteja sendo processada.
 
 1. No final do processo, os subdomínios serão configurados para funcionar com a instância do Adobe Campaign e os elementos abaixo serão criados:
 
