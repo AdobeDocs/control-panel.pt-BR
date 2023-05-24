@@ -10,7 +10,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
 workflow-type: tm+mt
 source-wordcount: '1048'
-ht-degree: 38%
+ht-degree: 40%
 
 ---
 
@@ -32,7 +32,7 @@ CIDR (Roteamento interdomínio sem classe) é o formato aceito ao adicionar inte
 
 A sintaxe consiste em um endereço IP seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr){target="_blank"}.
 
-Você pode procurar na Internet ferramentas online gratuitas que ajudarão a converter o intervalo IP disponível para o formato CIDR.
+Você pode pesquisar na Internet ferramentas online gratuitas que ajudarão você a converter o intervalo IP disponível para o formato CIDR.
 
 ## Práticas recomendadas {#best-practices}
 
@@ -41,7 +41,7 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 * **Adicione intervalos IP à lista de permissões** em vez de endereços IP únicos. Para adicionar um único endereço IP à lista de permissões, anexe um &#39;/32&#39; a ela para indicar que o intervalo inclui apenas um único IP.
 * **Não adicione intervalos muito amplos à lista de permissões**, por exemplo, incluindo > 265 endereços IP. O Painel de controle rejeitará qualquer intervalo no formato CIDR que esteja entre /0 e /23.
 * Somente **endereços IP públicos** podem ser adicionados à lista de permissões.
-* Certifique-se de **excluir endereços IP regularmente** que você não precisa mais da lista de permissões.
+* Verifique se **excluir endereços IP regularmente** que você não precisa mais da lista de permissões.
 
 ## Adicionar endereços IP à lista de permissões {#adding-ip-addresses-allow-list}
 
@@ -57,7 +57,7 @@ Para adicionar um intervalo IP à lista de permissões, siga estas etapas:
 
    ![](assets/control_panel_add_range.png)
 
-1. Defina o intervalo IP que deseja adicionar à lista de permissões. Esse campo aceita apenas intervalos IP no formato CIDR, como *192.150.5.0/24*.
+1. Defina o intervalo IP que deseja adicionar à lista de permissões. Este campo aceita apenas intervalos IP no formato CIDR, como *192.150.5.0/24*.
 
    ![](assets/control_panel_add_range4.png)
 
@@ -69,54 +69,54 @@ Para adicionar um intervalo IP à lista de permissões, siga estas etapas:
 
    ![](assets/control_panel_add_range3.png)
 
-1. Defina o rótulo que será exibido para esse intervalo IP na lista.
+1. Defina o rótulo que será exibido para este intervalo IP na lista.
 
    ![](assets/control_panel_add_range2.png)
 
    >[!NOTE]
    >
-   >Os seguintes caracteres especiais são permitidos na variável **[!UICONTROL Label]** campo :
+   >Os seguintes caracteres especiais são permitidos na **[!UICONTROL Label]** campo:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Para gerenciar melhor sua lista de permissões IP, você pode definir uma duração para a disponibilidade de cada intervalo IP. Para fazer isso, selecione uma unidade no **[!UICONTROL Type]** lista suspensa e defina uma duração no campo correspondente. Para obter mais informações sobre a expiração do intervalo de IP, consulte [esta seção](#expiry).
+1. Para gerenciar melhor sua lista de permissões de IP, você pode definir uma duração para a disponibilidade de cada intervalo de IP. Para fazer isso, selecione uma unidade na caixa **[!UICONTROL Type]** e defina uma duração no campo correspondente. Para obter mais informações sobre a expiração do intervalo de IP, consulte [nesta seção](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >Por padrão, a variável **[!UICONTROL Type]** estiver definido como **[!UICONTROL Unlimited]**, o que significa que o intervalo IP nunca expira.
+   >Por padrão, a variável **[!UICONTROL Type]** o campo está definido como **[!UICONTROL Unlimited]**, o que significa que o intervalo IP nunca expira.
 
-1. No **[!UICONTROL Comment]** , é possível indicar um motivo para permitir esse intervalo de IP (por quê, para quem etc.).
+1. No **[!UICONTROL Comment]** você pode indicar um motivo para permitir esse intervalo IP (por quê, para quem etc.).
 
-1. Clique no botão **[!UICONTROL Save]**. O intervalo IP adicionado à lista de permissões será exibido como **[!UICONTROL Pending]** até que a solicitação seja totalmente processada, o que deve levar apenas alguns segundos.
+1. Clique no botão **[!UICONTROL Save]**. A adição do intervalo IP à lista de permissões será exibida como **[!UICONTROL Pending]** até que a solicitação seja totalmente processada, o que deve levar apenas alguns segundos.
 
    ![](assets/control_panel_add_range6.png)
 
 >[!IMPORTANT]
 >
->Se você estiver tentando conectar os servidores SFTP a um novo sistema e, portanto, adicionar novos intervalos IP à lista de permissões, talvez seja necessário inserir novas chaves públicas para concluir a conexão. Para obter mais informações, consulte [esta seção](key-management.md).
+>Se estiver tentando conectar os servidores SFTP a um novo sistema e, portanto, adicionar novos intervalos IP à lista de permissões, talvez seja necessário inserir novas chaves públicas para concluir a conexão. Para obter mais informações, consulte [esta seção](key-management.md).
 
-## Gerenciamento de intervalos IP {#managing-ip-ranges}
+## Gerenciamento de intervalos de IP {#managing-ip-ranges}
 
-Os intervalos IP criados são exibidos na **[!UICONTROL IP Allow Listing]** guia .
+Os intervalos IP criados são exibidos no campo **[!UICONTROL IP Allow Listing]** guia.
 
-Você pode classificar os itens com base na data de criação ou na data de edição, no usuário que a criou ou editou e na expiração do intervalo de IP.
+Você pode classificar os itens com base na data de criação ou data de edição, no usuário que os criou ou editou e na expiração do intervalo de IP.
 
-Também é possível pesquisar um intervalo IP começando a digitar um rótulo, um intervalo, um nome ou um comentário.
+Você também pode pesquisar um intervalo IP começando a digitar um rótulo, um intervalo, um nome ou um comentário.
 
 ![](assets/control_panel_allow_list_sort.png)
 
-Para editar um ou mais intervalos IP, consulte [esta seção](#editing-ip-ranges).
+Para editar um ou mais intervalos IP, consulte [nesta seção](#editing-ip-ranges).
 
-Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no botão **[!UICONTROL Delete IP range]** botão.
+Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no link **[!UICONTROL Delete IP range]** botão.
 
 ![](assets/control_panel_delete_range.png)
 
 ### Expiração {#expiry}
 
-O **[!UICONTROL Expires]** mostra quantos dias restam até que o intervalo IP expire.
+A variável **[!UICONTROL Expires]** mostra quantos dias restam até que o intervalo IP expire.
 
-Se você se inscreveu em [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email 10 dias e 5 dias antes de um intervalo de IP expirar e no dia em que ele expirar. Ao receber o alerta, você pode [editar o intervalo IP](#editing-ip-ranges) Prorrogar o seu período de validade, se necessário.
+Se você se inscreveu no [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email 10 dias e 5 dias antes que um intervalo IP expire e no dia em que ele estiver prestes a expirar. Ao receber o alerta, você pode [editar o intervalo IP](#editing-ip-ranges) prorrogar o seu período de validade, se necessário.
 
 Um intervalo IP expirado será excluído automaticamente após 7 dias. É mostrado como **[!UICONTROL Expired]** no **[!UICONTROL Expires]** coluna. Neste período de 7 dias:
 
@@ -124,7 +124,7 @@ Um intervalo IP expirado será excluído automaticamente após 7 dias. É mostra
 
 * Não é possível criar outro intervalo IP que sobreponha um intervalo expirado. Primeiro, é necessário excluir o intervalo IP expirado antes de criar o novo.
 
-* Você pode [editar](#editing-ip-ranges) um intervalo IP expirado e atualize sua duração para disponibilizá-lo novamente.
+* Você pode [editar](#editing-ip-ranges) um intervalo IP expirado e atualize sua duração para torná-lo disponível novamente.
 
 * Você pode excluí-lo da lista de permissões.
 
@@ -139,11 +139,11 @@ Para editar intervalos IP, siga as etapas abaixo.
 
 >[!NOTE]
 >
->Você só pode editar intervalos IP criados desde a versão de outubro de 2021 do Painel de controle do Campaign.
+>Você só pode editar intervalos IP que foram criados desde a versão de outubro de 2021 do Painel de controle do Campaign.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Selecione um ou mais intervalos IP no **[!UICONTROL IP Allow Listing]** lista.
+1. Selecione um ou mais intervalos IP na **[!UICONTROL IP Allow Listing]** lista.
 
 1. Clique no botão **[!UICONTROL Update IP range]**.
 
@@ -153,7 +153,7 @@ Para editar intervalos IP, siga as etapas abaixo.
 
    >[!NOTE]
    >
-   >Para modificar o formato CIDR, seu rótulo ou editar a(s) instância(s) relacionada(s), primeiro você deve excluir o intervalo IP e criar um novo que corresponda às suas necessidades.
+   >Para modificar o formato CIDR, seu rótulo ou editar as instâncias relacionadas, primeiro exclua o intervalo IP e crie um novo intervalo que corresponda às suas necessidades.
 
    ![](assets/control_panel_edit_range2.png)
 
@@ -161,7 +161,7 @@ Para editar intervalos IP, siga as etapas abaixo.
 
 ## Monitoramento de alterações {#monitoring-changes}
 
-O **[!UICONTROL Job Logs]** na página inicial do Painel de controle do Campaign, é possível rastrear e monitorar todas as alterações feitas em endereços IP na lista de permissões.
+A variável **[!UICONTROL Job Logs]** na home page do Painel de controle do Campaign, é possível rastrear e monitorar todas as alterações feitas em endereços IP na lista de permissões.
 
 Para obter mais informações sobre a interface do Painel de controle, consulte [esta seção](../../discover/using/discovering-the-interface.md).
 

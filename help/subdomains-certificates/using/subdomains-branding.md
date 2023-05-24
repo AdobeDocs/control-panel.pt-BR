@@ -39,7 +39,7 @@ A configuração de subdomínio permite configurar uma subseção do seu domíni
 
 * **Delegação completa do subdomínio para o Adobe Campaign** (recomendado): o subdomínio é totalmente delegado à Adobe. A Adobe pode disponibilizar o Campaign como um serviço gerenciado controlando e mantendo todos os aspectos do DNS necessários para fornecer, renderizar e rastrear campanhas de email.
 
-* **Uso de CNAMEs**: Crie um subdomínio e use CNAMEs para apontar para registros específicos do Adobe. Usando essa configuração, a Adobe e o cliente compartilham a responsabilidade pela manutenção do DNS.
+* **Uso de CNAMEs**: crie um subdomínio e use CNAMEs para apontar para registros específicos de Adobe. Usando essa configuração, a Adobe e o cliente compartilham a responsabilidade pela manutenção do DNS.
 
 A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o nível de esforço necessário:
 
@@ -50,7 +50,7 @@ A tabela abaixo apresenta um resumo de como esses métodos funcionam, bem como o
 
 Informações adicionais sobre a configuração de domínio estão disponíveis em [esta documentação](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/product-specific-resources/campaign/ac-domain-name-setup.html).
 
-Em caso de dúvidas relacionadas aos métodos de configuração do subdomínio, entre em contato com a equipe de Deliverability do Adobe ou entre em contato com o Atendimento ao cliente para solicitar consultoria sobre Deliverability.
+Se você tiver qualquer dúvida sobre os métodos de configuração de subdomínio, entre em contato com a equipe de avaliação de entrega do Adobe ou, eventualmente, entre em contato com o Atendimento ao cliente para solicitar a consultoria de avaliação de entrega.
 
 ## Casos de uso de subdomínios (Campaign v7/v8){#subdomains-use-cases}
 

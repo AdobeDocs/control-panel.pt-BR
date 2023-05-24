@@ -4,8 +4,8 @@ description: Esta página lista todas as versões de 2019 do Painel de controle.
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '150'
+ht-degree: 100%
 
 ---
 

@@ -4,8 +4,8 @@ description: Esta página lista todas as versões de 2021 do Painel de controle.
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 100%
 
 ---
 

@@ -10,7 +10,7 @@ exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a6a77cf6e564f4607c0c12facb2061cfb102a5a5
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 90%
 
 O Adobe Campaign recomenda proteger os subdomínios que hospedam suas landing pages, especialmente aqueles que estão coletando informações confidenciais dos clientes.
 
-**Criptografia SSL (Secure Socket Layer)** garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma landing page hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
+**Criptografia SSL (Secure Socket Layer)** A garante a segurança dos subdomínios configurados para trabalhar com o Adobe. Quando o cliente preenche um formulário da Web ou visita uma landing page hospedada pelo Adobe Campaign, por padrão as informações são enviadas por protocolo não seguro (HTTP). Para garantir ainda mais segurança, proteja as informações enviadas com um protocolo HTTPS. Por exemplo, o endereço de subdomínio &quot;http://info.mywebsite.com/&quot; agora será &quot;https://info.mywebsite.com/&quot;.
 
 **Os certificados SSL não são instalados nos próprios subdomínios configurados**. Eles são instalados em subdomínios associados, principalmente aqueles que hospedam landing pages, páginas de recursos e outros.
 

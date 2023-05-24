@@ -10,7 +10,7 @@ exl-id: af440b5d-1d21-44fb-831f-f2bdd6011b82
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 89%
+ht-degree: 90%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 89%
 Depois que um certificado SSL for adquirido, você poderá instalá-lo em sua instância. Antes de continuar, verifique os pré-requisitos abaixo:
 
 * A Solicitação de assinatura de certificado (CSR) deve ter sido gerada pelo Painel de controle. Caso contrário, você não poderá instalar o certificado pelo Painel de controle.
-* A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi configurado para funcionar com o Adobe. Por exemplo, ele não pode conter mais subdomínios do que o configurado.
+* A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi configurado para funcionar com o Adobe. Por exemplo, ele não pode conter mais subdomínios do que o que foi configurado.
 * O certificado deve ter uma data atual. Não é possível instalar certificados com datas futuras e eles não devem estar expirados (ou seja, datas de início e término devem ser válidas).
 * O certificado deve ser emitido por uma autoridade de certificação (CA) confiável, como Comodo, DigiCert, Goaddy, etc.
 * O tamanho do certificado deve ser de 2048 bits e o algoritmo deve ser RSA.

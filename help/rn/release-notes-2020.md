@@ -4,8 +4,8 @@ description: Esta página lista todas as versões de 2020 do Painel de controle.
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
 source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '429'
+ht-degree: 100%
 
 ---
 

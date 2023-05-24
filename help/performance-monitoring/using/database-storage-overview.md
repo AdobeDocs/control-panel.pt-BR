@@ -2,7 +2,7 @@
 product: campaign
 solution: Campaign
 title: Visão geral de armazenamento
-description: Saiba como monitorar no Painel de controle do Campaign os diferentes recursos do Campaign que estão consumindo espaço no banco de dados em suas instâncias.
+description: Saiba como monitorar no Painel de controle os diferentes recursos do Campaign que estão consumindo espaço no banco de dados em suas instâncias.
 feature: Control Panel
 role: Architect
 level: Experienced
@@ -35,7 +35,7 @@ A área **[!UICONTROL Storage overview]** fornece uma representação gráfica d
 
 Clique no botão **[!UICONTROL View details]** para obter mais detalhes sobre os diferentes assets que estão consumindo espaço no banco de dados.
 
-Você pode usar a lista suspensa para refinar suas tabelas de pesquisa e exibição somente de um tipo de ativo específico (fluxos de trabalho, deliveries, recipients).
+Você pode usar a lista suspensa para refinar suas tabelas de pesquisa e exibição somente de um tipo de ativo específico (workflows, deliveries, recipients).
 
 ![](assets/database-storage-details.png)
 

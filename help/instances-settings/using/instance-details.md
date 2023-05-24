@@ -33,7 +33,7 @@ A funcionalidade Detalhes da instância permite a visualização de uma arquitet
 
 >[!NOTE]
 >
->Recomendamos que suas instâncias sejam atualizadas pelo menos uma vez por ano para evitar a degradação do desempenho e aproveitar os recursos e correções mais recentes que o Adobe Campaign v7/v8 tem a oferecer.
+>Recomendamos atualizar as instâncias pelo menos uma vez por ano para evitar a degradação do desempenho e aproveitar os recursos e as correções mais recentes que o Adobe Campaign v7/v8 tem a oferecer.
 
 **Tópicos relacionados:**
 
