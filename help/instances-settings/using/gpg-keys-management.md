@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
-source-git-commit: 5d2f0d08b7f9ae78fecfaa169190d6248ec4505b
+source-git-commit: e6b518e8a935b523972302c8efa92a889d36735f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1205'
 ht-degree: 16%
 
 ---
@@ -64,6 +64,11 @@ Para fazer isso, você precisa gerar um par de chaves GPG de uma ferramenta de c
    * **comprimento da chave**: 3072 - 4096 bits
    * **nome verdadeiro** e **endereço de email**: permite rastrear quem criou o par de chaves. Insira um nome e endereço de email vinculados à sua organização ou departamento.
    * **comentário**: adicionar um rótulo ao campo de comentário ajudará você a identificar facilmente a chave a ser usada para criptografar seus dados.
+
+      >[!IMPORTANT]
+      >
+      >Verifique se esse campo não está vazio e se um comentário foi preenchido.
+
    * **expiração**: data ou &quot;0&quot; para nenhuma data de expiração.
    * **senha**
 
