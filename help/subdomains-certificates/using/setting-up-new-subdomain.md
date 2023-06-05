@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 05c199984ec1282a0135841dd168430dec374a2e
+source-git-commit: 503280181293df6ec5ffaf6c148042d54c5c1958
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 81%
+source-wordcount: '1523'
+ht-degree: 80%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 81%
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
 >title="Delegar certificados SSL de subdomínios para o Adobe"
->abstract="O Painel de controle do Campaign permite que os certificados SSL de subdomínios sejam gerenciados pelo Adobe. Se você estiver usando CNAMEs para configurar o subdomínio, os registros de certificados serão gerados e fornecidos automaticamente para gerar um certificado na solução de hospedagem de domínio."
+>abstract="O Painel de controle do Campaign permite que os certificados SSL de subdomínios sejam gerenciados pelo Adobe. Se você estiver usando CNAMEs para configurar o subdomínio, os registros de certificados serão gerados e fornecidos automaticamente para gerar um certificado na solução de hospedagem de domínio. Observe que esse recurso só está disponível ao configurar um novo subdomínio. Não é possível delegar certificados para subdomínios delegados existentes."
 
 ## Leitura obrigatória {#must-read}
 
