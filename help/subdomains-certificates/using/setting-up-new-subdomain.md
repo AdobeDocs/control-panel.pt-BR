@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 3adb780dbff27cf40d519af1bc59e0946110604a
+source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 76%
+source-wordcount: '1628'
+ht-degree: 75%
 
 ---
 
@@ -44,13 +44,13 @@ Se a instância selecionada no assistente não tiver subdomínios configurados a
 
 ### Delegar certificados SSL de subdomínios para o Adobe
 
-Ao configurar um novo subdomínio, você pode ter o certificado SSL gerenciado pelo Adobe. Isso é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes que ele expire.
+Ao configurar um novo subdomínio, você pode ter o certificado SSL gerenciado pelo Adobe. Isso é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes que ele expire. Observe que a delegação de certificados SSL só está disponível ao configurar um novo subdomínio. Não está disponível para subdomínios já delegados.
 
 Se você estiver usando CNAMEs para configurar uma delegação de subdomínio, o Adobe fornecerá registros de certificado para usar em sua solução de hospedagem de domínio para gerar seu certificado.
 
 >[!NOTE]
 >
->A delegação de certificados SSL só está disponível ao configurar um novo subdomínio. Não está disponível para subdomínios já delegados.
+>O SSL gerenciado por Adobe é um recurso gratuito que está disponível para os usuários gratuitamente.
 
 ### Configuração de nameserver
 
