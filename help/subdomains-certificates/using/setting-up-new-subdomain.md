@@ -10,7 +10,7 @@ exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 47a11cbafe3c81aba81c2f16c83e7d31e571fb95
 workflow-type: tm+mt
 source-wordcount: '1628'
-ht-degree: 75%
+ht-degree: 80%
 
 ---
 
@@ -25,8 +25,8 @@ ht-degree: 75%
 
 >[!CONTEXTUALHELP]
 >id="cp_managed_ssl"
->title="Delegar certificados SSL de subdomínios para o Adobe"
->abstract="O Painel de controle do Campaign permite que os certificados SSL de subdomínios sejam gerenciados pelo Adobe. Se você estiver usando CNAMEs para configurar o subdomínio, os registros de certificados serão gerados e fornecidos automaticamente para gerar um certificado na solução de hospedagem de domínio. Observe que esse recurso só está disponível ao configurar um novo subdomínio. Não é possível delegar certificados para subdomínios delegados existentes."
+>title="Delegação de certificados SSL de subdomínios para a Adobe"
+>abstract="O Painel de controle permite que os certificados SSL de subdomínios sejam gerenciados pela Adobe. Se estiver usando CNAMEs para configurar o subdomínio, os registros de certificados serão gerados e fornecidos automaticamente para gerar um certificado na sua solução de hospedagem de domínio. Observe que esse recurso só está disponível ao configurar um novo subdomínio. Não é possível delegar certificados para subdomínios delegados já existentes."
 
 ## Leitura obrigatória {#must-read}
 
@@ -42,7 +42,7 @@ A configuração de subdomínio está disponível somente para instâncias de **
 
 Se a instância selecionada no assistente não tiver subdomínios configurados anteriormente, o primeiro subdomínio configurado se tornará o **subdomínio primário** para essa instância e você não poderá alterá-lo no futuro. Como resultado, **registros de DNS reverso** serão criados para outros subdomínios usando esse subdomínio principal. **Endereços de resposta e de rejeição** para outros subdomínios serão gerados com base no subdomínio principal.
 
-### Delegar certificados SSL de subdomínios para o Adobe
+### Delegação de certificados SSL de subdomínios para a Adobe
 
 Ao configurar um novo subdomínio, você pode ter o certificado SSL gerenciado pelo Adobe. Isso é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes que ele expire. Observe que a delegação de certificados SSL só está disponível ao configurar um novo subdomínio. Não está disponível para subdomínios já delegados.
 
