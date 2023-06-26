@@ -2,14 +2,26 @@
 title: Notas de versão de 2023
 description: Esta página lista todas as versões de 2023 do Painel de controle do Campaign.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: f43dbc1d28ff22ca1f9092d6ca416c43eed2ebec
-workflow-type: ht
-source-wordcount: '156'
-ht-degree: 100%
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+workflow-type: tm+mt
+source-wordcount: '242'
+ht-degree: 99%
 
 ---
 
 # Notas de versão de 2023 {#rn-2023}
+
+## Melhorias em maio de 2023 {#june-2023}
+
+**Delegação de certificados SSL de subdomínios para a Adobe**
+
+Agora, é possível ter os certificados SSL dos subdomínios gerenciados pela Adobe. Se estiver usando CNAMEs para configurar o subdomínio, os registros de certificados serão gerados e fornecidos automaticamente para gerar um certificado na sua solução de hospedagem de domínio.
+
+Observe que esse recurso só está disponível ao configurar um novo subdomínio. Não é possível delegar certificados para subdomínios já delegados. [Saiba mais](../subdomains-certificates/using/setting-up-new-subdomain.md)
+
+>[!NOTE]
+>
+>O SSL gerenciado pela Adobe é um recurso gratuito que está disponível para os usuários.
 
 ## Março de 2023 {#march-2023}
 

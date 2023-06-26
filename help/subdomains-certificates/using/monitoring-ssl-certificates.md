@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 0628e9eb12da4dcc33b2ea21c9ef31bb7ba4f9c4
+source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 71%
+source-wordcount: '413'
+ht-degree: 84%
 
 ---
 
@@ -28,17 +28,9 @@ O Adobe Campaign recomenda proteger os subdomínios que hospedam suas landing pa
 
 ![](assets/no_certificate.png)
 
-## Delegar certificados SSL de subdomínios para o Adobe
+## Delegação de certificados SSL de subdomínios para a Adobe
 
-Ao configurar um novo subdomínio, você pode ter o certificado SSL gerenciado pelo Adobe. Isso é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes que ele expire.
-
-Se você estiver usando CNAMEs para configurar uma delegação de subdomínio, o Adobe fornecerá registros de certificado para usar em sua solução de hospedagem de domínio para gerar seu certificado.
-
->[!NOTE]
->
->A delegação de certificados SSL só está disponível ao configurar um novo subdomínio. Não está disponível para subdomínios já delegados.
-
-A delegação de certificados SSL é ativada ao configurar um novo subdomínio. Saiba como proceder em [nesta seção](setting-up-new-subdomain.md).
+Delegar os certificados SSL dos subdomínios para o Adobe é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes da expiração do certificado. [Saiba como delegar certificados SSL de subdomínios para o Adobe](delegate-ssl.md)
 
 ## Monitoramento de certificados SSL {#monitoring-certificates}
 
