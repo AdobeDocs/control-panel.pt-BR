@@ -7,9 +7,9 @@ feature: Control Panel
 role: Architect
 level: Beginner
 source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '165'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 96%
    + [Gerenciar registros TXT](subdomains-certificates/using/managing-txt-records.md)
    + Gerenciar certificados SSL {#manage-certificates}
       + [Monitorar certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
-      + [Delegar certificados SSL ao Adobe](subdomains-certificates/using/delegate-ssl.md)
+      + [Delegação de certificados SSL para a Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renovar certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
       + [Gerar a CSR](subdomains-certificates/using/generate-csr.md)
       + [Instalar o certificado SSL](subdomains-certificates/using/install-ssl-certificate.md)
