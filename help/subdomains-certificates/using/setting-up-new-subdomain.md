@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
 workflow-type: tm+mt
-source-wordcount: '1549'
-ht-degree: 80%
+source-wordcount: '1555'
+ht-degree: 84%
 
 ---
 
@@ -41,11 +41,11 @@ Se a instância selecionada no assistente não tiver subdomínios configurados a
 
 Ao configurar um novo subdomínio, você pode ter o certificado SSL gerenciado pelo Adobe. Isso é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes que ele expire.
 
-Se você estiver usando CNAMEs para configurar uma delegação de subdomínio, o Adobe fornecerá registros de certificado para usar em sua solução de hospedagem de domínio para gerar seu certificado.
+Se estiver usando CNAMEs para configurar uma delegação de subdomínio, a Adobe fornecerá registros de certificado para usar em sua solução de hospedagem de domínio e gerar seu certificado.
 
 >[!NOTE]
 >
->O SSL gerenciado pela Adobe é um recurso gratuito que está disponível para os usuários.
+>O SSL gerenciado pela Adobe é um recurso gratuito que está disponível para os usuários. [Saiba mais sobre o gerenciamento de certificados SSL](monitoring-ssl-certificates.md#management)
 
 ### Configuração de nameserver
 
@@ -170,11 +170,11 @@ Para configurar um subdomínio usando CNAMEs, siga as etapas abaixo.
 
    ![](assets/cname-confirmation.png)
 
-1. Se você optar por delegar o certificado dos subdomínios ao Adobe, os registros de certificado serão gerados automaticamente. Copie esses registros, um por um ou baixando um arquivo CSV, e navegue até a solução de hospedagem de domínio para gerar o certificado correspondente.
+1. Se você optar por delegar o certificado dos subdomínios ao Adobe, os registros de certificado serão gerados automaticamente. Copie esses registros um por um ou baixando um arquivo CSV e navegue até a sua solução de hospedagem de domínio para gerar o certificado correspondente.
 
    ![](assets/cname-csr-generation.png)
 
-1. Verifique se todos os registros de certificado foram gerados em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, selecione a primeira instrução e clique em **[!UICONTROL Submit]** para confirmar.
+1. Certifique-se de que todos os registros de certificado tenham sido gerados em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, selecione a primeira instrução e clique em **[!UICONTROL Submit]** para confirmar.
 
    ![](assets/cnames-submit.png)
 

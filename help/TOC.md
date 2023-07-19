@@ -6,10 +6,10 @@ user-guide-title: Guia do Painel de controle
 feature: Control Panel
 role: Architect
 level: Beginner
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
-workflow-type: ht
-source-wordcount: '165'
-ht-degree: 100%
+source-git-commit: 7a355dee0482a519878a44407d133a8b6d94f00c
+workflow-type: tm+mt
+source-wordcount: '161'
+ht-degree: 96%
 
 ---
 
@@ -42,15 +42,14 @@ ht-degree: 100%
 + Subdomínios e certificados {#subdomains-and-certificates}
    + [Marca de subdomínios](subdomains-certificates/using/subdomains-branding.md)
    + [Monitorar subdomínios](subdomains-certificates/using/monitoring-subdomains.md)
-   + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
-   + [Remover delegação de subdomínios para a Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
-   + [Gerenciar registros TXT](subdomains-certificates/using/managing-txt-records.md)
-   + Gerenciar certificados SSL {#manage-certificates}
+   + Delegar subdomínios {#delegate-subdomains}
+      + [Configurar um novo subdomínio](subdomains-certificates/using/setting-up-new-subdomain.md)
+      + [Remover delegação de subdomínios para a Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
+      + [Gerenciar registros TXT](subdomains-certificates/using/managing-txt-records.md)
+   + Gerenciar certificados SSL de subdomínios {#manage-certificates}
       + [Monitorar certificados SSL](subdomains-certificates/using/monitoring-ssl-certificates.md)
       + [Delegação de certificados SSL para a Adobe](subdomains-certificates/using/delegate-ssl.md)
       + [Renovar certificados SSL](subdomains-certificates/using/renewing-subdomain-certificate.md)
-      + [Gerar a CSR](subdomains-certificates/using/generate-csr.md)
-      + [Instalar o certificado SSL](subdomains-certificates/using/install-ssl-certificate.md)
 + Monitoramento de desempenho {#performance-monitoring}
    + [Sobre o monitoramento de desempenho](performance-monitoring/using/about-performance-monitoring.md)
    + Monitoramento de banco de dados {#database-monitoring}

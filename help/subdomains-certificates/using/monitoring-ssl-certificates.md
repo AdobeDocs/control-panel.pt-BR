@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 84%
+source-wordcount: '567'
+ht-degree: 61%
 
 ---
 
@@ -28,9 +28,21 @@ O Adobe Campaign recomenda proteger os subdomínios que hospedam suas landing pa
 
 ![](assets/no_certificate.png)
 
-## Delegação de certificados SSL de subdomínios para a Adobe
+## Gerenciamento de certificados SSL {#management}
 
-Delegar os certificados SSL dos subdomínios para o Adobe é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes da expiração do certificado. [Saiba como delegar certificados SSL de subdomínios para o Adobe](delegate-ssl.md)
+O monitoramento de certificados SSL é fundamental para garantir que seus subdomínios estejam seguros. Com o Painel de controle do Campaign, você pode instalar e renovar os certificados SSL de subdomínios diretamente por conta própria ou delegá-los ao Adobe para que esse processo seja executado automaticamente sem a necessidade de nenhuma ação da sua parte.
+
+Delegar o gerenciamento dos certificados SSL dos subdomínios para o Adobe é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes de expirar. Isso reduz o risco de erros que podem ocorrer ao gerenciar certificados manualmente. [Saiba como delegar certificados SSL de subdomínios para o Adobe](delegate-ssl.md)
+
+Abaixo, você encontrará uma lista abrangente dos impactos associados ao gerenciamento manual de certificados, em vez de delegar essa operação ao Adobe:
+
+|       | Certificado gerenciado pelo cliente | Certificado gerenciado por Adobe |
+|  ---  |  ---  |  ---  |
+| Provedor de certificados | Autoridades de certificação de terceiros | Adobe pelos gerentes de certificado da AWS |
+| Etapas manuais | Geração, compra e instalação de certificados CSR | nenhuma |
+| Processo de renovação | Responsabilidade do cliente | Gerenciado pelo Adobe automaticamente |
+| Segurança de subdomínio | O domínio pode ter subdomínios inseguros (rastreamento, espelho e res), a menos que você esteja instalando/renovando certificados. | Todos os novos domínios (se optados por Adobe gerenciado) terão todos os subdomínios protegidos por padrão. |
+| Custo do certificado | O cliente suporta o custo dos certificados | Gratuito |
 
 ## Monitoramento de certificados SSL {#monitoring-certificates}
 
