@@ -10,7 +10,7 @@ exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 71%
+ht-degree: 73%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 71%
 >[!CONTEXTUALHELP]
 >id="cp_add_ssl_certificate"
 >title="Renovação do certificado SSL"
->abstract="Para renovar um certificado SSL, você precisa gerar uma CSR, comprar o certificado SSL para os subdomínios e instalar o Pacote de certificados. Essa operação só será necessária se você optar por gerenciar certificados manualmente em vez de delegá-los ao Adobe. "
+>abstract="Para renovar um certificado SSL, você precisa gerar uma CSR, comprar o certificado SSL para os subdomínios e instalar o Pacote de certificados. Essa operação só será necessária se você optar por gerenciar certificados manualmente em vez de delegá-los à Adobe. "
 
 >[!NOTE]
 >
