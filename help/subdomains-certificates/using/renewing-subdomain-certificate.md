@@ -8,9 +8,9 @@ role: Architect
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: 01da21a883804b9c79c7ee4056d984f3df6cb96c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '993'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 73%
 
 >[!NOTE]
 >
->A renovação dos certificados SSL de seus subdomínios só é necessária se você optar por gerenciar certificados por conta própria em vez de delegar esse processo ao Adobe. Delegar o gerenciamento dos certificados SSL dos subdomínios para o Adobe é altamente recomendado, pois o Adobe criará automaticamente o certificado e o renovará todos os anos antes de expirar. [Saiba mais sobre o gerenciamento de certificados SSL](monitoring-ssl-certificates.md#management)
+>A renovação dos certificados SSL de seus subdomínios só é necessária se você optar por gerenciar certificados por conta própria em vez de delegar esse processo à Adobe. É altamente recomendado delegar o gerenciamento dos certificados SSL de seus subdomínios à Adobe, pois ela criará automaticamente o certificado e o renovará todos os anos antes da expiração. [Saiba mais sobre o gerenciamento de certificados SSL](monitoring-ssl-certificates.md#management)
 
 O processo de renovação do certificado SSL inclui 3 etapas:
 
@@ -94,23 +94,23 @@ Para gerar uma Solicitação de assinatura de certificado (CSR), siga estas etap
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Copy CSR content]** O botão permite copiar todas as informações relacionadas à CSR (ID da organização, instância, nome da organização, nome comum, subdomínios incluídos etc.)
+   >O botão **[!UICONTROL Copy CSR content]** permite copiar todas as informações relacionadas à CSR (ID da organização, instância, nome da organização, nome comum, subdomínios incluídos etc.)
 
-1. O arquivo .csr correspondente à seleção é gerado e baixado automaticamente. Agora você pode usá-lo para adquirir o certificado SSL da Autoridade de certificação que sua empresa aprovar. Se precisar baixar a CSR novamente, siga as etapas detalhadas em [nesta seção](#download).
+1. O arquivo .csr correspondente à seleção é gerado e baixado automaticamente. Agora você pode usá-lo para adquirir o certificado SSL da autoridade de certificação que sua empresa aprovar. Se precisar baixar a CSR novamente, siga as etapas detalhadas [nesta seção](#download).
 
 Depois que a CSR for gerada e baixada, você poderá usá-la para comprar um certificado SSL de uma autoridade de certificação aprovada pela organização.
 
-Depois que o certificado SSL for comprado, você poderá instalá-lo em sua instância para proteger seu subdomínio. [Saiba mais](#install)
+Depois que o certificado SSL for comprado, você poderá instalá-lo na instância para proteger seu subdomínio. [Saiba mais](#install)
 
 ## Baixar a CSR {#download}
 
-Para comprar um certificado SSL, primeiro é necessário baixar a Solicitação de assinatura de certificado. O CSR é baixado automaticamente após ser gerado. Também é possível baixá-lo novamente a qualquer momento em Logs de trabalho:
+Para comprar um certificado SSL, primeiro é necessário baixar a Solicitação de assinatura de certificado (CSR). A CSR é baixada automaticamente após ser gerada. Também é possível baixá-la novamente a qualquer momento em Logs de processo:
 
-1. No **[!UICONTROL Job Logs]**, selecione o **[!UICONTROL Finished]** e filtre a lista para exibir tarefas relacionadas ao gerenciamento de subdomínios.
+1. Em **[!UICONTROL Job Logs]**, clique na guia **[!UICONTROL Finished]** e filtre a lista para exibir os processos relacionados ao gerenciamento de subdomínios.
 
    ![](assets/renewal-download.png)
 
-1. Abra o job correspondente à geração da CSR e clique no link **[!UICONTROL Downbload]** link para obter o arquivo .csr.
+1. Abra o processo correspondente à geração da CSR e clique no link **[!UICONTROL Downbload]** para obter o arquivo .csr.
 
    ![](assets/renewal-download-button.png)
 
@@ -119,12 +119,12 @@ Para comprar um certificado SSL, primeiro é necessário baixar a Solicitação 
 >[!CONTEXTUALHELP]
 >id="cp_install_ssl_certificate"
 >title="Instalação do certificado SSL"
->abstract="Instale o Certificado SSL adquirido da autoridade de certificação aprovada pela sua organização."
+>abstract="Instale o certificado SSL adquirido da autoridade de certificação aprovada pela sua organização."
 
 Depois que um certificado SSL for adquirido, você poderá instalá-lo em sua instância. Antes de continuar, verifique os pré-requisitos abaixo:
 
 * A Solicitação de assinatura de certificado (CSR) deve ter sido gerada pelo Painel de controle. Caso contrário, você não poderá instalar o certificado pelo Painel de controle.
-* A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi configurado para funcionar com o Adobe. Por exemplo, ele não pode conter mais subdomínios do que o que foi configurado.
+* A Solicitação de assinatura de certificado (CSR) deve corresponder ao subdomínio que foi configurado para funcionar com a Adobe. Por exemplo, ela não pode conter mais subdomínios do que o que foi configurado.
 * O certificado deve ter uma data atual. Não é possível instalar certificados com datas futuras e eles não devem estar expirados (ou seja, datas de início e término devem ser válidas).
 * O certificado deve ser emitido por uma autoridade de certificação (CA) confiável, como Comodo, DigiCert, Goaddy, etc.
 * O tamanho do certificado deve ser de 2048 bits e o algoritmo deve ser RSA.
