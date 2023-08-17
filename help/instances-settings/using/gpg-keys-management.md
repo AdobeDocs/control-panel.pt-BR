@@ -64,10 +64,9 @@ Para fazer isso, você precisa gerar um par de chaves GPG de uma ferramenta de c
    * **comprimento da chave**: 3072 - 4096 bits
    * **nome verdadeiro** e **endereço de email**: permite rastrear quem criou o par de chaves. Insira um nome e endereço de email vinculados à sua organização ou departamento.
    * **comentário**: adicionar um rótulo ao campo de comentário ajudará você a identificar facilmente a chave a ser usada para criptografar seus dados.
-
-      >[!IMPORTANT]
-      >
-      >Verifique se esse campo não está vazio e se um comentário foi preenchido.
+     >[!IMPORTANT]
+     >
+     >Verifique se esse campo não está vazio e se um comentário foi preenchido.
 
    * **expiração**: data ou &quot;0&quot; para nenhuma data de expiração.
    * **senha**
@@ -168,9 +167,9 @@ A lista exibe todas as chaves GPG de criptografia e descriptografia que foram in
 * **[!UICONTROL Name]**: O nome que foi definido ao instalar ou gerar a chave.
 * **[!UICONTROL Use case]**: essa coluna especifica o caso de uso da chave:
 
-   ![](assets/gpg_icon_encrypt.png): A chave foi instalada para criptografia de dados.
+  ![](assets/gpg_icon_encrypt.png): A chave foi instalada para criptografia de dados.
 
-   ![](assets/gpg_icon_decrypt.png): a chave foi gerada para permitir a descriptografia de dados.
+  ![](assets/gpg_icon_decrypt.png): a chave foi gerada para permitir a descriptografia de dados.
 
 * **[!UICONTROL Fingerprint]**: a impressão digital da chave.
 * **[!UICONTROL Expires]**: a data de expiração da chave. Observe que o Painel de controle do Campaign fornecerá indicações visuais conforme a chave se aproximar da data de expiração:
@@ -179,9 +178,9 @@ A lista exibe todas as chaves GPG de criptografia e descriptografia que foram in
    * O aviso (amarelo) é exibido 60 dias antes.
    * Um banner vermelho &quot;Expirado&quot; será exibido assim que uma chave expirar.
 
-   >[!NOTE]
-   >
-   >Observe que nenhuma notificação por email será enviada pelo Painel de controle do Campaign.
+  >[!NOTE]
+  >
+  >Observe que nenhuma notificação por email será enviada pelo Painel de controle do Campaign.
 
 Como prática recomendada, remova qualquer chave que não seja mais necessária. Para fazer isso, clique no link **..** e selecione **[!UICONTROL Delete Key].**.
 

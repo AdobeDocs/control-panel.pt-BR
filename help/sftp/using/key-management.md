@@ -87,13 +87,13 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
    1. Digite este comando: `ssh-keygen -m pem -t rsa -b 2048 -C "your_email@example.com"`.
    1. Quando solicitado, forneça um nome para a chave. Se o diretório .ssh não existir, o sistema criará um para você.
    1. Digite, e em seguida insira novamente, uma senha quando solicitado. Esse campo também pode ser deixado em branco.
-   1. Um par de chaves &quot;name&quot; e &quot;name.pub&quot; é criado pelo sistema. Procure o arquivo &quot;name.pub&quot; e abra-o. Ele deve ter uma sequência alfanumérica terminando com o endereço de email especificado.
+   1. Um par de chaves &quot;name&quot; e &quot;name.pub&quot; é criado pelo sistema. Procure o arquivo &quot;name.pub&quot; e abra-o. Ele deve ter uma string alfanumérica terminando com o endereço de email especificado.
 
    **Windows:**
 
    Talvez seja necessário instalar uma ferramenta de terceiros que ajudará você a gerar um par de chaves privadas/públicas no mesmo formato &quot;name.pub&quot;.
 
-1. Abra o arquivo .pub e copie e cole a sequência inteira começando por &quot;ssh...&quot; no Painel de controle do Campaign.
+1. Abra o arquivo .pub e copie e cole a string inteira começando por &quot;ssh...&quot; no Painel de controle do Campaign.
 
    ![](assets/publickey.png)
 

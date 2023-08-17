@@ -61,7 +61,6 @@ Para fazer isso, siga estes passos:
 >* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) para o Campaign Standard,
 >* A variável [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=pt-BR) fluxo de trabalho do Campaign v7/v8.
 
-
 A área inferior fornece uma representação gráfica do uso de perfis ativos nos últimos 30 dias. Você pode alterar o período exibido para 1 ano usando os filtros disponíveis no canto superior direito.
 
 Você pode obter o número exato de perfis ativos usados no período selecionado, passando o mouse sobre uma das barras de gráfico.

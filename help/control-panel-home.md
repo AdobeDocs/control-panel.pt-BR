@@ -40,7 +40,6 @@ O calendário de serviço agora fornece uma visualização de calendário para r
 >
 >* Para o Campaign v7, restrições de implantação se aplicam. [Saiba mais](faq.md#v7-restrictions)
 
-
 ## Recursos adicionais {#additional-resources}
 
 <table>

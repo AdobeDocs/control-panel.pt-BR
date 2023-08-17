@@ -81,7 +81,6 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
    * **[!UICONTROL Label]**: o rótulo que será exibido na lista de permissões.
    * **[!UICONTROL Name]**: o nome deve ser exclusivo para o Tipo de acesso, Instância (no caso de conexão de API externa) e Endereço IP.
 
-
 1. Especifique o tipo de acesso que deseja conceder aos endereços IP:
 
    * **[!UICONTROL Campaign Console Access]**: os endereços IP poderão se conectar ao Console do cliente do Campaign. Observe que o acesso ao Console é ativado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
