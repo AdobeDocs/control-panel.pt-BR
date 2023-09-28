@@ -2,16 +2,22 @@
 title: Notas de versão de 2023
 description: Esta página lista todas as versões de 2023 do Painel de controle do Campaign.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 40654418f0c5b298cc4fbd66a5d835355876a12c
+source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '270'
 ht-degree: 100%
 
 ---
 
 # Notas de versão de 2023 {#rn-2023}
 
-## Melhorias de maio de 2023 {#june-2023}
+## Junho de 2023 {#june-2023}
+
+* Agora é possível delegar os certificados SSL de subdomínios já delegados para a Adobe diretamente da lista de subdomínios. [Saiba mais](../subdomains-certificates/using/delegate-ssl.md)
+
+* O remetente dos emails de alerta foi alterado para `"alert@notifications.campaign.adobe.com"`.
+
+## Melhorias de maio de 2023 {#may-2023}
 
 **Delegação de certificados SSL de subdomínios para a Adobe**
 
