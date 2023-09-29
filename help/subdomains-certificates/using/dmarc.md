@@ -6,9 +6,9 @@ description: Saiba como adicionar um registro DMARC para um subdomínio.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 0%
 ## Sobre registros DMARC {#about}
 
 O DMARC (Domain Based Message Authentication, Reporting and Conformance) é um protocolo padrão de autenticação de email que ajuda as organizações a proteger seus domínios de email contra ataques de phishing e de falsificação. Ele permite decidir como um provedor de caixa de correio deve lidar com emails que não passam nas verificações SPF e DKIM, fornecendo uma maneira de autenticar o domínio do remetente e impedir o uso não autorizado do domínio para fins mal-intencionados.
+
+<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
 
 ## Limitações e pré-requisitos {#limitations}
 
@@ -37,11 +39,17 @@ Para adicionar um registro DMARC para um subdomínio, siga estas etapas:
 
 1. Escolha o **[!UICONTROL Policy Type]** que o servidor do recipient deve seguir quando um de seus emails falhar. Os tipos de política disponíveis são:
 
-   * nenhuma,
-   * Quarentena (posicionamento da pasta de spam),
-   * Rejeitar (bloquear o email).
+   * **[!UICONTROL None]**,
+   * **[!UICONTROL Quarantine]** (posicionamento da pasta de spam),
+   * **[!UICONTROL Reject]** (bloquear o email).
 
-   Se o subdomínio tiver acabado de ser configurado, recomendamos definir esse valor como &quot;Nenhum&quot; até que ele seja totalmente configurado e seus emails sejam enviados corretamente. Depois que tudo estiver configurado corretamente, você poderá alterar o Tipo de política para &quot;Quarentena&quot; ou &quot;Rejeitar&quot;.
+   Como prática recomendada, é recomendável implantar lentamente a implementação DMARC escalando sua política DMARC de p=none, para p=quarantine, para p=reject à medida que você obtém a compreensão DMARC do impacto potencial da DMARC.
+
+   * **Etapa 1:** Analise o feedback que você recebe e usa (p=none), que instrui o destinatário a não executar nenhuma ação em relação às mensagens com falha de autenticação, mas ainda enviar relatórios de email ao remetente. Além disso, revise e corrija problemas com o SPF/DKIM se as mensagens legítimas estiverem falhando na autenticação.
+
+   * **Etapa 2:** Determine se o SPF e o DKIM estão alinhados e transmitem a autenticação para todos os emails legítimos e, em seguida, mova a política para (p=quarentena), que instrui o servidor de email de recebimento a colocar em quarentena os emails que falham na autenticação (geralmente significa colocar essas mensagens na pasta de spam). Se a política estiver definida como quarentena, recomenda-se que você comece com uma pequena porcentagem de seus emails.
+
+   * **Etapa 3:** Ajuste a política para (p=reject). OBSERVAÇÃO: use essa política com cuidado e determine se é apropriada para sua organização. A política p= reject informa ao destinatário para negar completamente (retornar) qualquer email para o domínio que não é autenticado. Com essa política ativada, somente os emails verificados como 100% autenticados pelo seu domínio terão uma chance de inserção na Caixa de entrada.
 
    >[!NOTE]
    >
@@ -52,9 +60,9 @@ Para adicionar um registro DMARC para um subdomínio, siga estas etapas:
    * Os relatórios DMARC agregados fornecem informações de alto nível, como, por exemplo, o número de emails que falharam em um determinado período.
    * Os relatórios de falha DMARC do Forensic fornecem informações detalhadas, como por exemplo, de qual endereço IP o email com falha se origina.
 
-1. Por padrão, a política DMARC selecionada é aplicada a todos os emails. Você pode alterar esse parâmetro para aplicá-lo somente a uma porcentagem específica de emails.
+1. Se a política DMARC estiver definida como &quot;Nenhum&quot;, insira uma porcentagem que se aplique a 100% dos emails.
 
-   Ao implantar gradualmente o DMARC, você pode começar com uma pequena porcentagem de suas mensagens. À medida que mais mensagens do seu domínio passam na autenticação com servidores receptores, atualize seu registro com uma porcentagem maior, até atingir 100%.
+   Se a política estiver definida como &quot;Rejeitar&quot; ou &quot;Quarentena&quot;, recomenda-se que você comece com uma pequena porcentagem de seus emails. À medida que mais emails do seu domínio passam na autenticação com servidores receptores, atualize seu registro lentamente com uma porcentagem maior.
 
    >[!NOTE]
    >
