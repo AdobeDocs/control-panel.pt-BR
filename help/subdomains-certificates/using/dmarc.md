@@ -6,13 +6,13 @@ description: Saiba como adicionar um registro DMARC para um subdomínio.
 feature: Control Panel
 role: Architect
 level: Experienced
-source-git-commit: f87a13c8553173e4303c9b95cfea5de05ff49cee
+exl-id: 2ca66983-5beb-495a-9639-a31905500cff
+source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
-
 
 # Adicionar registros DMARC {#dmarc}
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 O DMARC (Domain Based Message Authentication, Reporting and Conformance) é um protocolo padrão de autenticação de email que ajuda as organizações a proteger seus domínios de email contra ataques de phishing e de falsificação. Ele permite decidir como um provedor de caixa de correio deve lidar com emails que não passam nas verificações SPF e DKIM, fornecendo uma maneira de autenticar o domínio do remetente e impedir o uso não autorizado do domínio para fins mal-intencionados.
 
-<!--Detailed information on DMARC implementation is available in [Adobe Deliverability Best Practice Guide](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html)-->
+Informações detalhadas sobre a implementação do DMARC estão disponíveis em [Guia de práticas recomendadas de capacidade de delivery do Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-dmarc.html)
 
 ## Limitações e pré-requisitos {#limitations}
 
