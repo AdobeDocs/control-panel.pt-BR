@@ -6,9 +6,9 @@ role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
 source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '240'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,14 +26,14 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 ## Novidades
 
-**Gerenciamento de registros DMARC e BIMI**
+**Gerenciar registros DMARC e BIMI**
 
 Agora é possível adicionar registros DMARC e BIMI diretamente do Painel de controle:
 
-* **Registros DMARC** fornecer uma maneira de autenticar o domínio do remetente e impedir o uso não autorizado do domínio para fins mal-intencionados. [Saiba como adicionar registros DMARC](subdomains-certificates/using/dmarc.md)
+* **Registros DMARC** fornecem uma maneira de autenticar o domínio do remetente e impedir o uso não autorizado do domínio para fins mal-intencionados. [Saiba como adicionar registros DMARC](subdomains-certificates/using/dmarc.md)
 
 
-* **Registros BIMI** permite exibir um logotipo aprovado ao lado de seus emails nas caixas de entrada dos provedores de caixa de correio para aprimorar o reconhecimento e a confiança da marca. [Saiba como adicionar registros BIMI](subdomains-certificates/using/bimi.md)
+* **Registros BIMI** permitem exibir um logotipo aprovado ao lado de seus emails nas caixas de entrada dos provedores para aumentar o reconhecimento e a confiança da marca. [Saiba como adicionar registros BIMI](subdomains-certificates/using/bimi.md)
 
 >[!CAUTION]
 >
