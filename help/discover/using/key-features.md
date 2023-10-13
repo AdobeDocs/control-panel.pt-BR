@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%
@@ -50,12 +50,12 @@ Principais benefícios:
     <td>
         <a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><img alt="condições" src="assets/do-not-localize/instance_settings.png"/></a>
         <div><a href="../../instances-settings/using/ip-allow-listing-instance-access.md"><strong>Gerencie configurações de instância</strong></a></div>
-        <br/><em>Saiba como gerenciar configurações de instâncias (somente Campaign v7/v8).</em>
+        <em>Saiba como gerenciar configurações de instâncias (somente Campaign v7/v8).</em>
     </td>
     <td>
         <a href="../../performance-monitoring/using/about-performance-monitoring.md"><img alt="condições" src="assets/do-not-localize/monitoring-performance.png"/></a>
         <div><a href="../../performance-monitoring/using/about-performance-monitoring.md"><strong>Monitorar desempenho</strong></a></div>
-        <br/><em>Saiba como monitorar a utilização dos principais recursos em suas instâncias.</em>
+        <em>Saiba como monitorar a utilização dos principais recursos em suas instâncias.</em>
     </td>
 </tr>
 </table>
