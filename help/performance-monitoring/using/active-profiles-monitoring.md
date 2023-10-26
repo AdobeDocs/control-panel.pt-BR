@@ -7,7 +7,7 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
+source-git-commit: cb18dbcbb3a575d88d3c13fe3f22a657caea1e7e
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%
@@ -56,7 +56,11 @@ A seção superior exibe as seguintes informações:
 
 * A contagem de perfis ativos usados atualmente na instância selecionada, juntamente com o carimbo de data e hora da execução mais recente do fluxo de trabalho de faturamento da instância.
 
-* A contagem total de perfis ativos usados em sua organização em todas as instâncias. Essa seção estará visível somente se você tiver várias instâncias associadas à sua organização.
+* A contagem total de perfis ativos usados em sua organização em todas as instâncias.
+
+  >[!NOTE]
+  >
+  >Essa seção estará visível somente se você tiver várias instâncias associadas à sua organização.
 
 * A contagem total de perfis ativos alocados para sua organização.
 
