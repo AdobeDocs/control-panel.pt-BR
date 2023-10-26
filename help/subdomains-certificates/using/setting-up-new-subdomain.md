@@ -196,11 +196,11 @@ Depois que o subdomínio for enviado, várias verificações e etapas de configu
 
    ![](assets/subdomain_audit.png)
 
-1. Por fim, a **Equipe de avaliação do delivery** será notificada sobre o novo subdomínio para fazer a auditoria. O processo de auditoria pode demorar até 10 dias úteis após a configuração do subdomínio.
+1. Por fim, a **Equipe de avaliação da entrega** será notificada sobre o novo subdomínio para fazer a auditoria. O processo de auditoria pode demorar até 10 dias úteis após a configuração do subdomínio.
 
    >[!IMPORTANT]
    >
-   >As verificações de capacidade de delivery realizadas incluem loops de feedback e testes de loops de reclamação de spam. Portanto, não recomendamos a utilização do subdomínio antes da conclusão da auditoria, uma vez que poderá resultar em má reputação do subdomínio.
+   >As verificações de capacidade de entrega realizadas incluem loops de feedback e testes de loops de reclamação de spam. Portanto, não recomendamos a utilização do subdomínio antes da conclusão da auditoria, uma vez que poderá resultar em má reputação do subdomínio.
    >
    >No entanto, observe que você pode executar operações relacionadas aos certificados SSL em seu subdomínio, mesmo que a auditoria de entrega ainda esteja sendo processada.
 

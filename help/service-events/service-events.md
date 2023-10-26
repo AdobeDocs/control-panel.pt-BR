@@ -43,7 +43,7 @@ Os contatos importantes incluem as seguintes funções:
 
 * **[!UICONTROL TAM]**: gerente técnico de contas,
 * **[!UICONTROL CSM]**: gerente de sucesso do cliente,
-* **[!UICONTROL Deliverability]**: ponto de contato para operações de capacidade de delivery,
+* **[!UICONTROL Deliverability]**: ponto de contato para operações de capacidade de entrega,
 * **[!UICONTROL Transition Manager]**: gerente de transição do Managed Services (somente para contas do Managed Services),
 * **[!UICONTROL On-boarding Specialist]**: especialista atribuído à conta para ajudá-lo a começar no Campaign Classic (somente para contas do Managed Services).
 

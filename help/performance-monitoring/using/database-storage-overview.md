@@ -28,7 +28,7 @@ A área **[!UICONTROL Storage overview]** fornece uma representação gráfica d
   Observe que, se os recursos do sistema estiverem consumindo uma grande parte do espaço do banco de dados, recomendamos entrar em contato com o Atendimento ao cliente.
 
 * **[!UICONTROL Out-of-the-box tables]** fornecido por padrão com as instâncias do Campaign,
-* **[!UICONTROL Temporary tables]** criado por workflows e deliveries,
+* **[!UICONTROL Temporary tables]** criado por workflows e entregas,
 * **[!UICONTROL Non-out of the box tables]** gerado após a criação de recursos personalizados.
 
 ![](assets/database-storage-overview.png)
