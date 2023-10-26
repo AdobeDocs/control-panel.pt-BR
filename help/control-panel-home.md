@@ -5,10 +5,10 @@ feature: Control Panel
 role: Architect
 level: Beginner
 exl-id: 2b2cfaed-e42e-4c3a-a8d8-224b936890ab
-source-git-commit: fc026f157346253fc79bde4ce624e7efa3373af2
+source-git-commit: 6a4db9712d3a92d8057758eb134b0178213f5ff8
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 100%
+source-wordcount: '290'
+ht-degree: 62%
 
 ---
 
@@ -26,14 +26,21 @@ O Painel de controle do Campaign ajuda a aumentar a eficiência do seu trabalho 
 
 ## Novidades
 
-**Gerenciar registros DMARC e BIMI**
+**Interface do usuário**
 
-Agora é possível adicionar registros DMARC e BIMI diretamente do Painel de controle:
+* O Painel de controle do Campaign agora está disponível em outros idiomas. [Saiba mais](discover/using/discovering-the-interface.md#supported-languages-languages)
 
-* **Registros DMARC** fornecem uma maneira de autenticar o domínio do remetente e impedir o uso não autorizado do domínio para fins mal-intencionados. [Saiba como adicionar registros DMARC](subdomains-certificates/using/dmarc.md)
+**Monitoramento de perfis ativos**
 
+* Agora é possível monitorar o número de perfis ativos aos quais você tem direito para sua organização e a contagem total de perfis usados em sua organização em todas as instâncias, se estiver usando várias instâncias. [Saiba mais](performance-monitoring/using/active-profiles-monitoring.md)
 
-* **Registros BIMI** permitem exibir um logotipo aprovado ao lado de seus emails nas caixas de entrada dos provedores para aumentar o reconhecimento e a confiança da marca. [Saiba como adicionar registros BIMI](subdomains-certificates/using/bimi.md)
+**Registros DMARC**
+
+* Agora, vários endereços de email podem receber emails de relatórios agregados e de relatórios de falhas. [Saiba mais](subdomains-certificates/using/dmarc.md)
+* Foram feitas alterações se os registros DMARC e BIMI existirem para um subdomínio:
+
+   * Os registros DMARC não podem ser excluídos. Se quiser excluir um registro, você precisará excluir o registro BIMI primeiro.
+   * Os registros DMARC podem ser editados, mas o downgrade da política para &quot;Nenhum&quot; não é permitido e seu valor percentual deve ser 100.
 
 >[!CAUTION]
 >

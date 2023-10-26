@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: 99409f462993191d8fb4d6dfacc77c1e4b973f68
+source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 23%
+source-wordcount: '221'
+ht-degree: 19%
 
 ---
 
@@ -41,3 +41,22 @@ A variável **[!UICONTROL Open]** permite acessar diretamente a guia Painel de c
 A variável **[!UICONTROL Help Resources]** fornece documentação útil para ajudá-lo a usar os produtos Painel de controle do Campaign e Campaign. Não hesite em explorá-los.
 
 ![](assets/helpresources.png)
+
+## Idiomas com suporte {#languages}
+
+A interface do usuário do Painel de controle do Campaign foi projetada para exibir no idioma correspondente à configuração do seu navegador.
+
+Se o navegador estiver definido como um idioma não compatível, o Painel de controle do Campaign verificará os três primeiros idiomas na lista de idiomas do navegador até encontrar um idioma compatível. Se nenhum dos três primeiros idiomas for suportado pelo Painel de controle do Campaign, o padrão será usar inglês (Estados Unidos).
+
+Veja abaixo uma lista dos idiomas suportados atualmente pelo Painel de controle do Campaign:
+
+* Inglês (Estados Unidos)
+* Alemão
+* Francês
+* Japanase
+* Italiano (Itália)
+* Espanhol (Espanha)
+* Coreano
+* Português (Brasil)
+* Chinês (simplificado)
+* Chinês (tradicional)

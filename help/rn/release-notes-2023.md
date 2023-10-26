@@ -2,14 +2,34 @@
 title: Notas de versão de 2023
 description: Esta página lista todas as versões de 2023 do Painel de controle do Campaign.
 exl-id: 9a83e32a-4c11-4784-a6fe-341ce9ebc7a7
-source-git-commit: 2a1119022af2ced06052cf48b50d6ff7be2d1faa
-workflow-type: ht
-source-wordcount: '270'
+source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+workflow-type: tm+mt
+source-wordcount: '341'
 ht-degree: 100%
 
 ---
 
 # Notas de versão de 2023 {#rn-2023}
+
+## Setembro de 2023 {#september-2023}
+
+<table>
+<thead>
+<tr>
+<th><strong>Gerenciamento de registros DMARC e BIMI</strong><br/></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<p><p>Agora é possível adicionar registros DMARC e BIMI diretamente do Painel de controle:
+
+<ul><li><strong>Registros DMARC</strong> fornecem uma maneira de autenticar o domínio do remetente e impedir o uso não autorizado do domínio para fins mal-intencionados. <a href="../subdomains-certificates/using/dmarc.md">Saiba como adicionar registros DMARC</a></li>
+<li><strong>Registros BIMI</strong> permitem exibir um logotipo aprovado ao lado de seus emails nas caixas de entrada dos provedores para aumentar o reconhecimento e a confiança da marca. <a href="../subdomains-certificates/using/bimi.md">Saiba como adicionar registros BIMI</a></li></ul>
+</td>
+</tr>
+</tbody>
+</table>
 
 ## Junho de 2023 {#june-2023}
 

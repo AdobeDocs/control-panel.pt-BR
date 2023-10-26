@@ -7,14 +7,14 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: ebebff05669160b97de7e0d58d898ba0e3a30df1
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 41%
 
 ---
 
-# Monitoramento de perfis ativos {#active-profiles-monitoring}
+# Monitorar perfis ativos {#active-profiles-monitoring}
 
 ## Sobre perfis ativos {#about-active-profiles}
 
@@ -34,33 +34,30 @@ Os perfis são considerados ativos se tiverem sido direcionados ou comunicados n
 
 Para obter mais informações sobre perfis ativos, consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html#active-profiles) documentações.
 
-## Monitoramento de perfis ativos {#monitoring-active-profiles}
+## Monitorar o uso de perfis ativos {#monitoring-active-profiles}
 
 >[!CONTEXTUALHELP]
 >id="cp_performancemonitoring_active_profile"
 >title="Sobre o monitoramento de perfis ativos"
->abstract="Nessa guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica de perfis ativos para cada uma das instâncias do Campaign."
->additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR" text="Sobre o monitoramento de desempenho"
+>abstract="Nesta guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos perfis ativos para cada um nas instâncias do Campaign e em sua organização."
 
-O Painel de controle permite monitorar a utilização de perfis ativos para cada uma das instâncias do Campaign.
+As informações relacionadas ao uso de perfis ativos são atualizadas no Painel de controle com base em perfis dedicados [!DNL Campaign] workflows técnicos que são executados diariamente em suas instâncias:
+* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) para o Campaign Standard,
+* A variável [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=pt-BR) fluxo de trabalho do Campaign v7/v8.
 
-Para fazer isso, siga estes passos:
 
-1. Abra o **[!UICONTROL Performance Monitoring]** cartão e selecione a **[!UICONTROL Active Profiles]** guia.
+Para monitorar o uso do perfil ativo no Painel de controle do Campaign, navegue até o **[!UICONTROL Performance Monitoring]** cartão > **[!UICONTROL Active Profiles]** e selecione a instância desejada na guia **[!UICONTROL Instance List]**.
 
-1. Selecione a instância desejada em **[!UICONTROL Instance List]**.
-
-1. O número de perfis ativos usados pela instância é exibido, bem como a última vez que o workflow de cobrança foi executado em sua instância.
+São exibidas informações sobre o uso de perfis ativos.
 
 ![](assets/active-profiles-graph.png)
 
->[!NOTE]
->
->Os perfis ativos são contados com base em workflows técnicos dedicados que são executados diariamente em suas instâncias:
->
->* O workflow [&quot;Faturamento&quot;](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) para o Campaign Standard,
->* A variável [&quot;Número de perfis de faturamento ativos&quot;](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=pt-BR) fluxo de trabalho do Campaign v7/v8.
+A seção superior exibe as seguintes informações:
 
-A área inferior fornece uma representação gráfica do uso de perfis ativos nos últimos 30 dias. Você pode alterar o período exibido para 1 ano usando os filtros disponíveis no canto superior direito.
+* A contagem de perfis ativos usados atualmente na instância selecionada, juntamente com o carimbo de data e hora da execução mais recente do fluxo de trabalho de faturamento da instância.
 
-Você pode obter o número exato de perfis ativos usados no período selecionado, passando o mouse sobre uma das barras de gráfico.
+* A contagem total de perfis ativos usados em sua organização em todas as instâncias. Essa seção estará visível somente se você tiver várias instâncias associadas à sua organização.
+
+* A contagem total de perfis ativos alocados para sua organização.
+
+A seção inferior fornece uma representação visual do uso do perfil ativo nos últimos 30 dias. É possível alterar esse intervalo de tempo para 1 ano usando o filtro localizado no canto superior direito. Passar o mouse sobre o gráfico permite obter o número exato de perfis ativos usados no período selecionado.

@@ -7,10 +7,10 @@ feature: Control Panel
 role: Architect
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
-source-wordcount: '714'
-ht-degree: 100%
+source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 92%
 
 ---
 
@@ -26,6 +26,9 @@ Informações detalhadas sobre a implementação do DMARC estão disponíveis no
 
 * Os registros SPF e DKIM são pré-requisitos para a criação de registros DMARC.
 * Os registros DMARC só podem ser adicionados a subdomínios que utilizam a delegação de subdomínio completa. [Saiba mais sobre os métodos de configuração de subdomínios](subdomains-branding.md#subdomain-delegation-methods)
+* Se houver registros DMARC e BIMI para um subdomínio:
+   * Os registros DMARC não podem ser excluídos. Se quiser excluir um registro DMARC, primeiro exclua o registro BIMI.
+   * Os registros DMARC podem ser editados, mas o downgrade da política DMARC para &quot;Nenhum&quot; não é permitido e o valor percentual deve ser definido como &quot;100&quot;.
 
 ## Adicionar um registro DMARC a um subdomínio {#add}
 
@@ -55,7 +58,7 @@ Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
    >
    > A criação do registro BIMI não está disponível se o tipo de política de registro DMARC estiver definido como “Nenhum”.
 
-1. Preencha os endereços de email que devem receber os relatórios DMARC. Quando um de seus emails falhar, os relatórios DMARC serão enviados automaticamente para o endereço de email de sua escolha:
+1. Preencha os endereços de email que devem receber os relatórios DMARC. Você pode adicionar vários endereços de email, separados por vírgulas. Quando um de seus emails falhar, os relatórios DMARC serão enviados automaticamente para o endereço de email de sua escolha:
 
    * Os relatórios DMARC agregados fornecem informações de alto nível, como o número de emails que falharam em um determinado período.
    * Os relatórios de análise de falha do DMARC fornecem informações detalhadas, como o endereço IP do qual o email com falha se originou.
