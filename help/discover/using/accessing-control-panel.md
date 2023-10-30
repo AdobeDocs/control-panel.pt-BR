@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Acesso ao Painel de controle
 description: Saiba como acessar o Painel de controle
-feature: Control Panel
+feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 14%

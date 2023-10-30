@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Os 10 principais recursos temporários
 description: Saiba como monitorar no Painel de controle os 10 maiores recursos temporários gerados por workflows e deliveries no banco de dados do Campaign.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 69%

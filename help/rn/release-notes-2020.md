@@ -1,8 +1,11 @@
 ---
 title: Notas de versão de 2020
 description: Esta página lista todas as versões de 2020 do Painel de controle.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 70357a40-3dc1-486d-bba2-f500b3175d62
-source-git-commit: 9be5a3ae48dccf74f509aa95fee29bbfdafddcdf
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 100%
@@ -54,7 +57,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td>
-<p>Após delegar um novo subdomínio, o Painel de controle agora permite rastrear a auditoria feita pela equipe de avaliação do delivery.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
+<p>Após delegar um novo subdomínio, o Painel de controle agora permite rastrear a auditoria feita pela equipe de capacidade de entrega.</p><p>Para obter mais informações, consulte a <a href="../subdomains-certificates/using/setting-up-new-subdomain.md">documentação detalhada</a>.</p>
 </td>
 </tr>
 </tbody>

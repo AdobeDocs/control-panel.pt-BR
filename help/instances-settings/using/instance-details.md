@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Detalhes da instância
 description: Saiba como monitorar os detalhes da instância no Painel de controle
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 75%

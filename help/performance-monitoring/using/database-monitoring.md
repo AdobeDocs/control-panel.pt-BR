@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Sobre o monitoramento de banco de dados
 description: Saiba como monitorar os bancos de dados no Painel de controle
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 79%

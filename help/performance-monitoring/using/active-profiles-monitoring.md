@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Monitoramento de perfis ativos
 description: Saiba como obter informações em tempo real sobre a utilização e evolução mais recente e histórica dos Perfis ativos para cada uma de suas instâncias do Campaign.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '433'
 ht-degree: 41%

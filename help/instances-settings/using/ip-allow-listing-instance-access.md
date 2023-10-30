@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Lista de permissões de IP
 description: Saiba como adicionar endereços IP à lista de permissões no Painel de controle para obter acesso à instância
-feature: Control Panel
+feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 84%

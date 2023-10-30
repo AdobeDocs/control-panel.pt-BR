@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Como evitar a sobrecarga do banco de dados
 description: Acesse os recursos das documentações do Campaign para ajudar a evitar a sobrecarga do banco de dados em suas instâncias.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 07118637-cebd-4dd8-8374-2d7c20a47a89
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 69%

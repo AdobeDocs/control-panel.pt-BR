@@ -1,11 +1,11 @@
 ---
 title: Monitorar workflows
 description: Saiba como monitorar parâmetros específicos de fluxo de trabalho que podem exigir atenção para evitar problemas em suas instâncias.
-feature: Control Panel
+feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 100%

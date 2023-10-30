@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Adicionar instâncias MID/RT (modelo híbrido)
 description: Saiba como adicionar instâncias MID/RT ao Painel de controle com o modelo de hospedagem híbrida.
-feature: Control Panel
+feature: Control Panel, Access Management
 role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%

@@ -1,8 +1,11 @@
 ---
 title: Notas de versão de 2022
 description: Esta página lista todas as versões de 2022 do Painel de controle.
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
-source-git-commit: e0eb0bba95bcd02fef8f9bac4e9605711d3a9c30
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '580'
 ht-degree: 100%

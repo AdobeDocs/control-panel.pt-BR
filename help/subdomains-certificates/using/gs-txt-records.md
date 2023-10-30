@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Gerenciamento de registros TXT
 description: Saiba como gerenciar registros TXT para verificação de propriedade de domínio.
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 013d6674-0988-4553-a23e-b3ec23da5323
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 100%

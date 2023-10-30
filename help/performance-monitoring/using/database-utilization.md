@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Utilização do banco de dados
 description: Saiba como monitorar a utilização do banco de dados do Campaign no Painel de controle.
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 5ecb4f0b-7f77-4856-9704-e1f317f3239d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '112'
 ht-degree: 89%

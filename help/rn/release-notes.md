@@ -1,8 +1,11 @@
 ---
 title: Versão mais recente
 description: Esta página lista todos os novos recursos e melhorias do Painel de controle
+feature: Control Panel, Release Notes
+role: Admin
+level: Experienced
 exl-id: 13aceffb-ceaa-4cfe-8741-95d66c5c6caa
-source-git-commit: a8e2fb9789e9755aa6b9c55019816d7e748606ec
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 26%

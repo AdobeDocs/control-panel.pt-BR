@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Configurar um novo subdomínio
 description: Saiba como configurar um novo subdomínio para instâncias do Campaign
-feature: Control Panel
+feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1555'
 ht-degree: 85%

@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: Sobre o monitoramento de desempenho
 description: Saiba como monitorar o desempenho das instâncias no Painel de controle do Campaign
-feature: Control Panel
+feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '79'
 ht-degree: 36%
