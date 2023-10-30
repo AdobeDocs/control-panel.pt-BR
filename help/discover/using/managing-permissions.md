@@ -4,10 +4,10 @@ solution: Campaign
 title: Gerenciamento de permissões para o Painel de controle
 description: Saiba como gerenciar permissões para o Painel de controle do Campaign
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: 7115dac6b3a4cf002979fba36113b98507fdf3db
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 7%

@@ -4,11 +4,11 @@ solution: Campaign
 title: Adicionar registros BIMI
 description: Saiba como adicionar um registro BIMI em um subdomínio.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
-source-git-commit: 64ea5e26786eea107983ee5025025c81334b0a91
-workflow-type: ht
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 100%
 

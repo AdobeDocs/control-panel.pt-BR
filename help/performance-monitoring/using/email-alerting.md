@@ -4,10 +4,10 @@ solution: Campaign
 title: Alerta por email
 description: Saiba como receber notificações por email em caso de problemas com as instâncias do Campaign
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 7942d2b1-d28f-4760-aa25-5ba94a627fd0
-source-git-commit: 80a96152ffcfa184fbeb6fc5cddcb119655ffab1
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 3%

@@ -5,10 +5,10 @@ title: Sobre o gerenciamento de SFTP
 description: Saiba mais sobre o gerenciamento de SFTP no Painel de controle do Campaign
 testing: SSECD-836 2
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: b2c3be80-0d1b-4998-87ab-5280c6213f3d
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 16%

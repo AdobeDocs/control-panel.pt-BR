@@ -4,10 +4,10 @@ solution: Campaign
 title: Permissões de URL
 description: Saiba como gerenciar permissões de URL no Painel de controle
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
-source-git-commit: 78ac04811f0110fa8f90d4ec51bc33a0ac97c4eb
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '603'
 ht-degree: 85%

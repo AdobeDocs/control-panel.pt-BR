@@ -4,10 +4,10 @@ solution: Campaign
 title: Identificar contatos importantes e eventos
 description: Saiba como identificar eventos que ocorrem em suas instâncias e contatos importantes na Adobe.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
-source-git-commit: 5e2a5975a4a2ced4b23a18900309fc537daf13c0
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '749'
 ht-degree: 100%

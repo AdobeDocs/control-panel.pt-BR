@@ -3,11 +3,11 @@ product: campaign
 solution: Campaign
 title: O Painel de controle ajuda a aumentar a eficiência do seu trabalho como administrador de produtos do Adobe Campaign Standard e/ou Classic.
 description: Saiba como acessar o Painel de controle
-feature: Control Panel
-role: Architect
-level: Beginner
+feature: Control Panel,Overview
+role: Admin
+level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: f41b5ac04c3bb82599337a0dc2679c6ea406923e
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 79%

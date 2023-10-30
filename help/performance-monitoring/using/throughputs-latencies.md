@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoramento de taxas de transferência e latência
 description: Saiba como monitorar as taxas de transferência e a latência das instâncias do Campaign no Painel de controle.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
-source-git-commit: ea738ea3764e4651e0eb7b4bcc68a9f7b3c8d1e5
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '424'
 ht-degree: 100%

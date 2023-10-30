@@ -4,10 +4,10 @@ solution: Campaign
 title: Adicionar registros DMARC
 description: Saiba como adicionar um registro DMARC a um subdomínio.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: 14c873011782eef0413fe5fdb3b1a0eb357fa3bd
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 92%

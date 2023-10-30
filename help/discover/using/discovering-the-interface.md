@@ -4,10 +4,10 @@ solution: Campaign
 title: Apresentação à interface do Painel de controle
 description: Saiba mais sobre a interface do Painel de controle do Campaign
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: 20302017-d4b1-489b-a6b4-f086e5bad4d5
-source-git-commit: ca503b824422227e762eeaf75a4cf5aeed4801f8
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 19%

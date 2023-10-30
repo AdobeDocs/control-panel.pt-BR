@@ -4,10 +4,10 @@ solution: Campaign
 title: Monitoramento de consultas ativas
 description: Saiba como monitorar consultas ativas nas instâncias do Campaign no Painel de controle.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: a1ea14f9-ec1d-4e10-89ef-846065512e8c
-source-git-commit: 7078ff03bf2e4d156a71de4d900cbfcbd2ded312
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%

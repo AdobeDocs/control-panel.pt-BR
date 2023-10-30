@@ -4,10 +4,10 @@ solution: Campaign
 title: Fazer logon no servidor SFTP
 description: Saiba como fazer logon no servidor SFTP
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
-source-git-commit: 4fc34b07b497c743e2ca6c182e68d6ea5c180ac9
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '348'
 ht-degree: 6%

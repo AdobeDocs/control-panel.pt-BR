@@ -4,10 +4,10 @@ solution: Campaign
 title: Lista de permissões de intervalo IP
 description: Saiba como adicionar intervalos IP à lista de permissões para acesso de servidores SFTP
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
-source-git-commit: c1c80c03a351613ec0c6870a11ab39a634e8eab7
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '1048'
 ht-degree: 40%

@@ -4,10 +4,10 @@ solution: Campaign
 title: Marca de subdomínios
 description: Saiba mais sobre marca de subdomínios
 feature: Control Panel
-role: Architect
+role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
-source-git-commit: f1f6388bd32927cb13359f8975748ca4a158e660
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 78%

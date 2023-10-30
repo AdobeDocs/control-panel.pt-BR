@@ -4,27 +4,27 @@ solution: Campaign
 title: Adicionar registros de verificação de site do Google para um subdomínio
 description: Saiba como adicionar um registro de Verificação de site do Google para um subdomínio para verificação de propriedade de domínio.
 feature: Control Panel
-role: Architect
+role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
-source-git-commit: 355abf48cce3036d1c3e0f6c5fe3ca8fb63cf645
+source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 73%
+ht-degree: 83%
 
 ---
 
-# Adicionar registros de Verificação de site do Google {#adding-a-google-txt-record}
+# Adicionar registros de verificação de site do Google {#adding-a-google-txt-record}
 
 Para garantir altas taxas de caixa de entrada e baixas taxas de spam, alguns serviços como o Google exigem a adição de um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio.
 
-Atualmente, o Gmail está entre os provedores de endereços de email mais usados. Para garantir um bom delivery de emails para endereços Gmail, o Adobe Campaign permite adicionar registros especiais TXT de verificação de site do Google aos subdomínios para garantir que eles sejam verificados.
+Atualmente, o Gmail está entre os provedores de endereços de email mais usados. Para garantir uma boa entrega de emails para endereços Gmail, o Adobe Campaign permite adicionar registros especiais TXT de verificação de site do Google aos subdomínios para garantir que eles sejam verificados.
 
 Para adicionar um registro TXT do Google ao subdomínio usado para enviar emails para endereços Gmail, siga estas etapas:
 
 1. Na lista de subdomínios, clique no botão de reticências ao lado do subdomínio desejado e selecione **[!UICONTROL Subdomain details]**.
 
-1. Clique em **[!UICONTROL Add TXT record]** e escolha **[!UICONTROL Google Site Verification]** do **[!UICONTROL Record Type]** lista suspensa.
+1. Clique no botão **[!UICONTROL Add TXT record]** e escolha **[!UICONTROL Google Site Verification]** na lista suspensa **[!UICONTROL Record Type]**.
 
 1. Insira o valor gerado nas ferramentas do administrador do G Suite. Para obter mais informações, consulte [Ajuda do administrador do G Suite](https://support.google.com/a/answer/183895).
 
