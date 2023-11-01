@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 100%
+source-wordcount: '439'
+ht-degree: 93%
 
 ---
 
@@ -46,7 +46,7 @@ As informações relacionadas ao uso de perfis ativos são atualizadas no Painel
 * O workflow [“Número de perfis de faturamento ativos”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=pt-BR) para o Campaign v7/v8.
 
 
-Para monitorar o uso de perfis ativos no Painel de controle, navegue até o cartão **[!UICONTROL Performance Monitoring]** > guia **[!UICONTROL Active Profiles]** e selecione a instância desejada na **[!UICONTROL Instance List]**.
+Para monitorar o uso do perfil ativo no Painel de controle do Campaign, navegue até o **[!UICONTROL Monitoramento de desempenho]** cartão > **[!UICONTROL Perfis ativos]** e selecione a instância desejada na guia **[!UICONTROL Lista de instâncias]**.
 
 São exibidas informações sobre o uso de perfis ativos.
 

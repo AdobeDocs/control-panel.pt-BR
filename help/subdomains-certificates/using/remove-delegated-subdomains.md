@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 517818c9-8557-49fd-b49c-b98b60e48f1c
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '818'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 82%
 
 ---
 
@@ -35,7 +35,7 @@ Antes de continuar, considere cuidadosamente os impactos que ocorrem assim que o
 
 Para remover a delegação de um subdomínio para a Adobe, siga estas etapas:
 
-1. Clique no botão de reticências ao lado da delegação de domínio que deseja remover e selecione **[!UICONTROL Remove delegation]**.
+1. Clique no botão de reticências ao lado da delegação de domínio que deseja remover e selecione **[!UICONTROL Remover delegação]**.
 
    ![](assets/undelegate-subdomain.png)
 
@@ -43,15 +43,15 @@ Para remover a delegação de um subdomínio para a Adobe, siga estas etapas:
 
 1. Revise as informações sobre a instância à qual o subdomínio está associado, incluindo afinidades de IP relacionadas e configurações de marca.
 
-   Se você estiver removendo a delegação do domínio primário para a instância selecionada, será necessário escolher o domínio que a substituirá usando a lista de **[!UICONTROL Replacement Domain]**.
+   Se você estiver removendo a delegação do domínio primário para a instância selecionada, será necessário escolher o domínio que a substituirá usando o **[!UICONTROL Domínio de Substituição]** lista.
 
-   Clique em **[!UICONTROL Next]** para prosseguir com a remoção.
+   Clique em **[!UICONTROL Próxima]** para prosseguir com a remoção.
 
    ![](assets/undelegate-subdomain-details.png)
 
-1. Se estiver removendo uma delegação do tipo CNAME ou se estiver substituindo um domínio principal por um domínio delegado usando CNAMEs, uma etapa **[!UICONTROL Action]** adicional será exibida para gerenciar registros DNS. [Saiba mais nesta seção](#dns)
+1. Se você remover uma delegação do tipo CNAME ou se estiver substituindo um domínio primário por um domínio delegado usando CNAMEs, uma solicitação adicional **[!UICONTROL Ação]** é exibida para gerenciar registros DNS. [Saiba mais nesta seção](#dns)
 
-1. Revise o resumo exibido. Para confirmar a remoção, digite o URL do domínio para o qual deseja remover a delegação e clique em **[!UICONTROL Submit]**.
+1. Revise o resumo exibido. Para confirmar a remoção, digite o URL do domínio para o qual deseja remover a delegação e clique em **[!UICONTROL Enviar]**.
 
    ![](assets/undelegate-submit.png)
 
@@ -85,14 +85,14 @@ Se uma dessas ações for necessária para remover a delegação, uma etapa **[!
 ### Excluir registros DNS
 
 1. Navegue até o servidor DNS e remova os registros listados no Painel de controle.
-1. Volte para o Painel de controle e clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
+1. Volte para Painel de controle e clique em **[!UICONTROL Próxima]** para continuar com a remoção da delegação.
 
 ### Adicionar registros DNS
 
 1. Navegue até o servidor DNS e adicione os registros listados no Painel de controle.
 1. Aguarde a conclusão da adição de DNS.
-1. Volte para o Painel de controle e clique em **[!UICONTROL Verify]**.
-1. Depois que a adição dos registros for confirmada com sucesso, clique em **[!UICONTROL Next]** para continuar com a remoção da delegação.
+1. Volte para Painel de controle e clique em **[!UICONTROL Verificar]**.
+1. Após verificar a adição dos registros com êxito, clique em **[!UICONTROL Próxima]** para continuar com a remoção da delegação.
 
 ## Códigos de erro {#FAQ}
 

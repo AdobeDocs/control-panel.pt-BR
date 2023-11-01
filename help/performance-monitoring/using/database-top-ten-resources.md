@@ -9,14 +9,14 @@ level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 69%
+source-wordcount: '182'
+ht-degree: 59%
 
 ---
 
 # Os 10 principais recursos temporários {#top-10}
 
-A área **[!UICONTROL Top 10 temporary resources]** lista os 10 maiores recursos temporários gerados por workflows e entregas.
+A variável **[!UICONTROL Os 10 principais recursos temporários]** A área lista os 10 maiores recursos temporários gerados por workflows e deliveries.
 
 Monitorar workflows e entregas que estão criando grandes recursos temporários é uma etapa essencial para monitorar seu banco de dados. Se qualquer recurso temporário estiver consumindo muito espaço no banco de dados, verifique se esse fluxo de trabalho ou entrega é necessário e navegue até sua instância para interrompê-lo.
 
@@ -28,4 +28,4 @@ Monitorar workflows e entregas que estão criando grandes recursos temporários 
 
 ![](assets/database-top10.png)
 
-A variável **[!UICONTROL View all]** permite acessar a variável **[!UICONTROL Storage overview]** detalhes para obter informações detalhadas sobre esses recursos temporários. Para obter mais informações, consulte [esta página](database-storage-overview.md).
+A variável **[!UICONTROL Exibir todos]** permite acessar a variável **[!UICONTROL Visão geral de armazenamento]** detalhes para obter informações detalhadas sobre esses recursos temporários. Para obter mais informações, consulte [esta página](database-storage-overview.md).

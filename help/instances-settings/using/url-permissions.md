@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 85%
+source-wordcount: '612'
+ht-degree: 80%
 
 ---
 
@@ -56,7 +56,7 @@ Depois de adicionado, o URL é referenciado no arquivo de configuração da inst
 
 Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas:
 
-1. Abra o cartão **[!UICONTROL Instances Settings]** para acessar a guia **[!UICONTROL URL Permissions]**.
+1. Abra o cartão **[!UICONTROL Configurações de instâncias]** para acessar a guia **[!UICONTROL Permissões de URL]**.
 
    >[!NOTE]
    >
@@ -64,7 +64,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
    >
    >A guia de <b><span class="uicontrol">permissões de URL</span></b> lista todos os URLs externos aos quais sua instância pode se conectar. Essa lista não inclui URLs necessários para que o Campaign funcione (por exemplo, conexões entre peças de infraestrutura).
 
-1. Selecione no painel esquerdo a instância desejada e clique no botão **[!UICONTROL Add new URL]**.
+1. Selecione no painel esquerdo a instância desejada e clique no botão **[!UICONTROL Adicionar novo URL]** botão.
 
    ![](assets/add_url1.png)
 
@@ -90,7 +90,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    ![](assets/add_url_listnew.png)
 
-Você pode excluir um URL a qualquer momento selecionando-o e clicando no botão **[!UICONTROL Delete URL]**.
+Você pode excluir um URL a qualquer momento selecionando-o e clicando no link **[!UICONTROL Excluir URL]** botão.
 
 Lembre-se de que se você excluir um URL, sua instância não poderá chamá-lo novamente.
 

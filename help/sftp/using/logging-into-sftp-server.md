@@ -9,7 +9,7 @@ level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '356'
 ht-degree: 6%
 
 ---
@@ -30,7 +30,7 @@ Antes de fazer logon no servidor, verifique se:
 
 Para se conectar ao servidor SFTP, siga estas etapas:
 
-1. Inicie o Painel de controle e selecione o **[!UICONTROL Key Management]** na guia **[!UICONTROL SFTP]** cartão.
+1. Inicie o Painel de controle e selecione o **[!UICONTROL Gerenciamento de chaves]** na guia **[!UICONTROL SFTP]** cartão.
 
    ![](assets/sftp_card.png)
 
@@ -38,11 +38,11 @@ Para se conectar ao servidor SFTP, siga estas etapas:
 
    ![](assets/do-not-localize/connect1.png)
 
-1. No **[!UICONTROL SSH Private Key]** selecione o arquivo de chave privada armazenado no computador. Ele corresponde a um arquivo de texto que tem o mesmo nome que sua chave pública, sem a extensão &quot;.pub&quot; (por exemplo, &quot;enable&quot;).
+1. No **[!UICONTROL Chave privada SSH]** selecione o arquivo de chave privada armazenado no computador. Ele corresponde a um arquivo de texto que tem o mesmo nome que sua chave pública, sem a extensão &quot;.pub&quot; (por exemplo, &quot;enable&quot;).
 
    ![](assets/do-not-localize/connect2.png)
 
-   A variável **[!UICONTROL Password]** O campo é preenchido automaticamente com a chave privada do arquivo.
+   A variável **[!UICONTROL Senha]** O campo é preenchido automaticamente com a chave privada do arquivo.
 
    ![](assets/do-not-localize/connect3.png)
 
@@ -56,6 +56,6 @@ Para se conectar ao servidor SFTP, siga estas etapas:
    >
    >`ssh-keygen -lf <path of the privatekey>`
 
-1. Depois que todas as informações forem preenchidas, clique em **[!UICONTROL Connect]** para fazer logon no servidor SFTP.
+1. Depois que todas as informações forem preenchidas, clique em **[!UICONTROL Conectar]** para fazer logon no servidor SFTP.
 
    ![](assets/do-not-localize/sftpconnected.png)

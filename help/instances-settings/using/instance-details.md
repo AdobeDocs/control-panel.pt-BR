@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 75%
+source-wordcount: '536'
+ht-degree: 71%
 
 ---
 
@@ -44,7 +44,7 @@ A funcionalidade Detalhes da instância permite a visualização de uma arquitet
 
 Para obter informações sobre os servidores conectados às suas instâncias, siga estas etapas:
 
-1. Abra o cartão **[!UICONTROL Instances Settings]** para acessar a guia **[!UICONTROL Instance Details]**.
+1. Abra o cartão **[!UICONTROL Configurações de instâncias]** para acessar a guia **[!UICONTROL Detalhes da instância]**.
 
    >[!NOTE]
    >
@@ -62,10 +62,10 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
 
 As informações disponíveis são:
 
-* **[!UICONTROL Type]**: o tipo de servidor. Os valores possíveis são MKT (Marketing), MID (Mid sourcing) e RT (Centro de mensagens/Mensagens em tempo real).
-* **[!UICONTROL Name]**: o nome do servidor.
-* **[!UICONTROL Build:]** a versão da build instalada no servidor.
-* **[!UICONTROL Upgrade info]**: esta coluna informa se alguma atualização é necessária para o servidor.
+* **[!UICONTROL Tipo]**: o tipo de servidor. Os valores possíveis são MKT (Marketing), MID (Mid sourcing) e RT (Centro de mensagens/Mensagens em tempo real).
+* **[!UICONTROL Nome]**: o nome do servidor.
+* **[!UICONTROL Build:]** a versão de build instalada no servidor.
+* **[!UICONTROL Atualizar informações]**: esta coluna informa se alguma atualização é necessária para o servidor.
    * Verde: o servidor está atualizado, nenhuma atualização é necessária.
    * Amarelo: você deve pensar em atualizar. Faltam os recursos e as correções mais recentes.
    * Vermelho: atualize assim que possível. Faltam novos recursos e o desempenho do servidor pode não ser o ideal.

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 65%
+source-wordcount: '573'
+ht-degree: 57%
 
 ---
 
@@ -51,7 +51,7 @@ Abaixo, você encontrará uma lista abrangente dos impactos associados ao gerenc
 >title="Detalhes do subdomínio"
 >abstract="Recupere informações dos certificados SSL dos subdomínios."
 
-O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o cartão **[!UICONTROL Subdomains & Certificates]**.
+O status dos certificados SSL dos subdomínios está disponível diretamente na lista de subdomínios ao selecionar o **[!UICONTROL Subdomínios e certificados]** cartão.
 
 Os subdomínios são organizados pela data de expiração mais próxima do certificado SSL, com informações visuais sobre a expiração, em dias:
 
@@ -62,10 +62,10 @@ Os subdomínios são organizados pela data de expiração mais próxima do certi
 
 ![](assets/subdomains_list.png)
 
-Para obter mais detalhes sobre um subdomínio, clique no botão **[!UICONTROL Subdomain Details]**.
+Para obter mais detalhes sobre um subdomínio, clique no link **[!UICONTROL Detalhes do subdomínio]** botão.
 A lista de todos os subdomínios relacionados é exibida. Em geral, a lista inclui subdomínios de landing pages, páginas de recursos, etc.
 
-A guia **[!UICONTROL Sender info]** fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, Email de erro).
+A variável **[!UICONTROL Informações do remetente]** A guia fornece informações sobre as caixas de entrada configuradas (Remetente, Responder para, Email de erro).
 
 ![](assets/subdomain_details.png)
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '774'
-ht-degree: 100%
+source-wordcount: '795'
+ht-degree: 83%
 
 ---
 
@@ -34,17 +34,17 @@ Informações detalhadas sobre a implementação do DMARC estão disponíveis no
 
 Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
 
-1. Na lista de subdomínios, clique no botão de reticências ao lado do subdomínio desejado e selecione **[!UICONTROL Subdomain details]**.
+1. Na lista de subdomínios, clique no botão de reticências ao lado do subdomínio desejado e selecione **[!UICONTROL Detalhes do subdomínio]**.
 
-1. Clique no botão **[!UICONTROL Add TXT record]** e escolha **[!UICONTROL DMARC]** na lista suspensa **[!UICONTROL Record Type]**.
+1. Clique em **[!UICONTROL Adicionar registro TXT]** e escolha **[!UICONTROL DMARC]** do **[!UICONTROL Tipo de registro]** lista suspensa.
 
    ![](assets/dmarc-add.png)
 
-1. Escolha o **[!UICONTROL Policy Type]** que o servidor do destinatário deve seguir quando um de seus emails falhar. Os tipos de política disponíveis são:
+1. Escolha o **[!UICONTROL Tipo de política]** que o servidor do recipient deve seguir quando um de seus emails falhar. Os tipos de política disponíveis são:
 
-   * **[!UICONTROL None]**,
-   * **[!UICONTROL Quarantine]** (inserção na pasta de spam),
-   * **[!UICONTROL Reject]** (bloqueio de emails).
+   * **[!UICONTROL nenhuma]**,
+   * **[!UICONTROL Quarentena]** (posicionamento da pasta de spam),
+   * **[!UICONTROL Rejeitar]** (bloquear o email).
 
    A prática recomendada é o uso de uma implantação lenta do DMARC com uma progressão de políticas (de “Nenhum” para “Quarentena” e, por fim, “Rejeitar”) à medida que você compreende os possíveis impactos do DMARC.
 
@@ -73,15 +73,15 @@ Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
 
    ![](assets/dmarc-add2.png)
 
-1. Os relatórios DMARC são enviados a cada 24 horas. É possível alterar a frequência de envio dos relatórios no campo **[!UICONTROL Reporting Interval]**. O intervalo mínimo autorizado é de 1 hora, enquanto o valor máximo é de 2190 horas (ou seja, 3 meses).
+1. Os relatórios DMARC são enviados a cada 24 horas. É possível alterar a frequência de envio dos relatórios no **[!UICONTROL Intervalo de relatório]** campo. O intervalo mínimo autorizado é de 1 hora, enquanto o valor máximo é de 2190 horas (ou seja, 3 meses).
 
-1. Nos campos **SPF** e **[!UICONTROL DKIM Identifier Alignment]**, especifique a rigidez com a qual os servidores receptores devem verificar autenticações SPF e DKIM para um email.
+1. No **SPF** e **[!UICONTROL Alinhamento do identificador DKIM]** , especifique a rigidez dos servidores de recipients ao verificar autenticações SPF e DKIM para um email.
 
-   * Modo **[!UICONTROL Relaxed]**: o servidor aceita a autenticação mesmo que o email seja enviado de um subdomínio,
-   * o modo **[!UICONTROL Strict]** aceita a autenticação somente quando o domínio remetente corresponde exatamente a um domínio SPF e DKIM.
+   * **[!UICONTROL Relaxado]** mode: o servidor aceita autenticação mesmo se o email for enviado de um subdomínio,
+   * **[!UICONTROL Estrito]** O modo aceita autenticação somente quando o domínio remetente corresponde exatamente a um domínio SPF e DKIM.
 
    Suponha que estejamos trabalhando com o domínio `http://www.luma.com`. No modo “Flexível”, os emails provenientes do subdomínio `marketing.luma.com` serão autorizados pelo servidor, mas serão rejeitados ao utilizar o modo “Rígido”.
 
-1. Clique em **[!UICONTROL Add]** para confirmar a criação do registro DMARC.
+1. Clique em **[!UICONTROL Adicionar]** para confirmar a criação do registro DMARC.
 
 Depois que a criação do registro DMARC é processada (o que leva aproximadamente 5 minutos), ela é exibida na tela de detalhes dos subdomínios. [Saiba como monitorar registros TXT de seus subdomínios](gs-txt-records.md#monitor)

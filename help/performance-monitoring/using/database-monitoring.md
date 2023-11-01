@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 79%
+source-wordcount: '397'
+ht-degree: 70%
 
 ---
 
@@ -34,9 +34,9 @@ Se você se inscreveu no [alerta por email](../../performance-monitoring/using/e
 >abstract="Nesta guia, você pode obter informações em tempo real sobre a utilização e evolução mais recente e histórica do banco de dados para cada uma das instâncias do Campaign."
 >additional-url="https://experienceleague.adobe.com/docs/control-panel/using/performance-monitoring/about-performance-monitoring.html?lang=pt-BR" text="Sobre o monitoramento de desempenho"
 
-O Painel de controle permite monitorar a utilização do banco de dados para cada uma das instâncias do Campaign. Para fazer isso, abra o cartão **[!UICONTROL Performance Monitoring]** e selecione a guia **[!UICONTROL Databases]**.
+O Painel de controle permite monitorar a utilização do banco de dados para cada uma das instâncias do Campaign. Para fazer isso, abra a variável **[!UICONTROL Monitoramento de desempenho]** e selecione a variável **[!UICONTROL Bancos de dados]** guia.
 
-Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir informações sobre a capacidade do banco de dados da instância e o espaço usado.
+Selecione a instância desejada na **[!UICONTROL Lista de instâncias]** para exibir informações sobre a capacidade do banco de dados da instância e o espaço usado.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ Selecione a instância desejada em **[!UICONTROL Instance List]** para exibir in
 
 ![](assets/databases_dashboard.png)
 
-Os dados deste painel são atualizados com base no **[!UICONTROL Database cleanup technical workflow]** que é executado na instância do Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR) documentação). Você pode verificar a última vez que o workflow foi executado abaixo de **[!UICONTROL Used Space]** e **[!UICONTROL Provided Space]** métricas. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
+Os dados deste painel são atualizados com base no **[!UICONTROL Fluxo de trabalho técnico de limpeza de banco de dados]** que é executado na instância do Campaign (consulte [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR) documentação). Você pode verificar a última vez que o workflow foi executado abaixo de **[!UICONTROL Espaço usado]** e **[!UICONTROL Espaço fornecido]** métricas. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que o fluxo de trabalho não está em execução.
 
 Métricas adicionais estão disponíveis neste painel para ajudar você a analisar o uso do banco de dados da instância. Eles estão detalhados nestas seções:
 

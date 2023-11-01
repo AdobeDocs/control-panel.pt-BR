@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '993'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1027'
+ht-degree: 75%
 
 ---
 
@@ -61,22 +61,22 @@ O processo de renovação do certificado SSL inclui 3 etapas:
 
 Para gerar uma Solicitação de assinatura de certificado (CSR), siga estas etapas:
 
-1. No cartão **[!UICONTROL Subdomains & Certificates]**, selecione a instância desejada e clique no botão **[!UICONTROL Manage Certificate]**.
+1. No **[!UICONTROL Subdomínios e certificados]** , selecione a instância desejada e clique no botão **[!UICONTROL Gerenciar certificado]** botão.
 
    ![](assets/renewal1.png)
 
-1. Selecione **[!UICONTROL 1 - Generate a CSR]** e clique em **[!UICONTROL Next]** para iniciar o assistente que guiará você pelo processo de geração de CSR.
+1. Selecionar **[!UICONTROL 1 - Gerar uma CSR]** e, em seguida, clique em **[!UICONTROL Próxima]** para iniciar o assistente que guiará você pelo processo de geração de CSR.
 
    ![](assets/renewal2.png)
 
 1. Um formulário é exibido com todos os detalhes necessários para gerar a CSR.
 
-   Preencha as informações solicitadas completamente e com precisão, caso contrário, o certificado pode não ser renovado (entre em contato com a equipe interna, as equipes de segurança e de TI, se necessário) e clique em **[!UICONTROL Next]**.
+   Preencha as informações solicitadas completamente e com precisão, caso contrário, o certificado pode não ser renovado (entre em contato com a equipe interna, as equipes de segurança e de TI, se necessário) e clique em **[!UICONTROL Próxima]**.
 
-   * **[!UICONTROL Organization]**: nome oficial da organização.
-   * **[!UICONTROL Organization Unit]**: unidade vinculada ao subdomínio (por exemplo: Marketing, TI).
-   * **[!UICONTROL Instance]** (pré-preenchido): URL da instância do Campaign associado ao subdomínio.
-   * **[!UICONTROL Common name]**: o nome comum é selecionado por padrão. Você pode selecionar um dos subdomínios se necessário.
+   * **[!UICONTROL Organização]**: nome oficial da organização.
+   * **[!UICONTROL Unidade da Organização]**: unidade vinculada ao subdomínio (por exemplo: Marketing, TI).
+   * **[!UICONTROL Instância]** (pré-preenchido): URL da instância do Campaign associado ao subdomínio.
+   * **[!UICONTROL Nome comum]**: o nome comum é selecionado por padrão. Você pode selecionar um dos subdomínios se necessário.
 
    ![](assets/renewal3.png)
 
@@ -84,17 +84,17 @@ Para gerar uma Solicitação de assinatura de certificado (CSR), siga estas etap
 
    ![](assets/renewal4.png)
 
-1. Os subdomínios selecionados são exibidos na lista. Para cada um deles, selecione os subdomínios que serão incluídos e clique em **[!UICONTROL Next]**.
+1. Os subdomínios selecionados são exibidos na lista. Para cada um deles, selecione os subdomínios que serão incluídos e clique em **[!UICONTROL Próxima]**.
 
    ![](assets/renewal5.png)
 
-1. Um resumo dos subdomínios que serão incluídos na CSR é exibido. Clique em **[!UICONTROL Submit]** para confirmar a solicitação.
+1. Um resumo dos subdomínios que serão incluídos na CSR é exibido. Clique em **[!UICONTROL Enviar]** para confirmar sua solicitação.
 
    ![](assets/renewal6.png)
 
    >[!NOTE]
    >
-   >O botão **[!UICONTROL Copy CSR content]** permite copiar todas as informações relacionadas à CSR (ID da organização, instância, nome da organização, nome comum, subdomínios incluídos etc.)
+   >A variável **[!UICONTROL Copiar conteúdo CSR]** O botão permite copiar todas as informações relacionadas à CSR (ID da organização, instância, nome da organização, nome comum, subdomínios incluídos etc.)
 
 1. O arquivo .csr correspondente à seleção é gerado e baixado automaticamente. Agora você pode usá-lo para adquirir o certificado SSL da autoridade de certificação que sua empresa aprovar. Se precisar baixar a CSR novamente, siga as etapas detalhadas [nesta seção](#download).
 
@@ -106,11 +106,11 @@ Depois que o certificado SSL for comprado, você poderá instalá-lo na instânc
 
 Para comprar um certificado SSL, primeiro é necessário baixar a Solicitação de assinatura de certificado (CSR). A CSR é baixada automaticamente após ser gerada. Também é possível baixá-la novamente a qualquer momento em Logs de processo:
 
-1. Em **[!UICONTROL Job Logs]**, clique na guia **[!UICONTROL Finished]** e filtre a lista para exibir os processos relacionados ao gerenciamento de subdomínios.
+1. No **[!UICONTROL Logs de trabalho]**, selecione o **[!UICONTROL Concluído]** e filtre a lista para exibir tarefas relacionadas ao gerenciamento de subdomínios.
 
    ![](assets/renewal-download.png)
 
-1. Abra o processo correspondente à geração da CSR e clique no link **[!UICONTROL Downbload]** para obter o arquivo .csr.
+1. Abra o job correspondente à geração da CSR e clique no link **[!UICONTROL Baixar]** link para obter o arquivo .csr.
 
    ![](assets/renewal-download-button.png)
 
@@ -139,15 +139,15 @@ Depois que um certificado SSL for adquirido, você poderá instalá-lo em sua in
 
 Para instalar o certificado, siga estas etapas:
 
-1. No cartão **[!UICONTROL Subdomains & Certificates]**, selecione a instância desejada e clique no botão **[!UICONTROL Manage Certificate]**.
+1. No **[!UICONTROL Subdomínios e certificados]** , selecione a instância desejada e clique no botão **[!UICONTROL Gerenciar certificado]** botão.
 
    ![](assets/renewal1.png)
 
-1. Selecione **[!UICONTROL 3 - Install Certificate Bundle]** e clique em **[!UICONTROL Next]** para iniciar o assistente que guiará você pelo processo de instalação do certificado.
+1. Selecionar **[!UICONTROL 3 - Instalar conjunto de certificados]** e, em seguida, clique em **[!UICONTROL Próxima]** para iniciar o assistente que guiará você pelo processo de instalação do certificado.
 
    ![](assets/install1.png)
 
-1. Selecione o arquivo .zip que contém o certificado que será instalado e clique em **[!UICONTROL Submit]**.
+1. Selecione o arquivo .zip que contém o certificado que será instalado e clique em **[!UICONTROL Enviar]**.
 
    ![](assets/install2.png)
 

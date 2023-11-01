@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '325'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '337'
+ht-degree: 81%
 
 ---
 
@@ -34,18 +34,18 @@ A delegação de certificados SSL para a Adobe pode ser executada ao configurar 
 
 ## Delegação de novos certificados SSL de subdomínios {#new}
 
-Para delegar certificados SSL ao configurar um novo subdomínio, habilite a opção **[!UICONTROL Opt for Adobe managed SSL for sub-domains]** do assistente de configuração de subdomínio. Os registros de certificados a serem copiados para sua solução de hospedagem serão fornecidos posteriormente no assistente de configuração. As etapas detalhadas estão documentadas [nesta seção](setting-up-new-subdomain.md).
+Para delegar certificados SSL ao configurar um novo subdomínio, habilite o **[!UICONTROL Optar por SSL gerenciado por Adobe para subdomínios]** opção do assistente de configuração de subdomínio. Os registros de certificados a serem copiados para sua solução de hospedagem serão fornecidos posteriormente no assistente de configuração. As etapas detalhadas estão documentadas [nesta seção](setting-up-new-subdomain.md).
 
 ![](assets/cname-adobe-managed.png){width="70%" align="left"}
 
 ## Delegação de certificados SSL para subdomínios já delegados {#delegated}
 
-Para delegar certificados SSL para um subdomínio já delegado, clique no botão de reticências ao lado do subdomínio desejado e clique em **[!UICONTROL Switch to Managed SSL]**.
+Para delegar certificados SSL para um subdomínio já delegado, clique no botão de reticências ao lado do subdomínio desejado e clique em **[!UICONTROL Alternar para SSL Gerenciado]**.
 
 ![](assets/delegate-ssl-list.png){width="70%" align="left"}
 
 Uma caixa de diálogo será exibida com os registros de certificado que foram gerados automaticamente pela Adobe. Copie esses registros um por um ou baixando um arquivo CSV e navegue até a sua solução de hospedagem de domínio para gerar o certificado correspondente.
 
-Certifique-se de que todos os registros de certificado tenham sido gerados em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, confirme a criação dos registros e clique em **[!UICONTROL Submit]**.
+Certifique-se de que todos os registros de certificado tenham sido gerados em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, confirme a criação dos registros e clique em **[!UICONTROL Enviar]**.
 
 ![](assets/delegate-ssl.png){width="70%" align="left"}

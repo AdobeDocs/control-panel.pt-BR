@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 40%
+source-wordcount: '1080'
+ht-degree: 36%
 
 ---
 
@@ -52,8 +52,8 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 
 Para adicionar um intervalo IP à lista de permissões, siga estas etapas:
 
-1. Abra o cartão **[!UICONTROL SFTP]** e selecione a guia **[!UICONTROL IP Allow Listing]**.
-1. A lista de endereços IP na lista de permissões é exibida para cada instância. Selecione a instância desejada na lista do lado esquerdo e clique no botão **[!UICONTROL Add new IP range]**.
+1. Abra o **[!UICONTROL SFTP]** e selecione a variável **[!UICONTROL Lista de permissões de IP]** guia.
+1. A lista de endereços IP na lista de permissões é exibida para cada instância. Selecione a instância desejada na lista do lado esquerdo e clique no botão **[!UICONTROL Adicionar novo intervalo de IP]** botão.
 
    ![](assets/control_panel_add_range.png)
 
@@ -75,20 +75,20 @@ Para adicionar um intervalo IP à lista de permissões, siga estas etapas:
 
    >[!NOTE]
    >
-   >Os seguintes caracteres especiais são permitidos na **[!UICONTROL Label]** campo:
+   >Os seguintes caracteres especiais são permitidos na **[!UICONTROL Rótulo]** campo:
    > `. _ - : / ( ) # , @ [ ] + = & ; { } ! $`
 
-1. Para gerenciar melhor sua lista de permissões de IP, você pode definir uma duração para a disponibilidade de cada intervalo de IP. Para fazer isso, selecione uma unidade na caixa **[!UICONTROL Type]** e defina uma duração no campo correspondente. Para obter mais informações sobre a expiração do intervalo de IP, consulte [nesta seção](#expiry).
+1. Para gerenciar melhor sua lista de permissões de IP, você pode definir uma duração para a disponibilidade de cada intervalo de IP. Para fazer isso, selecione uma unidade na caixa **[!UICONTROL Tipo]** e defina uma duração no campo correspondente. Para obter mais informações sobre a expiração do intervalo de IP, consulte [nesta seção](#expiry).
 
    ![](assets/control_panel_add_range5.png)
 
    >[!NOTE]
    >
-   >Por padrão, a variável **[!UICONTROL Type]** o campo está definido como **[!UICONTROL Unlimited]**, o que significa que o intervalo IP nunca expira.
+   >Por padrão, a variável **[!UICONTROL Tipo]** o campo está definido como **[!UICONTROL Ilimitado]**, o que significa que o intervalo IP nunca expira.
 
-1. No **[!UICONTROL Comment]** você pode indicar um motivo para permitir esse intervalo IP (por quê, para quem etc.).
+1. No **[!UICONTROL Comentário]** você pode indicar um motivo para permitir esse intervalo IP (por quê, para quem etc.).
 
-1. Clique no botão **[!UICONTROL Save]**. A adição do intervalo IP à lista de permissões será exibida como **[!UICONTROL Pending]** até que a solicitação seja totalmente processada, o que deve levar apenas alguns segundos.
+1. Clique no botão **[!UICONTROL Save.]** A adição do intervalo IP à lista de permissões será exibida como **[!UICONTROL Pending]** até que a solicitação seja totalmente processada, o que deve levar apenas alguns segundos.
 
    ![](assets/control_panel_add_range6.png)
 
@@ -98,7 +98,7 @@ Para adicionar um intervalo IP à lista de permissões, siga estas etapas:
 
 ## Gerenciamento de intervalos de IP {#managing-ip-ranges}
 
-Os intervalos IP criados são exibidos no campo **[!UICONTROL IP Allow Listing]** guia.
+Os intervalos IP criados são exibidos no campo **[!UICONTROL Lista de permissões de IP]** guia.
 
 Você pode classificar os itens com base na data de criação ou data de edição, no usuário que os criou ou editou e na expiração do intervalo de IP.
 
@@ -108,17 +108,17 @@ Você também pode pesquisar um intervalo IP começando a digitar um rótulo, um
 
 Para editar um ou mais intervalos IP, consulte [nesta seção](#editing-ip-ranges).
 
-Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no link **[!UICONTROL Delete IP range]** botão.
+Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no link **[!UICONTROL Excluir intervalo IP]** botão.
 
 ![](assets/control_panel_delete_range.png)
 
 ### Expiração {#expiry}
 
-A variável **[!UICONTROL Expires]** mostra quantos dias restam até que o intervalo IP expire.
+A variável **[!UICONTROL Expira]** mostra quantos dias restam até que o intervalo IP expire.
 
 Se você se inscreveu no [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email 10 dias e 5 dias antes que um intervalo IP expire e no dia em que ele estiver prestes a expirar. Ao receber o alerta, você pode [editar o intervalo IP](#editing-ip-ranges) prorrogar o seu período de validade, se necessário.
 
-Um intervalo IP expirado será excluído automaticamente após 7 dias. É mostrado como **[!UICONTROL Expired]** no **[!UICONTROL Expires]** coluna. Neste período de 7 dias:
+Um intervalo IP expirado será excluído automaticamente após 7 dias. É mostrado como **[!UICONTROL Expirado]** no **[!UICONTROL Expira]** coluna. Neste período de 7 dias:
 
 * Um intervalo IP expirado não pode mais ser usado para acessar os servidores SFTP.
 
@@ -143,9 +143,9 @@ Para editar intervalos IP, siga as etapas abaixo.
 
 <!--Edition is not available for IP ranges that have been created before the Control Panel October 2021 release.-->
 
-1. Selecione um ou mais intervalos IP na **[!UICONTROL IP Allow Listing]** lista.
+1. Selecione um ou mais intervalos IP na **[!UICONTROL Lista de permissões de IP]** lista.
 
-1. Clique no botão **[!UICONTROL Update IP range]**.
+1. Clique em **[!UICONTROL Atualizar intervalo IP]** botão.
 
    ![](assets/control_panel_edit_range.png)
 
@@ -161,7 +161,7 @@ Para editar intervalos IP, siga as etapas abaixo.
 
 ## Monitoramento de alterações {#monitoring-changes}
 
-A variável **[!UICONTROL Job Logs]** na home page do Painel de controle do Campaign, é possível rastrear e monitorar todas as alterações feitas em endereços IP na lista de permissões.
+A variável **[!UICONTROL Logs de trabalho]** na home page do Painel de controle do Campaign, é possível rastrear e monitorar todas as alterações feitas em endereços IP na lista de permissões.
 
 Para obter mais informações sobre a interface do Painel de controle, consulte [esta seção](../../discover/using/discovering-the-interface.md).
 

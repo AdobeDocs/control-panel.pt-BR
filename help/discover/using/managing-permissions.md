@@ -9,8 +9,8 @@ level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 7%
+source-wordcount: '288'
+ht-degree: 6%
 
 ---
 
@@ -30,7 +30,7 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
    >
    >Se a variável **Admin Console** não estiver visível, significa que você não tem direitos de Administrador para sua organização. Entre em contato com os administradores da organização para executar as etapas com eles.
 
-1. No **Admin Console**, selecione o produto do Campaign desejado na **[!UICONTROL Products and services]** lista.
+1. No **Admin Console**, selecione o produto do Campaign desejado na **[!UICONTROL Produtos e serviços]** lista.
 
    ![](assets/do-not-localize/control_panel_product-list.png)
 
@@ -46,7 +46,7 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
    >
    >É possível adicionar diferentes usuários administradores para cada instância do Campaign. Os usuários administradores acessarão somente o Painel de controle da instância à qual pertencem.
 
-1. A lista de **[!UICONTROL Product Profiles]** para a instância selecionada é exibida. Clique em **[!UICONTROL Administrators]** perfil de produto para acessar a lista de usuários Administradores.
+1. A lista de **[!UICONTROL Perfis de produto]** para a instância selecionada é exibida. Clique em **[!UICONTROL Administradores]** perfil de produto para acessar a lista de usuários Administradores.
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
@@ -54,7 +54,7 @@ O Painel de controle do Campaign está disponível para todos os usuários admin
    >
    >Por padrão, os usuários administradores pertencem ao Perfil de produto &quot;Administradores&quot;. De acordo com a configuração da organização, o Perfil do produto pode ser nomeado de forma diferente (&quot;administrador&quot;, &quot;administradores&quot; etc.).
 
-1. A lista de usuários Administradores é exibida. Clique em **[!UICONTROL Add User]** botão para adicionar o usuário desejado.
+1. A lista de usuários Administradores é exibida. Clique em **[!UICONTROL Adicionar usuário]** botão para adicionar o usuário desejado.
 
    ![](assets/do-not-localize/control_panel_add_user_6.png)
 

@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '749'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '780'
+ht-degree: 71%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 100%
 
 Para monitorar com eficiência as instâncias do Campaign, é crucial acompanhar eventos importantes que tenham potencial para afetar sua(s) instância(s). O Painel de controle permite identificar eventos como novas versões, atualizações, correções, correções rápidas etc., e fornece uma lista de contatos importantes da Adobe para qualquer solicitação ou problema.
 
-Essas informações podem ser acessadas no cartão **[!UICONTROL Service Calendar]**, na página inicial do Painel de controle.
+Essas informações podem ser acessadas no **[!UICONTROL Calendário de serviço]** na página inicial do Painel de controle do Campaign.
 
 ## Contatos importantes {#key-contacts}
 
-A seção **[!UICONTROL Key contacts]** lista as pessoas na Adobe que você pode contatar para qualquer solicitação ou problema em suas instâncias.
+A variável **[!UICONTROL Contatos importantes]** A seção lista as pessoas no Adobe que você pode contatar para qualquer solicitação ou problema em suas instâncias.
 
 >[!NOTE]
 >
@@ -43,15 +43,15 @@ Os contatos importantes incluem as seguintes funções:
 
 * **[!UICONTROL TAM]**: gerente técnico de contas,
 * **[!UICONTROL CSM]**: gerente de sucesso do cliente,
-* **[!UICONTROL Deliverability]**: ponto de contato para operações de capacidade de entrega,
-* **[!UICONTROL Transition Manager]**: gerente de transição do Managed Services (somente para contas do Managed Services),
-* **[!UICONTROL On-boarding Specialist]**: especialista atribuído à conta para ajudá-lo a começar no Campaign Classic (somente para contas do Managed Services).
+* **[!UICONTROL Capacidade de entrega]**: ponto de contato para operações de capacidade de delivery,
+* **[!UICONTROL Gerenciador de transição]**: gerente de transição do Managed Services (somente para contas do Managed Services),
+* **[!UICONTROL Especialista de integração]**: especialista atribuído à conta para ajudá-lo a começar no Campaign Classic (somente para contas do Managed Services).
 
 ## Acompanhe eventos importantes {#events}
 
-A seção **[!UICONTROL Service Event Calendar]** mostra todas as versões anteriores e futuras, bem como alertas em que os usuários se inscreveram nos alertas de email do Painel de controle. Além disso, o Painel de controle permite que os usuários definam lembretes e sinalizem eventos relevantes para a instância selecionada para que eles sejam mais bem organizados e eficientes.
+A variável **[!UICONTROL Calendário de eventos de serviço]** A seção mostra todas as versões anteriores e futuras, bem como alertas que os usuários assinaram nos alertas de email do Painel de controle do Campaign. Além disso, o Painel de controle permite que os usuários definam lembretes e sinalizem eventos relevantes para a instância selecionada para que eles sejam mais bem organizados e eficientes.
 
-Os eventos são exibidos em um calendário ou em uma lista. Você pode alternar entre as duas exibições usando os botões **[!UICONTROL Calendar]** e **[!UICONTROL List]** no canto superior direito da seção.
+Os eventos são exibidos em um calendário ou em uma lista. Você pode alternar entre as duas exibições usando o **[!UICONTROL Calendário]** e **[!UICONTROL Lista]** no canto superior direito da seção.
 
 ![](assets/service-events-calendar.png)
 
@@ -67,12 +67,12 @@ Três tipos de eventos são exibidos:
 
 * **Versões** indica as implantações anteriores e futuras da instância, mostradas respectivamente em cinza e azul na exibição de calendário. Os detalhes do evento especificam o tipo de versão associado a cada implantação:
 
-   * **[!UICONTROL General availability]**: build estável disponível mais recente.
-   * **[!UICONTROL Limited availability]**: implantação somente sob demanda.
-   * **[!UICONTROL Release candidate]**: engenharia validada. Aguardando prova de produção.
-   * **[!UICONTROL Pre release]**: disponibilidade antecipada para necessidades específicas do cliente.
-   * **[!UICONTROL No longer available]**: a build não tem nenhum grande problema, mas uma nova versão está disponível com correções de erros adicionais. É necessária uma atualização.
-   * **[!UICONTROL Deprecated]**: a build incorpora regressões conhecidas. A build não tem mais suporte. Uma atualização é obrigatória.
+   * **[!UICONTROL Disponibilidade geral]**: build estável disponível mais recente.
+   * **[!UICONTROL Disponibilidade limitada]**: implantação somente sob demanda.
+   * **[!UICONTROL Candidato a lançamento]**: engenharia validada. Aguardando prova de produção.
+   * **[!UICONTROL Pré-lançamento]**: disponibilidade antecipada para necessidades específicas do cliente.
+   * **[!UICONTROL Não está mais disponível]**: a build não tem nenhum grande problema, mas uma nova versão está disponível com correções de erros adicionais. É necessária uma atualização.
+   * **[!UICONTROL Obsoleto]**: a build incorpora regressões conhecidas. A build não tem mais suporte. Uma atualização é obrigatória.
 
 É possível atribuir um sinalizador a um ou vários eventos futuros para rastreá-los. Para fazer isso, clique no botão de reticências ao lado do nome do evento.
 
@@ -88,7 +88,7 @@ Com o Calendário de serviço, você pode definir lembretes para ser notificado 
 
 Para definir um alerta para um evento, siga estas etapas:
 
-1. Passe o mouse sobre o evento do qual você deseja ser lembrado ou clique no botão de reticências na exibição de lista e selecione **[!UICONTROL Set Reminder]**.
+1. Passe o mouse sobre o evento do qual você deseja ser lembrado ou clique no botão de elipse na exibição de lista e selecione **[!UICONTROL Definir lembrete]**.
 
 1. Forneça um título para o lembrete e selecione a data em que deseja ser notificado antes que o evento ocorra.
 
@@ -106,4 +106,4 @@ Para definir um alerta para um evento, siga estas etapas:
    >
    >Você pode configurar até dois lembretes para o mesmo evento.
 
-1. Na data especificada no lembrete, um email será enviado para notificá-lo sobre o evento futuro, e o lembrete será removido automaticamente da lista **[!UICONTROL Reminders]** do menu Calendário de serviço.
+1. Na data especificada no lembrete, um email será enviado para notificá-lo sobre o evento futuro, e o lembrete será removido automaticamente da **[!UICONTROL Lembretes]** contagem no menu Calendário de Serviço.

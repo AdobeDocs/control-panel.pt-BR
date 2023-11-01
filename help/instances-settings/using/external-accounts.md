@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: ff64acbe-d8cb-499b-b20f-b0934fb0f695
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '555'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '581'
+ht-degree: 79%
 
 ---
 
@@ -53,11 +53,11 @@ Os clientes híbridos devem se conectar ao Painel de controle por meio da Experi
 >
 >Caso tenha problemas para acessar o Painel de controle, é provável que sua instância de marketing ainda não esteja mapeada com a [ID da sua organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR). Entre em contato com o Atendimento ao cliente para concluir a configuração e prosseguir. Após uma conexão bem-sucedida, você verá a página inicial do Painel de controle.
 
-Para acessar os recursos do Painel de controle, é preciso inserir as informações da instância MID/RT no cartão **[!UICONTROL Instances Settings]**. Para fazer isso, siga as etapas abaixo.
+Para acessar os recursos do Painel de controle do Campaign, é necessário fornecer as informações da instância MID/RT na **[!UICONTROL Configurações de instâncias]** cartão. Para fazer isso, siga as etapas abaixo.
 
-1. No cartão **[!UICONTROL Instances Settings]**, selecione a guia **[!UICONTROL External Accounts]**. 
+1. No **[!UICONTROL Configurações de instâncias]** , selecione o **[!UICONTROL Contas externas]** guia.
 
-1. Selecione a instância de marketing desejada na lista suspensa e clique em **[!UICONTROL Add new URL]**.
+1. Selecione a instância de marketing desejada na lista suspensa e clique em **[!UICONTROL Adicionar novo URL]**.
 
    ![](assets/external-account-addbutton.png)
 
@@ -65,17 +65,17 @@ Para acessar os recursos do Painel de controle, é preciso inserir as informaç�
 
    ![](assets/external-account-add.png)
 
-   * **[!UICONTROL URL]**: o URL da instância, que pode ser encontrado no Console do cliente do Campaign, no menu **[!UICONTROL Administration]** > **[!UICONTROL Platform]** > **[!UICONTROL External Accounts]**.
+   * **[!UICONTROL URL]**: o URL da instância, que pode ser encontrado no Console do cliente do Campaign, no **[!UICONTROL Administração]** > **[!UICONTROL Platform]** > **[!UICONTROL Contas externas]** menu.
 
      ![](assets/external-account-url.png)
 
-   * **[!UICONTROL Operator]** / **[!UICONTROL Password]**: credenciais do operador fornecidas após o provisionamento inicial pelo administrador da Adobe.
+   * **[!UICONTROL Operador]** / **[!UICONTROL Senha]**: credenciais do operador fornecidas após o provisionamento inicial pelo administrador de Adobe.
 
      >[!NOTE]
      >
      >Se esses detalhes não estiverem disponíveis, entre em contato com o Atendimento ao cliente.
 
-1. Clique em **[!UICONTROL Save]** para confirmar.
+1. Clique em **[!UICONTROL Salvar]** para confirmar.
 
 Ao adicionar o URL de MID/RT, um processo assíncrono é acionado para validar a exatidão dos URLs. Esse processo pode levar alguns minutos. Até que o URL da instância MID/RT seja validado, o processo permanecerá pendente. Somente após a conclusão da validação será possível acessar os principais recursos do Painel de controle.
 
@@ -85,7 +85,7 @@ Você pode remover ou desativar um URL de instância MID/RT a qualquer momento, 
 
 ![](assets/external-account-edit.png)
 
-Observe que é possível monitorar qualquer ação executada na guia **[!UICONTROL External Accounts]** em um URL de instância MID/RT a partir do **[!UICONTROL Job Logs]**:
+Observe que é possível monitorar qualquer ação executada no **[!UICONTROL Contas externas]** em um URL de instância MID/RT no **[!UICONTROL Logs de trabalho]**:
 
 ![](assets/external-account-logs.png)
 
@@ -93,7 +93,7 @@ Observe que é possível monitorar qualquer ação executada na guia **[!UICONTR
 
 Depois que a instância MID/RT for adicionada, será necessário adicionar seu endereço IP à lista de permissões para que sua instância de marketing possa se conectar a ela.
 
-Isso pode ser feito a partir da guia **[!UICONTROL IP Allow Listing]** no cartão **[!UICONTROL Instances Settings]**. [Saiba como adicionar endereços IP à lista de permissões](ip-allow-listing-instance-access.md)
+Isso pode ser executado no **[!UICONTROL Lista de permissões de IP]** na guia **[!UICONTROL Configurações de instâncias]** cartão. [Saiba como adicionar endereços IP à lista de permissões](ip-allow-listing-instance-access.md)
 
 Após concluído, será possível usar os recursos do Painel de controle com sua instância MID/RT.
 

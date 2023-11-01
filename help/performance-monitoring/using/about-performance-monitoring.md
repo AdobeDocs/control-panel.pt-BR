@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 80a5dc43-205e-4764-805a-85d2faabc20a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '79'
-ht-degree: 36%
+source-wordcount: '81'
+ht-degree: 35%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 36%
 
 O Painel de controle oferece várias funcionalidades para ajudá-lo a monitorar suas instâncias e garantir um ótimo desempenho.
 
-A variável **[!UICONTROL Performance monitoring]** na home page do Painel de controle do Campaign permite monitorar o uso de instâncias do Campaign, como a capacidade do banco de dados. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/database-monitoring.md).
+A variável **[!UICONTROL Monitoramento de desempenho]** na home page do Painel de controle do Campaign permite monitorar o uso de instâncias do Campaign, como a capacidade do banco de dados. Para obter mais informações, consulte [esta seção](../../performance-monitoring/using/database-monitoring.md).
 
 ![](assets/performance_card.png)
 

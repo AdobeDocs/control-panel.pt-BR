@@ -9,8 +9,8 @@ level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 59%
+source-wordcount: '175'
+ht-degree: 30%
 
 ---
 
@@ -21,19 +21,19 @@ ht-degree: 59%
 >title="Sobre a visão geral do armazenamento"
 >abstract="Nesta guia, você pode obter informações detalhadas sobre os diferentes recursos do Campaign que estão consumindo espaço no banco de dados."
 
-A área **[!UICONTROL Storage overview]** fornece uma representação gráfica do espaço ocupado por:
+A variável **[!UICONTROL Visão geral de armazenamento]** fornece uma representação gráfica do espaço ocupado por:
 
-* **[!UICONTROL System resources]**
+* **[!UICONTROL Recursos do sistema]**
 
   Observe que, se os recursos do sistema estiverem consumindo uma grande parte do espaço do banco de dados, recomendamos entrar em contato com o Atendimento ao cliente.
 
-* **[!UICONTROL Out-of-the-box tables]** fornecido por padrão com as instâncias do Campaign,
-* **[!UICONTROL Temporary tables]** criado por workflows e entregas,
-* **[!UICONTROL Non-out of the box tables]** gerado após a criação de recursos personalizados.
+* **[!UICONTROL Tabelas prontas para uso]** fornecido por padrão com as instâncias do Campaign,
+* **[!UICONTROL Tabelas temporários]** criados por workflows e deliveries,
+* **[!UICONTROL Tabelas não prontas para uso]** gerado após a criação de recursos personalizados.
 
 ![](assets/database-storage-overview.png)
 
-Clique no botão **[!UICONTROL View details]** para obter mais detalhes sobre os diferentes assets que estão consumindo espaço no banco de dados.
+Clique em **[!UICONTROL Exibir detalhes]** botão para obter mais detalhes sobre os diferentes ativos que estão consumindo espaço no banco de dados.
 
 Você pode usar a lista suspensa para refinar suas tabelas de pesquisa e exibição somente de um tipo de ativo específico (workflows, deliveries, recipients).
 

@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 41%
+source-wordcount: '1082'
+ht-degree: 38%
 
 ---
 
@@ -55,7 +55,7 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 >
 >Você deve sempre seguir as diretrizes da organização em relação às chaves SSH. As etapas abaixo são apenas um exemplo de como a criação da chave SSH pode ser feita e podem servir como um ponto de referência útil para informar os requisitos à sua equipe ou grupo de rede interno.
 
-1. Navegue até a guia **[!UICONTROL Key Management]** e clique no botão **[!UICONTROL Add new public key]**.
+1. Navegue até a **[!UICONTROL Gerenciamento de chaves]** e clique na guia **[!UICONTROL Adicionar nova chave pública]** botão.
 
    ![](assets/key0.png)
 
@@ -69,17 +69,17 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
    >
    >Uma ou mais chaves SSH públicas podem ser adicionadas para cada usuário.
 
-1. Para gerenciar melhor suas chaves públicas, você pode definir uma duração para a disponibilidade de cada chave. Para fazer isso, selecione uma unidade na caixa **[!UICONTROL Type]** e defina uma duração no campo correspondente. Para obter mais informações sobre a expiração da chave pública, consulte [nesta seção](#expiry).
+1. Para gerenciar melhor suas chaves públicas, você pode definir uma duração para a disponibilidade de cada chave. Para fazer isso, selecione uma unidade na caixa **[!UICONTROL Tipo]** e defina uma duração no campo correspondente. Para obter mais informações sobre a expiração da chave pública, consulte [nesta seção](#expiry).
 
    ![](assets/key_expiry.png)
 
    >[!NOTE]
    >
-   >Por padrão, a variável **[!UICONTROL Type]** o campo está definido como **[!UICONTROL Unlimited]**, o que significa que a chave pública nunca expira.
+   >Por padrão, a variável **[!UICONTROL Tipo]** o campo está definido como **[!UICONTROL Ilimitado]**, o que significa que a chave pública nunca expira.
 
-1. No **[!UICONTROL Comment]** você pode indicar um motivo para adicionar essa chave pública (por quê, para quem etc.).
+1. No **[!UICONTROL Comentário]** você pode indicar um motivo para adicionar essa chave pública (por quê, para quem etc.).
 
-1. Para poder preencher a variável **[!UICONTROL Public Key]** , é necessário gerar uma chave SSH pública. Siga as etapas abaixo de acordo com seu sistema operacional.
+1. Para poder preencher a variável **[!UICONTROL Chave pública]** , é necessário gerar uma chave SSH pública. Siga as etapas abaixo de acordo com seu sistema operacional.
 
    **Linux e Mac:**
 
@@ -99,9 +99,9 @@ Em casos muito raros, a autenticação baseada em senha é ativada em alguns ser
 
    >[!NOTE]
    >
-   >A variável **[!UICONTROL Public Key]** O campo aceita apenas o formato OpenSSH. O tamanho da chave pública SSH deve ser de **2048 bits**.
+   >A variável **[!UICONTROL Chave pública]** O campo aceita apenas o formato OpenSSH. O tamanho da chave pública SSH deve ser de **2048 bits**.
 
-1. Clique no botão **[!UICONTROL Save]** para criar a chave. O Painel de controle do Campaign salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
+1. Clique em **[!UICONTROL Salvar]** botão para criar a chave. O Painel de controle do Campaign salva a chave pública e sua impressão digital associada, criptografada com o formato SHA256.
 
 >[!IMPORTANT]
 >
@@ -117,7 +117,7 @@ O botão &quot;**...**&quot; permite excluir uma chave existente ou copiar sua i
 
 ## Gerenciamento de chaves públicas {#managing-public-keys}
 
-As chaves públicas criadas são exibidas na variável **[!UICONTROL Key Management]** guia.
+As chaves públicas criadas são exibidas na variável **[!UICONTROL Gerenciamento de chaves]** guia.
 
 Você pode classificar os itens com base na data de criação ou data de edição, no usuário que os criou ou editou e na expiração do intervalo de IP.
 
@@ -127,17 +127,17 @@ Você também pode pesquisar uma chave pública começando a digitar um nome ou 
 
 Para editar um ou mais intervalos IP, consulte [nesta seção](#editing-public-keys).
 
-Para excluir uma ou mais chaves públicas da lista, selecione-as e clique no link **[!UICONTROL Delete public key]** botão.
+Para excluir uma ou mais chaves públicas da lista, selecione-as e clique no link **[!UICONTROL Excluir chave pública]** botão.
 
 ![](assets/control_panel_delete_key.png)
 
 ### Expiração {#expiry}
 
-A variável **[!UICONTROL Expires]** mostra quantos dias permanecem até que a chave pública expire.
+A variável **[!UICONTROL Expira]** mostra quantos dias permanecem até que a chave pública expire.
 
 Se você se inscreveu no [alerta por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email 10 dias e 5 dias antes que uma chave pública expire e no dia em que ela expirar. Ao receber o alerta, você pode [editar a chave pública](#editing-public-keys) prorrogar o seu período de validade, se necessário.
 
-Uma chave pública expirada será excluída automaticamente após 7 dias. É mostrado como **[!UICONTROL Expired]** no **[!UICONTROL Expires]** coluna. Neste período de 7 dias:
+Uma chave pública expirada será excluída automaticamente após 7 dias. É mostrado como **[!UICONTROL Expirado]** no **[!UICONTROL Expira]** coluna. Neste período de 7 dias:
 
 * Uma chave pública expirada não pode mais ser usada para se conectar ao servidor SFTP.
 
@@ -158,8 +158,8 @@ Para editar chaves públicas, siga as etapas abaixo.
 >
 >Você só pode editar chaves públicas que foram criadas desde a versão de outubro de 2021 do Painel de controle do Campaign.
 
-1. Selecione um ou mais itens na lista **[!UICONTROL Key Management]** lista.
-1. Clique no botão **[!UICONTROL Update public key]**.
+1. Selecione um ou mais itens na lista **[!UICONTROL Gerenciamento de chaves]** lista.
+1. Clique em **[!UICONTROL Atualizar chave pública]** botão.
 
    ![](assets/control_panel_edit_key.png)
 

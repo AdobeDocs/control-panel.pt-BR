@@ -9,8 +9,8 @@ level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
 workflow-type: tm+mt
-source-wordcount: '1205'
-ht-degree: 16%
+source-wordcount: '1232'
+ht-degree: 15%
 
 ---
 
@@ -77,9 +77,9 @@ Para fazer isso, você precisa gerar um par de chaves GPG de uma ferramenta de c
 
    `gpg -a --export <fingerprint>`
 
-1. Para instalar a chave pública no Painel de controle do Campaign, abra o **[!UICONTROL Instance settings]** e selecione a variável **[!UICONTROL GPG keys]** e a instância desejada.
+1. Para instalar a chave pública no Painel de controle do Campaign, abra o **[!UICONTROL Configurações de instância]** e selecione a variável **[!UICONTROL Chaves GPG]** e a instância desejada.
 
-1. Clique no botão **[!UICONTROL Install Key]**.
+1. Clique em **[!UICONTROL Instalar chave]** botão.
 
    ![](assets/gpg_install_button.png)
 
@@ -91,7 +91,7 @@ Para fazer isso, você precisa gerar um par de chaves GPG de uma ferramenta de c
 
    ![](assets/gpg_install_paste.png)
 
-1. Clique no botão **[!UICONTROL Install Key]**.
+1. Clique em **[!UICONTROL Instalar chave]** botão.
 
 Uma vez instalada, a chave pública é exibida na lista. Você pode usar o **..** botão para baixá-lo ou copiar sua impressão digital.
 
@@ -126,13 +126,13 @@ Para fazer isso, você precisa gerar um par de chaves GPG diretamente do Painel 
 
 Para gerar um par de chaves no Painel de controle do Campaign, siga estas etapas:
 
-1. Abra o **[!UICONTROL Instance settings]** e selecione a variável **[!UICONTROL GPG keys]** e a instância desejada do Adobe Campaign.
+1. Abra o **[!UICONTROL Configurações de instância]** e selecione a variável **[!UICONTROL Chaves GPG]** e a instância desejada do Adobe Campaign.
 
-1. Clique no botão **[!UICONTROL Generate Key]**.
+1. Clique em **[!UICONTROL Gerar chave]** botão.
 
    ![](assets/gpg_generate.png)
 
-1. Especifique o nome da chave e clique em **[!UICONTROL Generate Key]**. Esse nome ajudará você a identificar a chave a ser usada para descriptografar em workflows do Campaign
+1. Especifique o nome da chave e clique em **[!UICONTROL Gerar chave]**. Esse nome ajudará você a identificar a chave a ser usada para descriptografar em workflows do Campaign
 
    ![](assets/gpg_generate_name.png)
 
@@ -158,21 +158,21 @@ Para obter mais informações, consulte a documentação do Adobe Campaign:
 
 ## Monitoramento de chaves GPG
 
-Para acessar chaves GPG instaladas e geradas para suas instâncias, abra o **[!UICONTROL Instance settings]** e selecione a variável **[!UICONTROL GPG keys]** guia.
+Para acessar chaves GPG instaladas e geradas para suas instâncias, abra o **[!UICONTROL Configurações de instância]** e selecione a variável **[!UICONTROL Chaves GPG]** guia.
 
 ![](assets/gpg_list.png)
 
 A lista exibe todas as chaves GPG de criptografia e descriptografia que foram instaladas e geradas para suas instâncias com informações detalhadas sobre cada chave:
 
-* **[!UICONTROL Name]**: O nome que foi definido ao instalar ou gerar a chave.
-* **[!UICONTROL Use case]**: essa coluna especifica o caso de uso da chave:
+* **[!UICONTROL Nome]**: O nome que foi definido ao instalar ou gerar a chave.
+* **[!UICONTROL Caso de uso]**: essa coluna especifica o caso de uso da chave:
 
   ![](assets/gpg_icon_encrypt.png): A chave foi instalada para criptografia de dados.
 
   ![](assets/gpg_icon_decrypt.png): a chave foi gerada para permitir a descriptografia de dados.
 
-* **[!UICONTROL Fingerprint]**: a impressão digital da chave.
-* **[!UICONTROL Expires]**: a data de expiração da chave. Observe que o Painel de controle do Campaign fornecerá indicações visuais conforme a chave se aproximar da data de expiração:
+* **[!UICONTROL Impressão digital]**: a impressão digital da chave.
+* **[!UICONTROL Expira]**: a data de expiração da chave. Observe que o Painel de controle do Campaign fornecerá indicações visuais conforme a chave se aproximar da data de expiração:
 
    * O Urgente (vermelho) é mostrado 30 dias antes.
    * O aviso (amarelo) é exibido 60 dias antes.
@@ -182,7 +182,7 @@ A lista exibe todas as chaves GPG de criptografia e descriptografia que foram in
   >
   >Observe que nenhuma notificação por email será enviada pelo Painel de controle do Campaign.
 
-Como prática recomendada, remova qualquer chave que não seja mais necessária. Para fazer isso, clique no link **..** e selecione **[!UICONTROL Delete Key].**.
+Como prática recomendada, remova qualquer chave que não seja mais necessária. Para fazer isso, clique no link **..** e selecione **[!UICONTROL Excluir chave].**.
 
 ![](assets/gpg_delete.png)
 
