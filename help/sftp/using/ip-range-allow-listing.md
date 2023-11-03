@@ -10,7 +10,7 @@ exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '1080'
-ht-degree: 36%
+ht-degree: 37%
 
 ---
 
@@ -128,7 +128,7 @@ Um intervalo IP expirado será excluído automaticamente após 7 dias. É mostra
 
 * Você pode excluí-lo da lista de permissões.
 
-## Edição de intervalos IP {#editing-ip-ranges}
+## Edição de intervalos de IP {#editing-ip-ranges}
 
 >[!CONTEXTUALHELP]
 >id="cp_sftp_iprange_update"

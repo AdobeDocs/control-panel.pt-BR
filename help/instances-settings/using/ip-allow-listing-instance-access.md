@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 69%
+ht-degree: 70%
 
 ---
 
@@ -46,7 +46,7 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 * **Se você ativou temporariamente o acesso à sua instância para um endereço IP**, remova os endereços IP da lista de permissões depois que não precisar mais se conectar à sua instância.
 * **Não recomendamos adicionar endereços IP de locais públicos à lista de permissões** (aeroportos, hotéis, etc.). Use o endereço VPN da sua empresa para manter a instância sempre segura.
 
-## Adicionar endereços IP à lista de permissões para obter acesso à instância {#adding-ip-addresses-allow-list}
+## Adicionar endereços IP à lista de permissões para acessar a instância {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
