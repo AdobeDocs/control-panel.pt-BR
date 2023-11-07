@@ -7,10 +7,10 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 93%
+source-wordcount: '438'
+ht-degree: 85%
 
 ---
 
@@ -41,11 +41,6 @@ Para obter mais informações sobre perfis ativos, consulte as documentações d
 >title="Sobre o monitoramento de perfis ativos"
 >abstract="Nessa guia, é possível obter informações em tempo real sobre a utilização e evolução dos perfis ativos mais recentes e históricos nas suas instâncias do Campaign e na organização."
 
-As informações relacionadas ao uso de perfis ativos são atualizadas no Painel de controle com base em workflows técnicos dedicados do [!DNL Campaign] que são executados diariamente nas instâncias:
-* O workflow [“Faturamento”](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) para o Campaign Standard,
-* O workflow [“Número de perfis de faturamento ativos”](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/about-technical-workflows.html?lang=pt-BR) para o Campaign v7/v8.
-
-
 Para monitorar o uso do perfil ativo no Painel de controle do Campaign, navegue até o **[!UICONTROL Monitoramento de desempenho]** cartão > **[!UICONTROL Perfis ativos]** e selecione a instância desejada na guia **[!UICONTROL Lista de instâncias]**.
 
 São exibidas informações sobre o uso de perfis ativos.
@@ -65,3 +60,10 @@ A seção superior exibe as seguintes informações:
 * A contagem total de perfis ativos alocados para a organização.
 
 A seção inferior fornece uma representação visual do uso de perfis ativos nos últimos 30 dias. É possível alterar esse intervalo de tempo para 1 ano usando o filtro localizado no canto superior direito. Ao passar o mouse sobre o gráfico, é possível obter o número exato de perfis ativos usados no período selecionado.
+
+As informações relacionadas ao uso de perfis ativos são atualizadas no Painel de controle com base em perfis dedicados [!DNL Campaign] Workflows técnicos de &quot;faturamento&quot; que são executados em intervalos regulares em suas instâncias.
+
+| Versão do Campaign | Fluxo de trabalho técnico | Execuções |
+|  ---  |  ---  |  ---  |
+| Campaign Standard | [Faturamento](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) | Diariamente |
+| Campaign v7/v8 | [Faturamento](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Mensal |
