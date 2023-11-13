@@ -50,7 +50,7 @@ Observe que esse recurso só está disponível ao configurar um novo subdomínio
 
 >[!NOTE]
 >
->O SSL gerenciado pela Adobe é um recurso gratuito que está disponível para os usuários.
+>O SSL gerenciado pela Adobe é um recurso gratuito que está disponível para usuários.
 
 ## Março de 2023 {#march-2023}
 
