@@ -6,9 +6,9 @@ role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '320'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ To clean paused and completed workflows, follow these steps:
 
 Monitor workflow parameters -->
 
-No Adobe Campaign, alguns parâmetros de fluxo de trabalho podem exigir atenção específica para evitar problemas em suas instâncias. O Painel de controle do Campaign **[!UICONTROL Visão geral de armazenamento]** Os detalhes permitem verificar se alguma dessas opções está habilitada para os workflows.
+No Adobe Campaign, alguns parâmetros de fluxo de trabalho podem exigir atenção específica para evitar problemas em suas instâncias. Os detalhes da **[!UICONTROL Visão geral do armazenamento]** do Painel de controle permitem verificar se alguma dessas opções está habilitada para os seus workflows.
 
 ![](assets/wkf-monitoring-parameters.png)
 
@@ -58,7 +58,7 @@ Quando habilitada (valor &quot;1&quot;), essa opção salva os resultados das tr
 
 ![](assets/wkf-monitoring-keep.png)
 
-## **[!UICONTROL Mostrar log SQL]** {#sql}
+## **[!UICONTROL Mostrar log de SQL]** {#sql}
 
 Quando essa opção é habilitada, as consultas SQL enviadas ao banco de dados durante a execução do fluxo de trabalho são exibidas no Adobe Campaign. Saiba mais na documentação do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/executing-a-workflow/managing-execution-options.html?lang=pt-BR) e do [Campaign Classic](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflows/advanced-management/workflow-properties.html?lang=pt-BR#execution).
 
