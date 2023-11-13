@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '508'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ Para adicionar um registro BIMI a um subdomínio, siga estas etapas:
 
 1. Na lista de subdomínios, clique no botão de reticências ao lado do subdomínio desejado e selecione **[!UICONTROL Detalhes do subdomínio]**.
 
-1. Clique em **[!UICONTROL Adicionar registro TXT]** e escolha **[!UICONTROL BIMI]** do **[!UICONTROL Tipo de registro]** lista suspensa.
+1. Clique em **[!UICONTROL Adicionar registro em TXT]** e escolha **[!UICONTROL BIMI]** na lista suspensa **[!UICONTROL Tipo de registro]**.
 
    ![](assets/bimi-add.png)
 
-1. No **[!UICONTROL URL do logotipo da empresa]**, especifique o URL do arquivo SVG que contém o logotipo.
+1. Em **[!UICONTROL URL do logotipo da empresa]**, especifique o URL do arquivo SVG que contém o seu logotipo.
 
-1. Embora **[!UICONTROL URL do certificado]** é opcional, é necessário para alguns provedores de caixa de correio, como Gmail e Apple, que cobrem 80% do mercado de caixas de correio. Portanto, recomendamos obter um certificado de marca verificada (VMC, na sigla em inglês) para realmente aproveitar o BIMI.
+1. Embora o **[!UICONTROL URL do certificado]** seja opcional, ele é necessário para alguns provedores de email, como Gmail e Apple, que representam 80% desse mercado. Portanto, recomendamos obter um certificado de marca verificada (VMC, na sigla em inglês) para realmente aproveitar o BIMI.
 
    +++Como obtenho um VMC?
 
