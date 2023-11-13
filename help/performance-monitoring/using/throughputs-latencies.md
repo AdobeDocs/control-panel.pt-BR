@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eddef17f-0667-4b43-bc56-2b1aeeae61bb
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '436'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -27,9 +27,9 @@ O Painel de controle permite monitorar a taxa de transferência e a latência da
 >
 >Esse recurso está disponível para todos os clientes do Campaign Standard e v8, bem como para clientes do Campaign V7 com builds de número 9032 ou mais recentes, incluindo [implantações autônomas](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/deployment-types-/standalone-deployment.html?lang=pt-BR) (sem qualquer instância MID).
 
-Monitorar a tendência das taxas de transferência e da latência da entrega ao longo de um período é essencial para entender o uso de suas instâncias e garantir elas estejam apresentando um bom desempenho.
+Monitorar a tendência da latência e das taxas de transferência de entrega ao longo de um período é essencial para entender o uso de suas instâncias e garantir que elas estejam apresentando um bom desempenho.
 
-Essas informações são disponibilizadas no Painel de controle do Campaign para cada uma das instâncias no **[!UICONTROL Monitoramento de desempenho]** cartão, **[!UICONTROL Taxas de transferência e latência]** (observe que o Painel de controle do Campaign pode levar até 1 hora para exibir os números).
+Essas informações são disponibilizadas no Painel de controle para cada uma das instâncias do Campaign no cartão **[!UICONTROL Monitoramento do desempenho]**, na guia **[!UICONTROL Taxas de transferência e latência]** (observe que o Painel de controle pode levar até uma hora para exibir os números).
 
 >[!NOTE]
 >
@@ -37,18 +37,18 @@ Essas informações são disponibilizadas no Painel de controle do Campaign para
 
 ![](assets/throughput-latencies-overview.png)
 
-Por padrão, os dados são exibidos para o dia atual. É possível alterar o período exibido usando a variável **[!UICONTROL 6 meses]**, **[!UICONTROL 30 dias]** e **[!UICONTROL 7 dias]** botões. Os dados serão apresentados:
+Por padrão, os dados são exibidos para o dia atual. Você pode alterar o período exibido, usando os botões **[!UICONTROL 6 meses]**, **[!UICONTROL 30 dias]** e **[!UICONTROL 7 dias]**. Os dados serão apresentados:
 * Por hora, para visualizações de 1 dia e 7 dias,
 * A cada 6 horas, para uma visualização de 30 dias,
 * Diariamente, para uma visualização de 6 meses.
 
-Também é possível visualizar essas informações em formato tabular com colunas classificáveis, em vez de em um gráfico. Para fazer isso, clique no link **[!UICONTROL Configurações de visualização]** e selecione **[!UICONTROL Tabela]**.
+Também é possível visualizar essas informações em um formato de tabela com colunas classificáveis, em vez de em um gráfico. Para isso, clique no botão **[!UICONTROL Configurações de visualização]** e selecione **[!UICONTROL Tabela]**.
 
 ![](assets/throughput-latencies-table.png)
 
-## Taxa de transferência do monitor {#throughput}
+## Monitoramento da taxa de transferência {#throughput}
 
-A variável **[!UICONTROL Taxa de transferência]** fornece informações sobre o número de mensagens enviadas por hora desde a instância selecionada do Campaign para todos os canais de comunicação aos quais você está habilitado.
+A área **[!UICONTROL Taxas de transferência]** fornece informações sobre a quantidade de mensagens enviadas por hora a partir da instância do Campaign selecionada para todos os canais de comunicação aos quais você tem direito.
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Além disso, o Painel de controle permite identificar as IDs das 5 principais en
 
 ## Monitorar latência {#latency}
 
-A variável **[!UICONTROL Latência]** A área fornece informações sobre a latência encontrada na instância selecionada ao enviar comunicações transacionais em tempo real.
+A área **[!UICONTROL Latência]** fornece informações sobre a latência encontrada na instância selecionada ao enviar comunicações transacionais em tempo real.
 
 >[!NOTE]
 >
