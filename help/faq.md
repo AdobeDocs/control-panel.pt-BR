@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '786'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Para obter mais informações, consulte a [documentação da Adobe Experience Cl
 
 ### Onde encontro minha ID da organização?
 
-Uma maneira é navegar até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administração]**. Você encontrará sua ID da organização na parte inferior da seção Administração **[!UICONTROL Acesso rápido]** seção. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
+Uma maneira é navegar até [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/) > **[!UICONTROL Administração]**. Você encontrará a ID da organização na parte inferior da seção **[!UICONTROL Acesso rápido]** em Administração. Você pode encontrar informações mais detalhadas na [documentação da Adobe Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR).
 
 Outra maneira é iniciar o **Admin Console**. A ID da organização estará visível no URL e será semelhante a: https://adminconsole.adobe.com/xxx@AdobeOrg/overview.
 
