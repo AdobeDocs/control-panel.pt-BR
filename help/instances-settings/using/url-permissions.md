@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '612'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível somente para instâncias do Campaign v7/v8, a partir da build 8850. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
+>Este recurso está disponível apenas para instâncias do Campaign v7/v8, a partir da build 8850. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
 
 A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows, etc.) pelas instâncias do Campaign é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
 
@@ -34,12 +34,12 @@ Por padrão, as instâncias não têm permissão para se conectar a URLs externo
 
 Depois de adicionado, o URL é referenciado no arquivo de configuração da instância (serverConf.xml).
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/adding-url-permissions.html?lang=pt-BR#instance-settings)
 
 **Tópicos relacionados:**
 
-* [Configuração do servidor do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html)
-* [Proteção de conexão de saída](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html#outgoing-connection-protection)
+* [Configuração do servidor do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/configuring-campaign-server.html?lang=pt-BR)
+* [Proteção de conexão de saída](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/security-privacy/server-configuration.html?lang=pt-BR#outgoing-connection-protection)
 
 ## Práticas recomendadas {#best-practices}
 
@@ -60,11 +60,11 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    >[!NOTE]
    >
-   >Se o cartão Configurações de instância não estiver visível na página inicial do Painel de controle do Campaign, significa que [ID da organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) não está associado a nenhuma instância do Adobe Campaign
+   >Se o cartão de configurações de instâncias não estiver visível na página inicial do Painel de controle, isso significa que a [ID da organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) não está associada a nenhuma instância do Adobe Campaign
    >
    >A guia de <b><span class="uicontrol">permissões de URL</span></b> lista todos os URLs externos aos quais sua instância pode se conectar. Essa lista não inclui URLs necessários para que o Campaign funcione (por exemplo, conexões entre peças de infraestrutura).
 
-1. Selecione no painel esquerdo a instância desejada e clique no botão **[!UICONTROL Adicionar novo URL]** botão.
+1. Selecione a instância desejada no painel esquerdo e clique no botão **[!UICONTROL Adicionar novo URL]**.
 
    ![](assets/add_url1.png)
 
@@ -72,7 +72,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
    >
    >Todas as instâncias do Campaign são exibidas na lista do painel esquerdo.
    >
-   >Como o gerenciamento de permissões de URL é dedicado somente a instâncias do Campaign v7/v8, a mensagem &quot;Instância não aplicável&quot; é exibida se você selecionar uma instância Campaign Standard.
+   >Como o gerenciamento de permissões de URL é dedicado apenas a instâncias do Campaign v7/v8, se você selecionar uma instância do Campaign Standard, a mensagem “Instância não aplicável” será exibida.
 
 1. Digite o URL a ser autorizado com seu protocolo associado (http, https ou sftp).
 
@@ -90,7 +90,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    ![](assets/add_url_listnew.png)
 
-Você pode excluir um URL a qualquer momento selecionando-o e clicando no link **[!UICONTROL Excluir URL]** botão.
+Você pode excluir um URL a qualquer momento, selecionando-o e clicando no botão **[!UICONTROL Excluir URL]**.
 
 Lembre-se de que se você excluir um URL, sua instância não poderá chamá-lo novamente.
 
