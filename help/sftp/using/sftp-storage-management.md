@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eaf67573-f088-47d9-8a25-273d08dc541a
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Se você se inscreveu em [alerta por email](../../performance-monitoring/using/e
 
 ## Acessar informações de capacidade de armazenamento {#accessing-storage-capacity-information}
 
-As informações sobre o espaço usado por todas as instâncias às quais você tem acesso estão disponíveis no **[!UICONTROL Armazenamento]** do cartão SFTP. Ele é atualizado em cada atualização de página.
+As informações sobre o espaço usado por todas as instâncias às quais você tem acesso estão disponíveis na guia **[!UICONTROL Armazenamento]** do cartão SFTP. Ele é atualizado em cada atualização de página.
 
 ![](assets/control_panel_space.png)
 
