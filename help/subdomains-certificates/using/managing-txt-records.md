@@ -1,20 +1,20 @@
 ---
 product: campaign
 solution: Campaign
-title: Adicionar registros de verificação de site do Google para um subdomínio
-description: Saiba como adicionar um registro de Verificação de site do Google para um subdomínio para verificação de propriedade de domínio.
+title: Adição de registros de verificação de site do Google a um subdomínio
+description: Saiba como adicionar um registro de verificação de site do Google a um subdomínio para verificação da propriedade do domínio.
 feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 547ca6f2-720f-4d58-b31b-5b2611ba9156
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '300'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
-# Adicionar registros de verificação de site do Google {#adding-a-google-txt-record}
+# Adição de registros de verificação de site do Google {#adding-a-google-txt-record}
 
 Para garantir altas taxas de caixa de entrada e baixas taxas de spam, alguns serviços como o Google exigem a adição de um registro TXT às configurações de domínio para verificar se você é o proprietário do domínio.
 
@@ -24,13 +24,13 @@ Para adicionar um registro TXT do Google ao subdomínio usado para enviar emails
 
 1. Na lista de subdomínios, clique no botão de reticências ao lado do subdomínio desejado e selecione **[!UICONTROL Detalhes do subdomínio]**.
 
-1. Clique em **[!UICONTROL Adicionar registro TXT]** e escolha **[!UICONTROL Verificação do site do Google]** do **[!UICONTROL Tipo de registro]** lista suspensa.
+1. Clique no botão **[!UICONTROL Adicionar registro em TXT]** e escolha **[!UICONTROL Verificação de site do Google]** na lista suspensa **[!UICONTROL Tipo de registro]**.
 
-1. Insira o valor gerado nas ferramentas do administrador do G Suite. Para obter mais informações, consulte [Ajuda do administrador do G Suite](https://support.google.com/a/answer/183895).
+1. Insira o valor gerado pelas ferramentas do administrador do G Suite. Para obter mais informações, consulte [Ajuda do administrador do G Suite](https://support.google.com/a/answer/183895).
 
    ![](assets/txt_addtxt.png)
 
-1. Clique em **[!UICONTROL Adicionar]** botão para confirmar.
+1. Clique no botão **[!UICONTROL Adicionar]** para confirmar.
 
    ![](assets/txt_txtadded.png)
 
@@ -42,4 +42,4 @@ Para excluir um registro, selecione-o na lista de registros e clique no botão r
 >
 >O único registro que pode ser excluído da lista de registros DNS é o que você adicionou anteriormente (nesse caso, o registro TXT do Google).
 
-![](assets/do-not-localize/how-to-video.png) Descubra este recurso no vídeo usando o [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html#subdomains-and-certificates)
+![](assets/do-not-localize/how-to-video.png) Conheça este recurso no vídeo usando o [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=pt-BR#subdomains-and-certificates) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/subdomains-and-certificates/google-txt-record-management.html?lang=pt-BR#subdomains-and-certificates)
