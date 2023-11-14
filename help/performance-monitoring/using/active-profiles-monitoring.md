@@ -10,7 +10,7 @@ exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 9d0686cd3bb0a037ae66b1a090c3f77d215ff61c
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 85%
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ Para obter mais informações sobre perfis ativos, consulte as documentações d
 >title="Sobre o monitoramento de perfis ativos"
 >abstract="Nessa guia, é possível obter informações em tempo real sobre a utilização e evolução dos perfis ativos mais recentes e históricos nas suas instâncias do Campaign e na organização."
 
-Para monitorar o uso do perfil ativo no Painel de controle do Campaign, navegue até o **[!UICONTROL Monitoramento de desempenho]** cartão > **[!UICONTROL Perfis ativos]** e selecione a instância desejada na guia **[!UICONTROL Lista de instâncias]**.
+Para monitorar o uso de perfis ativos no Painel de controle, navegue até o cartão **[!UICONTROL Monitoramento do desempenho]** > guia **[!UICONTROL Perfis ativos]** e selecione a instância desejada na **[!UICONTROL Lista de instâncias]**.
 
 São exibidas informações sobre o uso de perfis ativos.
 

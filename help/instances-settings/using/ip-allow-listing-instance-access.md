@@ -10,7 +10,7 @@ exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
 workflow-type: tm+mt
 source-wordcount: '830'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->Esse recurso está disponível somente para instâncias do Campaign v7/v8.
+>Este recurso está disponível somente para instâncias do Campaign v7/v8.
 
 Por padrão, a instância do Adobe Campaign não pode ser acessada de vários endereços IP.
 
@@ -36,7 +36,7 @@ O Painel de controle permite configurar novas conexões às suas instâncias ao 
 
 Depois que os endereços IP forem exibido na lista de permissões, você poderá criar e vincular operadores do Campaign a eles para que os usuários possam acessar a instância.
 
-![](assets/do-not-localize/how-to-video.png) [Descubra este recurso no vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html#instance-settings)
+![](assets/do-not-localize/how-to-video.png) [Conheça este recurso no vídeo](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/ip-allow-listing.html?lang=pt-BR#instance-settings)
 
 ## Práticas recomendadas {#best-practices}
 
@@ -46,63 +46,63 @@ Siga as recomendações e limitações abaixo ao adicionar endereços IP à list
 * **Se você ativou temporariamente o acesso à sua instância para um endereço IP**, remova os endereços IP da lista de permissões depois que não precisar mais se conectar à sua instância.
 * **Não recomendamos adicionar endereços IP de locais públicos à lista de permissões** (aeroportos, hotéis, etc.). Use o endereço VPN da sua empresa para manter a instância sempre segura.
 
-## Adicionar endereços IP à lista de permissões para acessar a instância {#adding-ip-addresses-allow-list}
+## Adicionando endereços IP à lista de permissões para acesso à instância {#adding-ip-addresses-allow-list}
 
 >[!CONTEXTUALHELP]
 >id="cp_instancesettings_iprange_add"
 >title="Configuração do intervalo IP"
->abstract="Defina o intervalo IP que deseja adicionar à lista de permissões para se conectar à sua instância."
+>abstract="Defina o intervalo de IP que deseja adicionar à lista de permissões para se conectar à sua instância."
 
 >[!NOTE]
 >
->Se a variável **[!UICONTROL Configurações de instância]** cartão não estiver visível na página inicial do Painel de controle do Campaign, significa que seu [ID da organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) não está associado a nenhuma instância do Adobe Campaign v7/v8.
+>Se o cartão **[!UICONTROL Configurações de instância]** não estiver visível na página inicial do Painel de controle, significa que a [ID da organização](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=pt-BR) não está associada a nenhuma instância do Adobe Campaign v7/v8.
 
 Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
-1. Abra o **[!UICONTROL Cartão Configurações de instâncias]** para acessar a guia da lista de permissões de IP e clique em **[!UICONTROL Adicionar novo intervalo de IP]**.
+1. Abra o **[!UICONTROL cartão Configurações de instâncias]** para acessar a guia Lista de permissões de IP e clique em **[!UICONTROL Adicionar novo intervalo de IP]**.
 
 
 
    ![](assets/ip_whitelist_list1.png)
 
-1. Preencha as informações para o Intervalo IP que deseja incluir na lista de permissões, conforme descrito abaixo.
+1. Preencha as informações para o Intervalo de IP que deseja incluir na lista de permissões, conforme descrito abaixo.
 
    ![](assets/ip_whitelist_add1.png)
 
-   * **[!UICONTROL Instância(s)]**: as instâncias às quais os endereços IP poderão se conectar. Várias instâncias podem ser manipuladas ao mesmo tempo. Por exemplo, a lista de permissões de IP pode ser executada pela mesma etapa em instâncias de Produção e de Estágio.
-   * **[!UICONTROL Intervalo IP]**: O intervalo IP que você deseja adicionar à lista de permissões, no formato CIDR. Observe que um intervalo IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
+   * **[!UICONTROL Instância(s)]**: instâncias às quais os endereços IP poderão se conectar. Várias instâncias podem ser manipuladas ao mesmo tempo. Por exemplo, a lista de permissões de IP pode ser executada pela mesma etapa em instâncias de Produção e de Estágio.
+   * **[!UICONTROL Intervalo de IP]**: o intervalo de IP que você deseja adicionar à lista de permissões, no formato CIDR. Observe que um intervalo IP não pode sobrepor um intervalo existente na lista de permissões. Nesse caso, primeiro exclua o intervalo que contém o IP sobreposto.
 
    >[!NOTE]
    >
    >CIDR (Roteamento interdomínio sem classe) é o formato aceito ao adicionar intervalos IP com a interface do Painel de controle. A sintaxe consiste em um endereço IP seguido por um caractere &#39;/&#39; e um número decimal. O formato e sua sintaxe são detalhados por completo [neste artigo](https://whatismyipaddress.com/cidr).
    >
-   >Você pode procurar na Internet ferramentas online gratuitas que ajudarão você a converter o intervalo IP disponível para o formato CIDR.
+   >É possível procurar na internet ferramentas online gratuitas que ajudarão a converter o intervalo de IP para o formato CIDR.
 
    * **[!UICONTROL Rótulo]**: o rótulo que será exibido na lista de permissões.
-   * **[!UICONTROL Nome]**: o nome deve ser exclusivo para o Tipo de acesso, Instância (no caso de conexão de API externa) e Endereço IP.
+   * **[!UICONTROL Nome]**: o nome deve ser único para o tipo de acesso, instância (no caso de conexão de API externa) e endereço IP.
 
 1. Especifique o tipo de acesso que deseja conceder aos endereços IP:
 
-   * **[!UICONTROL Acesso ao console do Campaign]**: os endereços IP poderão se conectar ao Console do cliente do Campaign. Observe que o acesso ao Console é ativado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
-   * **[!UICONTROL Conexão AEM]**: os endereços IP AEM especificados poderão se conectar à instância de marketing.
-   * **[!UICONTROL Conexão com a API externa]**: as APIs externas com os endereços IP especificados poderão se conectar à instância do Centro de mensagens e/ou Marketing (RT). Observe que a conexão com o console de instâncias de RT não está habilitada.
+   * **[!UICONTROL Acesso ao console do Campaign]**: os endereços IP terão permissão para se conectar ao Console do cliente do Campaign. Observe que o acesso ao Console é ativado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
+   * **[!UICONTROL Conexão com o AEM]**: os endereços IP do AEM especificados terão permissão para se conectar à instância de marketing.
+   * **[!UICONTROL Conexão de API externa]**: as APIs externas com os endereços IP especificados terão permissão para se conectar à instância de marketing e/ou do Centro de mensagens (RT). Observe que a conexão com o console de instâncias do RT não está habilitada.
 
    >[!NOTE]
    >
-   >Se estiver usando uma instância com um modelo de hospedagem híbrido, você só poderá adicionar endereços IP na &quot;Conexão de API externa&quot; para Instâncias MID e RT.
+   >Se estiver usando uma instância com um modelo de hospedagem híbrido, só será possível adicionar endereços IP na “Conexão de API externa” para instâncias de MID e RT.
 
    ![](assets/ip_whitelist_acesstype.png)
 
-1. Clique no botão **[!UICONTROL Save.]** O Intervalo IP é adicionado à lista de permissões.
+1. Clique no botão **[!UICONTROL Save]**. O Intervalo de IP é adicionado à lista de permissões.
 
    <!--![](assets/ip_whitelist_added.png)-->
 
 Por padrão, a instância do Adobe Campaign não pode ser acessada de vários endereços IP.
 
-Para excluir um ou mais intervalos IP da lista de permissões, selecione-os e clique no link **[!UICONTROL Excluir intervalo IP]** botão.
+Para excluir um ou mais intervalos de IP da lista de permissões, selecione-os e clique no botão **[!UICONTROL Excluir intervalo de IP]**.
 
 ![](assets/ip_whitelist_delete.png)
 
 **Tópicos relacionados:**
 
-* [Vincular uma zona de segurança a um operador](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html#linking-a-security-zone-to-an-operator)
+* [Vinculação de uma zona de segurança a um operador](https://experienceleague.adobe.com/docs/campaign-classic/using/installing-campaign-classic/additional-configurations/security-zones.html?lang=pt-BR#linking-a-security-zone-to-an-operator)
