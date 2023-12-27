@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: a9b150a4f24447d22d5c1ecff5d456ca39cb65e2
-workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 89%
+workflow-type: ht
+source-wordcount: '418'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ Os perfis são considerados ativos se tiverem sido direcionados ou comunicados n
 
 >[!NOTE]
 >
->Os canais facebook e X (conhecidos formalmente como Twitter) não são considerados.
+>Os canais do Facebook e X (anteriormente conhecido como Twitter) não são considerados.
 
 Para obter mais informações sobre perfis ativos, consulte as documentações do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/profiles-and-audiences/managing-profiles/active-profiles.html?lang=pt-BR) e do [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/profile-management/about-profiles.html?lang=pt-BR#active-profiles).
 
@@ -61,9 +61,9 @@ A seção superior exibe as seguintes informações:
 
 A seção inferior fornece uma representação visual do uso de perfis ativos nos últimos 30 dias. É possível alterar esse intervalo de tempo para 1 ano usando o filtro localizado no canto superior direito. Ao passar o mouse sobre o gráfico, é possível obter o número exato de perfis ativos usados no período selecionado.
 
-As informações relacionadas ao uso de perfis ativos são atualizadas no Painel de controle com base em perfis dedicados [!DNL Campaign] Workflows técnicos de &quot;faturamento&quot; que são executados em intervalos regulares em suas instâncias.
+As informações relacionadas ao uso de perfis ativos são atualizadas no Painel de controle com base em fluxos de trabalho técnicos dedicados ao “Faturamento” do [!DNL Campaign], os quais são executados em intervalos regulares nas suas instâncias.
 
 | Versão do Campaign | Fluxo de trabalho técnico | Execuções |
 |  ---  |  ---  |  ---  |
 | Campaign Standard | [Faturamento](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR) | Diariamente |
-| Campaign v7/v8 | [Faturamento](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html) | Mensal |
+| Campaign v7/v8 | [Faturamento](https://experienceleague.adobe.com/docs/campaign-classic/using/automating-with-workflowsadvanced-management/about-technical-workflows.html?lang=pt-BR) | Mensal |
