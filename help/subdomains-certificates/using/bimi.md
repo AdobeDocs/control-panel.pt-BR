@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: e601f74ae9e53d3a008c55e1fd568013ca0196f8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '577'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 O BIMI (Brand Indicators for Message Identification) é um padrão do setor que permite a exibição de um logotipo aprovado ao lado do email de um remetente nas caixas de entrada dos provedores, a fim de aumentar o reconhecimento e a confiança da marca. Ele ajuda a impedir o spoofing e phishing de emails confirmando a identidade do remetente por meio da autenticação DMARC, o que dificulta a falsificação de marcas legítimas em emails de pessoas mal-intencionadas.
 
-É possível ter vários logotipos para um determinado subdomínio. Para fazer isso, você precisa configurar um registro de BIMI para cada logotipo e atribuir um seletor de BIMI a cada registro. [Saiba como adicionar um registro BIMI](#add)
+É possível ter vários logotipos para um determinado subdomínio. Para isso, você precisa configurar um registro de BIMI para cada logotipo e atribuir um seletor de BIMI a cada registro. [Saiba como adicionar um registro de BIMI](#add)
 
 Informações detalhadas sobre a implementação do BIMI estão disponíveis no [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=pt-BR)
 
@@ -47,7 +47,7 @@ Para adicionar um registro BIMI a um subdomínio, siga estas etapas:
 
    ![](assets/bimi-add.png)
 
-1. A variável **[!UICONTROL Seletor]** permite especificar um seletor de BIMI para o registro. Um seletor BIMI é um identificador exclusivo que pode ser atribuído a um registro BIMI. Isso permite definir vários logotipos para um determinado subdomínio.
+1. O campo **[!UICONTROL Seletor]** permite especificar um seletor de BIMI para o registro. Um seletor de BIMI é um identificador exclusivo que pode ser atribuído a um registro de BIMI. Isso permite definir vários logotipos para um determinado subdomínio.
 
 1. Em **[!UICONTROL URL do logotipo da empresa]**, especifique o URL do arquivo SVG que contém o seu logotipo.
 
