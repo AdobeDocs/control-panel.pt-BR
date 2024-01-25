@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '836'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Informações detalhadas sobre a implementação do DMARC estão disponíveis no
 * Os registros SPF e DKIM são pré-requisitos para a criação de registros DMARC.
 * Os registros DMARC só podem ser adicionados a subdomínios que utilizam a delegação de subdomínio completa. [Saiba mais sobre os métodos de configuração de subdomínios](subdomains-branding.md#subdomain-delegation-methods)
 
-  Para estabelecer um registro DMARC em um subdomínio baseado em CNAME, você pode configurar o registro DMARC em seu domínio pai. Isso garante que todos os subdomínios associados herdem os parâmetros de registro DMARC, mesmo quando delegados por meio de CNAMEs.
+  Para estabelecer um registro de DMARC em um subdomínio baseado em CNAME, você pode configurar o registro de DMARC em seu domínio principal. Isso garante que todos os subdomínios associados herdem os parâmetros do registro de DMARC, mesmo quando delegados por meio de CNAMEs.
 
 * Se houver ambos os registros, DMARC e BIMI, em um subdomínio:
    * Os registros DMARC não poderão ser excluídos. Se quiser excluir um registro DMARC, primeiro exclua o registro BIMI.
