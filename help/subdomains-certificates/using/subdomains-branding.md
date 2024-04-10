@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a489d051-fb95-45cf-bb6d-33aef10b7795
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ Os possíveis casos de uso são:
 
 * **Comunicações de marketing**: comunicações destinadas a fins comerciais. Exemplo: campanha de email de vendas.
 
-* **Comunicações transacionais e operacionais**: as comunicações transacionais contêm informações destinadas a concluir um processo que o recipient iniciou com você. Exemplo: confirmação de compra, email de redefinição de senha. As comunicações organizacionais estão relacionadas com o intercâmbio de informações, ideias e visualizações dentro e fora da organização, sem fins comerciais.
+* **Comunicações transacionais e operacionais**: as comunicações transacionais contêm informações destinadas a concluir um processo que o destinatário iniciou com você. Exemplo: confirmação de compra, email de redefinição de senha. As comunicações organizacionais estão relacionadas com o intercâmbio de informações, ideias e visualizações dentro e fora da organização, sem fins comerciais.
 
 **Separar os subdomínios de acordo com os casos de uso é uma prática recomendada para a entrega**. Assim, a reputação de cada subdomínio é isolada e protegida. Por exemplo, se o subdomínio para comunicações de marketing acabar sendo incluído na lista de bloqueios por provedores de serviço de internet, o subdomínio de comunicações transacionais não será afetado e continuará sendo capaz de enviar comunicações.
 

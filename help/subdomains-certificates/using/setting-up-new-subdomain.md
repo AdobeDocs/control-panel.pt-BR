@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1526'
 ht-degree: 100%
 
@@ -223,5 +223,5 @@ Para mais detalhes do subdomínio, clique nos botões **[!UICONTROL Detalhes do 
 ## Solução de problemas {#troubleshooting}
 
 * Em alguns casos, a configuração prossegue, mas o subdomínio pode não ser verificado com sucesso. O subdomínio permanecerá na lista **[!UICONTROL Configurados]** com um log de processo que fornece informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver dificuldades para resolver o problema.
-* Se o subdomínio estiver sendo exibido como “Não verificado” após a configuração, inicie uma nova verificação de subdomínio (**...** / **[!UICONTROL Verificar subdomínio]**). Se ainda mostrar o mesmo status, o motivo pode ser que haja alguma personalização feita no schema de recipients, que não pode ser verificada usando processos padrão. Tente enviar uma campanha com esse subdomínio.
+* Se o subdomínio estiver sendo exibido como “Não verificado” após a configuração, inicie uma nova verificação de subdomínio (**...** / **[!UICONTROL Verificar subdomínio]**). Se ainda mostrar o mesmo status, o motivo pode ser que haja alguma personalização feita no schema de destinatários, que não pode ser verificada usando processos padrão. Tente enviar uma campanha com esse subdomínio.
 * Se a configuração do subdomínio estiver demorando muito (mais de 10 dias úteis) na etapa de auditoria de entrega, entre em contato com o Atendimento ao cliente.
