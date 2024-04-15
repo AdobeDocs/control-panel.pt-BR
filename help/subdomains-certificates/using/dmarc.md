@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
-source-git-commit: aacaec4e6ed7b997c0d879c4a9d4bf85ddd18cf7
-workflow-type: ht
-source-wordcount: '836'
-ht-degree: 100%
+source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
+workflow-type: tm+mt
+source-wordcount: '885'
+ht-degree: 94%
 
 ---
 
@@ -43,7 +43,7 @@ Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
 
    ![](assets/dmarc-add.png)
 
-1. Escolha o **[!UICONTROL Tipo de política]** que o servidor do recipient precisa seguir quando houver falha em um dos seus emails. Os tipos de política disponíveis são:
+1. Escolha o **[!UICONTROL Tipo de política]** que o servidor do destinatário precisa seguir quando houver falha em um dos seus emails. Os tipos de política disponíveis são:
 
    * **[!UICONTROL Nenhuma]**,
    * **[!UICONTROL Quarentena]** (inserção na pasta de spam),
@@ -66,6 +66,10 @@ Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
    * Os relatórios DMARC agregados fornecem informações de alto nível, como o número de emails que falharam em um determinado período.
    * Os relatórios de análise de falha do DMARC fornecem informações detalhadas, como o endereço IP do qual o email com falha se originou.
 
+   >[!CAUTION]
+   >
+   >Se os endereços de email que você está adicionando para receber relatórios estiverem fora do domínio para o qual o registro DMARC é criado, será necessário autorizar o domínio externo a especificar ao DNS que você possui esse domínio. Para fazer isso, siga as etapas detalhadas na [Documentação do dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+
 1. Se a política DMARC estiver definida como “Nenhum”, insira uma porcentagem que se aplique a 100% dos emails.
 
    Se a política estiver definida como “Rejeitar” ou “Quarentena”, é recomendado começar com uma pequena porcentagem de emails. Aumente a porcentagem de seus registros lentamente à medida que mais emails do domínio sejam aprovados na autenticação de servidores receptores.
@@ -78,7 +82,7 @@ Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
 
 1. Os relatórios DMARC são enviados a cada 24 horas. É possível alterar a frequência de envio dos relatórios no campo **[!UICONTROL Intervalo entre relatórios]**. O intervalo mínimo autorizado é de 1 hora, enquanto o valor máximo é de 2190 horas (ou seja, 3 meses).
 
-1. Nos campos **SPF** e **[!UICONTROL Alinhamento de identificadores DKIM]**, especifique a rigidez com a qual os servidores dos recipients devem verificar as autenticações SPF e DKIM de um email.
+1. Nos campos **SPF** e **[!UICONTROL Alinhamento de identificadores DKIM]**, especifique a rigidez com a qual os servidores dos destinatários devem verificar as autenticações SPF e DKIM de um email.
 
    * Modo **[!UICONTROL Relaxado]**: o servidor aceita a autenticação, mesmo que o email seja enviado de um subdomínio,
    * O modo **[!UICONTROL Rigoroso]** só aceita a autenticação quando o domínio do remetente corresponde exatamente a um domínio SPF e DKIM.
