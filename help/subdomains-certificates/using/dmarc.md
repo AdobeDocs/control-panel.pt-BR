@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 2ca66983-5beb-495a-9639-a31905500cff
 source-git-commit: 80b9f62feb9f00758cf175762b1cf4dc26912ed8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '885'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -68,7 +68,7 @@ Para adicionar um registro DMARC a um subdomínio, siga estas etapas:
 
    >[!CAUTION]
    >
-   >Se os endereços de email que você está adicionando para receber relatórios estiverem fora do domínio para o qual o registro DMARC é criado, será necessário autorizar o domínio externo a especificar ao DNS que você possui esse domínio. Para fazer isso, siga as etapas detalhadas na [Documentação do dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
+   >Se os endereços de email que você está adicionando para receber relatórios estiverem fora do domínio para o qual o registro DMARC é criado, será necessário autorizar o domínio externo para especificar ao DNS que você possui esse domínio. Para fazer isso, siga as etapas detalhadas na [Documentação do dmarc.org](https://dmarc.org/2015/08/receiving-dmarc-reports-outside-your-domain)
 
 1. Se a política DMARC estiver definida como “Nenhum”, insira uma porcentagem que se aplique a 100% dos emails.
 
