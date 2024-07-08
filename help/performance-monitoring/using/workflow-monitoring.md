@@ -5,7 +5,7 @@ feature: Control Panel, Monitoring, Workflows
 role: Admin
 level: Experienced
 exl-id: 8016f800-430a-413d-a77b-b7f18f5ab733
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 360f2ca6fa1896ae5376143ee73b7e8b71d98be0
 workflow-type: ht
 source-wordcount: '269'
 ht-degree: 100%
@@ -77,3 +77,4 @@ Este campo permite atribuir um operador a um fluxo de trabalho. Se o fluxo de tr
 O valor &quot;1&quot; indica que o fluxo de trabalho tem o campo **Gravidade** definido como &quot;Produção&quot; e que nenhum grupo supervisor foi atribuído ao fluxo de trabalho.
 
 ![](assets/wkf-monitoring-supervisors.png)
+
