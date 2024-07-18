@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ A área **[!UICONTROL Visão geral do armazenamento]** fornece uma representaç�
 
 Clique no botão **[!UICONTROL Exibir detalhes]** para mais detalhes sobre os diferentes ativos que estão consumindo espaço no banco de dados.
 
-É possível usar a lista suspensa para refinar a pesquisa e visualizar as tabelas com apenas um tipo de ativo específico (workflows, entregas, recipients).
+É possível usar a lista suspensa para refinar a pesquisa e visualizar as tabelas com apenas um tipo de ativo específico (workflows, entregas, destinatários).
 
 ![](assets/database-storage-details.png)
 
