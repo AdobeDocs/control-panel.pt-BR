@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: e8bffd8e7f571fd85c725adf837c2997f7615fcd
+source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 100%
+source-wordcount: '719'
+ht-degree: 92%
 
 ---
 
@@ -78,13 +78,13 @@ Para gerenciar as configurações da sua instância, queremos garantir que você
 
 ### E se eu tiver várias IDs de organização?
 
-Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
+Ter a mesma ID de organização para o Analytics e o Campaign é um requisito caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para Adobe Analytics + Adobe Campaign). Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
 
+<!--
 >[!NOTE]
 >
->Caso você tenha a mesma ID de organização para o Adobe Campaign e o Adobe Analytics, isso é ótimo. Ter a mesma ID de organização para o Analytics e o Campaign é um requisito caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para o AA + AC).
->
->Se suas IDs de organização forem diferentes para o Adobe Campaign e o Adobe Analytics, entre em contato com o Atendimento ao cliente para alinhá-las.
+>If you have different organization IDs for Adobe Campaign and Adobe Analytics, please reach out to Customer Care to get them aligned.
+-->
 
 ### Como posso saber se minha instância do Adobe Campaign está hospedada no AWS ou não?{#hosted-aws}
 
