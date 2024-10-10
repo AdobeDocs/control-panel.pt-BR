@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: eb7863fb-6e6d-4821-a156-03fee03cdd0e
 source-git-commit: c555a91ee0772fd615d38ebbb3964392649af907
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '523'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 80%
 
 ## Sobre registros BIMI {#about}
 
-Brand Indicators for Message Identification (BIMI) é um padrão do setor que permite que um logotipo aprovado apareça ao lado do email de um remetente nas caixas de entrada dos provedores de caixa de correio para aprimorar o reconhecimento e a confiança da marca.
+Os Brand Indicators for Message Identification (BIMIs, indicadores da marca para identificação de mensagens) é um padrão do setor que permite a exibição de um logotipo aprovado ao lado do email de um remetente nas caixas de entrada dos provedores, a fim de aumentar o reconhecimento e a confiança da marca.
 
 Informações detalhadas sobre a implementação do BIMI estão disponíveis no [Manual de práticas recomendadas de capacidade de entrega da Adobe](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/technotes/implement-bimi.html?lang=pt-BR)
 
@@ -28,11 +28,11 @@ Informações detalhadas sobre a implementação do BIMI estão disponíveis no 
 
 * Os registros SPF, DKIM e DMARC são pré-requisitos para a criação de registros BIMI.
 
-* O registro BIMI precisa ser publicado no DNS. Para um domínio totalmente delegado, isso é possível por meio do Painel de controle do Campaign. [Saiba mais sobre os métodos de configuração de subdomínios](subdomains-branding.md#subdomain-delegation-methods)
+* O registro BIMI precisa ser publicado no DNS para um domínio totalmente delegado, o que pode ser feito por meio do Painel de controle. [Saiba mais sobre os métodos de configuração de subdomínios](subdomains-branding.md#subdomain-delegation-methods)
 
 * Pré-requisitos do registro DMARC:
 
-   * O tipo de política de registro para o domínio organizacional deve ser definido como &quot;Quarentena&quot; ou &quot;Rejeitar&quot;. A criação do registro BIMI não está disponível quando o tipo de política DMARC está definido como “Nenhum”.
+   * O tipo de política de registro do domínio organizacional deve estar definido como “Quarentena” ou “Rejeitar”. A criação do registro BIMI não está disponível quando o tipo de política DMARC está definido como “Nenhum”.
    * A porcentagem de emails aos quais a política DMARC é aplicada deve ser 100%. O BIMI não será compatível com políticas DMARC se essa porcentagem estiver definida com um valor inferior a 100%.
 
 [Saiba como configurar registros DMARC](dmarc.md)
@@ -47,11 +47,11 @@ Para adicionar um registro BIMI a um subdomínio, siga estas etapas:
 
    ![](assets/bimi-add.png)
 
-1. O campo **[!UICONTROL Seletor]** permite especificar um seletor de BIMI para o registro. Um seletor de BIMI é um identificador exclusivo que pode ser atribuído a um registro de BIMI. Isso permite definir vários logotipos para um determinado subdomínio. No momento, os provedores de caixa de correio não oferecem suporte para isso.
+1. O campo **[!UICONTROL Seletor]** permite especificar um seletor de BIMI para o registro. Um seletor de BIMI é um identificador exclusivo que pode ser atribuído a um registro de BIMI. Isso permite definir vários logotipos para um determinado subdomínio. No momento, os provedores de email não permitem isso.
 
 1. Em **[!UICONTROL URL do logotipo da empresa]**, especifique o URL do arquivo SVG que contém o seu logotipo.
 
-1. Embora a **[!UICONTROL URL de Certificado]** seja opcional, ela é necessária para alguns provedores de caixa de correio, como Gmail e Apple. Portanto, recomendamos obter um certificado de marca verificada (VMC, na sigla em inglês) para realmente aproveitar o BIMI.
+1. Embora o **[!UICONTROL URL do certificado]** seja opcional, ele é necessário para alguns provedores de email, como Gmail e Apple. Portanto, recomendamos obter um certificado de marca verificada (VMC, na sigla em inglês) para realmente aproveitar o BIMI.
 
    +++Como obtenho um VMC?
 

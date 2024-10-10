@@ -8,9 +8,9 @@ role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
 source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '719'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -78,7 +78,7 @@ Para gerenciar as configurações da sua instância, queremos garantir que você
 
 ### E se eu tiver várias IDs de organização?
 
-Ter a mesma ID de organização para o Analytics e o Campaign é um requisito caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para Adobe Analytics + Adobe Campaign). Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
+Contar com a mesma ID da organização para o Analytics e o Campaign é um requisito, caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para Adobe Analytics + Adobe Campaign).  Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
 
 <!--
 >[!NOTE]
@@ -90,7 +90,7 @@ Ter a mesma ID de organização para o Analytics e o Campaign é um requisito ca
 
 Para verificar se sua instância está hospedada no AWS, siga estas etapas:
 
-1. Recupere o URL de logon. É o URL que você usa para fazer logon na instância do Campaign, que geralmente termina com &quot;.campaign.adobe.com&quot; ou &quot;.neolane.net&quot;.
+1. Recupere o URL de logon. É o URL que você usa para fazer logon na sua instância do Campaign, que geralmente termina com “.campaign.adobe.com” ou “.neolane.net”.
 1. Abra o terminal e execute uma operação **[!DNL nslookup]** no URL de logon.
 
    `doe-macOS% nslookup myinstance.campaign.adobe.com`
