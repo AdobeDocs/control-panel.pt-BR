@@ -196,4 +196,4 @@ O vídeo abaixo mostra como gerar e instalar chaves GPG para criptografia de dad
 
 Vídeos explicativos adicionais relacionados ao gerenciamento de chaves GPG estão disponíveis nas páginas de tutoriais do [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=pt-BR#instance-settings) e do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=pt-BR#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/327887?quality=12&captions=por_br)
