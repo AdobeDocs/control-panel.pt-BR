@@ -7,10 +7,10 @@ feature: Control Panel, Subdomains and Certificates
 role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
 workflow-type: tm+mt
 source-wordcount: '1526'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -86,7 +86,7 @@ Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
 
    ![](assets/subdomain3.png)
 
-1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Servidor de nomes da Adobe exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o [vídeo tutorial](https://video.tv.adobe.com/v/33270?captions=por_br).
+1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Servidor de nomes da Adobe exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o [vídeo tutorial](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >
@@ -102,7 +102,8 @@ Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
 
 1. Digite o subdomínio criado na sua solução de hospedagem e clique em **[!UICONTROL Enviar]**.
 
-   Preencha o **nome completo** do subdomínio que será delegado. Por exemplo, para delegar o subdomínio &quot;usoffer.email.weretail.com&quot;, digite &quot;usoffer.email.weretail.com&quot;.
+   Preencha o **nome completo** do subdomínio que será delegado. Por exemplo, para delegar o subdomínio &quot;email.weretail.com&quot;, digite &quot;email.weretail.com&quot;.
+
 
 1. Para delegar a geração do certificado SSL do subdomínio à Adobe, habilite a opção **[!UICONTROL Optar por SSL gerenciado pela Adobe para subdomínios]**. [Saiba mais sobre a delegação de certificados SSL](delegate-ssl.md)
 
@@ -223,5 +224,5 @@ Para mais detalhes do subdomínio, clique nos botões **[!UICONTROL Detalhes do 
 ## Solução de problemas {#troubleshooting}
 
 * Em alguns casos, a configuração prossegue, mas o subdomínio pode não ser verificado com sucesso. O subdomínio permanecerá na lista **[!UICONTROL Configurados]** com um log de processo que fornece informações sobre o erro. Entre em contato com o Atendimento ao cliente se tiver dificuldades para resolver o problema.
-* Se o subdomínio estiver sendo exibido como “Não verificado” após a configuração, inicie uma nova verificação de subdomínio (**...** / **[!UICONTROL Verificar subdomínio]**). Se ainda mostrar o mesmo status, o motivo pode ser que haja alguma personalização feita no schema de destinatários, que não pode ser verificada usando processos padrão. Tente enviar uma campanha com esse subdomínio.
+* Se o subdomínio estiver sendo exibido como “Não verificado” após a configuração, inicie uma nova verificação de subdomínio (**...** / **[!UICONTROL Verificar subdomínio]**). Se ainda mostrar o mesmo status, o motivo pode ser que haja alguma personalização feita no esquema de destinatários, que não pode ser verificada usando processos padrão. Tente enviar uma campanha com esse subdomínio.
 * Se a configuração do subdomínio estiver demorando muito (mais de 10 dias úteis) na etapa de auditoria de entrega, entre em contato com o Atendimento ao cliente.
