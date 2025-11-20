@@ -9,7 +9,7 @@ level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
 workflow-type: tm+mt
 source-wordcount: '180'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 100%
       + [Visão geral de armazenamento](performance-monitoring/using/database-storage-overview.md)
       + [Os 10 principais recursos temporários](performance-monitoring/using/database-top-ten-resources.md)
       + [Consultas ativas](performance-monitoring/using/database-active-queries.md)
-      + [Monitorar workflows](performance-monitoring/using/workflow-monitoring.md)
+      + [Monitorar fluxos de trabalho](performance-monitoring/using/workflow-monitoring.md)
       + [Impedir sobrecarga de banco de dados](performance-monitoring/using/database-preventing-overload.md)
    + [Monitoramento de perfis ativos](performance-monitoring/using/active-profiles-monitoring.md)
    + [Monitoramento de taxas de transferência e latência](performance-monitoring/using/throughputs-latencies.md)
