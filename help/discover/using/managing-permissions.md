@@ -7,10 +7,10 @@ feature: Control Panel, Permissions
 role: Admin
 level: Intermediate
 exl-id: 7314a679-78c3-4650-bf3a-2bde8be82747
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
+source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 74%
 
 ---
 
@@ -20,7 +20,7 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 ![](assets/do-not-localize/how-to-video.png) Conheça este recurso no [vídeo](../../discover/using/managing-permissions.md#video)
 
-1. Navegue até a [página inicial da Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
+1. Navegue até a [página inicial do Adobe Experience Cloud](https://experiencecloud.adobe.com/){target="_blank"}.
 
 1. Abra o **Admin Console**, clicando no link disponível na seção **Acesso rápido** ou no menu superior direito.
 
@@ -50,9 +50,11 @@ O Painel de controle está disponível para todos os usuários administradores d
 
    ![](assets/do-not-localize/control_panel_add_user_5.png)
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >Por padrão, usuários administradores pertencem ao perfil de produto “Administradores”. De acordo com a configuração da organização, o perfil de produto pode ter um nome diferente (“administrador”, “administradores” etc.).
+   >Por padrão, o Painel de controle do Campaign é acessível aos usuários administradores que pertencem ao Perfil de produto &quot;Administradores&quot;. De acordo com a configuração da organização, o Perfil do produto pode ser nomeado de forma diferente (&quot;administrador&quot;, &quot;administradores&quot;, &quot;administrador de aprovação&quot; etc.). **Qualquer Perfil de Produto que contenha a palavra &quot;administrador&quot; em seu nome concederá acesso automaticamente ao Painel de Controle.**
+   >
+   >Analise cuidadosamente suas convenções de nomenclatura do Perfil de produto no Admin Console para garantir que somente usuários autorizados tenham acesso ao Painel de controle do Campaign, pois isso permite fazer alterações significativas nas instâncias do Campaign.
 
 1. A lista de usuários administradores será exibida. Clique no botão **[!UICONTROL Adicionar usuário]** para adicionar o(a) usuário(a) desejado(a).
 
@@ -64,4 +66,4 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/34805?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
