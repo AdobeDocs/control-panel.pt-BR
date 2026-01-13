@@ -66,4 +66,4 @@ O Painel de controle está disponível para todos os usuários administradores d
 
 ## Tutorial em vídeo {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27147?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/34805?captions=por_br&quality=12)
