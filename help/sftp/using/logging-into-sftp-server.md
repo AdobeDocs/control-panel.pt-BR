@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 713f23bf-fa95-4b8a-b3ec-ca06a4592aa3
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 As etapas abaixo detalham como se conectar ao seu servidor SFTP por meio do aplicativo do cliente SFTP.
 
-![](assets/do-not-localize/how-to-video.png) Conheça este recurso no [vídeo](https://video.tv.adobe.com/v/34803?quality=12&captions=por_br)
+![](assets/do-not-localize/how-to-video.png) Conheça este recurso no [vídeo](https://video.tv.adobe.com/v/27263?quality=12)
 
 Antes de fazer logon no servidor, certifique-se de que:
 

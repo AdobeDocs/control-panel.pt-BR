@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 366dd2ea-c6be-41a2-a4d6-4ffecb5f3d39
 source-git-commit: de33a10a168358d0f38ca776fbcd88e0ccf63ce2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1146'
 ht-degree: 100%
 
@@ -97,7 +97,7 @@ Uma vez instalada, a chave pública será exibida na lista. Você pode usar o bo
 
 ![](assets/gpg_install_download.png)
 
-A chave ficará disponível para uso em workflows do Adobe Campaign. Você pode usá-la para criptografar dados ao realizar atividades de extração de dados.
+A chave ficará disponível para uso em fluxos de trabalho do Adobe Campaign. Você pode usá-la para criptografar dados ao realizar atividades de extração de dados.
 
 ![](assets/do-not-localize/how-to-video.png) Conheça este recurso no [vídeo](#video)
 
@@ -132,7 +132,7 @@ Para gerar um par de chaves no Painel de controle, siga estas etapas:
 
    ![](assets/gpg_generate.png)
 
-1. Especifique o nome da chave e clique em **[!UICONTROL Gerar chave]**. Esse nome ajudará a identificar a chave a ser usada para descriptografia em workflows do Campaign
+1. Especifique o nome da chave e clique em **[!UICONTROL Gerar chave]**. Esse nome ajudará a identificar a chave a ser usada para descriptografia em fluxos de trabalho do Campaign
 
    ![](assets/gpg_generate_name.png)
 
@@ -188,7 +188,7 @@ Como prática recomendada, remova qualquer chave que não seja mais necessária.
 
 >[!IMPORTANT]
 >
->Antes de remover uma chave, certifique-se de que ela não esteja sendo usada em nenhum workflow do Adobe Campaign para evitar falhas.
+>Antes de remover uma chave, certifique-se de que ela não esteja sendo usada em nenhum fluxo de trabalho do Adobe Campaign para evitar falhas.
 
 ## Tutorial em vídeo {#video}
 
@@ -196,4 +196,4 @@ O vídeo abaixo mostra como gerar e instalar chaves GPG para criptografia de dad
 
 Vídeos explicativos adicionais relacionados ao gerenciamento de chaves GPG estão disponíveis nas páginas de tutoriais do [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=pt-BR#instance-settings) e do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/instance-settings/gpg-key-management/gpg-key-management-overview.html?lang=pt-BR#instance-settings).
 
->[!VIDEO](https://video.tv.adobe.com/v/327887?quality=12&captions=por_br)
+>[!VIDEO](https://video.tv.adobe.com/v/36386?quality=12)

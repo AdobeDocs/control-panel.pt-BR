@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: a157cc27-577f-490f-8c4f-0f203219cfb5
 source-git-commit: 73cf3102c0926728595e975ee4c85bf110f2a23d
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '418'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ São exibidas informações sobre o uso de perfis ativos.
 
 A seção superior exibe as seguintes informações:
 
-* A contagem de perfis ativos usados atualmente na instância selecionada, juntamente com o carimbo de data e hora da execução mais recente do workflow de faturamento da instância.
+* A contagem de perfis ativos usados atualmente na instância selecionada, juntamente com o carimbo de data e hora da execução mais recente do fluxo de trabalho de faturamento da instância.
 
 * A contagem total de perfis ativos usados pela organização em todas as instâncias.
 

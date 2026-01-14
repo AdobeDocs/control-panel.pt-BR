@@ -8,7 +8,7 @@ hide: true
 hidefromtoc: true
 exl-id: bb796bef-1a2b-4f2e-848e-ad682c6c7ea0
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '156'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 ## Setembro de 2019 {#september-2019}
 
 Adicionamos novos recursos para que os usuários administradores adicionem endereços IP à lista de permissões para se conectarem às instâncias do Campaign v7/v8.
-Além disso, os usuários administradores agora podem visualizar a lista de instâncias do Campaign v7/v8 e a qualificação para atualizações de builds.
+Além disso, os usuários administradores agora podem visualizar a lista de instâncias do Campaign v7/v8 e a elegibilidade para atualizações de builds.
 
 Para obter mais informações, consulte a [documentação específica](../instances-settings/using/ip-allow-listing-instance-access.md).
 

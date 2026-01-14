@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: a7888e1c-259d-4601-951b-0f1062d90dc2
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '576'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Abaixo, você encontrará uma lista abrangente dos impactos associados ao gerenc
 |       | Certificado gerenciado pelo cliente | Certificado gerenciado pela Adobe |
 |  ---  |  ---  |  ---  |
 | Provedor de certificados | Autoridades de certificação de terceiros | Adobe por meio dos gerenciadores de certificados da AWS |
-| Etapas manuais | Geração de CSR, aquisição e instalação de certificados | nenhuma |
+| Etapas manuais | Geração de CSR, compra e instalação de certificados | nenhuma |
 | Processo de renovação | Responsabilidade do cliente | Administrado automaticamente pela Adobe |
 | Segurança dos subdomínios | O domínio pode conter subdomínios desprotegidos (rastreamento, espelho e res), a menos que você esteja instalando/renovando certificados. | Todos os subdomínios de novos domínios (se você optar pelo gerenciamento pela Adobe) estarão protegidos por padrão. |
 | Custo dos certificados | O cliente arca com o custo dos certificados | Gratuito |

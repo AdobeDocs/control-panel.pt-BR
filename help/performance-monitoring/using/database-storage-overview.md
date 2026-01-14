@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: bb9e1ce3-2472-4bc1-a82a-a301c6bf830e
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '175'
 ht-degree: 100%
 
@@ -28,15 +28,15 @@ A área **[!UICONTROL Visão geral do armazenamento]** fornece uma representaç�
   Observe que, se os recursos do sistema estiverem consumindo uma grande parte do espaço do banco de dados, recomendamos entrar em contato com o Atendimento ao cliente.
 
 * **[!UICONTROL Tabelas prontas para uso]** fornecidas por padrão com as instâncias do Campaign,
-* **[!UICONTROL Tabelas temporárias]** criadas por workflows e entregas,
+* **[!UICONTROL Tabelas temporárias]** criadas por fluxos de trabalho e entregas,
 * **[!UICONTROL Tabelas que não são prontas para uso]** geradas após a criação de recursos personalizados.
 
 ![](assets/database-storage-overview.png)
 
 Clique no botão **[!UICONTROL Exibir detalhes]** para mais detalhes sobre os diferentes ativos que estão consumindo espaço no banco de dados.
 
-É possível usar a lista suspensa para refinar a pesquisa e visualizar as tabelas com apenas um tipo de ativo específico (workflows, entregas, destinatários).
+É possível usar a lista suspensa para refinar a pesquisa e exibir as tabelas com apenas um tipo de ativo específico (workflows, entregas, destinatários).
 
 ![](assets/database-storage-details.png)
 
-Observe que essa tela também permite monitorar os parâmetros dos workflows que podem exigir atenção específica para evitar problemas nas suas instâncias. Saiba mais [nesta página](workflow-monitoring.md).
+Observe que essa tela também permite monitorar os parâmetros dos fluxos de trabalho que podem exigir atenção específica para evitar problemas nas suas instâncias. Saiba mais [nesta página](workflow-monitoring.md).

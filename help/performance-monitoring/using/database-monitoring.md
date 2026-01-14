@@ -8,7 +8,7 @@ role: Admin
 level: Experienced
 exl-id: 2bd7d2dd-97be-49bb-9f8e-7161d0742bc1
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '365'
 ht-degree: 100%
 
@@ -18,9 +18,9 @@ ht-degree: 100%
 
 ## Sobre bancos de dados de instâncias {#about-instances-databases}
 
-De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com uma quantidade específica de espaço no banco de dados. Os bancos de dados incluem todos os **ativos**, **workflows** e **dados** que estão armazenados no Adobe Campaign.
+De acordo com seu contrato, cada uma das instâncias do Campaign é provisionada com uma quantidade específica de espaço no banco de dados. Os bancos de dados incluem todos os **ativos**, **fluxos de trabalho** e **dados** que estão armazenados no Adobe Campaign.
 
-Com o tempo, os bancos de dados podem atingir sua capacidade máxima, especialmente se os recursos armazenados nunca são excluídos da instância ou se há muitos workflows em um estado pausado.
+Com o tempo, os bancos de dados podem atingir sua capacidade máxima, especialmente se os recursos armazenados nunca são excluídos da instância ou se há muitos fluxos de trabalho em um estado pausado.
 
 A sobrecarga de um banco de dados de instância pode gerar vários problemas (incapacidade de fazer logon, enviar emails etc.). Portanto, o monitoramento dos bancos de dados das instâncias é essencial para garantir o desempenho ideal.
 
@@ -44,7 +44,7 @@ Selecione a instância desejada na **[!UICONTROL Lista de instâncias]** para ex
 
 ![](assets/databases_dashboard.png)
 
-Os dados deste painel são atualizados com base no **[!UICONTROL Workflow técnico de limpeza de banco de dados]** que é executado na instância do Campaign (consulte a documentação do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR)). É possível verificar a última vez que o workflow foi executado abaixo das métricas de **[!UICONTROL Espaço usado]** e **[!UICONTROL Espaço fornecido]**. Observe que, se o workflow não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que ele não está em execução.
+Os dados deste painel são atualizados com base no **[!UICONTROL Fluxo de trabalho técnico de limpeza de banco de dados]** que é executado na instância do Campaign (consulte a documentação do [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/application-settings/technical-workflows.html?lang=pt-BR#list-of-technical-workflows) e [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html?lang=pt-BR)). É possível verificar a última vez que o fluxo de trabalho foi executado abaixo das métricas de **[!UICONTROL Espaço usado]** e **[!UICONTROL Espaço fornecido]**. Observe que, se o fluxo de trabalho não está em execução há mais de três dias, recomendamos entrar em contato com o Atendimento ao cliente da Adobe para investigar por que ele não está em execução.
 
 Métricas adicionais estão disponíveis neste painel para ajudar a analisar o uso do banco de dados da instância. Elas estão detalhados nestas seções:
 

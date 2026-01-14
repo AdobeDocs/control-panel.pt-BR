@@ -2,13 +2,13 @@
 product: campaign
 solution: Campaign
 title: Os 10 principais recursos temporários
-description: Saiba como usar o painel de controle para monitorar os 10 maiores recursos temporários gerados por workflows e entregas no banco de dados do Campaign.
+description: Saiba como usar o painel de controle para monitorar os 10 maiores recursos temporários gerados por fluxos de trabalho e entregas no banco de dados do Campaign.
 feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 2fa2ffbb-102b-42c4-8feb-b0263ee9c930
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '188'
 ht-degree: 100%
 
@@ -16,9 +16,9 @@ ht-degree: 100%
 
 # Os 10 principais recursos temporários {#top-10}
 
-A área **[!UICONTROL 10 principais recursos temporários]** lista os 10 maiores recursos temporários gerados por workflows e entregas.
+A área **[!UICONTROL 10 principais recursos temporários]** lista os 10 maiores recursos temporários gerados por fluxos de trabalho e entregas.
 
-Monitorar workflows e entregas que estão criando grandes recursos temporários é uma etapa essencial para monitorar seu banco de dados. Se qualquer recurso temporário estiver consumindo muito espaço no banco de dados, verifique se esse fluxo de trabalho ou entrega é necessário e navegue até sua instância para interrompê-lo.
+Monitorar fluxos de trabalho e entregas que estão criando grandes recursos temporários é uma etapa essencial para monitorar seu banco de dados. Se qualquer recurso temporário estiver consumindo muito espaço no banco de dados, verifique se esse fluxo de trabalho ou entrega é necessário e navegue até sua instância para interrompê-lo.
 
 >[!IMPORTANT]
 >

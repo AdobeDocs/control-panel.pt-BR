@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: d230aae6-4f0e-4201-bb3c-0e3f83a7c1b8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '781'
 ht-degree: 100%
 
@@ -69,9 +69,9 @@ Três tipos de eventos são exibidos:
 
    * **[!UICONTROL Disponibilidade geral]**: build estável mais recente disponível.
    * **[!UICONTROL Disponibilidade limitada]**: somente implantação sob demanda.
-   * **[!UICONTROL Candidato a lançamento]**: validado pela engenharia. Aguardando prova de produção.
+   * **[!UICONTROL Candidato a lançamento]**: validado pela engenharia. Aguardando revisão de produção.
    * **[!UICONTROL Pré-lançamento]**: disponibilidade antecipada para necessidades específicas de clientes.
-   * **[!UICONTROL Não está mais disponível]**: a build não contém nenhum problema importante, mas uma versão mais recente está disponível com correções de bugs adicionais. É necessária uma atualização.
+   * **[!UICONTROL Não está mais disponível]**: a build não contém nenhum problema importante, mas uma versão mais recente está disponível com correções de erros adicionais. É necessária uma atualização.
    * **[!UICONTROL Obsoleto]**: um build que incorpora regressões conhecidas. A build não tem mais suporte. Uma atualização é obrigatória.
 
 É possível atribuir um sinalizador a um ou vários eventos futuros para rastreá-los. Para fazer isso, clique no botão de reticências ao lado do nome do evento.
@@ -88,7 +88,7 @@ Com o Calendário de serviço, você pode definir lembretes para ser notificado 
 
 Para definir um alerta para um evento, siga estas etapas:
 
-1. Passe o cursor do mouse sobre o evento do qual você deseja ser lembrado ou clique no botão de reticências na exibição de lista e selecione **[!UICONTROL Definir lembrete]**.
+1. Passe o mouse sobre o evento do qual você deseja ser lembrado ou clique no botão de reticências na exibição de lista e selecione **[!UICONTROL Definir lembrete]**.
 
 1. Forneça um título para o lembrete e selecione a data em que deseja ser notificado antes que o evento ocorra.
 

@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: 1d1eeff8-969e-4529-b947-2a68defb8d13
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '794'
 ht-degree: 100%
 
@@ -42,7 +42,7 @@ Depois que os endereços IP forem exibido na lista de permissões, você poderá
 
 Siga as recomendações e limitações abaixo ao adicionar endereços IP à lista de permissões no Painel de controle.
 
-* **Não ative o acesso IP a todos os tipos de acesso** se você não quiser que o endereço IP se conecte aos servidores RT ou à zona de segurança do AEM.
+* **Não habilite o acesso IP a todos os tipos de acesso** se você não pretende que o endereço IP se conecte aos servidores RT ou à zona de segurança do AEM.
 * **Se você ativou temporariamente o acesso à sua instância para um endereço IP**, remova os endereços IP da lista de permissões depois que não precisar mais se conectar à sua instância.
 * **Não recomendamos adicionar endereços IP de locais públicos à lista de permissões** (aeroportos, hotéis, etc.). Use o endereço VPN da sua empresa para manter a instância sempre segura.
 
@@ -83,7 +83,7 @@ Para adicionar endereços IP à lista de permissões, siga estas etapas:
 
 1. Especifique o tipo de acesso que deseja conceder aos endereços IP:
 
-   * **[!UICONTROL Acesso ao console do Campaign]**: os endereços IP terão permissão para se conectar ao Console do cliente do Campaign. Observe que o acesso ao Console é ativado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
+   * **[!UICONTROL Acesso ao console do Campaign]**: os endereços IP terão permissão para se conectar ao Console do cliente do Campaign. Observe que o acesso ao Console é habilitado apenas para instâncias de marketing. O acesso à instância MID e RT não é permitido e, portanto, não está habilitado.
    * **[!UICONTROL Conexão com o AEM]**: os endereços IP do AEM especificados terão permissão para se conectar à instância de marketing.
    * **[!UICONTROL Conexão de API externa]**: as APIs externas com os endereços IP especificados terão permissão para se conectar à instância de marketing e/ou do Centro de mensagens (RT). Observe que a conexão com o console de instâncias do RT não está habilitada.
 

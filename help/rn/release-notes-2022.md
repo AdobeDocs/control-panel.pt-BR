@@ -6,7 +6,7 @@ role: Admin
 level: Experienced
 exl-id: 9fb18bb6-c4e4-48aa-849c-d9129add5266
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '601'
 ht-degree: 100%
 
@@ -87,7 +87,7 @@ Os clientes com modelo de hospedagem híbrida agora podem configurar novos subdo
 <tbody>
 <tr>
 <td>
-<p>Foram feitos vários aprimoramentos no processo de geração de CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Saiba mais</a></p><ul><li>Ao gerar uma CSR, agora você pode selecionar um dos subdomínios incluídos como o Nome comum.</li><li>Agora você pode copiar o resumo da CSR antes de gerá-la.</li><li>Depois que uma CSR é gerada, você pode baixá-la novamente nos logs do processo. Esse recurso não se aplica a certificados gerados antes desta versão.</li></ul><p>
+<p>Foram feitos vários aprimoramentos no processo de geração de CSR. <a href="../subdomains-certificates/using/renewing-subdomain-certificate.md">Saiba mais</a></p><ul><li>Ao gerar uma CSR, agora você pode selecionar um dos subdomínios incluídos como o Nome comum.</li><li>Agora você pode copiar o resumo da CSR antes de gerá-la.</li><li>Depois que uma CSR é gerada, você pode baixá-la novamente nos logs do trabalho. Esse recurso não se aplica a certificados gerados antes desta versão.</li></ul><p>
 
 </td>
 </tr>
