@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
-source-wordcount: '1059'
+workflow-type: ht
+source-wordcount: '1057'
 ht-degree: 100%
 
 ---
@@ -118,7 +118,7 @@ A coluna **[!UICONTROL Expira]** mostra quantos dias restam até que o intervalo
 
 Se você se inscreveu para [alertas por email](../../performance-monitoring/using/email-alerting.md), você receberá notificações por email 10 e 5 dias antes que um intervalo de IP expire e no dia em que ele for expirar. Ao receber o alerta, é possível [editar o intervalo de IP](#editing-ip-ranges) para prorrogar o período de validade, se necessário.
 
-Os intervalos de IP expirados serão excluídos automaticamente após 7 dias. Eles serão exibidos como **[!UICONTROL Expirado]** na coluna **[!UICONTROL Expira]**. Nesse período de 7 dias:
+Os intervalos de IP expirados serão excluídos automaticamente após 7 dias. Ela será mostrada como **[!UICONTROL Expirada]** na coluna **[!UICONTROL Expira em]**. Nesse período de 7 dias:
 
 * Um intervalo de IP expirado não pode mais ser usado para acessar os servidores SFTP.
 

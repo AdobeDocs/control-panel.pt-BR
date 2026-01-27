@@ -8,7 +8,7 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
 ht-degree: 100%
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 >
 >Este recurso está disponível apenas para instâncias do Campaign v7/v8, a partir da build 8850. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
 
-A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows, etc.) pelas instâncias do Campaign é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
+A lista padrão de URLs que podem ser chamadas por códigos JavaScript (fluxos de trabalho etc.) pelas suas instâncias de campanha é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
 
 Por padrão, as instâncias não têm permissão para se conectar a URLs externos. O Painel de controle permite adicionar URLs externos à lista de URLs autorizados para que sua instância possa se conectar a eles. Dessa forma, você pode conectar as instâncias do Campaign a sistemas externos, como servidores ou sites SFTP para habilitar a transferência de arquivos e/ou dados.
 

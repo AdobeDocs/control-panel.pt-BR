@@ -53,7 +53,7 @@ Para adicionar um registro BIMI a um subdomínio, siga estas etapas:
 
 1. Embora o **[!UICONTROL URL do certificado]** seja opcional, ele é necessário para alguns provedores de email, como Gmail e Apple. Portanto, recomendamos obter um certificado de marca verificada (VMC, na sigla em inglês) para realmente aproveitar o BIMI.
 
-   +++Como obtenho um VMC?
+   +++Como faço para obter um VMC?
 
    Estão são as principais etapas para se obter um VMC:
 
@@ -66,7 +66,7 @@ Para adicionar um registro BIMI a um subdomínio, siga estas etapas:
    1. Quando o registro BIMI estiver visível na página de detalhes de um subdomínio específico, você poderá usar o BIMI Inspector (disponível [aqui](https://bimigroup.org/bimi-generator/)) para verificar se o registro BIMI está funcionando corretamente.
 
    Informações detalhadas sobre a implementação do BIMI estão disponíveis na [Documentação padrão do BIMI](https://bimigroup.org/implementation-guide/)
-+++
+   +++
 
 1. Clique em **[!UICONTROL Adicionar]** para confirmar a criação do registro BIMI.
 

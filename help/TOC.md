@@ -7,9 +7,9 @@ feature: Control Panel
 role: Admin
 level: Experienced
 source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '180'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 88%
       + [Remover delegação de subdomínios para a Adobe](subdomains-certificates/using/remove-delegated-subdomains.md)
    + Trabalhar com registros TXT (Google, BIMI, DMARC) {#txt-records}
       + [Introdução a registros TXT](subdomains-certificates/using/gs-txt-records.md)
-      + [Adicionar registros de verificação de site do Google](subdomains-certificates/using/managing-txt-records.md)
+      + [Adição de registros de verificação de site do Google](subdomains-certificates/using/managing-txt-records.md)
       + [Adicionar registros DMARC](subdomains-certificates/using/dmarc.md)
       + [Adicionar registros BIMI](subdomains-certificates/using/bimi.md)
    + Gerenciar certificados SSL de subdomínios {#manage-certificates}
