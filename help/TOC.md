@@ -6,7 +6,7 @@ user-guide-title: Guia do Painel de controle
 feature: Control Panel
 role: Admin
 level: Experienced
-source-git-commit: cc45dc517a8baa2583a082b99bc084bd84013918
+source-git-commit: 9f8b99be31e35da477bdd7e4a39e5634dbb4d3a0
 workflow-type: ht
 source-wordcount: '180'
 ht-degree: 100%
@@ -22,9 +22,9 @@ ht-degree: 100%
    + Versões anteriores {#previous-releases}
       + [2023](rn/release-notes-2023.md)
       + [2022](rn/release-notes-2022.md)
-      + [2021](rn/release-notes-2021.md)
-      + [2020](rn/release-notes-2020.md)
-      + [2019](rn/release-notes-2019.md)
+      + {hide-from-toc}[2021](rn/release-notes-2021.md)
+      + {hide-from-toc}[2020](rn/release-notes-2020.md)
+      + {hide-from-toc}[2019](rn/release-notes-2019.md)
 + Conheça o Painel de controle {#discover-control-panel}
    + [Principais recursos](discover/using/key-features.md)
    + [Painel de controle de acesso](discover/using/accessing-control-panel.md)
