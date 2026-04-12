@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '515'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 99%
 
 ---
 
@@ -50,7 +50,7 @@ Para obter informações sobre os servidores conectados às suas instâncias, si
    >
    >Se o cartão de configurações de instâncias não estiver visível na página inicial do Painel de controle, isso significa que a ID da organização não está associada a nenhuma instância do Adobe Campaign v7/v8.
 
-1. Selecione no painel esquerdo a instância desejada do Campaign 
+1. Selecione no painel esquerdo a instância desejada do Campaign
 
    >[!NOTE]
    >

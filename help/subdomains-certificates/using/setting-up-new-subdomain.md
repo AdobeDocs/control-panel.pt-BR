@@ -8,8 +8,8 @@ role: Admin
 level: Experienced
 exl-id: d92781c3-14cc-4716-a131-580ccff46d6e
 source-git-commit: 0b7cb860592508f7323bcd30345d1853e4a4ac94
-workflow-type: ht
-source-wordcount: '1526'
+workflow-type: tm+mt
+source-wordcount: '1686'
 ht-degree: 100%
 
 ---
@@ -86,7 +86,7 @@ Para delegar totalmente um subdomínio ao Adobe Campaign, siga as etapas abaixo.
 
    ![](assets/subdomain3.png)
 
-1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Servidor de nomes da Adobe exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o [vídeo tutorial](https://video.tv.adobe.com/v/33270?captions=por_br).
+1. Crie o subdomínio e os servidores de nomes desejados na solução de hospedagem usada por sua organização. Para fazer isso, copie e cole as informações do Servidor de nomes da Adobe exibidas no assistente. Para obter mais informações sobre como criar um subdomínio em uma solução de hospedagem, consulte o [vídeo tutorial](https://video.tv.adobe.com/v/30175).
 
    >[!NOTE]
    >

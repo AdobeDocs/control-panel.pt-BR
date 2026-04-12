@@ -8,9 +8,9 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '1058'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1106'
+ht-degree: 96%
 
 ---
 
@@ -93,7 +93,7 @@ Em casos muito raros, a autenticação com senha está habilitada para alguns se
 
    Talvez seja necessário instalar uma ferramenta de terceiros para ajudar a gerar um par de chaves privada/pública no mesmo formato “nome.pub”.
 
-1. Abra o arquivo .pub e copie e cole a string inteira começando por “ssh...” no Painel de controle.
+1. Abra o arquivo .pub e copie e cole a sequência inteira começando por &quot;ssh...&quot; no Painel de controle.
 
    ![](assets/publickey.png)
 
@@ -111,7 +111,7 @@ Em casos muito raros, a autenticação com senha está habilitada para alguns se
 
 ![](assets/fingerprint_compare.png)
 
-O botão “**...**” permite excluir uma chave já existente ou copiar sua impressão digital associada para a área de transferência.
+O &quot;**...**&quot; permite excluir uma chave existente ou copiar sua impressão digital associada na área de transferência.
 
 ![](assets/key_options.png)
 
