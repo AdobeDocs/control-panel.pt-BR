@@ -46,7 +46,7 @@ Para isso, é necessário gerar um par de chaves GPG com uma ferramenta de cript
 >
 >É possível instalar até 60 chaves GPG no Painel de controle.
 
-![](assets/do-not-localize/how-to-video.png)[ Conheça este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png) [&#x200B; Conheça este recurso no vídeo](#video)
 
 1. Gere um par de chaves pública/privada com uma ferramenta de criptografia PGP, seguindo a [especificação OpenPGP](https://www.openpgp.org/about/standard/). Para isso, instale um utilitário GPG ou software GNuGP.
 
