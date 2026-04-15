@@ -6,10 +6,10 @@ role: Admin
 level: Experienced
 hide: true
 exl-id: ee974059-9ede-4c8e-9e77-d0e67bb4e849
-source-git-commit: 1edf8e0cdc47a3c39dcbd4797c281aa94f82d7fb
-workflow-type: ht
-source-wordcount: '192'
-ht-degree: 100%
+source-git-commit: d9bbc77dbb4593eee42f87570ecefcd6465a5fe2
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 99%
 
 ---
 
@@ -93,3 +93,5 @@ ht-degree: 100%
 </tr>
 </tbody>
 </table>
+
+Terminando
