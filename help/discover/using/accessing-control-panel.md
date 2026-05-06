@@ -7,10 +7,10 @@ feature: Control Panel, Access Management
 role: Admin
 level: Experienced
 exl-id: eb67af6e-a64e-49a7-9656-782f91bc1d67
-source-git-commit: aff51e72ac2781264d0cd028a816e00c3fcb8bdd
-workflow-type: ht
-source-wordcount: '235'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 100%
 
 O painel de controle está disponível diretamente na Experience Cloud ou no próprio produto.
 
-Ele pode ser acessado apenas por **usuários administradores**. Para mais informações sobre como atribuir pessoas ao grupo de administradores, consulte [esta seção](../../discover/using/managing-permissions.md).
+## Pré-requisitos {#prerequisites}
+
+No caso do Campaign v7, observe que a sua instância deve estar hospedada no Amazon Web Services (AWS) e atualizada para a [build estável do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) mais recente ou para a build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
+
+As instâncias do Campaign v8 hospedadas no Microsoft Azure também têm acesso a um subconjunto de recursos do Painel de Controle: [Lista de permissões de IP para acesso à instância](../../instances-settings/using/ip-allow-listing-instance-access.md), [Lista de permissões de IP para servidores SFTP](../../sftp/using/ip-range-allow-listing.md) e [Gerenciamento de certificados SSL gerenciado pelo cliente](../../subdomains-certificates/using/renewing-subdomain-certificate.md).
 
 >[!IMPORTANT]
 >
->Por padrão, o Painel de controle do Campaign é acessível aos usuários administradores que pertencem ao Perfil de produto “Administradores”. De acordo com a configuração da sua organização, o Perfil de produto pode ter um nome diferente (“admin”, “admins”, “administrador de aprovação” etc.). **Qualquer Perfil de produto que contenha a palavra “administrador” em seu nome concederá acesso automaticamente ao Painel de controle do Campaign.**
->
->Analise cuidadosamente o nome do seu Perfil de produto para garantir que somente usuários autorizados tenham acesso ao Painel de controle do Campaign.
+>Por padrão, o Painel de controle do Campaign é acessível aos usuários administradores que pertencem ao Perfil de produto “Administradores”. De acordo com a configuração da sua organização, o Perfil de produto pode ter um nome diferente (“admin”, “admins”, “administrador de aprovação” etc.). **Qualquer Perfil de Produto que contenha a palavra &quot;administrador&quot; em seu nome concederá acesso automaticamente ao Painel de Controle**. Analise cuidadosamente o nome do seu Perfil de produto para garantir que somente usuários autorizados tenham acesso ao Painel de controle do Campaign. [Saiba como gerenciar permissões para o Painel de Controle do Campaign](../../discover/using/managing-permissions.md).
 
 ## Acesso a partir da Experience Cloud Platform {#access-experience-cloud-platform}
 

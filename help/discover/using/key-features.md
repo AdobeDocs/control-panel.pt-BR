@@ -7,10 +7,10 @@ feature: Control Panel, Overview
 role: Admin
 level: Experienced
 exl-id: cb6cc63b-d6cc-4c8b-870f-e108d05aa740
-source-git-commit: a3485766791387bd9422b4f29daf86296efafb98
-workflow-type: ht
-source-wordcount: '281'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
@@ -26,9 +26,7 @@ Principais benefícios:
 
 >[!NOTE]
 >
->O Painel de controle é restrito a usuários administradores. As etapas para conceder acesso de Administrador a uma pessoa estão detalhadas [nesta seção](managing-permissions.md).
->
->No caso do Campaign v7, observe que a sua instância deve estar hospedada no Amazon Web Services (AWS) e atualizada para a [build estável do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/release-notes/rn-overview.html?lang=pt-BR#rn-statuses) mais recente ou para a build 9032 ou superior. Saiba como verificar a versão [nesta seção](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/starting-with-adobe-campaign/launching-adobe-campaign.html?lang=pt-BR#getting-your-campaign-version). Para verificar se sua instância está hospedada no AWS, siga as etapas detalhadas [nesta página](../../faq.md#hosted-aws).
+>O Painel de controle é restrito aos usuários administradores. As etapas para conceder acesso de Administrador a uma pessoa estão detalhadas [nesta seção](managing-permissions.md). Para pré-requisitos de hospedagem de instância, consulte [esta página](accessing-control-panel.md).
 
 <table style="table-layout:fixed">
 <tr>
