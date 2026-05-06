@@ -7,10 +7,10 @@ feature: Control Panel
 role: Admin
 level: Intermediate
 exl-id: 4f329764-ed8b-4939-affc-ed994fd6101d
-source-git-commit: 98cf425548884c3a5e503c35ce5ea5b7ceaee67f
-workflow-type: ht
-source-wordcount: '719'
-ht-degree: 100%
+source-git-commit: 2ee542f43c75d9645681228dea10c1d7ede63c23
+workflow-type: tm+mt
+source-wordcount: '801'
+ht-degree: 93%
 
 ---
 
@@ -38,7 +38,7 @@ Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Pai
 
 ### Posso usar o Painel de controle?
 
-O Painel de controle está aberto somente para administradores de produtos de nossos clientes atuais que têm o Adobe Campaign hospedado no AWS.
+O Painel de controle do Campaign está aberto para administradores de produtos de clientes que têm o Adobe Campaign hospedado no AWS. As instâncias do Campaign v8 hospedadas no Microsoft Azure também têm acesso a um subconjunto de recursos do Painel de controle do Campaign: Lista de permissões de IP para acesso de instância, Lista de permissões de IP para servidores SFTP e Gerenciamento de certificados SSL gerenciados pelo cliente.
 
 O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle. [Saiba mais](instances-settings/using/external-accounts.md)
 
@@ -78,7 +78,7 @@ Para gerenciar as configurações da sua instância, queremos garantir que você
 
 ### E se eu tiver várias IDs de organização?
 
-Contar com a mesma ID da organização para o Analytics e o Campaign é um requisito, caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para Adobe Analytics + Adobe Campaign).  Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
+Contar com a mesma ID da organização para o Analytics e o Campaign é um requisito, caso você planeje integrar as soluções para aproveitar os casos de uso complexos, como abandono de carrinho de compras (para Adobe Analytics + Adobe Campaign). Você pode ter mais de uma ID de organização caso tenha acesso a várias soluções da Adobe. Nesse caso, a ID de organização correta que deve ser usada é aquela que você vê na instância do Adobe Campaign.
 
 <!--
 >[!NOTE]
