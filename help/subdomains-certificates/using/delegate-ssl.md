@@ -8,13 +8,10 @@ role: Admin
 level: Experienced
 exl-id: a2b3d409-704b-4e81-ae40-b734f755b598
 TQID: https://experienceleague.adobe.com/rkz8m-EBdNJEiimWc3YVlgsXSHYR9aA4R6y6cnZqRiw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-feature_v2:
-  - id: a075b2c1-7748-4328-b7f6-343aa314616a
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+feature_v2: id: a075b2c1-7748-4328-b7f6-343aa314616a
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+source-git-commit: e0e2ccba4ec069124297a26da48d210599671b48
 workflow-type: tm+mt
 source-wordcount: 485
 ht-degree: 100%
@@ -47,13 +44,13 @@ Para delegar certificados SSL ao configurar um novo subdomínio, habilite a opç
 
 * **Delegação de CNAME**: os registros de certificados a serem copiados para a sua solução de hospedagem serão fornecidos posteriormente no assistente de configuração. É necessário gerar esses registros de certificados na solução de hospedagem de domínios antes de enviar a configuração do subdomínio. [Saiba mais sobre a delegação de CNAME](setting-up-new-subdomain.md#use-cnames)
 
-![](assets/cname-adobe-managed.png){width="70%" align="left"}
+![](assets/cname-adobe-managed.png){width="70%"}
 
 ## Delegação de certificados SSL para subdomínios já delegados {#delegated}
 
 Para delegar certificados SSL para um subdomínio já delegado, clique no botão de reticências ao lado do subdomínio desejado e selecione **[!UICONTROL Alterar para SSL gerenciado]**.
 
-![](assets/delegate-ssl-list.png){width="70%" align="left"}
+![](assets/delegate-ssl-list.png){width="70%"}
 
 O processo de geração de certificados varia de acordo com como o subdomínio foi configurado originalmente:
 
@@ -67,4 +64,4 @@ Para subdomínios configurados por meio da delegação de CNAME, uma caixa de di
 
 Certifique-se de que todos os registros de certificado tenham sido gerados em sua solução de hospedagem de domínio. Se tudo estiver configurado corretamente, confirme a criação do registro e clique em **[!UICONTROL Enviar]**.
 
-![](assets/delegate-ssl.png){width="70%" align="left"}
+![](assets/delegate-ssl.png){width="70%"}
