@@ -24,9 +24,9 @@ topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 801
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Sim, você só poderá gerenciar as configurações para o Adobe Campaign no Pai
 
 ### Posso usar o Painel de controle?
 
-O Painel de controle do Campaign está aberto para administradores de produtos de clientes que têm o Adobe Campaign hospedado no AWS. As instâncias do Campaign v8 hospedadas no Microsoft Azure também têm acesso a um subconjunto de recursos do Painel de controle do Campaign: Lista de permissões de IP para acesso de instância, Lista de permissões de IP para servidores SFTP e Gerenciamento de certificados SSL gerenciados pelo cliente.
+O Painel de controle está aberto para administradores de produtos de nossos clientes que têm o Adobe Campaign hospedado no AWS. As instâncias do Campaign v8 hospedadas no Microsoft Azure também têm acesso a um subconjunto de recursos do Painel de controle: Lista de permissões de IP para acesso de instância, Lista de permissões de IP para servidores SFTP e Gerenciamento de certificados SSL gerenciados pelo cliente.
 
 O Painel de controle permite que clientes com o modelo de hospedagem híbrida aproveitem seus recursos específicos. Para fazer isso, é necessário fornecer o URL da instância MID/RT configurado em sua instância de marketing do Painel de controle. [Saiba mais](instances-settings/using/external-accounts.md)
 

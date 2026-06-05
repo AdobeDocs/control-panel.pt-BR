@@ -15,9 +15,9 @@ role_v2:
 topic_v2:
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1348
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -53,7 +53,7 @@ Para isso, é necessário gerar um par de chaves GPG com uma ferramenta de cript
 >
 >É possível instalar até 60 chaves GPG no Painel de controle.
 
-![](assets/do-not-localize/how-to-video.png) [&#x200B; Conheça este recurso no vídeo](#video)
+![](assets/do-not-localize/how-to-video.png)[ Conheça este recurso no vídeo](#video)
 
 1. Gere um par de chaves pública/privada com uma ferramenta de criptografia PGP, seguindo a [especificação OpenPGP](https://www.openpgp.org/about/standard/). Para isso, instale um utilitário GPG ou software GNuGP.
 
@@ -113,12 +113,12 @@ Para mais informações sobre esse tópico, consulte a documentação do Adobe C
 **Campaign v7/v8:**
 
 * [Compactação ou criptografia de um arquivo](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=pt-BR)
-* [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=pt-BR#use-case-gpg-encrypt)
+* [Caso de uso: criptografia e exportação de dados com o uso de uma chave instalada no Painel de controle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=pt-BR#use-case-gpg-encrypt)
 
 **Campaign Standard:**
 
 * [Gerenciamento de dados criptografados](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=pt-BR)
-* [Caso de uso: criptografar e exportar dados usando uma chave instalada no Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=pt-BR#use-case-gpg-encrypt)
+* [Caso de uso: criptografia e exportação de dados com o uso de uma chave instalada no Painel de controle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/zip-encrypt.html?lang=pt-BR#use-case-gpg-encrypt)
 
 ## Descriptografia de dados {#decrypting-data}
 
@@ -156,12 +156,12 @@ Para mais informações, consulte a documentação do Adobe Campaign:
 **Campaign v7 e v8:**
 
 * [Descompactação ou descriptografia de um arquivo antes do processamento](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=pt-BR)
-* [Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=pt-BR#use-case-gpg-decrypt)
+* [Caso de uso: importação de dados criptografados com o uso de uma chave gerada pelo Painel de controle](https://experienceleague.adobe.com/docs/campaign-classic/using/getting-started/importing-and-exporting-data/managing-data-encryption-compression/unzip-decrypt.html?lang=pt-BR#use-case-gpg-decrypt)
 
 **Campaign Standard:**
 
 * [Gerenciamento de dados criptografados](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=pt-BR)
-* [Caso de uso: importação de dados criptografados usando uma chave gerada pelo Painel de controle do Campaign](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=pt-BR#use-case-gpg-decrypt)
+* [Caso de uso: importação de dados criptografados com o uso de uma chave gerada pelo Painel de controle](https://experienceleague.adobe.com/docs/campaign-standard/using/managing-processes-and-data/importing-and-exporting-data/managing-encrypted-data.html?lang=pt-BR#use-case-gpg-decrypt)
 
 ## Monitoramento de chaves GPG
 

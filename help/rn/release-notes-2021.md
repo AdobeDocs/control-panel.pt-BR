@@ -12,9 +12,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
-source-wordcount: 193
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: 176
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 99%
 <tbody>
 <tr>
 <td>
-<p>Agora é possível editar os <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">Intervalos IP</a> e <a href="../sftp/using/key-management.md#editing-public-keys">chaves públicas</a> que você cria. Observe que esse recurso não está disponível para os itens criados antes da versão atual do Painel de controle.
+<p>Agora é possível editar os <a href="../sftp/using/ip-range-allow-listing.md#editing-ip-ranges">intervalos de IP</a> e as <a href="../sftp/using/key-management.md#editing-public-keys">chaves públicas</a> criados. Observe que esse recurso não está disponível para os itens criados antes da versão atual do Painel de controle.
 </td>
 </tr>
 </tbody>

@@ -13,9 +13,9 @@ product_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 154
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ A coluna **[!UICONTROL Última verificação]** indica quando um subdomínio foi
 >
 >A Adobe não recomenda usar subdomínios sem data de certificado, pois isso pode significar que esses subdomínios podem estar com alguns problemas de capacidade de entrega.
 
-Ao iniciar uma verificação, várias operações são executadas para verificar se o subdomínio está configurado corretamente (verificação de locatário de instância, teste de envio de email etc.) Se a verificação do subdomínio falhar, entre em contato com o Atendimento ao cliente da Adobe para obter mais investigação.
+Ao iniciar uma verificação, várias operações são executadas para verificar se o subdomínio está configurado corretamente (verificação de locatário de instância, teste de envio de email etc.). Se a verificação do subdomínio falhar, entre em contato com o atendimento ao cliente da Adobe para fazer uma investigação mais aprofundada.
 
 **Tópicos relacionados:**
 
