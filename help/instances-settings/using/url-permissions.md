@@ -8,20 +8,14 @@ role: Admin
 level: Intermediate
 exl-id: a7df90da-a2ce-409f-9bc3-c7d4fa3024c8
 TQID: https://experienceleague.adobe.com/YpWJsO1HDrqQ3FIV8zruodDfBwSxYa7nWoKLOnhdhBw
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 632
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +33,7 @@ ht-degree: 91%
 >
 >Este recurso está disponível apenas para instâncias do Campaign v7/v8, a partir da build 8850. Se você estiver usando uma build com versão anterior, será necessário uma atualização para usar esse recurso.
 
-A lista padrão de URLs que podem ser chamados por códigos JavaScript (workflows etc.) pelas instâncias do Campaign é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
+A lista padrão de URLs que podem ser chamadas por códigos JavaScript (fluxos de trabalho etc.) pelas instâncias do Campaign é limitada. Esses são os URLs que permitem que as instâncias funcionem corretamente.
 
 Por padrão, as instâncias não têm permissão para se conectar a URLs externos. O Painel de controle permite adicionar URLs externos à lista de URLs autorizados para que sua instância possa se conectar a eles. Dessa forma, você pode conectar as instâncias do Campaign a sistemas externos, como servidores ou sites SFTP para habilitar a transferência de arquivos e/ou dados.
 
@@ -97,7 +91,7 @@ Para adicionar um URL ao qual sua instância pode se conectar, siga estas etapas
 
    >[!NOTE]
    >
-   >Os caracteres &quot;/.*&quot; são adicionados automaticamente ao final do URL inserido após a validação para abranger todas as subpáginas da página inserida.
+   >Os caracteres &quot;/.*&quot; são adicionados automaticamente ao final da URL após a validação para abranger todas as subpáginas da página inserida.
 
    ![](assets/add_url_listnew.png)
 

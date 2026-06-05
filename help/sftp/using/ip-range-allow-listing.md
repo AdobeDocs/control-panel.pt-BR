@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 45a3bfcd-500c-4139-b610-d39989260ab7
 TQID: https://experienceleague.adobe.com/-btCtV-NLeiTpcF8uKDApY6ar-xAukAz05QmRbKM9oQ
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1136
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +29,7 @@ Os servidores SFTP estão protegidos. Para poder acessá-los para visualizar ou 
 
 >[!NOTE]
 >
->A lista de permissões de IP para servidores SFTP está disponível para instâncias do Campaign v7/v8 hospedadas em instâncias do AWS, Campaign Standard e Campaign v8 hospedadas no Microsoft Azure.
+>A lista de permissões de IP para servidores SFTP está disponível para instâncias do Campaign v7/v8 hospedadas no AWS, instâncias do Campaign Standard e instâncias do Campaign v8 hospedadas no Microsoft Azure.
 
 ![](assets/do-not-localize/how-to-video.png) Conheça este recurso no vídeo usando o [Campaign v7/v8](https://experienceleague.adobe.com/docs/campaign-classic-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=pt-BR#sftp-management) ou o [Campaign Standard](https://experienceleague.adobe.com/docs/campaign-standard-learn/control-panel/sftp-management/adding-ip-range-to-allow-list.html?lang=pt-BR#sftp-management)
 

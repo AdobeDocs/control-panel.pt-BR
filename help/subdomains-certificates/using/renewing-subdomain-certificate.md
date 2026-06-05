@@ -8,16 +8,13 @@ role: Admin
 level: Experienced
 exl-id: e9b7c67d-6afa-44f9-b19d-39c0ec9a7edd
 TQID: https://experienceleague.adobe.com/rTb49TVxUqe2IeONpjiEMmhu1vZ-o6sStCwHxcWcAms
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 57345245341bf2d04b9b01611d502532ba8f175b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1084
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +49,7 @@ O processo de renovação do certificado SSL inclui 3 etapas:
 
 **Tópicos relacionados:**
 
-* [Manual de práticas recomendadas de entrega - processo de solicitação de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=pt-BR)
+* [Manual de práticas recomendadas de capacidade de entrega – Processo de solicitação de certificado SSL para Adobe Campaign](https://experienceleague.adobe.com/docs/deliverability-learn/deliverability-best-practice-guide/additional-resources/campaign/ac-ssl-certificate-request.html?lang=pt-BR)
 * [Marca de subdomínios](../../subdomains-certificates/using/subdomains-branding.md)
 * [Monitoramento de subdomínios](../../subdomains-certificates/using/monitoring-subdomains.md)
 

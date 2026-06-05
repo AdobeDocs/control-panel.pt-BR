@@ -8,14 +8,12 @@ role: Admin
 level: Experienced
 exl-id: 03815e01-6371-4e1c-b4b8-7abe25957cee
 TQID: https://experienceleague.adobe.com/fCmnWIo7FfgfreWs9oFucCL1PNgSN7-1sWXbagwvn6I
-product_v2:
-  - id: dfc56824-e8b9-499e-85d4-21aedb507314
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+product_v2: id: dfc56824-e8b9-499e-85d4-21aedb507314
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: 1106
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +96,7 @@ Em casos muito raros, a autenticação com senha está habilitada para alguns se
 
    Talvez seja necessário instalar uma ferramenta de terceiros para ajudar a gerar um par de chaves privada/pública no mesmo formato “nome.pub”.
 
-1. Abra o arquivo .pub e copie e cole a sequência inteira começando por &quot;ssh...&quot; no Painel de controle.
+1. Abra o arquivo .pub e copie e cole a string inteira começando por “ssh...” no Painel de controle.
 
    ![](assets/publickey.png)
 
@@ -116,7 +114,7 @@ Em casos muito raros, a autenticação com senha está habilitada para alguns se
 
 ![](assets/fingerprint_compare.png)
 
-O &quot;**...**&quot; permite excluir uma chave existente ou copiar sua impressão digital associada na área de transferência.
+O botão &quot;**...**&quot; permite excluir uma chave já existente ou copiar a impressão digital associada para a área de transferência.
 
 ![](assets/key_options.png)
 
