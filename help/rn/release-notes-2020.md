@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 439
 ht-degree: 100%
@@ -172,6 +172,7 @@ ht-degree: 100%
 Adicionamos novos recursos para usuários administradores configurarem subdomínios e renovarem certificados SSL pelo Painel de controle do Campaign.
 
 Para obter mais informações, consulte estas páginas:
+
 * [Configurar um novo subdomínio](../subdomains-certificates/using/setting-up-new-subdomain.md)
 * [Renovar um certificado SSL de subdomínio](../subdomains-certificates/using/renewing-subdomain-certificate.md)
 

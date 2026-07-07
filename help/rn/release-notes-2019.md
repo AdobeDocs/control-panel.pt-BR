@@ -11,7 +11,7 @@ product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
+source-git-commit: 602d1039a9725ad68de0e0a2e558108b67d62e6c
 workflow-type: tm+mt
 source-wordcount: 156
 ht-degree: 100%
@@ -22,8 +22,7 @@ ht-degree: 100%
 
 ## Setembro de 2019 {#september-2019}
 
-Adicionamos novos recursos para que os usuários administradores adicionem endereços IP à lista de permissões para se conectarem às instâncias do Campaign v7/v8.
-Além disso, os usuários administradores agora podem visualizar a lista de instâncias do Campaign v7/v8 e a elegibilidade para atualizações de builds.
+Adicionamos novos recursos para que os usuários administradores adicionem endereços IP à lista de permissões para se conectarem às instâncias do Campaign v7/v8.Além disso, os usuários administradores agora podem visualizar a lista de instâncias do Campaign v7/v8 e a elegibilidade para atualizações de builds.
 
 Para obter mais informações, consulte a [documentação específica](../instances-settings/using/ip-allow-listing-instance-access.md).
 
@@ -38,3 +37,4 @@ Além disso, agora os usuários administradores podem excluir chaves SSH que for
 Adicionamos novos recursos para permitir que os usuários administradores tenham mais controle das configurações de instâncias do Campaign v7/v8. Os novos recursos do Painel de controle incluem a habilidade de adicionar URLs aos quais o Adobe Campaign se conecta para transferir dados/arquivos.
 
 Para obter mais informações, consulte a [documentação detalhada](../instances-settings/using/url-permissions.md).
+
