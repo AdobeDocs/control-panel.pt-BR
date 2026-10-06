@@ -7,18 +7,29 @@ feature: Control Panel, Monitoring
 role: Admin
 level: Experienced
 exl-id: 02819bfc-9886-43fc-8014-9bfe64c42048
-TQID: https://experienceleague.adobe.com/kKfXYnZLuU5W0GX4KwGDjFsmL5pxkhBunBYrDVUUUsM
+TQID: 'https://experienceleague.adobe.com/kKfXYnZLuU5W0GX4KwGDjFsmL5pxkhBunBYrDVUUUsM'
 product_v2:
   - id: dfc56824-e8b9-499e-85d4-21aedb507314
+    internal-label: Campaign
+feature_v2:
+  - id: ae9127b0-c11d-467b-903d-a84cef43f6ed
+    internal-label: Control Panel
+  - id: c5474392-5419-4296-9e41-f6f4ce4f6e9b
+    internal-label: Administration
+subfeature_v2:
+  - id: e519a22f-a06a-42fc-9d09-d78a3ab2c434
+    internal-label: Monitoring guidelines
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-source-git-commit: 06babfad697fb874f2b77c5204e30580c55cd0d1
-workflow-type: ht
-source-wordcount: 556
+    internal-label: Admin
+level_v2:
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: b2723b0683a305a992b710a37a3e47927e1fb65e
+workflow-type: tm+mt
+source-wordcount: '556'
 ht-degree: 100%
-
 ---
-
 # Detalhes da instância {#instance-details}
 
 >[!CONTEXTUALHELP]
@@ -71,9 +82,9 @@ As informações disponíveis são:
 * **[!UICONTROL Nome]**: o nome do servidor.
 * **[!UICONTROL Build:]** a versão da build instalada no servidor.
 * **[!UICONTROL Informações sobre atualizações]**: esta coluna informa se alguma atualização é necessária para o servidor.
-   * Verde: o servidor está atualizado, nenhuma atualização é necessária.
-   * Amarelo: você deve pensar em atualizar. Faltam os recursos e as correções mais recentes.
-   * Vermelho: atualize assim que possível. Faltam novos recursos e o desempenho do servidor pode não ser o ideal.
+  * Verde: o servidor está atualizado, nenhuma atualização é necessária.
+  * Amarelo: você deve pensar em atualizar. Faltam os recursos e as correções mais recentes.
+  * Vermelho: atualize assim que possível. Faltam novos recursos e o desempenho do servidor pode não ser o ideal.
 
 Se um dos seus servidores precisar ser atualizado, consulte [esta documentação](https://experienceleague.adobe.com/docs/campaign-classic/using/monitoring-campaign-classic/updating-adobe-campaign/build-upgrade.html?lang=pt-BR) para obter mais detalhes sobre como proceder.
 
